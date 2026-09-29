@@ -81,13 +81,13 @@ name='03-vinyl';im=load(name)
 sl=b.Art(252,144);sl.ops=[];sl.text(16,131,'03',27,b.GREEN,'ExtraBold')
 place(im,render(sl,remove_bg=False),[[550,219],[1317,219],[1317,793],[545,793]],.94)
 direct_logo(im,594,279,174)
-lab=b.Art(90,74);lab.ops=[];lab.text(45,29,'SIDE A',9,b.INK,'Bold','middle');lab.text(45,47,'sinoPOP',9,b.INK,'Bold','middle')
+lab=b.Art(90,74);lab.ops=[];lab.text(45,29,'SIDE A',9,b.INK,'Bold','middle');lab.text(45,47,'SinoPOP',9,b.INK,'Bold','middle')
 place(im,render(lab,remove_bg=False),[[946,445],[1112,445],[1112,580],[946,580]],.9)
 inner=b.Art(144,204,b.PAPER);inner.ops=[]
 inner.text(11,34,'[姓名]',22,b.INK,'ExtraBold');inner.text(11,51,'First Last',10,b.INK,'Bold');inner.text(11,68,'Title · Team',7.5,b.SUB)
 for i,s in enumerate(['+1 [000 000 0000]','WeChat [微信号]','name@sinopop.us','sinopop.us']):inner.text(11,111+i*22,s,8,b.INK)
 place(im,render(inner,remove_bg=False),[[148,226],[535,226],[531,773],[144,770]],.95)
-save(name,im,'Original sleeve logo and 03 added outside the die-cut. SIDE A/sinoPOP uses Archivo on existing blank center label. Visible pull-out portion is adapted to a tall exposure with all placeholder details in true fonts; wood/light are conceptual photographic materials.')
+save(name,im,'Original sleeve logo and 03 added outside the die-cut. SIDE A/SinoPOP uses Archivo on existing blank center label. Visible pull-out portion is adapted to a tall exposure with all placeholder details in true fonts; wood/light are conceptual photographic materials.')
 
 # 04 三张后台证复用同一正面稿；先去除生图色带，再安放原稿准确色带。
 name='04-backstage';im=load(name);f,_=b.backstage()

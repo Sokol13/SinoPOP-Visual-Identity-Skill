@@ -16,7 +16,7 @@ Figma 文件：https://www.figma.com/design/oQLs4rdfXbgzhLE0XDpTri
 
 ## 品牌名写法（2026-09-29）
 - 品牌名统一写作 **SinoPOP**（S 大写、POP 大写）。全大写排版可写 SINOPOP；小写 sinopop 只用于网址、域名、文件名和代码。已同步：Figma 全部在用页面（1.0 存档页未动）、变量集合与文字样式名、两本 PDF、公众号头尾图、设计系统、技能、AGENTS.md、ChatGPT 指令；`check_brand.py` 会报出 sinoPOP / Sinopop / SinoPop。
-- 印刷生产文件（production/）里的品牌名待 GPT 按新写法重新生成。
+- 印刷生产文件（production/）已按新写法重新生成：挂绳、名片内卡、主办方介绍页脚、现场效果图 onsite-04-kit 的挂绳字，以及全部 PDF 元数据；其余版面逐页渲染与上一版一致。第一轮名片方向（task-01-cards）为存档，未改。详见 `production/CHANGES-brandname.md`。
 
 ## 2.1 定稿（2026-09-28）
 - **大面积底色 surface 再改为 #181A1F**：背景 #111318 提亮 3%，色相不变（参照苹果深色模式：层级面只提亮、不换色）。墨蓝 #141926 彩度是背景的 2.5 倍，大面积看像另一块蓝色，弃用。对比稿在 Figma 82 页 X4。Figma 变量、tokens、嵌入代码、两本 PDF 已同步。

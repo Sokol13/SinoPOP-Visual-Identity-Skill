@@ -1,0 +1,7 @@
+{
+  "scope": "all files except task-01-cards (round-1 archive)",
+  "text_files_with_old_spelling": [],
+  "pdfs_with_old_spelling": [],
+  "status": "PASS",
+  "render_comparison": "Every changed PDF page and PNG was rendered and compared with the previous version; pixel differences appear only where the brand name is set (lanyards, card insert, profile footers, onsite kit lanyard labels). All other PDFs render identically — only metadata changed. Page sizes, TrimBox/BleedBox unchanged."
+}

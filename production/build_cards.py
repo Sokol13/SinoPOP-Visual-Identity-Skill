@@ -152,7 +152,7 @@ def vinyl():
     f=Art();b=Art()
     f.logo(12,11,43);f.circle(175,72,59,GREEN)
     for r in [54,49,44,39,34]:f.circle(175,72,r,None,INK,.6)
-    f.circle(175,72,27,INK);f.text(175,70,'SIDE A',8,GREEN,'Bold','middle');f.text(175,82,'sinoPOP',8,PAPER,'Bold','middle');f.circle(175,94,2,GREEN)
+    f.circle(175,72,27,INK);f.text(175,70,'SIDE A',8,GREEN,'Bold','middle');f.text(175,82,'SinoPOP',8,PAPER,'Bold','middle');f.circle(175,94,2,GREEN)
     f.text(14,124,'03',32,GREEN,'ExtraBold');identity(b);contacts(b)
     b.circle(236,16,7,GREEN)
     return f,b
@@ -208,7 +208,7 @@ def printpdf(arts,path,alternative=False):
     c.save();reader=PdfReader(str(tmp));writer=PdfWriter()
     for p,(W,H) in zip(reader.pages,boxes):
         p.trimbox=RectangleObject([18,18,18+W,18+H]);p.bleedbox=RectangleObject([9,9,27+W,27+H]);writer.add_page(p)
-    writer.add_metadata({'/Title':'sinoPOP | Music objects | Concept print master','/Subject':'RGB concept print artwork; 0.125 in bleed; embedded licensed fonts','/Creator':'sinoPOP visual production'})
+    writer.add_metadata({'/Title':'SinoPOP | Music objects | Concept print master','/Subject':'RGB concept print artwork; 0.125 in bleed; embedded licensed fonts','/Creator':'SinoPOP visual production'})
     with open(path,'wb') as fp:writer.write(fp)
     tmp.unlink()
 
@@ -240,7 +240,7 @@ def main():
             # 沿用已经确认的缩进内卡尺寸与圆窗位置，避免回退到早期版本。
             inner=Art(246.3307,138.3307,GREEN);cx,cy=172.16535,69.16535
             for r in [59,54,49,44,39,34]:inner.circle(cx,cy,r,None,INK,.6)
-            inner.circle(cx,cy,27,INK);inner.text(cx,cy-2,'SIDE A',8,GREEN,'Bold','middle');inner.text(cx,cy+10,'sinoPOP',8,PAPER,'Bold','middle')
+            inner.circle(cx,cy,27,INK);inner.text(cx,cy-2,'SIDE A',8,GREEN,'Bold','middle');inner.text(cx,cy+10,'SinoPOP',8,PAPER,'Bold','middle')
             innerback=Art(inner.w,inner.h,PAPER);identity(innerback,13,30,INK);contacts(innerback,13,80,INK,dy=12)
             inner.svg(folder/'insert-front.svg');innerback.svg(folder/'insert-back.svg');printpdf([inner,innerback],folder/'insert-print.pdf')
         printpdf(arts,folder/'print.pdf');printpdf(arts,folder/'size-90x54-check.pdf',True)

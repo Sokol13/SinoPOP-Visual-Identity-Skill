@@ -2,23 +2,23 @@
 %‚„œ”
 1 0 obj
 <<
-/Producer (pypdf)
-/Title (floor\055photo\055spot\055rgb)
-/Creator (sinoPOP production\056py)
-/Subject (RGB visual proof\073 embedded fonts)
->>
-endobj
-2 0 obj
-<<
 /Type /Pages
 /Count 1
 /Kids [ 4 0 R ]
 >>
 endobj
+2 0 obj
+<<
+/Producer (pypdf)
+/Title (floor\055photo\055spot\055rgb)
+/Creator (SinoPOP\040production\056py)
+/Subject (RGB\040visual\040proof\073\040embedded\040fonts)
+>>
+endobj
 3 0 obj
 <<
 /Type /Catalog
-/Pages 2 0 R
+/Pages 1 0 R
 >>
 endobj
 4 0 obj
@@ -39,7 +39,7 @@ endobj
 /Type /Page
 /TrimBox [ 28.3464567 28.3464567 1729.13386 1729.13386 ]
 /BleedBox [ 14.1732283 14.1732283 1743.30709 1743.30709 ]
-/Parent 2 0 R
+/Parent 1 0 R
 >>
 endobj
 5 0 obj
@@ -271,28 +271,28 @@ xref
 0 18
 0000000000 65535 f 
 0000000015 00000 n 
-0000000176 00000 n 
-0000000235 00000 n 
-0000000284 00000 n 
-0000000634 00000 n 
-0000075661 00000 n 
-0000076352 00000 n 
-0000076581 00000 n 
-0000083937 00000 n 
-0000084691 00000 n 
-0000085417 00000 n 
-0000085650 00000 n 
-0000093738 00000 n 
-0000094511 00000 n 
-0000095200 00000 n 
-0000095426 00000 n 
-0000102784 00000 n 
+0000000074 00000 n 
+0000000250 00000 n 
+0000000299 00000 n 
+0000000649 00000 n 
+0000075676 00000 n 
+0000076367 00000 n 
+0000076596 00000 n 
+0000083952 00000 n 
+0000084706 00000 n 
+0000085432 00000 n 
+0000085665 00000 n 
+0000093753 00000 n 
+0000094526 00000 n 
+0000095215 00000 n 
+0000095441 00000 n 
+0000102799 00000 n 
 trailer
 <<
 /Size 18
 /Root 3 0 R
-/Info 1 0 R
+/Info 2 0 R
 >>
 startxref
-103534
+103549
 %%EOF

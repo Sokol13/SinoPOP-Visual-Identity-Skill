@@ -93,9 +93,9 @@ def convert(src, dst):
             NameObject('/SPGreen'): separation(),
         })
     writer.add_metadata({
-        '/Title': 'sinoPOP | CMYK + SP-GREEN print artwork',
+        '/Title': 'SinoPOP | CMYK + SP-GREEN print artwork',
         '/Subject': 'Process CMYK plus SP-GREEN separation; alternate preview only; printer selects ink; not PDF/X or ICC certified',
-        '/Creator': 'sinoPOP visual production / build_spot.py',
+        '/Creator': 'SinoPOP visual production / build_spot.py',
     })
     writer.write(dst)
     return dict(count)

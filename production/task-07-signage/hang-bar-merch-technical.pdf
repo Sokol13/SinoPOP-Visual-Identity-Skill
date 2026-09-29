@@ -2,23 +2,23 @@
 %‚„œ”
 1 0 obj
 <<
-/Producer (pypdf)
-/Title (hang\055bar\055merch\055technical)
-/Creator (sinoPOP production\056py)
-/Subject (Technical paths only)
->>
-endobj
-2 0 obj
-<<
 /Type /Pages
 /Count 1
 /Kids [ 4 0 R ]
 >>
 endobj
+2 0 obj
+<<
+/Producer (pypdf)
+/Title (hang\055bar\055merch\055technical)
+/Creator (SinoPOP\040production\056py)
+/Subject (Technical\040paths\040only)
+>>
+endobj
 3 0 obj
 <<
 /Type /Catalog
-/Pages 2 0 R
+/Pages 1 0 R
 >>
 endobj
 4 0 obj
@@ -36,7 +36,7 @@ endobj
 /Type /Page
 /TrimBox [ 28.3464567 28.3464567 3429.92126 878.740157 ]
 /BleedBox [ 14.1732283 14.1732283 3444.09449 892.913386 ]
-/Parent 2 0 R
+/Parent 1 0 R
 >>
 endobj
 5 0 obj
@@ -52,16 +52,16 @@ xref
 0 6
 0000000000 65535 f 
 0000000015 00000 n 
-0000000165 00000 n 
-0000000224 00000 n 
-0000000273 00000 n 
-0000000587 00000 n 
+0000000074 00000 n 
+0000000233 00000 n 
+0000000282 00000 n 
+0000000596 00000 n 
 trailer
 <<
 /Size 6
 /Root 3 0 R
-/Info 1 0 R
+/Info 2 0 R
 >>
 startxref
-1290
+1299
 %%EOF

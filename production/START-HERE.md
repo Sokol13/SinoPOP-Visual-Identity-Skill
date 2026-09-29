@@ -43,4 +43,4 @@ python qa_round2.py             # 复查
 
 ## 变更记录
 
-`README.md`（第一轮）· `README-round2.md` / `CHANGES-round2.md`（第二轮）· `CHANGES-surface.md`（层级面改色）· `qa/`（全部 QA 证据）。
+`README.md`（第一轮）· `README-round2.md` / `CHANGES-round2.md`（第二轮）· `CHANGES-surface.md`（层级面改色）· `CHANGES-brandname.md`（品牌名改为 SinoPOP）· `qa/`（全部 QA 证据）。

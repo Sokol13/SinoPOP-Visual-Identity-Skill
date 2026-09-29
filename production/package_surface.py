@@ -95,7 +95,7 @@ def main():
     for p in selected:
         if p.suffix.lower() in ('.md','.py','.json','.csv','.svg'):
             s=p.read_text(encoding='utf-8-sig');assert old_text.lower() not in s.lower(),p;assert retired_label not in s,p;assert banned not in s,p
-    manifest={'package':'sinoPOP surface color-only delta','surface_before_rgb':[20,25,38],'surface_after_hex':'#181A1F','surface_after_cmyk':[.22580645,.16129032,0,.87843137],'ink_unchanged_hex':'#111318','spot_unchanged':'SP-GREEN','files':details,'manifest_note':'MANIFEST 自身不参与自引用哈希；ZIP 完整性和 SHA-256 另由交付验证记录。','omitted_unchanged':['original logos','static fonts','original photos and raw AI bases','onsite-04-kit.png','wristbands-mockup.png'],'qa_status':'PASS'}
+    manifest={'package':'SinoPOP surface color-only delta','surface_before_rgb':[20,25,38],'surface_after_hex':'#181A1F','surface_after_cmyk':[.22580645,.16129032,0,.87843137],'ink_unchanged_hex':'#111318','spot_unchanged':'SP-GREEN','files':details,'manifest_note':'MANIFEST 自身不参与自引用哈希；ZIP 完整性和 SHA-256 另由交付验证记录。','omitted_unchanged':['original logos','static fonts','original photos and raw AI bases','onsite-04-kit.png','wristbands-mockup.png'],'qa_status':'PASS'}
     mp=ROOT/'MANIFEST.json';mp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8');selected.append(mp)
     RELEASE.mkdir(exist_ok=True)
     for p in selected:

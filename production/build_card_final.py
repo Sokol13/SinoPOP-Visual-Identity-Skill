@@ -18,7 +18,7 @@ def insert(data=None):
     data=data or DEFAULT
     front=Art(mm(86.9),mm(48.8),GREEN);cx,cy=172.16535,69.16535
     for r in (59,54,49,44,39,34):front.circle(cx,cy,r,None,INK,.6)
-    front.circle(cx,cy,27,INK);front.text(cx,cy-2,'SIDE A',8,GREEN,'Bold','middle');front.text(cx,cy+10,'sinoPOP',8,PAPER,'Bold','middle')
+    front.circle(cx,cy,27,INK);front.text(cx,cy-2,'SIDE A',8,GREEN,'Bold','middle');front.text(cx,cy+10,'SinoPOP',8,PAPER,'Bold','middle')
     back=Art(front.w,front.h,PAPER);identity(back,data,13,30,INK);contacts(back,data,13,80,INK)
     return front,back
 
@@ -49,7 +49,7 @@ def main():
     preview=Art(mm(190),mm(68),PAPER);assembled=Art();assembled.place(f)
     assembled.circle(175,72,59,GREEN)
     for r in (54,49,44,39,34):assembled.circle(175,72,r,None,INK,.6)
-    assembled.circle(175,72,27,INK);assembled.text(175,70,'SIDE A',8,GREEN,'Bold','middle');assembled.text(175,82,'sinoPOP',8,PAPER,'Bold','middle')
+    assembled.circle(175,72,27,INK);assembled.text(175,70,'SIDE A',8,GREEN,'Bold','middle');assembled.text(175,82,'SinoPOP',8,PAPER,'Bold','middle')
     preview.place(assembled,mm(5),mm(9));preview.place(insert()[1],mm(101),mm(10))
     tmp=ROOT/'_qa'/'card-assembly-rgb.pdf';printpdf([preview],tmp)
     d=pymupdf.open(tmp);pix=d[0].get_pixmap(matrix=pymupdf.Matrix(2400/preview.w,2400/preview.w),clip=d[0].trimbox);pix.save(FOLDER/'assembly-preview.png');d.close()

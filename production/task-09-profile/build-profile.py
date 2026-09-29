@@ -44,7 +44,7 @@ def footer(a, page, dark=False):
     m = 44
     color = MUTED if dark else SUB
     a.line(m, a.h-45, a.w-m, a.h-45, LINE if dark else PALE, .7)
-    label(a, m, a.h-26, 'sinoPOP · 主办方介绍', 8, color, 'Regular')
+    label(a, m, a.h-26, 'SinoPOP · 主办方介绍', 8, color, 'Regular')
     a.text(a.w-m, a.h-26, f'{page:02} / 06', 8, color, 'Bold', 'end')
 
 
@@ -61,7 +61,7 @@ def paper_pages(w, h, square):
     m, span = 44, w-88
     pages = []
     a = Art(w, h, SURFACE)
-    label(a, m, 42, 'sinoPOP · PROMOTER PROFILE', 8, MUTED)
+    label(a, m, 42, 'SinoPOP · PROMOTER PROFILE', 8, MUTED)
     a.text(w-m, 42, 'SIDE A · [年份]', 8, MUTED, 'Bold', 'end')
     top = 64
     a.image(m, top, span, span, square)
@@ -161,7 +161,7 @@ def paper_pages(w, h, square):
 def mobile_footer(a, page, dark=False):
     c = MUTED if dark else SUB
     a.line(80, 1813, 1000, 1813, LINE if dark else PALE, 2)
-    a.text(80, 1864, 'sinoPOP · 主办方介绍', 27, c, 'Regular')
+    a.text(80, 1864, 'SinoPOP · 主办方介绍', 27, c, 'Regular')
     a.text(1000, 1864, f'{page:02} / 06', 27, c, 'Bold', 'end')
 
 
@@ -190,7 +190,7 @@ def mobile_pages(phone):
     # 以平面层级面信息区保证阅读，同时保留原照片完整比例。
     a.rect(0, 1440, 1080, 480, SURFACE)
     a.text(80, 1576, '主办方介绍', 94, PAPER, 'ExtraBold')
-    a.text(84, 1636, 'sinoPOP · Promoter Profile', 33, MUTED, 'Bold')
+    a.text(84, 1636, 'SinoPOP · Promoter Profile', 33, MUTED, 'Bold')
     a.line(80, 1700, 1000, 1700, LINE, 9)
     a.line(80, 1700, 240, 1700, GREEN, 9)
     a.circle(240, 1700, 10, GREEN)

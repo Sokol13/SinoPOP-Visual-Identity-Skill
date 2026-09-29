@@ -1,4 +1,4 @@
-"""sinoPOP 第二轮共享生产引擎；坐标为 pt，文字坐标为共同基线。"""
+"""SinoPOP 第二轮共享生产引擎；坐标为 pt，文字坐标为共同基线。"""
 from pathlib import Path
 from functools import lru_cache
 from xml.sax.saxutils import escape
@@ -203,7 +203,7 @@ def printpdf(arts,path,bleed_mm=3,spot=False,technical=False):
     for p,(W,H) in zip(reader.pages,boxes):
         remove_unused_fonts(p,reader)
         p.trimbox=RectangleObject([m,m,m+W,m+H]);p.bleedbox=RectangleObject([m-bleed,m-bleed,m+W+bleed,m+H+bleed]);writer.add_page(p)
-    writer.add_metadata({'/Title':path.stem,'/Creator':'sinoPOP production.py','/Subject':('Technical paths only' if technical else 'CMYK + SP-GREEN; printer selects fluorescent ink; no ICC proof certification' if spot else 'RGB visual proof; embedded fonts')})
+    writer.add_metadata({'/Title':path.stem,'/Creator':'SinoPOP production.py','/Subject':('Technical paths only' if technical else 'CMYK + SP-GREEN; printer selects fluorescent ink; no ICC proof certification' if spot else 'RGB visual proof; embedded fonts')})
     writer.write(path);tmp.unlink()
 
 def export_art(arts,folder,stem,bleed_mm=3,preview_long=2400):

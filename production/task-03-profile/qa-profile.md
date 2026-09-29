@@ -1,6 +1,6 @@
 # 任务三独立验收
 
-6 张成片已逐一目视核对，且用 System.Drawing 重新打开检查 PNG 格式、宽高和 SHA-256（见 receipt-profile.json）。全部为内置 image_gen 实际生成的概念氛围图，不代表 sinoPOP 真实活动。未使用提供的红色现场照片。
+6 张成片已逐一目视核对，且用 System.Drawing 重新打开检查 PNG 格式、宽高和 SHA-256（见 receipt-profile.json）。全部为内置 image_gen 实际生成的概念氛围图，不代表 SinoPOP 真实活动。未使用提供的红色现场照片。
 
 | 文件 | 尺寸 / 比例 | 构图核对 |
 |---|---|---|

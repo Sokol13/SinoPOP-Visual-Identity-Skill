@@ -95,7 +95,7 @@ def kit():
         a=pass_front(role);art_on_photo(im,a,x,y,w/a.w)
     # 选取朝向镜头的直线织带段，原始文字等比印在对应色绳上。
     # 灰绳折叠处仅露出循环印字的前段，其余自然绕到背面；不把文字印到金属扣上。
-    for x,y,s,c in [(218,315,'sinoPOP · STAFF',INK),(488,311,'sinoPOP · ARTIST',GREEN),(756,311,'sinoPOP · ARTIST',GREEN),(213,665,'sinoPOP · GUEST',INK),(473,663,'sinoPOP · PRESS /',INK),(742,665,'sinoPOP · PRESS /',INK)]:
+    for x,y,s,c in [(218,315,'SinoPOP · STAFF',INK),(488,311,'SinoPOP · ARTIST',GREEN),(756,311,'SinoPOP · ARTIST',GREEN),(213,665,'SinoPOP · GUEST',INK),(473,663,'SinoPOP · PRESS /',INK),(742,665,'SinoPOP · PRESS /',INK)]:
         text(im,x,y,s,5.4,c,'Bold')
     text(im,1071,154,'现场流程',28,INK,'ExtraBold')
     text(im,1423,154,'RUN OF SHOW',10,INK,'Bold','end')

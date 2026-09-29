@@ -1,6 +1,6 @@
 # 三腕效果图的生成记录
 
-工具：内置 ImageGen；生成空白底图后，用 `compose-credentials.py` 合成原始 SVG 标志和实际字体。最终 `wristbands-mockup.png` 为 3072 × 2048 PNG。生成底图仅为虚构材质/场景示意，不是 sinoPOP 真实活动照片。
+工具：内置 ImageGen；生成空白底图后，用 `compose-credentials.py` 合成原始 SVG 标志和实际字体。最终 `wristbands-mockup.png` 为 3072 × 2048 PNG。生成底图仅为虚构材质/场景示意，不是 SinoPOP 真实活动照片。
 
 English prompt:
 

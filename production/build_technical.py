@@ -48,7 +48,7 @@ def technical():
     # 抽卡的正反面缩进 1mm 裁切；图案仍与封套圆窗中心对齐。
     ins=Art(246.3307,138.3307,GREEN);cx,cy=172.16535,69.16535
     for r in [59,54,49,44,39,34]:ins.circle(cx,cy,r,None,INK,.6)
-    ins.circle(cx,cy,27,INK);ins.text(cx,cy-2,'SIDE A',8,GREEN,'Bold','middle');ins.text(cx,cy+10,'sinoPOP',8,PAPER,'Bold','middle')
+    ins.circle(cx,cy,27,INK);ins.text(cx,cy-2,'SIDE A',8,GREEN,'Bold','middle');ins.text(cx,cy+10,'SinoPOP',8,PAPER,'Bold','middle')
     back=Art(ins.w,ins.h,PAPER);identity(back,13,30,INK);contacts(back,13,80,INK,dy=12)
     p=ROOT/'task-01-cards'/'03-vinyl';ins.svg(p/'insert-front.svg');back.svg(p/'insert-back.svg');printpdf([ins,back],p/'insert-print.pdf')
     # 窗内不印绿色唱片；由抽卡透过模切圆窗呈现。

@@ -19,10 +19,10 @@ ROLES={
     'PRODUCTION':dict(cn='制作',band=INK,fg=MUTED,border=MUTED,sw=1,zones='1,2,3',lanyard='press-production'),
 }
 LANYARDS={
-    'staff':(GREEN,INK,'sinoPOP · STAFF'),
-    'artist':(INK,GREEN,'sinoPOP · ARTIST'),
-    'guest':(PAPER,INK,'sinoPOP · GUEST'),
-    'press-production':(MUTED,INK,'sinoPOP · PRESS / PRODUCTION'),
+    'staff':(GREEN,INK,'SinoPOP · STAFF'),
+    'artist':(INK,GREEN,'SinoPOP · ARTIST'),
+    'guest':(PAPER,INK,'SinoPOP · GUEST'),
+    'press-production':(MUTED,INK,'SinoPOP · PRESS / PRODUCTION'),
 }
 
 def wristband(tier='GA',serial=1):

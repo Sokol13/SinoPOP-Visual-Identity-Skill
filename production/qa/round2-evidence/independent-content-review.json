@@ -125,7 +125,7 @@
       "item": "挂绳 staff",
       "passed": true,
       "evidence": {
-        "text": "sinoPOP · STAFF",
+        "text": "SinoPOP · STAFF",
         "repeats": 10,
         "both_sides": "main() 双面调用同一版"
       }
@@ -139,7 +139,7 @@
       "item": "挂绳 artist",
       "passed": true,
       "evidence": {
-        "text": "sinoPOP · ARTIST",
+        "text": "SinoPOP · ARTIST",
         "repeats": 10,
         "both_sides": "main() 双面调用同一版"
       }
@@ -153,7 +153,7 @@
       "item": "挂绳 guest",
       "passed": true,
       "evidence": {
-        "text": "sinoPOP · GUEST",
+        "text": "SinoPOP · GUEST",
         "repeats": 10,
         "both_sides": "main() 双面调用同一版"
       }
@@ -167,7 +167,7 @@
       "item": "挂绳 press-production",
       "passed": true,
       "evidence": {
-        "text": "sinoPOP · PRESS / PRODUCTION",
+        "text": "SinoPOP · PRESS / PRODUCTION",
         "repeats": 8,
         "both_sides": "main() 双面调用同一版"
       }

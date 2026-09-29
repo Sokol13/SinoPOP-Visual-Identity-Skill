@@ -79,7 +79,7 @@ for p in sorted((ROOT/'task-01-cards').rglob('*.svg')):
 
 def texts(p): return [''.join(e.itertext()) for e in ET.parse(p).iter(NS+'text')]
 ticket=ROOT/'task-01-cards/01-ticket/front.svg'
-if any('sinopop' in s.lower() for s in texts(ticket)): fail('Ticket front retains duplicated sinoPOP text')
+if any('sinopop' in s.lower() for s in texts(ticket)): fail('Ticket front retains duplicated SinoPOP text')
 front=ROOT/'task-01-cards/04-backstage/front.svg';back=ROOT/'task-01-cards/04-backstage/back.svg'
 if '主办方' not in ''.join(texts(front)) or 'PROMOTER' not in ''.join(texts(front)):fail('Backstage card lacks promoter label')
 if any(s!='sinopop.us' for s in texts(back)):fail('Backstage card reverse contains extra text: '+str(texts(back)))
