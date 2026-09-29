@@ -1,0 +1,94 @@
+[
+  {
+    "page": 1,
+    "width_mm": 297.0,
+    "height_mm": 420.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "SVIP",
+        "size_pt": 31,
+        "weight": "ExtraBold",
+        "x": 165.82677165354332,
+        "baseline_y": 90.14173228346459
+      },
+      {
+        "text": "至尊 · 卡座",
+        "size_pt": 9.5,
+        "weight": "Bold",
+        "x": 165.82677165354332,
+        "baseline_y": 108.56692913385828
+      },
+      {
+        "text": "[MM.DD] · [场地]",
+        "size_pt": 8.5,
+        "weight": "Regular",
+        "x": 522.992125984252,
+        "baseline_y": 79.93700787401576
+      },
+      {
+        "text": "No. 200001",
+        "size_pt": 8.5,
+        "weight": "Bold",
+        "x": 522.992125984252,
+        "baseline_y": 100.34645669291339
+      },
+      {
+        "text": "撕开即失效",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 721.4173228346457,
+        "baseline_y": 81.63779527559056
+      },
+      {
+        "text": "No. 200001",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 721.4173228346457,
+        "baseline_y": 99.496062992126
+      },
+      {
+        "text": "SVIP",
+        "size_pt": 31,
+        "weight": "ExtraBold",
+        "x": 165.82677165354332,
+        "baseline_y": 186.5196850393701
+      },
+      {
+        "text": "至尊 · 卡座",
+        "size_pt": 9.5,
+        "weight": "Bold",
+        "x": 165.82677165354332,
+        "baseline_y": 204.94488188976382
+      },
+      {
+        "text": "[MM.DD] · [场地]",
+        "size_pt": 8.5,
+        "weight": "Regular",
+        "x": 522.992125984252,
+        "baseline_y": 176.31496062992127
+      },
+      {
+        "text": "No. 200002",
+        "size_pt": 8.5,
+        "weight": "Bold",
+        "x": 522.992125984252,
+        "baseline_y": 196.7244094488189
+      },
+      {
+        "text": "撕开即失效",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 721.4173228346457,
+        "baseline_y": 178.0157480314961
+      },
+      {
+        "text": "No. 200002",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 721.4173228346457,
+        "baseline_y": 195.87401574803152
+      }
+    ]
+  }
+]

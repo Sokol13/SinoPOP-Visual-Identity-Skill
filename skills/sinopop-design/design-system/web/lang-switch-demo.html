@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sinoPOP — 中英切换排版 Language switch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="sinopop-widgets.css">
+<style>
+  body { margin: 0; background: #111318; }
+  .cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #3A3F48; }
+  .col { padding: 56px; display: grid; gap: 40px; align-content: start; }
+  .tag-note { font: 600 12px/1 Archivo, sans-serif; letter-spacing: .08em; color: #B7BDC5; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } .col { padding: 24px 16px; } }
+</style>
+</head>
+<body>
+<div class="cols">
+  <!-- 中文页：整页 lang="zh-CN"，只出中文 -->
+  <main class="sp-root col" lang="zh-CN">
+    <span class="tag-note">LANG = ZH-CN · 中文排版</span>
+    <div class="sp-section-head">
+      <span class="sp-label">近期演出</span>
+      <h1 class="sp-h1">把现场带给海外的年轻观众</h1>
+    </div>
+    <p>从华语青年音乐与文化出发，我们在北美策划和执行演出，负责宣传与售票。中文段落行高 1.8，字距略放，每行不超过 36 个字。</p>
+    <article class="sp-event-card sp-event-card--row">
+      <div class="sp-event-card__media"><img src="../assets/sample-live-photo.jpg" alt="现场照片"></div>
+      <div class="sp-event-card__body">
+        <span class="sp-event-card__date">10月24日 周六 19:30</span>
+        <h3 class="sp-event-card__title">艺人名 巡演标题</h3>
+        <span class="sp-event-card__venue">洛杉矶 · 场地名称</span>
+        <div class="sp-event-card__foot"><span class="sp-tag sp-tag--on-sale">售票中</span><a class="sp-btn sp-btn--s" href="#">购票</a></div>
+      </div>
+    </article>
+    <dl class="sp-facts">
+      <div class="sp-facts__row"><dt>开门 / 开演</dt><dd>18:30 / 19:30</dd></div>
+      <div class="sp-facts__row"><dt>票价</dt><dd>USD 45 起</dd></div>
+    </dl>
+  </main>
+  <!-- English page: lang="en", English only -->
+  <main class="sp-root col" lang="en">
+    <span class="tag-note">LANG = EN · ENGLISH SET</span>
+    <div class="sp-section-head">
+      <span class="sp-label">Upcoming shows</span>
+      <h1 class="sp-h1">Bringing live shows to young audiences abroad</h1>
+    </div>
+    <p>Rooted in Chinese youth music and culture, we produce and promote shows across North America and sell the tickets. English body text runs 1.55 leading with no extra tracking, up to 66 characters a line.</p>
+    <article class="sp-event-card sp-event-card--row">
+      <div class="sp-event-card__media"><img src="../assets/sample-live-photo.jpg" alt="Live photo"></div>
+      <div class="sp-event-card__body">
+        <span class="sp-event-card__date">Sat, Oct 24 · 7:30 PM</span>
+        <h3 class="sp-event-card__title">Artist Name — Tour Title</h3>
+        <span class="sp-event-card__venue">Los Angeles · Venue name</span>
+        <div class="sp-event-card__foot"><span class="sp-tag sp-tag--on-sale">On sale</span><a class="sp-btn sp-btn--s" href="#">Tickets</a></div>
+      </div>
+    </article>
+    <dl class="sp-facts">
+      <div class="sp-facts__row"><dt>Doors / Show</dt><dd>6:30 PM / 7:30 PM</dd></div>
+      <div class="sp-facts__row"><dt>Price</dt><dd>From USD 45</dd></div>
+    </dl>
+  </main>
+</div>
+</body>
+</html>

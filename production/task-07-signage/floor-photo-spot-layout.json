@@ -1,0 +1,31 @@
+[
+  {
+    "page": 1,
+    "width_mm": 600.0,
+    "height_mm": 600.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "05",
+        "size_pt": 155,
+        "weight": "ExtraBold",
+        "x": 850.3937007874017,
+        "baseline_y": 513.0708661417324
+      },
+      {
+        "text": "站这里拍",
+        "size_pt": 207.49095552245163,
+        "weight": "ExtraBold",
+        "x": 850.3937007874017,
+        "baseline_y": 868.0910832091936
+      },
+      {
+        "text": "PHOTO SPOT",
+        "size_pt": 43,
+        "weight": "Bold",
+        "x": 850.3937007874017,
+        "baseline_y": 1082.8346456692914
+      }
+    ]
+  }
+]

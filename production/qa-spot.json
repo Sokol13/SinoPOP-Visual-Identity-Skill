@@ -1,0 +1,616 @@
+{
+  "status": "PASS",
+  "strategy": "Rewrite only RGB/Gray color operators into CMYK or full-tint SP-GREEN. Preserve all text, font streams, Bezier paths, page boxes and clipping operators.",
+  "source_green_rgb": "#73F64B",
+  "spot_name": "SP-GREEN",
+  "ink_selection": "Printer selects fluorescent spot ink after physical proof; no manufacturer ink number prescribed.",
+  "limitations": [
+    "CMYK conversion is mathematical and not characterized by a printer ICC profile; no colorimetric match claimed.",
+    "SP-GREEN uses a DeviceCMYK alternate for screen preview only; this is not an ink formulation.",
+    "Not a PDF/X-certified export.",
+    "06-material is derived from ink-print.pdf and excludes blind-deboss names from the ink plate. The separate deboss-mask.pdf remains required.",
+    "06-material still requires printer-specific opaque white ink, black cotton stock and edge-paint/deboss production setup; these CMYK+spot files do not define a white-ink separation."
+  ],
+  "files": [
+    {
+      "file": "task-01-cards\\01-ticket\\print-cmyk-spot.pdf",
+      "source": "task-01-cards\\01-ticket\\print.pdf",
+      "sha256": "c006b75eb1fb7f456000bc6ee6165b4bb41c83a3609c6dfcbd3fc51928c45b79",
+      "source_sha256": "c443edd57379389d41d2c56eca07b2d0f362c10c5da2db728da0f1b6b5b9b873",
+      "pages": 2,
+      "conversions": {
+        "rgb_to_cmyk": 355,
+        "spot_fill": 5
+      },
+      "non_color_operators_unchanged": true,
+      "text_unchanged": true,
+      "font_streams_unchanged": true,
+      "fonts_embedded_and_subset": true,
+      "used_fonts": [
+        {
+          "page": 1,
+          "key": "/F2+0",
+          "name": "/AAAAAA+NotoSansSC-Heavy",
+          "size_pt": 16.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9f1cf777eeee7cab6c2b68e0baeb0d9023778beb46fb218351ed8978d6ac0d31"
+        },
+        {
+          "page": 1,
+          "key": "/F3+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 1,
+          "key": "/F3+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 8.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 1,
+          "key": "/F5+0",
+          "name": "/AAAAAA+Archivo-ExtraBold",
+          "size_pt": 51.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "fdd01ef165a9f338f2057350d2a2e0931ff30fbe97b03a403ebd44525193d1c4"
+        },
+        {
+          "page": 2,
+          "key": "/F2+0",
+          "name": "/AAAAAA+NotoSansSC-Heavy",
+          "size_pt": 16.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9f1cf777eeee7cab6c2b68e0baeb0d9023778beb46fb218351ed8978d6ac0d31"
+        },
+        {
+          "page": 2,
+          "key": "/F2+0",
+          "name": "/AAAAAA+NotoSansSC-Heavy",
+          "size_pt": 22.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9f1cf777eeee7cab6c2b68e0baeb0d9023778beb46fb218351ed8978d6ac0d31"
+        },
+        {
+          "page": 2,
+          "key": "/F3+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 2,
+          "key": "/F3+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 8.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 2,
+          "key": "/F3+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 10.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 2,
+          "key": "/F5+0",
+          "name": "/AAAAAA+Archivo-ExtraBold",
+          "size_pt": 22.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "fdd01ef165a9f338f2057350d2a2e0931ff30fbe97b03a403ebd44525193d1c4"
+        },
+        {
+          "page": 2,
+          "key": "/F6+0",
+          "name": "/AAAAAA+Archivo-Regular",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "1ce5914a4a0f1a5d2ede3264a3fdd96bc0b3f255d200dd1d1d2b79cc1b2877a0"
+        },
+        {
+          "page": 2,
+          "key": "/F7+0",
+          "name": "/AAAAAA+NotoSansSC-Regular",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9c41f3fd49fbd36b1472b6d4bc3807dc80712bcea2f4509e978be886fc3fb8e2"
+        }
+      ],
+      "minimum_font_pt": 7.5,
+      "page_boxes_preserved": [
+        {
+          "mediabox": [
+            0.0,
+            0.0,
+            288.0,
+            180.0
+          ],
+          "trimbox": [
+            18.0,
+            18.0,
+            270.0,
+            162.0
+          ],
+          "bleedbox": [
+            9.0,
+            9.0,
+            279.0,
+            171.0
+          ]
+        },
+        {
+          "mediabox": [
+            0.0,
+            0.0,
+            288.0,
+            180.0
+          ],
+          "trimbox": [
+            18.0,
+            18.0,
+            270.0,
+            162.0
+          ],
+          "bleedbox": [
+            9.0,
+            9.0,
+            279.0,
+            171.0
+          ]
+        }
+      ],
+      "spot_name": "SP-GREEN",
+      "spot_colorspace": "/Separation /SP-GREEN /DeviceCMYK",
+      "spot_usage": [
+        {
+          "page": 1,
+          "fill_scn": 3,
+          "stroke_SCN": 0
+        },
+        {
+          "page": 2,
+          "fill_scn": 2,
+          "stroke_SCN": 0
+        }
+      ],
+      "spot_plate_dark_pixels_144dpi": [
+        59461,
+        55246
+      ],
+      "process_cmyk_colors": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0040327,
+          0.0,
+          0.01612875,
+          0.027451
+        ],
+        [
+          0.07106604,
+          0.04060972,
+          0.0,
+          0.227451
+        ],
+        [
+          0.29166578,
+          0.20833422,
+          0.0,
+          0.905882
+        ]
+      ],
+      "no_rgb_or_gray_paint_operators": true,
+      "raster_images": 0,
+      "renders": [
+        "_qa-spot\\01-ticket-spot-page-1.png",
+        "_qa-spot\\01-ticket-spot-page-2.png"
+      ],
+      "render_verified_programmatically": true
+    },
+    {
+      "file": "task-01-cards\\02-setlist\\print-cmyk-spot.pdf",
+      "source": "task-01-cards\\02-setlist\\print.pdf",
+      "sha256": "44e531b6642372135aca5e129a1ffffdf84fd3a363c5ac3a2478fe85d0904d70",
+      "source_sha256": "1463c055e6ae310b8e5cf177cdd2364d6ed8e86c8ec391e0d472d6fb7ce1197c",
+      "pages": 2,
+      "conversions": {
+        "rgb_to_cmyk": 307,
+        "spot_fill": 1,
+        "spot_stroke": 1
+      },
+      "non_color_operators_unchanged": true,
+      "text_unchanged": true,
+      "font_streams_unchanged": true,
+      "fonts_embedded_and_subset": true,
+      "used_fonts": [
+        {
+          "page": 1,
+          "key": "/F2+0",
+          "name": "/AAAAAA+Archivo-ExtraBold",
+          "size_pt": 10.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "fdd01ef165a9f338f2057350d2a2e0931ff30fbe97b03a403ebd44525193d1c4"
+        },
+        {
+          "page": 1,
+          "key": "/F2+0",
+          "name": "/AAAAAA+Archivo-ExtraBold",
+          "size_pt": 21.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "fdd01ef165a9f338f2057350d2a2e0931ff30fbe97b03a403ebd44525193d1c4"
+        },
+        {
+          "page": 1,
+          "key": "/F3+0",
+          "name": "/AAAAAA+NotoSansSC-Heavy",
+          "size_pt": 21.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9ca241a3edc4dea14266593517ca5aa24573ebedb680a8ddf7461a9cd655e89c"
+        },
+        {
+          "page": 1,
+          "key": "/F4+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 1,
+          "key": "/F4+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 9.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 1,
+          "key": "/F5+0",
+          "name": "/AAAAAA+Archivo-Regular",
+          "size_pt": 7.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "1ce5914a4a0f1a5d2ede3264a3fdd96bc0b3f255d200dd1d1d2b79cc1b2877a0"
+        },
+        {
+          "page": 1,
+          "key": "/F5+0",
+          "name": "/AAAAAA+Archivo-Regular",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "1ce5914a4a0f1a5d2ede3264a3fdd96bc0b3f255d200dd1d1d2b79cc1b2877a0"
+        },
+        {
+          "page": 1,
+          "key": "/F6+0",
+          "name": "/AAAAAA+NotoSansSC-Bold",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "d80fda37ca5ebfe9e2e3c833d4388534c479dcc78c997354c321c7ea1b31536c"
+        },
+        {
+          "page": 1,
+          "key": "/F7+0",
+          "name": "/AAAAAA+NotoSansSC-Regular",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9c41f3fd49fbd36b1472b6d4bc3807dc80712bcea2f4509e978be886fc3fb8e2"
+        },
+        {
+          "page": 2,
+          "key": "/F4+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 9.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        }
+      ],
+      "minimum_font_pt": 7.0,
+      "page_boxes_preserved": [
+        {
+          "mediabox": [
+            0.0,
+            0.0,
+            288.0,
+            180.0
+          ],
+          "trimbox": [
+            18.0,
+            18.0,
+            270.0,
+            162.0
+          ],
+          "bleedbox": [
+            9.0,
+            9.0,
+            279.0,
+            171.0
+          ]
+        },
+        {
+          "mediabox": [
+            0.0,
+            0.0,
+            288.0,
+            180.0
+          ],
+          "trimbox": [
+            18.0,
+            18.0,
+            270.0,
+            162.0
+          ],
+          "bleedbox": [
+            9.0,
+            9.0,
+            279.0,
+            171.0
+          ]
+        }
+      ],
+      "spot_name": "SP-GREEN",
+      "spot_colorspace": "/Separation /SP-GREEN /DeviceCMYK",
+      "spot_usage": [
+        {
+          "page": 1,
+          "fill_scn": 1,
+          "stroke_SCN": 0
+        },
+        {
+          "page": 2,
+          "fill_scn": 0,
+          "stroke_SCN": 1
+        }
+      ],
+      "spot_plate_dark_pixels_144dpi": [
+        6296,
+        1760
+      ],
+      "process_cmyk_colors": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0040327,
+          0.0,
+          0.01612875,
+          0.027451
+        ],
+        [
+          0.01369897,
+          0.0,
+          0.03653019,
+          0.141176
+        ],
+        [
+          0.29166578,
+          0.20833422,
+          0.0,
+          0.905882
+        ]
+      ],
+      "no_rgb_or_gray_paint_operators": true,
+      "raster_images": 0,
+      "renders": [
+        "_qa-spot\\02-setlist-spot-page-1.png",
+        "_qa-spot\\02-setlist-spot-page-2.png"
+      ],
+      "render_verified_programmatically": true
+    },
+    {
+      "file": "task-01-cards\\06-material\\print-cmyk-spot.pdf",
+      "source": "task-01-cards\\06-material\\ink-print.pdf",
+      "sha256": "fffa1bc6490ff47a4ce9007b3d5c9e759588e0267dac644efd62c89b2c8447dd",
+      "source_sha256": "b0bf4d1b06603a68cb74dd24779cb7184a7f665ecc5df360a25513dd49a70a84",
+      "pages": 2,
+      "conversions": {
+        "rgb_to_cmyk": 569,
+        "spot_stroke": 1
+      },
+      "non_color_operators_unchanged": true,
+      "text_unchanged": true,
+      "font_streams_unchanged": true,
+      "fonts_embedded_and_subset": true,
+      "used_fonts": [
+        {
+          "page": 2,
+          "key": "/F3+0",
+          "name": "/AAAAAA+Archivo-ExtraBold",
+          "size_pt": 16.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "fdd01ef165a9f338f2057350d2a2e0931ff30fbe97b03a403ebd44525193d1c4"
+        },
+        {
+          "page": 2,
+          "key": "/F4+0",
+          "name": "/AAAAAA+NotoSansSC-Heavy",
+          "size_pt": 16.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9ca241a3edc4dea14266593517ca5aa24573ebedb680a8ddf7461a9cd655e89c"
+        },
+        {
+          "page": 2,
+          "key": "/F5+0",
+          "name": "/AAAAAA+Archivo-Bold",
+          "size_pt": 9.0,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "e2e61872234dc418d31ad27b45032ae5e687547288619ebbe2fb2331ad497ed9"
+        },
+        {
+          "page": 2,
+          "key": "/F6+0",
+          "name": "/AAAAAA+Archivo-Regular",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "1ce5914a4a0f1a5d2ede3264a3fdd96bc0b3f255d200dd1d1d2b79cc1b2877a0"
+        },
+        {
+          "page": 2,
+          "key": "/F7+0",
+          "name": "/AAAAAA+NotoSansSC-Regular",
+          "size_pt": 7.5,
+          "embedded": true,
+          "subset": true,
+          "font_stream_sha256": "9c41f3fd49fbd36b1472b6d4bc3807dc80712bcea2f4509e978be886fc3fb8e2"
+        }
+      ],
+      "minimum_font_pt": 7.5,
+      "page_boxes_preserved": [
+        {
+          "mediabox": [
+            0.0,
+            0.0,
+            288.0,
+            180.0
+          ],
+          "trimbox": [
+            18.0,
+            18.0,
+            270.0,
+            162.0
+          ],
+          "bleedbox": [
+            9.0,
+            9.0,
+            279.0,
+            171.0
+          ]
+        },
+        {
+          "mediabox": [
+            0.0,
+            0.0,
+            288.0,
+            180.0
+          ],
+          "trimbox": [
+            18.0,
+            18.0,
+            270.0,
+            162.0
+          ],
+          "bleedbox": [
+            9.0,
+            9.0,
+            279.0,
+            171.0
+          ]
+        }
+      ],
+      "spot_name": "SP-GREEN",
+      "spot_colorspace": "/Separation /SP-GREEN /DeviceCMYK",
+      "spot_usage": [
+        {
+          "page": 1,
+          "fill_scn": 0,
+          "stroke_SCN": 1
+        },
+        {
+          "page": 2,
+          "fill_scn": 0,
+          "stroke_SCN": 0
+        }
+      ],
+      "spot_plate_dark_pixels_144dpi": [
+        860,
+        0
+      ],
+      "process_cmyk_colors": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0040327,
+          0.0,
+          0.01612875,
+          0.027451
+        ],
+        [
+          0.07106604,
+          0.04060972,
+          0.0,
+          0.227451
+        ],
+        [
+          0.29166578,
+          0.20833422,
+          0.0,
+          0.905882
+        ]
+      ],
+      "no_rgb_or_gray_paint_operators": true,
+      "raster_images": 0,
+      "renders": [
+        "_qa-spot\\06-material-spot-page-1.png",
+        "_qa-spot\\06-material-spot-page-2.png"
+      ],
+      "render_verified_programmatically": true
+    }
+  ],
+  "visual_review": {
+    "all_six_pages_viewed": true,
+    "render_scale": 4,
+    "result": "PASS: text, logos, line work, crop marks and page geometry preserved. Spot preview is muted by the CMYK alternate; physical fluorescent proof is required."
+  }
+}

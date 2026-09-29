@@ -1,0 +1,81 @@
+[
+  {
+    "page": 1,
+    "width_mm": 86.9,
+    "height_mm": 48.8,
+    "bleed_mm": 3.175,
+    "texts": [
+      {
+        "text": "SIDE A",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 172.16535,
+        "baseline_y": 67.16535
+      },
+      {
+        "text": "sinoPOP",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 172.16535,
+        "baseline_y": 79.16535
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 86.9,
+    "height_mm": 48.8,
+    "bleed_mm": 3.175,
+    "texts": [
+      {
+        "text": "[姓名]",
+        "size_pt": 22,
+        "weight": "ExtraBold",
+        "x": 13,
+        "baseline_y": 30
+      },
+      {
+        "text": "[First Last]",
+        "size_pt": 10,
+        "weight": "Bold",
+        "x": 13,
+        "baseline_y": 45
+      },
+      {
+        "text": "[Title · Team]",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 13,
+        "baseline_y": 59
+      },
+      {
+        "text": "+1 [000 000 0000]",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 13,
+        "baseline_y": 80
+      },
+      {
+        "text": "WeChat [微信号]",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 13,
+        "baseline_y": 92
+      },
+      {
+        "text": "[name@sinopop.us]",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 13,
+        "baseline_y": 104
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 13,
+        "baseline_y": 116
+      }
+    ]
+  }
+]

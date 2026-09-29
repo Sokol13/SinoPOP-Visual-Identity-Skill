@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sinoPOP widgets v2.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="sinopop-widgets.css">
+<style>
+  body { margin: 0; }
+  .demo { padding: 64px; display: grid; gap: 64px; }
+  .demo h6 { margin: 0 0 16px; font: 600 12px/1 var(--sp-font); letter-spacing: .08em; text-transform: uppercase; color: var(--sp-color-muted); }
+  .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  @media (max-width: 640px) { .demo { padding: 24px 16px; } }
+</style>
+</head>
+<body>
+<main class="sp-root demo">
+  <div class="sp-section-head">
+    <span class="sp-label">Upcoming · 近期演出</span>
+    <h2 class="sp-h2">近期演出</h2>
+    <p class="sp-en">Upcoming shows</p>
+  </div>
+
+  <section><h6>Event grid · 活动卡片</h6>
+    <div class="sp-event-grid">
+      <article class="sp-event-card">
+        <div class="sp-event-card__media sp-event-card__media--poster"><img src="../assets/sample-poster-kangxi-la.png" alt="康熙洛杉矶站海报"></div>
+        <div class="sp-event-card__body">
+          <span class="sp-event-card__date">日期待确认 Date TBC</span>
+          <h3 class="sp-event-card__title">康熙 洛杉矶站</h3>
+          <p class="sp-event-card__title-en">Kangxi Live in Los Angeles</p>
+          <span class="sp-event-card__venue">洛杉矶 · 场地待公布 Los Angeles · Venue TBA</span>
+          <div class="sp-event-card__foot"><span class="sp-tag sp-tag--on-sale">On sale 售票中</span><a class="sp-btn sp-btn--s" href="#">购票 Tickets</a></div>
+        </div>
+      </article>
+      <article class="sp-event-card">
+        <div class="sp-event-card__media"><img src="../assets/sample-live-photo.jpg" alt="现场照片"></div>
+        <div class="sp-event-card__body">
+          <span class="sp-event-card__date">11.08 SAT · 20:00</span>
+          <h3 class="sp-event-card__title">艺人名 巡演标题比较长的时候会自然换行</h3>
+          <p class="sp-event-card__title-en">Artist Name — Tour Title</p>
+          <span class="sp-event-card__venue">纽约 · 场地名称 New York · Venue</span>
+          <div class="sp-event-card__foot"><span class="sp-tag sp-tag--soon">Coming soon 即将开售</span><a class="sp-btn sp-btn--s sp-btn--secondary" href="#">提醒我 Remind me</a></div>
+        </div>
+      </article>
+      <article class="sp-event-card">
+        <div class="sp-event-card__media"><img src="../assets/sample-live-photo.jpg" alt="现场照片"></div>
+        <div class="sp-event-card__body">
+          <span class="sp-event-card__date">12.12 FRI · 19:30</span>
+          <h3 class="sp-event-card__title">艺人名</h3>
+          <p class="sp-event-card__title-en">Artist Name</p>
+          <span class="sp-event-card__venue">多伦多 · 场地名称 Toronto · Venue</span>
+          <div class="sp-event-card__foot"><span class="sp-tag sp-tag--sold-out">Sold out 已售罄</span><a class="sp-btn sp-btn--s" aria-disabled="true" href="#">已售罄</a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section><h6>Row card · 横向卡片</h6>
+    <article class="sp-event-card sp-event-card--row">
+      <div class="sp-event-card__media"><img src="../assets/sample-live-photo.jpg" alt=""></div>
+      <div class="sp-event-card__body">
+        <span class="sp-event-card__date">10.24 SAT · 19:30</span>
+        <h3 class="sp-event-card__title">艺人名 巡演标题</h3>
+        <p class="sp-event-card__title-en">Artist Name — Tour Title</p>
+        <span class="sp-event-card__venue">洛杉矶 · 场地名称 Los Angeles · Venue</span>
+        <div class="sp-event-card__foot"><span class="sp-tag sp-tag--changed">Rescheduled 时间调整</span><a class="sp-btn sp-btn--s" href="#">查看新时间 See new date</a></div>
+      </div>
+    </article>
+  </section>
+
+  <section><h6>Buttons & tags · 按钮与状态</h6>
+    <div class="row">
+      <a class="sp-btn" href="#">购票 Tickets</a><a class="sp-btn sp-btn--secondary" href="#">了解更多 Learn more</a><a class="sp-btn sp-btn--ghost" href="#">全部活动 All shows →</a>
+    </div>
+    <div class="row" style="margin-top:16px">
+      <span class="sp-tag sp-tag--on-sale">On sale 售票中</span><span class="sp-tag sp-tag--tonight">Tonight 今晚开演</span><span class="sp-tag sp-tag--soon">Coming soon 即将开售</span><span class="sp-tag sp-tag--waitlist">Waitlist 候补登记</span><span class="sp-tag sp-tag--selling-fast">Selling fast 余票紧张</span><span class="sp-tag sp-tag--changed">Rescheduled 时间调整</span><span class="sp-tag sp-tag--postponed">Postponed 延期</span><span class="sp-tag sp-tag--sold-out">Sold out 已售罄</span><span class="sp-tag sp-tag--ended">Ended 已结束</span><span class="sp-tag sp-tag--cancelled">Cancelled 活动取消</span>
+    </div>
+  </section>
+
+  <section><h6>Status notice · 状态公告</h6>
+    <div style="display:grid;gap:16px">
+      <div class="sp-notice"><div class="sp-notice__status"><span class="sp-notice__status-en">On sale</span><span class="sp-notice__status-cn">售票中</span></div><div class="sp-notice__body"><div class="sp-notice__msg">艺人名 洛杉矶站现已开售</div><div class="sp-notice__next">下一步：选择票档并完成购票</div><div class="sp-notice__time">更新于 10.18 12:00 PT</div></div><div class="sp-notice__action"><a class="sp-btn sp-btn--s" href="#">购票</a></div></div>
+      <div class="sp-notice sp-notice--attention"><div class="sp-notice__status"><span class="sp-notice__status-en">Rescheduled</span><span class="sp-notice__status-cn">时间调整</span></div><div class="sp-notice__body"><div class="sp-notice__msg">演出改期至 10.25 SAT 19:30</div><div class="sp-notice__next">原票继续有效，无需任何操作</div><div class="sp-notice__time">更新于 10.18 14:00 PT</div></div><div class="sp-notice__action"><a class="sp-btn sp-btn--s sp-btn--secondary" href="#">详情</a></div></div>
+      <div class="sp-notice sp-notice--critical"><div class="sp-notice__status"><span class="sp-notice__status-en">Cancelled</span><span class="sp-notice__status-cn">活动取消</span></div><div class="sp-notice__body"><div class="sp-notice__msg">本场演出取消</div><div class="sp-notice__next">票款按原支付方式退回</div><div class="sp-notice__time">更新于 10.20 09:00 PT</div></div><div class="sp-notice__action"><a class="sp-btn sp-btn--s sp-btn--secondary" href="#">退款说明</a></div></div>
+    </div>
+  </section>
+
+  <section data-sp-theme="light" class="sp-root" style="padding:32px;border-radius:8px"><h6>Facts · 事实列表（浅色 light）</h6>
+    <dl class="sp-facts">
+      <div class="sp-facts__row"><dt>艺人 Artist</dt><dd>康熙 Kangxi</dd></div>
+      <div class="sp-facts__row"><dt>城市 City</dt><dd>洛杉矶 Los Angeles</dd></div>
+      <div class="sp-facts__row"><dt>场地 Venue</dt><dd class="sp-facts__todo">待确认 To be confirmed</dd></div>
+      <div class="sp-facts__row"><dt>开门 / 开演 Doors / Show</dt><dd class="sp-facts__todo">待确认 To be confirmed</dd></div>
+    </dl>
+  </section>
+</main>
+</body>
+</html>

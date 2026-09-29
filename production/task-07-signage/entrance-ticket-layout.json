@@ -1,0 +1,45 @@
+[
+  {
+    "page": 1,
+    "width_mm": 600.0,
+    "height_mm": 850.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "TRACK 01",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 1553.3858267716537,
+        "baseline_y": 206.92913385826773
+      },
+      {
+        "text": "01",
+        "size_pt": 250,
+        "weight": "ExtraBold",
+        "x": 124.7244094488189,
+        "baseline_y": 822.0472440944883
+      },
+      {
+        "text": "入场",
+        "size_pt": 476.9982530318759,
+        "weight": "ExtraBold",
+        "x": 121.88976377952757,
+        "baseline_y": 1426.90229637694
+      },
+      {
+        "text": "DOORS · ENTRANCE",
+        "size_pt": 52,
+        "weight": "Bold",
+        "x": 136.06299212598427,
+        "baseline_y": 1726.2992125984254
+      },
+      {
+        "text": "请准备好电子票",
+        "size_pt": 38,
+        "weight": "Bold",
+        "x": 127.55905511811025,
+        "baseline_y": 2239.3700787401576
+      }
+    ]
+  }
+]

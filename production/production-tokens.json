@@ -1,0 +1,23 @@
+{
+  "colors": {
+    "ink": "#111318",
+    "surface": "#181A1F",
+    "paper": "#F7F8F4",
+    "green": "#73F64B",
+    "muted": "#B7BDC5",
+    "secondary": "#5A616C",
+    "line": "#3A3F48",
+    "pale": "#D8DBD3"
+  },
+  "spot_name": "SP-GREEN",
+  "english_font": "Archivo",
+  "chinese_font": "Noto Sans SC",
+  "english_weights": [400, 700, 800],
+  "chinese_weights": [400, 500, 700, 900],
+  "minimum_print_font_pt": 7,
+  "default_bleed_mm": 3,
+  "card_bleed_mm": 3.175,
+  "rollup_bleed_mm": 5,
+  "rollup_retract_zone_mm": 150,
+  "notes": "生产文件采用此八色色板；标志原生纯黑/纯白保留，照片自然色另计。"
+}

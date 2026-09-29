@@ -1,0 +1,605 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "item": "工牌默认权限 STAFF",
+      "passed": true,
+      "evidence": {
+        "1": "allowed",
+        "2": "allowed",
+        "3": "allowed",
+        "4": "allowed"
+      }
+    },
+    {
+      "item": "工牌默认权限 ARTIST",
+      "passed": true,
+      "evidence": {
+        "1": "allowed",
+        "2": "allowed",
+        "3": "allowed",
+        "4": "allowed"
+      }
+    },
+    {
+      "item": "工牌默认权限 ARTIST TEAM",
+      "passed": true,
+      "evidence": {
+        "1": "allowed",
+        "2": "allowed",
+        "3": "allowed",
+        "4": "allowed"
+      }
+    },
+    {
+      "item": "工牌默认权限 GUEST",
+      "passed": true,
+      "evidence": {
+        "1": "allowed",
+        "2": "invited",
+        "3": "denied",
+        "4": "denied"
+      }
+    },
+    {
+      "item": "工牌默认权限 PRESS",
+      "passed": true,
+      "evidence": {
+        "1": "allowed",
+        "2": "denied",
+        "3": "denied",
+        "4": "denied"
+      }
+    },
+    {
+      "item": "工牌默认权限 PRODUCTION",
+      "passed": true,
+      "evidence": {
+        "1": "allowed",
+        "2": "allowed",
+        "3": "allowed",
+        "4": "denied"
+      }
+    },
+    {
+      "item": "身份色带内框 ARTIST",
+      "passed": true,
+      "evidence": {
+        "expected_pt": 3,
+        "actual_ops": [
+          [
+            "rect",
+            1.5,
+            134.72834645669292,
+            252.1181102362205,
+            79.20472440944883,
+            null,
+            0,
+            "#73F64B",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "item": "身份色带内框 ARTIST TEAM",
+      "passed": true,
+      "evidence": {
+        "expected_pt": 1,
+        "actual_ops": [
+          [
+            "rect",
+            0.5,
+            133.72834645669292,
+            254.1181102362205,
+            81.20472440944883,
+            null,
+            0,
+            "#73F64B",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "item": "身份色带内框 PRODUCTION",
+      "passed": true,
+      "evidence": {
+        "expected_pt": 1,
+        "actual_ops": [
+          [
+            "rect",
+            0.5,
+            133.72834645669292,
+            254.1181102362205,
+            81.20472440944883,
+            null,
+            0,
+            "#B7BDC5",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "item": "挂绳 staff",
+      "passed": true,
+      "evidence": {
+        "text": "sinoPOP · STAFF",
+        "repeats": 10,
+        "both_sides": "main() 双面调用同一版"
+      }
+    },
+    {
+      "item": "挂绳装配避让 staff",
+      "passed": true,
+      "evidence": "所有循环文字在15–885mm以内"
+    },
+    {
+      "item": "挂绳 artist",
+      "passed": true,
+      "evidence": {
+        "text": "sinoPOP · ARTIST",
+        "repeats": 10,
+        "both_sides": "main() 双面调用同一版"
+      }
+    },
+    {
+      "item": "挂绳装配避让 artist",
+      "passed": true,
+      "evidence": "所有循环文字在15–885mm以内"
+    },
+    {
+      "item": "挂绳 guest",
+      "passed": true,
+      "evidence": {
+        "text": "sinoPOP · GUEST",
+        "repeats": 10,
+        "both_sides": "main() 双面调用同一版"
+      }
+    },
+    {
+      "item": "挂绳装配避让 guest",
+      "passed": true,
+      "evidence": "所有循环文字在15–885mm以内"
+    },
+    {
+      "item": "挂绳 press-production",
+      "passed": true,
+      "evidence": {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "repeats": 8,
+        "both_sides": "main() 双面调用同一版"
+      }
+    },
+    {
+      "item": "挂绳装配避让 press-production",
+      "passed": true,
+      "evidence": "所有循环文字在15–885mm以内"
+    },
+    {
+      "item": "手环粘扣区 GA",
+      "passed": true,
+      "evidence": {
+        "adhesive_range_mm": [
+          212,
+          250
+        ],
+        "content": [
+          "撕开即失效",
+          "No. 000001"
+        ],
+        "main_subtitle": "普通入场 · 早鸟同档"
+      }
+    },
+    {
+      "item": "手环粘扣区 VIP",
+      "passed": true,
+      "evidence": {
+        "adhesive_range_mm": [
+          212,
+          250
+        ],
+        "content": [
+          "撕开即失效",
+          "No. 100001"
+        ],
+        "main_subtitle": "贵宾"
+      }
+    },
+    {
+      "item": "手环粘扣区 SVIP",
+      "passed": true,
+      "evidence": {
+        "adhesive_range_mm": [
+          212,
+          250
+        ],
+        "content": [
+          "撕开即失效",
+          "No. 200001"
+        ],
+        "main_subtitle": "至尊 · 卡座"
+      }
+    },
+    {
+      "item": "跨页流水号及独立号段",
+      "passed": true,
+      "evidence": [
+        {
+          "tier": "GA",
+          "count": 12,
+          "start": 1,
+          "end": 12,
+          "sheets": 2,
+          "sheet_mm": [
+            297,
+            420
+          ],
+          "items_per_sheet": 11
+        },
+        {
+          "tier": "VIP",
+          "count": 2,
+          "start": 100001,
+          "end": 100002,
+          "sheets": 1,
+          "sheet_mm": [
+            297,
+            420
+          ],
+          "items_per_sheet": 11
+        },
+        {
+          "tier": "SVIP",
+          "count": 2,
+          "start": 200001,
+          "end": 200002,
+          "sheets": 1,
+          "sheet_mm": [
+            297,
+            420
+          ],
+          "items_per_sheet": 11
+        }
+      ]
+    },
+    {
+      "item": "收卷150mm留空 rollup-a-ticket",
+      "passed": true,
+      "evidence": {
+        "lowest_nonbackground_mm": 1850.0000000000002,
+        "clear_zone_mm": [
+          1850,
+          2000
+        ]
+      }
+    },
+    {
+      "item": "易拉宝关键内容 rollup-a-ticket",
+      "passed": true,
+      "evidence": [
+        "入场 · TRACK 01",
+        "欢迎",
+        "来到",
+        "现场",
+        "WELCOME",
+        "TO THE SHOW",
+        "[二维码]",
+        "sinopop.us"
+      ]
+    },
+    {
+      "item": "收卷150mm留空 rollup-b-setlist",
+      "passed": true,
+      "evidence": {
+        "lowest_nonbackground_mm": 1780.0,
+        "clear_zone_mm": [
+          1850,
+          2000
+        ]
+      }
+    },
+    {
+      "item": "易拉宝关键内容 rollup-b-setlist",
+      "passed": true,
+      "evidence": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "—",
+        "中场 · 洗手间",
+        "[每场更换贴纸]"
+      ]
+    },
+    {
+      "item": "收卷150mm留空 rollup-c-now-playing",
+      "passed": true,
+      "evidence": {
+        "lowest_nonbackground_mm": 1805.4367170626354,
+        "clear_zone_mm": [
+          1850,
+          2000
+        ]
+      }
+    },
+    {
+      "item": "易拉宝关键内容 rollup-c-now-playing",
+      "passed": true,
+      "evidence": [
+        "正在上演 · NOW PLAYING",
+        "艺人海报原图整张放入，",
+        "不裁切不压字",
+        "[艺人名]",
+        "主办方",
+        "sinopop.us"
+      ]
+    },
+    {
+      "item": "现场标识十款齐全",
+      "passed": true,
+      "evidence": [
+        "hang-restrooms",
+        "hang-bar-merch",
+        "entrance-ticket",
+        "wall-coat-check-a3",
+        "wall-way-out-a3",
+        "pillar-id-letter",
+        "house-rules",
+        "floor-photo-spot",
+        "floor-queue-start",
+        "table-merch-a5"
+      ]
+    },
+    {
+      "item": "歌单皮肤总览齐全",
+      "passed": true,
+      "evidence": "SVG + PNG"
+    },
+    {
+      "item": "无活动名日期上导向牌",
+      "passed": true,
+      "evidence": "仅年龄、规则、商品与价格占位"
+    },
+    {
+      "item": "须知板五条占位",
+      "passed": true,
+      "evidence": "规则01–05占位"
+    },
+    {
+      "item": "A5三角桌卡折位",
+      "passed": true,
+      "evidence": "210+210+80+15mm，总长515mm"
+    },
+    {
+      "item": "PDF实际流水号 ga",
+      "passed": true,
+      "evidence": {
+        "pages": 2,
+        "serial_occurrences": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "7": 2,
+          "8": 2,
+          "9": 2,
+          "10": 2,
+          "11": 2,
+          "12": 2
+        },
+        "expected_each": 2
+      }
+    },
+    {
+      "item": "PDF实际流水号 vip",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "serial_occurrences": {
+          "100001": 2,
+          "100002": 2
+        },
+        "expected_each": 2
+      }
+    },
+    {
+      "item": "PDF实际流水号 svip",
+      "passed": true,
+      "evidence": {
+        "pages": 1,
+        "serial_occurrences": {
+          "200001": 2,
+          "200002": 2
+        },
+        "expected_each": 2
+      }
+    },
+    {
+      "item": "浅底英文采用浅灰 wall-coat-check-a3",
+      "passed": true,
+      "evidence": [
+        [
+          "COAT CHECK",
+          "#B7BDC5"
+        ],
+        [
+          "TRAVEL LIGHT",
+          "#B7BDC5"
+        ]
+      ]
+    },
+    {
+      "item": "浅底英文采用浅灰 pillar-id-letter",
+      "passed": true,
+      "evidence": [
+        [
+          "PRE-SHOW",
+          "#B7BDC5"
+        ],
+        [
+          "ID REQUIRED",
+          "#B7BDC5"
+        ]
+      ]
+    },
+    {
+      "item": "浅底英文采用浅灰 house-rules",
+      "passed": true,
+      "evidence": [
+        [
+          "HOUSE RULES",
+          "#B7BDC5"
+        ]
+      ]
+    }
+  ],
+  "findings": [],
+  "executions": [
+    {
+      "test": "wrist-valid-12-2-2",
+      "expected_success": true,
+      "exit_code": 0,
+      "passed": true,
+      "files_after": 25
+    },
+    {
+      "test": "wrist-negative",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "wrist-zero",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "wrist-out-of-range",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "wrist-overlap",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "wrist-unknown-tier",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "wrist-duplicate-tier",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "passes-valid-six",
+      "expected_success": true,
+      "exit_code": 0,
+      "passed": true,
+      "files_after": 43
+    },
+    {
+      "test": "passes-unknown-role",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "passes-invalid-zone",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "passes-duplicate-zone",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "passes-empty-name",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "passes-long-name",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "passes-badcolumns",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0
+    },
+    {
+      "test": "passes-empty-file",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0,
+      "output_directory_exists": false,
+      "message": "ValueError: CSV 至少需要一条人员记录",
+      "run": "independent-after-fix"
+    },
+    {
+      "test": "passes-second-row-bad",
+      "expected_success": false,
+      "exit_code": 1,
+      "passed": true,
+      "files_after": 0,
+      "output_directory_exists": false,
+      "message": "ValueError: CSV 第 3 行：zones 只接受 1–4，以逗号分隔；数字后 ? 表示按邀请开放",
+      "run": "independent-after-fix"
+    }
+  ],
+  "manual_review": {
+    "roles": "六款身份字带颜色、默认区域与四区背面图例符合本轮要求。",
+    "wristbands": "三档颜色、标志、等级、副标、尾部日期场地与流水号符合；粘扣区含失效提示和小号流水号。",
+    "signage": "功能词最大、箭头在指向侧、箭头外未用绿；入口票根、两墙贴、证件牌、五项规则、两地贴、A5桌卡与总览均已提供。",
+    "rollups": "三款1:1、5mm出血、底部150mm留空；C款专辑框为空，置图说明在框外。"
+  },
+  "resolved_findings": [
+    {
+      "item": "浅底英文辅助灰偏差",
+      "resolution": "已重新读取3款SVG，英文均改为#B7BDC5。"
+    },
+    {
+      "item": "空工牌CSV被当作成功",
+      "resolution": "已独立复跑：空CSV与晚行无效输入均exit1，输出目录不存在，文件数0。",
+      "prior_evidence": "只有表头的CSV返回exit0，写入空batch-index。建议校验至少一行。"
+    },
+    {
+      "item": "工牌第二行无效时留下首行半套输出",
+      "resolution": "已独立复跑：空CSV与晚行无效输入均exit1，输出目录不存在，文件数0。",
+      "prior_evidence": "第二行zones=5导致exit1，但异常目录已有首行7个输出。建议整份CSV先通过校验再导出。"
+    }
+  ]
+}

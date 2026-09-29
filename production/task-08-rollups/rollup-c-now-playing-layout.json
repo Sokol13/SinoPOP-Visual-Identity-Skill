@@ -1,0 +1,80 @@
+[
+  {
+    "page": 1,
+    "width_mm": 850.0,
+    "height_mm": 2000.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "正在上演 · NOW PLAYING",
+        "size_pt": 48,
+        "weight": "Bold",
+        "x": 314.6456692913386,
+        "baseline_y": 416.69291338582684
+      },
+      {
+        "text": "艺人海报原图整张放入，",
+        "size_pt": 30,
+        "weight": "Regular",
+        "x": 187.08661417322836,
+        "baseline_y": 2965.0393700787404
+      },
+      {
+        "text": "不裁切不压字",
+        "size_pt": 30,
+        "weight": "Regular",
+        "x": 187.08661417322836,
+        "baseline_y": 3075.5905511811025
+      },
+      {
+        "text": "[艺人名]",
+        "size_pt": 165,
+        "weight": "ExtraBold",
+        "x": 175.74803149606302,
+        "baseline_y": 3438.425196850394
+      },
+      {
+        "text": "[ARTIST]",
+        "size_pt": 43,
+        "weight": "Bold",
+        "x": 189.9212598425197,
+        "baseline_y": 3588.661417322835
+      },
+      {
+        "text": "[00:00]",
+        "size_pt": 35,
+        "weight": "Bold",
+        "x": 189.9212598425197,
+        "baseline_y": 3940.157480314961
+      },
+      {
+        "text": "[MM.DD]",
+        "size_pt": 35,
+        "weight": "Bold",
+        "x": 2219.527559055118,
+        "baseline_y": 3940.157480314961
+      },
+      {
+        "text": "主办方",
+        "size_pt": 28,
+        "weight": "Bold",
+        "x": 532.9133858267717,
+        "baseline_y": 4988.976377952757
+      },
+      {
+        "text": "PRESENTED BY",
+        "size_pt": 20,
+        "weight": "Bold",
+        "x": 532.9133858267717,
+        "baseline_y": 5079.685039370079
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 51,
+        "weight": "Bold",
+        "x": 2225.196850393701,
+        "baseline_y": 5074.0157480314965
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "page": 1,
+    "width_mm": 297.0,
+    "height_mm": 420.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "03",
+        "size_pt": 112,
+        "weight": "ExtraBold",
+        "x": 65.1968503937008,
+        "baseline_y": 209.76377952755908
+      },
+      {
+        "text": "寄存",
+        "size_pt": 190.36445208252434,
+        "weight": "ExtraBold",
+        "x": 266.45669291338584,
+        "baseline_y": 577.7620609595889
+      },
+      {
+        "text": "COAT CHECK",
+        "size_pt": 24,
+        "weight": "Bold",
+        "x": 272.12598425196853,
+        "baseline_y": 677.48031496063
+      },
+      {
+        "text": "轻装上阵",
+        "size_pt": 26,
+        "weight": "Bold",
+        "x": 68.03149606299213,
+        "baseline_y": 1003.464566929134
+      },
+      {
+        "text": "TRAVEL LIGHT",
+        "size_pt": 18,
+        "weight": "Regular",
+        "x": 68.03149606299213,
+        "baseline_y": 1065.8267716535433
+      }
+    ]
+  }
+]

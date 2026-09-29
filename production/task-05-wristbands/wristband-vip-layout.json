@@ -1,0 +1,52 @@
+[
+  {
+    "page": 1,
+    "width_mm": 250.0,
+    "height_mm": 24.999999999999996,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "VIP",
+        "size_pt": 31,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 39.11811023622048
+      },
+      {
+        "text": "贵宾",
+        "size_pt": 9.5,
+        "weight": "Bold",
+        "x": 99.21259842519686,
+        "baseline_y": 57.543307086614185
+      },
+      {
+        "text": "[MM.DD] · [场地]",
+        "size_pt": 8.5,
+        "weight": "Regular",
+        "x": 456.37795275590554,
+        "baseline_y": 28.913385826771655
+      },
+      {
+        "text": "No. 100001",
+        "size_pt": 8.5,
+        "weight": "Bold",
+        "x": 456.37795275590554,
+        "baseline_y": 49.32283464566929
+      },
+      {
+        "text": "撕开即失效",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 654.8031496062993,
+        "baseline_y": 30.614173228346463
+      },
+      {
+        "text": "No. 100001",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 654.8031496062993,
+        "baseline_y": 48.472440944881896
+      }
+    ]
+  }
+]

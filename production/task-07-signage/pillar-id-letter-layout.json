@@ -1,0 +1,52 @@
+[
+  {
+    "page": 1,
+    "width_mm": 215.9,
+    "height_mm": 279.4,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "01",
+        "size_pt": 34,
+        "weight": "ExtraBold",
+        "x": 56.69291338582678,
+        "baseline_y": 99.21259842519686
+      },
+      {
+        "text": "入场前",
+        "size_pt": 21,
+        "weight": "Bold",
+        "x": 56.69291338582678,
+        "baseline_y": 212.59842519685043
+      },
+      {
+        "text": "PRE-SHOW",
+        "size_pt": 18,
+        "weight": "Bold",
+        "x": 56.69291338582678,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "请出示证件",
+        "size_pt": 98.51347056954205,
+        "weight": "ExtraBold",
+        "x": 56.69291338582678,
+        "baseline_y": 438.5597259983758
+      },
+      {
+        "text": "ID REQUIRED",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 56.69291338582678,
+        "baseline_y": 513.0708661417324
+      },
+      {
+        "text": "[年龄限制]",
+        "size_pt": 22,
+        "weight": "Regular",
+        "x": 56.69291338582678,
+        "baseline_y": 649.1338582677166
+      }
+    ]
+  }
+]

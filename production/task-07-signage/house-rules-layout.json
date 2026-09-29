@@ -1,0 +1,143 @@
+[
+  {
+    "page": 1,
+    "width_mm": 600.0,
+    "height_mm": 900.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "01 · 入场前",
+        "size_pt": 29,
+        "weight": "Bold",
+        "x": 119.05511811023624,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "PRE-SHOW",
+        "size_pt": 25,
+        "weight": "Bold",
+        "x": 1576.0629921259845,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "入场须知",
+        "size_pt": 133.6810390662582,
+        "weight": "ExtraBold",
+        "x": 119.05511811023624,
+        "baseline_y": 398.16289844798337
+      },
+      {
+        "text": "HOUSE RULES",
+        "size_pt": 35,
+        "weight": "Bold",
+        "x": 121.88976377952757,
+        "baseline_y": 507.4015748031497
+      },
+      {
+        "text": "01",
+        "size_pt": 44,
+        "weight": "ExtraBold",
+        "x": 121.88976377952757,
+        "baseline_y": 759.6850393700788
+      },
+      {
+        "text": "[规则 01]",
+        "size_pt": 48.45548152634767,
+        "weight": "ExtraBold",
+        "x": 320.3149606299213,
+        "baseline_y": 738.2677165354331
+      },
+      {
+        "text": "[RULE 01]",
+        "size_pt": 23,
+        "weight": "Regular",
+        "x": 325.984251968504,
+        "baseline_y": 841.8897637795277
+      },
+      {
+        "text": "02",
+        "size_pt": 44,
+        "weight": "ExtraBold",
+        "x": 121.88976377952757,
+        "baseline_y": 1091.3385826771655
+      },
+      {
+        "text": "[规则 02]",
+        "size_pt": 48.45548152634767,
+        "weight": "ExtraBold",
+        "x": 320.3149606299213,
+        "baseline_y": 1069.9212598425197
+      },
+      {
+        "text": "[RULE 02]",
+        "size_pt": 23,
+        "weight": "Regular",
+        "x": 325.984251968504,
+        "baseline_y": 1173.5433070866143
+      },
+      {
+        "text": "03",
+        "size_pt": 44,
+        "weight": "ExtraBold",
+        "x": 121.88976377952757,
+        "baseline_y": 1422.9921259842522
+      },
+      {
+        "text": "[规则 03]",
+        "size_pt": 48.45548152634767,
+        "weight": "ExtraBold",
+        "x": 320.3149606299213,
+        "baseline_y": 1401.5748031496064
+      },
+      {
+        "text": "[RULE 03]",
+        "size_pt": 23,
+        "weight": "Regular",
+        "x": 325.984251968504,
+        "baseline_y": 1505.196850393701
+      },
+      {
+        "text": "04",
+        "size_pt": 44,
+        "weight": "ExtraBold",
+        "x": 121.88976377952757,
+        "baseline_y": 1754.6456692913387
+      },
+      {
+        "text": "[规则 04]",
+        "size_pt": 48.45548152634767,
+        "weight": "ExtraBold",
+        "x": 320.3149606299213,
+        "baseline_y": 1733.228346456693
+      },
+      {
+        "text": "[RULE 04]",
+        "size_pt": 23,
+        "weight": "Regular",
+        "x": 325.984251968504,
+        "baseline_y": 1836.8503937007877
+      },
+      {
+        "text": "05",
+        "size_pt": 44,
+        "weight": "ExtraBold",
+        "x": 121.88976377952757,
+        "baseline_y": 2086.2992125984256
+      },
+      {
+        "text": "[规则 05]",
+        "size_pt": 48.45548152634767,
+        "weight": "ExtraBold",
+        "x": 320.3149606299213,
+        "baseline_y": 2064.88188976378
+      },
+      {
+        "text": "[RULE 05]",
+        "size_pt": 23,
+        "weight": "Regular",
+        "x": 325.984251968504,
+        "baseline_y": 2168.5039370078744
+      }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "page": 1,
+    "width_mm": 850.0,
+    "height_mm": 2000.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "No. [场次]",
+        "size_pt": 33,
+        "weight": "Bold",
+        "x": 2202.5196850393704,
+        "baseline_y": 325.984251968504
+      },
+      {
+        "text": "入场 · TRACK 01",
+        "size_pt": 56,
+        "weight": "Bold",
+        "x": 184.25196850393704,
+        "baseline_y": 1380.472440944882
+      },
+      {
+        "text": "欢迎",
+        "size_pt": 530,
+        "weight": "ExtraBold",
+        "x": 161.5748031496063,
+        "baseline_y": 1998.4251968503938
+      },
+      {
+        "text": "来到",
+        "size_pt": 530,
+        "weight": "ExtraBold",
+        "x": 161.5748031496063,
+        "baseline_y": 2658.897637795276
+      },
+      {
+        "text": "现场",
+        "size_pt": 530,
+        "weight": "ExtraBold",
+        "x": 161.5748031496063,
+        "baseline_y": 3319.3700787401576
+      },
+      {
+        "text": "WELCOME",
+        "size_pt": 104,
+        "weight": "Bold",
+        "x": 187.08661417322836,
+        "baseline_y": 3685.0393700787404
+      },
+      {
+        "text": "TO THE SHOW",
+        "size_pt": 104,
+        "weight": "Bold",
+        "x": 187.08661417322836,
+        "baseline_y": 3996.8503937007877
+      },
+      {
+        "text": "留个纪念",
+        "size_pt": 46,
+        "weight": "Bold",
+        "x": 175.74803149606302,
+        "baseline_y": 4623.307086614173
+      },
+      {
+        "text": "KEEP THIS STUB",
+        "size_pt": 32,
+        "weight": "Bold",
+        "x": 175.74803149606302,
+        "baseline_y": 4742.36220472441
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 89,
+        "weight": "Bold",
+        "x": 170.07874015748033,
+        "baseline_y": 5022.992125984252
+      },
+      {
+        "text": "[二维码]",
+        "size_pt": 22,
+        "weight": "Regular",
+        "x": 1998.4251968503938,
+        "baseline_y": 4796.220472440946
+      },
+      {
+        "text": "[QR]",
+        "size_pt": 18,
+        "weight": "Regular",
+        "x": 1998.4251968503938,
+        "baseline_y": 4884.094488188977
+      }
+    ]
+  }
+]

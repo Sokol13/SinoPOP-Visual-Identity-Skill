@@ -1,0 +1,38 @@
+[
+  {
+    "page": 1,
+    "width_mm": 1200.0,
+    "height_mm": 300.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "04",
+        "size_pt": 82,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 195.59055118110237
+      },
+      {
+        "text": "B 面",
+        "size_pt": 44,
+        "weight": "Bold",
+        "x": 615.1181102362206,
+        "baseline_y": 181.4173228346457
+      },
+      {
+        "text": "酒水 · 周边",
+        "size_pt": 322.26104187307715,
+        "weight": "ExtraBold",
+        "x": 617.9527559055118,
+        "baseline_y": 523.1141471554467
+      },
+      {
+        "text": "BAR · MERCH",
+        "size_pt": 54,
+        "weight": "Bold",
+        "x": 629.2913385826772,
+        "baseline_y": 697.3228346456693
+      }
+    ]
+  }
+]

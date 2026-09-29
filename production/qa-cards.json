@@ -1,0 +1,141 @@
+[
+  {
+    "direction": "01-ticket",
+    "trim_pt": [
+      252,
+      144
+    ],
+    "trim_mm": [
+      88.9,
+      50.8
+    ],
+    "min_font_pt": 7.5,
+    "bleed_pt": 9,
+    "fonts_embedded": [
+      "Helvetica",
+      "AAAAAA+NotoSansSC-Heavy",
+      "AAAAAA+Archivo-Bold",
+      "Times-Roman",
+      "AAAAAA+Archivo-ExtraBold",
+      "AAAAAA+Archivo-Regular",
+      "AAAAAA+NotoSansSC-Regular"
+    ],
+    "pages": 2
+  },
+  {
+    "direction": "02-setlist",
+    "trim_pt": [
+      252,
+      144
+    ],
+    "trim_mm": [
+      88.9,
+      50.8
+    ],
+    "min_font_pt": 7,
+    "bleed_pt": 9,
+    "fonts_embedded": [
+      "Helvetica",
+      "AAAAAA+Archivo-ExtraBold",
+      "AAAAAA+NotoSansSC-Heavy",
+      "AAAAAA+Archivo-Bold",
+      "AAAAAA+Archivo-Regular",
+      "AAAAAA+NotoSansSC-Bold",
+      "AAAAAA+NotoSansSC-Regular",
+      "Times-Roman"
+    ],
+    "pages": 2
+  },
+  {
+    "direction": "03-vinyl",
+    "trim_pt": [
+      252,
+      144
+    ],
+    "trim_mm": [
+      88.9,
+      50.8
+    ],
+    "min_font_pt": 7.5,
+    "bleed_pt": 9,
+    "fonts_embedded": [
+      "Helvetica",
+      "Times-Roman",
+      "AAAAAA+Archivo-Bold",
+      "AAAAAA+Archivo-ExtraBold",
+      "AAAAAA+NotoSansSC-Heavy",
+      "AAAAAA+Archivo-Regular",
+      "AAAAAA+NotoSansSC-Regular"
+    ],
+    "pages": 2
+  },
+  {
+    "direction": "04-backstage",
+    "trim_pt": [
+      144,
+      252
+    ],
+    "trim_mm": [
+      50.8,
+      88.9
+    ],
+    "min_font_pt": 7.5,
+    "bleed_pt": 9,
+    "fonts_embedded": [
+      "Helvetica",
+      "Times-Roman",
+      "AAAAAA+Archivo-ExtraBold",
+      "AAAAAA+NotoSansSC-Heavy",
+      "AAAAAA+Archivo-Bold",
+      "AAAAAA+Archivo-Regular",
+      "AAAAAA+NotoSansSC-Regular"
+    ],
+    "pages": 2
+  },
+  {
+    "direction": "05-jcard",
+    "trim_pt": [
+      252,
+      144
+    ],
+    "trim_mm": [
+      88.9,
+      50.8
+    ],
+    "min_font_pt": 7,
+    "bleed_pt": 9,
+    "fonts_embedded": [
+      "Helvetica",
+      "Times-Roman",
+      "AAAAAA+Archivo-Bold",
+      "AAAAAA+Archivo-ExtraBold",
+      "AAAAAA+NotoSansSC-Heavy",
+      "AAAAAA+Archivo-Regular",
+      "AAAAAA+NotoSansSC-Regular"
+    ],
+    "pages": 2
+  },
+  {
+    "direction": "06-material",
+    "trim_pt": [
+      252,
+      144
+    ],
+    "trim_mm": [
+      88.9,
+      50.8
+    ],
+    "min_font_pt": 7.5,
+    "bleed_pt": 9,
+    "fonts_embedded": [
+      "Helvetica",
+      "AAAAAA+Archivo-ExtraBold",
+      "AAAAAA+NotoSansSC-Heavy",
+      "AAAAAA+Archivo-Bold",
+      "Times-Roman",
+      "AAAAAA+Archivo-Regular",
+      "AAAAAA+NotoSansSC-Regular"
+    ],
+    "pages": 2
+  }
+]

@@ -1,0 +1,450 @@
+{
+  "status": "pass",
+  "errors": [],
+  "pdf": [
+    {
+      "file": "a4/profile-a4-print.pdf",
+      "pages": 6,
+      "minimum_font": 7.5,
+      "text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "image_color_spaces": [
+        "DeviceCMYK"
+      ]
+    },
+    {
+      "file": "a4/profile-a4-rgb.pdf",
+      "pages": 6,
+      "minimum_font": 7.5,
+      "text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "image_color_spaces": [
+        "DeviceRGB"
+      ]
+    },
+    {
+      "file": "letter/profile-letter-print.pdf",
+      "pages": 6,
+      "minimum_font": 7.5,
+      "text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "image_color_spaces": [
+        "DeviceCMYK"
+      ]
+    },
+    {
+      "file": "letter/profile-letter-rgb.pdf",
+      "pages": 6,
+      "minimum_font": 7.5,
+      "text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "image_color_spaces": [
+        "DeviceRGB"
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-print.pdf",
+      "pages": 6,
+      "minimum_font": 24.0,
+      "text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "image_color_spaces": [
+        "DeviceCMYK"
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-rgb.pdf",
+      "pages": 6,
+      "minimum_font": 24.0,
+      "text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "image_color_spaces": [
+        "DeviceRGB"
+      ]
+    }
+  ],
+  "svg": [
+    {
+      "file": "a4/profile-a4-p01.svg",
+      "logos": 1,
+      "minimum_font": 7.5,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "a4/profile-a4-p02.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 6
+    },
+    {
+      "file": "a4/profile-a4-p03.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "a4/profile-a4-p04.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 6
+    },
+    {
+      "file": "a4/profile-a4-p05.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "a4/profile-a4-p06.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 6
+    },
+    {
+      "file": "letter/profile-letter-p01.svg",
+      "logos": 1,
+      "minimum_font": 7.5,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "letter/profile-letter-p02.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 6
+    },
+    {
+      "file": "letter/profile-letter-p03.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "letter/profile-letter-p04.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 6
+    },
+    {
+      "file": "letter/profile-letter-p05.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "letter/profile-letter-p06.svg",
+      "logos": 1,
+      "minimum_font": 8.0,
+      "embedded_fonts": 6
+    },
+    {
+      "file": "mobile/profile-mobile-p01.svg",
+      "logos": 1,
+      "minimum_font": 24.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "mobile/profile-mobile-p02.svg",
+      "logos": 1,
+      "minimum_font": 26.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "mobile/profile-mobile-p03.svg",
+      "logos": 1,
+      "minimum_font": 27.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "mobile/profile-mobile-p04.svg",
+      "logos": 1,
+      "minimum_font": 27.0,
+      "embedded_fonts": 6
+    },
+    {
+      "file": "mobile/profile-mobile-p05.svg",
+      "logos": 1,
+      "minimum_font": 27.0,
+      "embedded_fonts": 5
+    },
+    {
+      "file": "mobile/profile-mobile-p06.svg",
+      "logos": 1,
+      "minimum_font": 27.0,
+      "embedded_fonts": 6
+    }
+  ],
+  "png": [
+    {
+      "file": "a4/profile-a4-p01-preview.png",
+      "pixels": [
+        1698,
+        2401
+      ]
+    },
+    {
+      "file": "a4/profile-a4-p02-preview.png",
+      "pixels": [
+        1698,
+        2401
+      ]
+    },
+    {
+      "file": "a4/profile-a4-p03-preview.png",
+      "pixels": [
+        1698,
+        2401
+      ]
+    },
+    {
+      "file": "a4/profile-a4-p04-preview.png",
+      "pixels": [
+        1698,
+        2401
+      ]
+    },
+    {
+      "file": "a4/profile-a4-p05-preview.png",
+      "pixels": [
+        1698,
+        2401
+      ]
+    },
+    {
+      "file": "a4/profile-a4-p06-preview.png",
+      "pixels": [
+        1698,
+        2401
+      ]
+    },
+    {
+      "file": "letter/profile-letter-p01-preview.png",
+      "pixels": [
+        1856,
+        2401
+      ]
+    },
+    {
+      "file": "letter/profile-letter-p02-preview.png",
+      "pixels": [
+        1856,
+        2401
+      ]
+    },
+    {
+      "file": "letter/profile-letter-p03-preview.png",
+      "pixels": [
+        1856,
+        2401
+      ]
+    },
+    {
+      "file": "letter/profile-letter-p04-preview.png",
+      "pixels": [
+        1856,
+        2401
+      ]
+    },
+    {
+      "file": "letter/profile-letter-p05-preview.png",
+      "pixels": [
+        1856,
+        2401
+      ]
+    },
+    {
+      "file": "letter/profile-letter-p06-preview.png",
+      "pixels": [
+        1856,
+        2401
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-p01-preview.png",
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-p02-preview.png",
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-p03-preview.png",
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-p04-preview.png",
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-p05-preview.png",
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "mobile/profile-mobile-p06-preview.png",
+      "pixels": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "visual_review": [
+    {
+      "format": "a4",
+      "page": 1,
+      "basis": "逐页渲染总览目测",
+      "finding": "封面方图比例、左下真标志、标题、事实句、AI 注记与版本占位无遮挡。"
+    },
+    {
+      "format": "a4",
+      "page": 2,
+      "basis": "逐页渲染总览目测",
+      "finding": "目录四个章节与 p.03—p.06 对应，联系方式合并至末页；数字/英文/中文基线正确。"
+    },
+    {
+      "format": "a4",
+      "page": 3,
+      "basis": "逐页渲染总览目测",
+      "finding": "唯一已知事实句清晰，余下团队/文化/工作方式均为占位。"
+    },
+    {
+      "format": "a4",
+      "page": 4,
+      "basis": "逐页渲染总览目测",
+      "finding": "三项指定服务标题，说明区均为占位；绿色编号只在深色块上。"
+    },
+    {
+      "format": "a4",
+      "page": 5,
+      "basis": "逐页渲染总览目测",
+      "finding": "两张真实照片空框与摄影提醒完整；无 AI 图混入实绩页。"
+    },
+    {
+      "format": "a4",
+      "page": 6,
+      "basis": "逐页渲染总览目测",
+      "finding": "合作及联系字段均为占位，小字中文为 Regular，对应 Archivo Regular。"
+    },
+    {
+      "format": "letter",
+      "page": 1,
+      "basis": "逐页渲染总览目测",
+      "finding": "封面方图比例、左下真标志、标题、事实句、AI 注记与版本占位无遮挡。"
+    },
+    {
+      "format": "letter",
+      "page": 2,
+      "basis": "逐页渲染总览目测",
+      "finding": "目录四个章节与 p.03—p.06 对应，联系方式合并至末页；数字/英文/中文基线正确。"
+    },
+    {
+      "format": "letter",
+      "page": 3,
+      "basis": "逐页渲染总览目测",
+      "finding": "唯一已知事实句清晰，余下团队/文化/工作方式均为占位。"
+    },
+    {
+      "format": "letter",
+      "page": 4,
+      "basis": "逐页渲染总览目测",
+      "finding": "三项指定服务标题，说明区均为占位；绿色编号只在深色块上。"
+    },
+    {
+      "format": "letter",
+      "page": 5,
+      "basis": "逐页渲染总览目测",
+      "finding": "两张真实照片空框与摄影提醒完整；无 AI 图混入实绩页。"
+    },
+    {
+      "format": "letter",
+      "page": 6,
+      "basis": "逐页渲染总览目测",
+      "finding": "合作及联系字段均为占位，小字中文为 Regular，对应 Archivo Regular。"
+    },
+    {
+      "format": "mobile",
+      "page": 1,
+      "basis": "逐页渲染总览目测",
+      "finding": "手机封面保持 9:16 原图比例，顶部 NOW PLAYING、真标志与下方播放器、AI 注记清晰。"
+    },
+    {
+      "format": "mobile",
+      "page": 2,
+      "basis": "逐页渲染总览目测",
+      "finding": "目录四个章节与 p.03—p.06 对应，联系方式合并至末页；数字/英文/中文基线正确。"
+    },
+    {
+      "format": "mobile",
+      "page": 3,
+      "basis": "逐页渲染总览目测",
+      "finding": "唯一已知事实句清晰，余下团队/文化/工作方式均为占位。"
+    },
+    {
+      "format": "mobile",
+      "page": 4,
+      "basis": "逐页渲染总览目测",
+      "finding": "三项指定服务标题，说明区均为占位；绿色编号只在深色块上。"
+    },
+    {
+      "format": "mobile",
+      "page": 5,
+      "basis": "逐页渲染总览目测",
+      "finding": "两张真实照片空框与摄影提醒完整；无 AI 图混入实绩页。"
+    },
+    {
+      "format": "mobile",
+      "page": 6,
+      "basis": "逐页渲染总览目测",
+      "finding": "合作及联系字段均为占位，小字中文为 Regular，对应 Archivo Regular。"
+    }
+  ]
+}

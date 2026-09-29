@@ -1,0 +1,888 @@
+{
+  "status": "passed",
+  "final_png_count": 17,
+  "palette": [
+    "#111318",
+    "#1B1E24",
+    "#F7F8F4",
+    "#73F64B",
+    "#B7BDC5",
+    "#5A616C",
+    "#3A3F48",
+    "#D8DBD3"
+  ],
+  "logo_exception": "Original supplied SVG internally uses #FFFFFF/#000000, unchanged.",
+  "photography_note": "Natural photographic tonal variation, not palette-quantized.",
+  "png": [
+    {
+      "file": "task-01-cards/01-ticket/mockup.png",
+      "size": [
+        2400,
+        1800
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-01-cards/02-setlist/mockup.png",
+      "size": [
+        2400,
+        1800
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-01-cards/03-vinyl/mockup.png",
+      "size": [
+        2400,
+        1800
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-01-cards/04-backstage/mockup.png",
+      "size": [
+        2400,
+        1800
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-01-cards/05-jcard/mockup.png",
+      "size": [
+        2400,
+        1800
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-01-cards/06-material/mockup.png",
+      "size": [
+        2400,
+        1800
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-01-entrance.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-02-lobby.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-03-now-playing.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-04-kit.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-05-photo-spot.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-03-profile/profile-chapter-01-checkin.png",
+      "size": [
+        1920,
+        2400
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-03-profile/profile-chapter-02-merch.png",
+      "size": [
+        1920,
+        2400
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-03-profile/profile-chapter-03-sound.png",
+      "size": [
+        1920,
+        2400
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-03-profile/profile-chapter-04-aftershow.png",
+      "size": [
+        1920,
+        2400
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-03-profile/profile-cover-phone.png",
+      "size": [
+        1350,
+        2400
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "task-03-profile/profile-cover-square.png",
+      "size": [
+        2400,
+        2400
+      ],
+      "decode": "passed"
+    }
+  ],
+  "pdf": [
+    {
+      "file": "task-01-cards/01-ticket/print-cmyk-spot.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/01-ticket/print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/01-ticket/size-90x54-check.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.593
+    },
+    {
+      "file": "task-01-cards/02-setlist/print-cmyk-spot.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.0
+    },
+    {
+      "file": "task-01-cards/02-setlist/print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.0
+    },
+    {
+      "file": "task-01-cards/02-setlist/size-90x54-check.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.087
+    },
+    {
+      "file": "task-01-cards/03-vinyl/insert-print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          246.331,
+          138.331
+        ],
+        [
+          246.331,
+          138.331
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/03-vinyl/print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/03-vinyl/size-90x54-check.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.593
+    },
+    {
+      "file": "task-01-cards/03-vinyl/sleeve-ink-print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/04-backstage/print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          144.0,
+          252.0
+        ],
+        [
+          144.0,
+          252.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/04-backstage/size-90x54-check.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          153.071,
+          255.118
+        ],
+        [
+          153.071,
+          255.118
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.593
+    },
+    {
+      "file": "task-01-cards/05-jcard/construction.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          396.0,
+          144.0
+        ],
+        [
+          396.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.0
+    },
+    {
+      "file": "task-01-cards/05-jcard/print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.0
+    },
+    {
+      "file": "task-01-cards/05-jcard/size-90x54-check.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.087
+    },
+    {
+      "file": "task-01-cards/06-material/deboss-mask.pdf",
+      "pages": 1,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "NotoSansSC-Heavy"
+      ],
+      "min_text_pt": 10.0
+    },
+    {
+      "file": "task-01-cards/06-material/ink-print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/06-material/print-cmyk-spot.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/06-material/print.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.5
+    },
+    {
+      "file": "task-01-cards/06-material/size-90x54-check.pdf",
+      "pages": 2,
+      "render": "passed",
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "min_text_pt": 7.593
+    },
+    {
+      "file": "task-01-cards/construction-guides.pdf",
+      "pages": 6,
+      "render": "passed",
+      "trim_pt": [
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ]
+      ],
+      "actual_text_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy"
+      ],
+      "min_text_pt": 7.0
+    }
+  ],
+  "svg": [
+    {
+      "file": "task-01-cards/01-ticket/back.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 7.5
+    },
+    {
+      "file": "task-01-cards/01-ticket/construction-guide.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/01-ticket/front.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 7.5
+    },
+    {
+      "file": "task-01-cards/02-setlist/back.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 9.0
+    },
+    {
+      "file": "task-01-cards/02-setlist/construction-guide.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/02-setlist/front.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 7.0
+    },
+    {
+      "file": "task-01-cards/03-vinyl/back.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 7.5
+    },
+    {
+      "file": "task-01-cards/03-vinyl/construction-guide.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 7.0
+    },
+    {
+      "file": "task-01-cards/03-vinyl/front.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/03-vinyl/insert-back.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 7.5
+    },
+    {
+      "file": "task-01-cards/03-vinyl/insert-front.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/03-vinyl/sleeve-front-ink.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 32.0
+    },
+    {
+      "file": "task-01-cards/04-backstage/back.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/04-backstage/construction-guide.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/04-backstage/front.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 7.5
+    },
+    {
+      "file": "task-01-cards/05-jcard/back.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 7.0
+    },
+    {
+      "file": "task-01-cards/05-jcard/construction-guide.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/05-jcard/front.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/05-jcard/spread-inside.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 7.0
+    },
+    {
+      "file": "task-01-cards/05-jcard/spread-outside.svg",
+      "parse": "passed",
+      "original_logo_count": 2,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/06-material/back.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 7.5
+    },
+    {
+      "file": "task-01-cards/06-material/construction-guide.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 8.0
+    },
+    {
+      "file": "task-01-cards/06-material/deboss-mask.svg",
+      "parse": "passed",
+      "original_logo_count": 0,
+      "embedded_font": true,
+      "min_font": 10.0
+    },
+    {
+      "file": "task-01-cards/06-material/front-ink.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": null
+    },
+    {
+      "file": "task-01-cards/06-material/front.svg",
+      "parse": "passed",
+      "original_logo_count": 1,
+      "embedded_font": true,
+      "min_font": 10.0
+    }
+  ],
+  "errors": [],
+  "logo_sha256": {
+    "white": "bd3505f5c21e985d6518ba398063f7c12d4389fc0b68347f5d48475f7c2936c7",
+    "black": "bdf7de688e51e4fd64316d6ae2ab0208686d81ea85e729f568901f815ed21b2b"
+  },
+  "original_logo_bytes_match_zip": true,
+  "html_validation": {
+    "local_asset_links": "passed",
+    "browser_render": "unverified: browser security policy blocks file protocol; no workaround attempted"
+  },
+  "visual_review": "All 12 card faces, 6 product mockups, 5 onsite scenes, 6 profile images and all 6 technical-guide pages inspected. No visible text overflow or missing glyphs. No green text on light artwork.",
+  "revision": {
+    "status": "passed",
+    "request": "Baseline, Chinese font weights, promoter identification, duplicate brand text, CMYK plus spot editions",
+    "baseline_line_count": 98,
+    "baseline_visual_review": "passed: all 98 text lines viewed as unscaled final-image pixel crops; all five full compositions also reviewed.",
+    "font_instances": [
+      {
+        "file": "assets/fonts/NotoSansSC-Regular.ttf",
+        "weight": 400,
+        "static": true,
+        "glyphs": 31036
+      },
+      {
+        "file": "assets/fonts/NotoSansSC-Medium.ttf",
+        "weight": 500,
+        "static": true,
+        "glyphs": 31036
+      },
+      {
+        "file": "assets/fonts/NotoSansSC-Bold.ttf",
+        "weight": 700,
+        "static": true,
+        "glyphs": 31036
+      },
+      {
+        "file": "assets/fonts/NotoSansSC-Heavy.ttf",
+        "weight": 900,
+        "static": true,
+        "glyphs": 31036
+      }
+    ],
+    "actual_fonts_embedded": true,
+    "minimum_font_pt": 7,
+    "spot_name": "SP-GREEN",
+    "spot_pdf_count": 3,
+    "process_color_mode": "DeviceCMYK; SP-GREEN Separation; zero RGB painting in three spot PDFs",
+    "original_folder_unchanged": true,
+    "protected_file_changes": [],
+    "independent_evidence": "qa/revision-validation.json",
+    "visual_evidence": "qa/visual-review.json",
+    "spot_evidence": "qa-spot.json",
+    "limitations": [
+      "CMYK conversion is mathematical and not characterized by a printer ICC profile; no colorimetric match claimed.",
+      "SP-GREEN uses a DeviceCMYK alternate for screen preview only; this is not an ink formulation.",
+      "Not a PDF/X-certified export.",
+      "06-material is derived from ink-print.pdf and excludes blind-deboss names from the ink plate. The separate deboss-mask.pdf remains required.",
+      "06-material still requires printer-specific opaque white ink, black cotton stock and edge-paint/deboss production setup; these CMYK+spot files do not define a white-ink separation."
+    ]
+  }
+}

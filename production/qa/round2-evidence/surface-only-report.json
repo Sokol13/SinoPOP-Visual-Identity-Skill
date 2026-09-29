@@ -1,0 +1,5619 @@
+{
+  "status": "PASS",
+  "old_surface_rgb": [
+    20,
+    25,
+    38
+  ],
+  "new_surface_rgb": [
+    24,
+    26,
+    31
+  ],
+  "new_surface_cmyk": [
+    0.22580645,
+    0.16129032,
+    0,
+    0.87843137
+  ],
+  "unchanged_ink_cmyk": [
+    0.29166667,
+    0.20833333,
+    0,
+    0.90588235
+  ],
+  "counts": {
+    ".pdf": 98,
+    ".md": 8,
+    ".png": 76,
+    ".py": 7,
+    ".json": 45,
+    ".svg": 91,
+    ".csv": 3
+  },
+  "failures": [],
+  "pdfs": [
+    {
+      "file": "_qa/card-assembly-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0,
+          "scratch_font_resource_note": {
+            "scope": "temporary-assembly-render-source-only",
+            "baseline_unused_resources": [
+              "/F1",
+              "/F2"
+            ],
+            "new_unused_resources": [],
+            "painted_font_streams_identical": true
+          }
+        }
+      ]
+    },
+    {
+      "file": "task-04-card-final/insert-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            8,
+            8
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            7,
+            7
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-04-card-final/insert-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-04-card-final/insert-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-04-card-final/sleeve-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 7
+        }
+      ]
+    },
+    {
+      "file": "task-04-card-final/sleeve-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-04-card-final/sleeve-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/ga-imposed-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            577,
+            577
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/ga-imposed-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/ga-imposed-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/svip-imposed-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            21,
+            21
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/svip-imposed-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/svip-imposed-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/vip-imposed-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            577,
+            577
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/vip-imposed-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/batch-example/vip-imposed-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/wristband-ga-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            281,
+            281
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/wristband-ga-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/wristband-svip-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            4,
+            4
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/wristband-svip-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/wristband-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/wristband-vip-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            281,
+            281
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-05-wristbands/wristband-vip-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0001-staff-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            7,
+            7
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0001-staff-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0002-artist-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            7,
+            7
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0002-artist-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0003-artist-team-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            7,
+            7
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0003-artist-team-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0004-guest-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            4,
+            4
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0004-guest-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0005-press-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            4,
+            4
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0005-press-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0006-production-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            6,
+            6
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0006-production-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-artist-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            4,
+            4
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            4,
+            4
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-artist-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-guest-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            11,
+            11
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            11,
+            11
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-guest-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-press-production-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            9,
+            9
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            9,
+            9
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-press-production-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-staff-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            11,
+            11
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            11,
+            11
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-staff-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            7,
+            7
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-team-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            7,
+            7
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-team-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-guest-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            4,
+            4
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-guest-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-press-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            4,
+            4
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-press-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-production-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            6,
+            6
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-production-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-staff-print.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            7,
+            7
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            5,
+            5
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-staff-rgb.pdf",
+      "pages": 2,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/entrance-ticket-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/entrance-ticket-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/entrance-ticket-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/floor-photo-spot-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/floor-photo-spot-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/floor-photo-spot-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/floor-queue-start-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/floor-queue-start-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/floor-queue-start-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/hang-bar-merch-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/hang-bar-merch-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/hang-bar-merch-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/hang-restrooms-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/hang-restrooms-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/hang-restrooms-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/house-rules-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            15,
+            15
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/house-rules-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/pillar-id-letter-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            280,
+            280
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/pillar-id-letter-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/table-merch-a5-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 6
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/table-merch-a5-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/table-merch-a5-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/wall-coat-check-a3-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            278,
+            278
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/wall-coat-check-a3-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/wall-way-out-a3-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-07-signage/wall-way-out-a3-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-a-ticket-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            6,
+            6
+          ],
+          "new_surface_cmyk_operators": 5
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-a-ticket-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-a-ticket-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-b-setlist-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            297,
+            297
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-b-setlist-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-b-setlist-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-c-now-playing-print.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            2,
+            2
+          ],
+          "new_surface_cmyk_operators": 3
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-c-now-playing-rgb.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-08-rollups/rollup-c-now-playing-technical.pdf",
+      "pages": 1,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-print.pdf",
+      "pages": 6,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            292,
+            292
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 3,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 4,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            277,
+            277
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 5,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 6,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            280,
+            280
+          ],
+          "new_surface_cmyk_operators": 1
+        }
+      ]
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-rgb.pdf",
+      "pages": 6,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 3,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 4,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 5,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 6,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-print.pdf",
+      "pages": 6,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            292,
+            292
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 3,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 4,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            277,
+            277
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 5,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 6,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            280,
+            280
+          ],
+          "new_surface_cmyk_operators": 1
+        }
+      ]
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-rgb.pdf",
+      "pages": 6,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 3,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 4,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 5,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 6,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-print.pdf",
+      "pages": 6,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 5
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            287,
+            287
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 3,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 4,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            277,
+            277
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 5,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            1,
+            1
+          ],
+          "new_surface_cmyk_operators": 3
+        },
+        {
+          "page": 6,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            281,
+            281
+          ],
+          "new_surface_cmyk_operators": 1
+        }
+      ]
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-rgb.pdf",
+      "pages": 6,
+      "checks": [
+        {
+          "page": 1,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 2,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 3,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 4,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 5,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        },
+        {
+          "page": 6,
+          "retired_color_operators": 0,
+          "only_surface_color_change": true,
+          "noncolor_operators_identical": true,
+          "font_stream_sha256_identical": true,
+          "text_geometry_identical": true,
+          "page_boxes_identical": true,
+          "xobjects_identical": true,
+          "ink_operator_counts": [
+            0,
+            0
+          ],
+          "new_surface_cmyk_operators": 0
+        }
+      ]
+    }
+  ],
+  "svgs": [
+    {
+      "file": "task-04-card-final/insert-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-04-card-final/insert-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-04-card-final/insert-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-04-card-final/sleeve-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-04-card-final/sleeve.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/ga-imposed-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/ga-imposed.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/svip-imposed-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/svip-imposed.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/vip-imposed-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/vip-imposed.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/wristband-ga.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/wristband-svip.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/wristband-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-05-wristbands/wristband-vip.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0001-staff-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0001-staff-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0002-artist-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0002-artist-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0003-artist-team-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0003-artist-team-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0004-guest-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0004-guest-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0005-press-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0005-press-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0006-production-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0006-production-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-artist-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-artist-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-guest-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-guest-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-press-production-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-press-production-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-staff-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-staff-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-team-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-team-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-guest-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-guest-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-press-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-press-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-production-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-production-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-staff-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-staff-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/entrance-ticket-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/entrance-ticket.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/floor-photo-spot-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/floor-photo-spot.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/floor-queue-start-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/floor-queue-start.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/hang-bar-merch-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/hang-bar-merch.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/hang-restrooms-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/hang-restrooms.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/house-rules.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/pillar-id-letter.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/sign-family-overview.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/table-merch-a5-panel.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/table-merch-a5-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/table-merch-a5.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/wall-coat-check-a3.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-07-signage/wall-way-out-a3.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-08-rollups/rollup-a-ticket-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-08-rollups/rollup-a-ticket.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-08-rollups/rollup-b-setlist-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-08-rollups/rollup-b-setlist.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-08-rollups/rollup-c-now-playing-technical.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-08-rollups/rollup-c-now-playing.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p03.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p04.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p05.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p06.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p03.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p04.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p05.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p06.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p01.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p02.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p03.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p04.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p05.svg",
+      "only_surface_color_change": true
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p06.svg",
+      "only_surface_color_change": true
+    }
+  ],
+  "layouts": [
+    {
+      "file": "task-04-card-final/insert-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-04-card-final/sleeve-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/ga-imposed-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/svip-imposed-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-05-wristbands/batch-example/vip-imposed-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-05-wristbands/wristband-ga-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-05-wristbands/wristband-svip-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-05-wristbands/wristband-vip-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0001-staff-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0002-artist-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0003-artist-team-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0004-guest-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0005-press-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0006-production-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-artist-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-guest-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-press-production-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-staff-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-team-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-guest-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-press-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-production-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-staff-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/entrance-ticket-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/floor-photo-spot-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/floor-queue-start-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/hang-bar-merch-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/hang-restrooms-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/house-rules-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/pillar-id-letter-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/table-merch-a5-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/wall-coat-check-a3-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-07-signage/wall-way-out-a3-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-08-rollups/rollup-a-ticket-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-08-rollups/rollup-b-setlist-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-08-rollups/rollup-c-now-playing-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-layout.json",
+      "bytes_identical": true,
+      "structure_identical": true
+    }
+  ],
+  "images": [
+    {
+      "file": "task-02-onsite/onsite-04-kit.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": true,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 6,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "unchanged-composite"
+    },
+    {
+      "file": "task-04-card-final/assembly-preview.png",
+      "size": [
+        2401,
+        859
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 490739,
+      "simple_delta_model_outliers": 1133,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "_qa\\card-assembly-rgb.pdf"
+    },
+    {
+      "file": "task-04-card-final/insert-p01-preview.png",
+      "size": [
+        2401,
+        1349
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-04-card-final\\insert-rgb.pdf"
+    },
+    {
+      "file": "task-04-card-final/insert-p02-preview.png",
+      "size": [
+        2401,
+        1349
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-04-card-final\\insert-rgb.pdf"
+    },
+    {
+      "file": "task-04-card-final/sleeve-preview.png",
+      "size": [
+        2401,
+        849
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1994240,
+      "simple_delta_model_outliers": 16,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-04-card-final\\sleeve-rgb.pdf"
+    },
+    {
+      "file": "task-05-wristbands/batch-example/ga-imposed-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-05-wristbands\\batch-example\\ga-imposed-rgb.pdf"
+    },
+    {
+      "file": "task-05-wristbands/batch-example/svip-imposed-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-05-wristbands\\batch-example\\svip-imposed-rgb.pdf"
+    },
+    {
+      "file": "task-05-wristbands/batch-example/vip-imposed-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-05-wristbands\\batch-example\\vip-imposed-rgb.pdf"
+    },
+    {
+      "file": "task-05-wristbands/wristband-ga-preview.png",
+      "size": [
+        2401,
+        241
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-05-wristbands\\wristband-ga-rgb.pdf"
+    },
+    {
+      "file": "task-05-wristbands/wristband-svip-preview.png",
+      "size": [
+        2401,
+        241
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-05-wristbands\\wristband-svip-rgb.pdf"
+    },
+    {
+      "file": "task-05-wristbands/wristband-vip-preview.png",
+      "size": [
+        2401,
+        241
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-05-wristbands\\wristband-vip-rgb.pdf"
+    },
+    {
+      "file": "task-05-wristbands/wristbands-mockup.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": true,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "unchanged-composite"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0001-staff-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2761995,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0001-staff-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0001-staff-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0001-staff-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0002-artist-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2761995,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0002-artist-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0002-artist-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0002-artist-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0003-artist-team-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2761995,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0003-artist-team-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0003-artist-team-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0003-artist-team-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0004-guest-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2944354,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0004-guest-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0004-guest-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0004-guest-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0005-press-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2943101,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0005-press-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0005-press-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0005-press-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0006-production-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2822453,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0006-production-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/batch-example/pass-0006-production-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\batch-example\\pass-0006-production-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-artist-p01-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-artist-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-artist-p02-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-artist-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-guest-p01-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-guest-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-guest-p02-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-guest-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-press-production-p01-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-press-production-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-press-production-p02-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-press-production-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-staff-p01-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-staff-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/lanyard-staff-p02-preview.png",
+      "size": [
+        5400,
+        120
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\lanyard-staff-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2761995,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-artist-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-artist-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-team-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2761995,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-artist-team-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-artist-team-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-artist-team-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-guest-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2944354,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-guest-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-guest-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-guest-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-press-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2943101,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-press-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-press-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-press-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-production-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2822453,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-production-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-production-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-production-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-staff-p01-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2761995,
+      "simple_delta_model_outliers": 35,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-staff-rgb.pdf"
+    },
+    {
+      "file": "task-06-passes-lanyards/pass-staff-p02-preview.png",
+      "size": [
+        1663,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3825944,
+      "simple_delta_model_outliers": 31,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-06-passes-lanyards\\pass-staff-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/entrance-ticket-preview.png",
+      "size": [
+        1695,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3821394,
+      "simple_delta_model_outliers": 19,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\entrance-ticket-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/floor-photo-spot-preview.png",
+      "size": [
+        2400,
+        2400
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 5356938,
+      "simple_delta_model_outliers": 14,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\floor-photo-spot-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/floor-queue-start-preview.png",
+      "size": [
+        2400,
+        2400
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 5381502,
+      "simple_delta_model_outliers": 14,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\floor-queue-start-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/hang-bar-merch-preview.png",
+      "size": [
+        2400,
+        600
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1318606,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\hang-bar-merch-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/hang-restrooms-preview.png",
+      "size": [
+        2400,
+        600
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1342456,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\hang-restrooms-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/house-rules-preview.png",
+      "size": [
+        1601,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\house-rules-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/pillar-id-letter-preview.png",
+      "size": [
+        1856,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\pillar-id-letter-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/sign-family-overview.png",
+      "size": [
+        3600,
+        2300
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1648368,
+      "simple_delta_model_outliers": 521,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        -2,
+        -2,
+        -9
+      ],
+      "changed_delta_max": [
+        7,
+        4,
+        2
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "verified-preview-overview"
+    },
+    {
+      "file": "task-07-signage/table-merch-a5-preview.png",
+      "size": [
+        691,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1540142,
+      "simple_delta_model_outliers": 22,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\table-merch-a5-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/wall-coat-check-a3-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\wall-coat-check-a3-rgb.pdf"
+    },
+    {
+      "file": "task-07-signage/wall-way-out-a3-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3698496,
+      "simple_delta_model_outliers": 18,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-07-signage\\wall-way-out-a3-rgb.pdf"
+    },
+    {
+      "file": "task-08-rollups/rollup-a-ticket-preview.png",
+      "size": [
+        1275,
+        3000
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2962703,
+      "simple_delta_model_outliers": 23,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-08-rollups\\rollup-a-ticket-rgb.pdf"
+    },
+    {
+      "file": "task-08-rollups/rollup-b-setlist-preview.png",
+      "size": [
+        1275,
+        3000
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 945951,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-08-rollups\\rollup-b-setlist-rgb.pdf"
+    },
+    {
+      "file": "task-08-rollups/rollup-c-now-playing-preview.png",
+      "size": [
+        1275,
+        3000
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3712973,
+      "simple_delta_model_outliers": 17,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-08-rollups\\rollup-c-now-playing-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p01-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": true,
+      "changed_pixels": 1941496,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\a4\\profile-a4-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p02-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\a4\\profile-a4-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p03-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3974963,
+      "simple_delta_model_outliers": 10,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\a4\\profile-a4-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p04-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1657771,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\a4\\profile-a4-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p05-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 3994016,
+      "simple_delta_model_outliers": 10,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\a4\\profile-a4-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/a4/profile-a4-p06-preview.png",
+      "size": [
+        1698,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 990330,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\a4\\profile-a4-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p01-preview.png",
+      "size": [
+        1856,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": true,
+      "changed_pixels": 1885486,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\letter\\profile-letter-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p02-preview.png",
+      "size": [
+        1856,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\letter\\profile-letter-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p03-preview.png",
+      "size": [
+        1856,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 4336856,
+      "simple_delta_model_outliers": 11,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\letter\\profile-letter-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p04-preview.png",
+      "size": [
+        1856,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1930765,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\letter\\profile-letter-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p05-preview.png",
+      "size": [
+        1856,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 4361300,
+      "simple_delta_model_outliers": 11,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\letter\\profile-letter-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/letter/profile-letter-p06-preview.png",
+      "size": [
+        1856,
+        2401
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 1154239,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        -7
+      ],
+      "changed_delta_max": [
+        5,
+        2,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\letter\\profile-letter-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p01-preview.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": true,
+      "changed_pixels": 492672,
+      "simple_delta_model_outliers": 326,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        -2,
+        -2,
+        -9
+      ],
+      "changed_delta_max": [
+        7,
+        4,
+        2
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\mobile\\profile-mobile-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p02-preview.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 0,
+      "simple_delta_model_outliers": 0,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        0,
+        0,
+        0
+      ],
+      "changed_delta_max": [
+        0,
+        0,
+        0
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\mobile\\profile-mobile-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p03-preview.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2002506,
+      "simple_delta_model_outliers": 1731,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        -2,
+        -2,
+        -9
+      ],
+      "changed_delta_max": [
+        7,
+        4,
+        2
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\mobile\\profile-mobile-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p04-preview.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 887785,
+      "simple_delta_model_outliers": 3902,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        -2,
+        -2,
+        -9
+      ],
+      "changed_delta_max": [
+        7,
+        4,
+        2
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\mobile\\profile-mobile-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p05-preview.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 2028999,
+      "simple_delta_model_outliers": 2868,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        -2,
+        -2,
+        -9
+      ],
+      "changed_delta_max": [
+        7,
+        4,
+        3
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\mobile\\profile-mobile-rgb.pdf"
+    },
+    {
+      "file": "task-09-profile/mobile/profile-mobile-p06-preview.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "same_dimensions": true,
+      "photo_pixel_exemption": false,
+      "changed_pixels": 560488,
+      "simple_delta_model_outliers": 883,
+      "retired_exact_rgb_pixels": 0,
+      "changed_delta_min": [
+        -2,
+        -2,
+        -9
+      ],
+      "changed_delta_max": [
+        7,
+        4,
+        3
+      ],
+      "new_pixels_match_source_render": true,
+      "old_pixels_match_source_render": true,
+      "render_source": "task-09-profile\\mobile\\profile-mobile-rgb.pdf"
+    }
+  ],
+  "source_assets": [
+    {
+      "file": "assets/fonts/Archivo-Bold.ttf",
+      "sha256": "79e61e5ee66589f299805c90a477b556b9e273fcb88a2e700f2772eacd77ae53",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/Archivo-ExtraBold.ttf",
+      "sha256": "3162b89a36b8814cb36b84a734434c319db0636896a0ffab9a00527346d94310",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/archivo-OFL.txt",
+      "sha256": "393a694c7dee6694a22c73049e95cea5d0808697a872c435862d33c0afc67091",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/Archivo-Regular.ttf",
+      "sha256": "6c1a5e70224dd828517742ef357a6dfe49422a4ab723747a3b3c08411f515d6d",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-Bold.ttf",
+      "sha256": "dc55c40f503c9234090de548fc0f12b7a766b6aa4a38c29527756dea88c989d7",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-Heavy.ttf",
+      "sha256": "9f213dad15862507cc05b8805f696222904659b7458a3ea3880d620a0d13d1a6",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-Medium.ttf",
+      "sha256": "9fdb1db7af8c5db3943e1c7a516fb1b72e9b11a060e2b2a3191078cda650267b",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/notosanssc-OFL.txt",
+      "sha256": "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-Regular.ttf",
+      "sha256": "46d37060694ed5e2e091fc185bdf0e0f82ffeeb87ccd2b7433e65547107f02ac",
+      "unchanged": true
+    },
+    {
+      "file": "assets/sinopop-logo-black.svg",
+      "sha256": "bdf7de688e51e4fd64316d6ae2ab0208686d81ea85e729f568901f815ed21b2b",
+      "unchanged": true
+    },
+    {
+      "file": "assets/sinopop-logo-white.svg",
+      "sha256": "bd3505f5c21e985d6518ba398063f7c12d4389fc0b68347f5d48475f7c2936c7",
+      "unchanged": true
+    },
+    {
+      "file": "task-02-onsite/_raw/onsite-04-kit-blank.png",
+      "sha256": "0cffe23ead03017fc15c83329f7b7578c2c1be16529c5c58f043b8e41d02252e",
+      "unchanged": true
+    },
+    {
+      "file": "task-05-wristbands/_raw/wristbands-blank.png",
+      "sha256": "74f6d63fd9e9eaee4b2e980a03d9423854261a90fb89388e8575b7415db62e11",
+      "unchanged": true
+    },
+    {
+      "file": "assets/sinopop-logo-black.svg",
+      "source": "original-attachment-svg",
+      "sha256": "bdf7de688e51e4fd64316d6ae2ab0208686d81ea85e729f568901f815ed21b2b",
+      "unchanged": true
+    },
+    {
+      "file": "assets/sinopop-logo-white.svg",
+      "source": "original-attachment-svg",
+      "sha256": "bd3505f5c21e985d6518ba398063f7c12d4389fc0b68347f5d48475f7c2936c7",
+      "unchanged": true
+    }
+  ],
+  "notes": [
+    "只有既有照片像素可偶然等于停用 RGB；照片内容另以原件哈希及 PDF 图像流比较证明未变。",
+    "简单通道增量模型的边缘异常数量保留在记录里，不放宽阈值。验收依据为旧新版 PNG 各自与对应 RGB PDF 的原渲染顺序重现逐像素完全一致，PDF 指令已经独立证明仅层级面颜色变化。总览从这些已验真的预览重现；手机按原顺序使用 LANCZOS 缩放。",
+    "SVG 字体只排除 WOFF 字体头生成时间；字形、字宽和所有其他字体表仍逐表比较。",
+    "97 个正式 PDF 全部字体资源与字体流严格相同。额外检查的拼装临时 PDF 基线版本保留未用的 Helvetica/Times 资源，新临时文件已经清理；只在这个非交付中间文件按实际绘字字体流比较，其所有非颜色指令仍严格一致。"
+  ]
+}

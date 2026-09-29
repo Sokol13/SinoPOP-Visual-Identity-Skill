@@ -1,0 +1,673 @@
+[
+  {
+    "page": 1,
+    "width_mm": 380.99999999999994,
+    "height_mm": 677.3333333333333,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "NOW PLAYING",
+        "size_pt": 33,
+        "weight": "Bold",
+        "x": 132,
+        "baseline_y": 122
+      },
+      {
+        "text": "主办方介绍",
+        "size_pt": 94,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 1576
+      },
+      {
+        "text": "sinoPOP · Promoter Profile",
+        "size_pt": 33,
+        "weight": "Bold",
+        "x": 84,
+        "baseline_y": 1636
+      },
+      {
+        "text": "01 / 06",
+        "size_pt": 29,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 1762
+      },
+      {
+        "text": "往下看",
+        "size_pt": 29,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1762
+      },
+      {
+        "text": "AI 氛围图 · 非真实活动记录",
+        "size_pt": 24,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1864
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 380.99999999999994,
+    "height_mm": 677.3333333333333,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "曲目",
+        "size_pt": 105,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 234
+      },
+      {
+        "text": "TRACKLIST",
+        "size_pt": 33,
+        "weight": "Bold",
+        "x": 85,
+        "baseline_y": 299
+      },
+      {
+        "text": "01",
+        "size_pt": 67,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 516
+      },
+      {
+        "text": "我们是谁",
+        "size_pt": 52,
+        "weight": "ExtraBold",
+        "x": 222,
+        "baseline_y": 509
+      },
+      {
+        "text": "WHO WE ARE",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 226,
+        "baseline_y": 564
+      },
+      {
+        "text": "p.03",
+        "size_pt": 26,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 609
+      },
+      {
+        "text": "02",
+        "size_pt": 67,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 750
+      },
+      {
+        "text": "我们做什么",
+        "size_pt": 52,
+        "weight": "ExtraBold",
+        "x": 222,
+        "baseline_y": 743
+      },
+      {
+        "text": "WHAT WE DO",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 226,
+        "baseline_y": 798
+      },
+      {
+        "text": "p.04",
+        "size_pt": 26,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 843
+      },
+      {
+        "text": "03",
+        "size_pt": 67,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 984
+      },
+      {
+        "text": "做过的现场",
+        "size_pt": 52,
+        "weight": "ExtraBold",
+        "x": 222,
+        "baseline_y": 977
+      },
+      {
+        "text": "PAST SHOWS",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 226,
+        "baseline_y": 1032
+      },
+      {
+        "text": "p.05",
+        "size_pt": 26,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1077
+      },
+      {
+        "text": "04",
+        "size_pt": 67,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 1218
+      },
+      {
+        "text": "合作方式与联系",
+        "size_pt": 52,
+        "weight": "ExtraBold",
+        "x": 222,
+        "baseline_y": 1211
+      },
+      {
+        "text": "HOW WE WORK · CONTACT",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 226,
+        "baseline_y": 1266
+      },
+      {
+        "text": "p.06",
+        "size_pt": 26,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1311
+      },
+      {
+        "text": "从华语青年音乐与文化出发，",
+        "size_pt": 40,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1550
+      },
+      {
+        "text": "把现场带给海外的年轻观众。",
+        "size_pt": 40,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1613
+      },
+      {
+        "text": "sinoPOP · 主办方介绍",
+        "size_pt": 27,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1864
+      },
+      {
+        "text": "02 / 06",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1864
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "width_mm": 380.99999999999994,
+    "height_mm": 677.3333333333333,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "曲目 01 · TRACK 01",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 110
+      },
+      {
+        "text": "我们是谁",
+        "size_pt": 91,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 302
+      },
+      {
+        "text": "WHO WE ARE",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 366
+      },
+      {
+        "text": "从华语青年音乐",
+        "size_pt": 66,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 600
+      },
+      {
+        "text": "与文化出发，",
+        "size_pt": 66,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 711
+      },
+      {
+        "text": "把现场带给海外的",
+        "size_pt": 66,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 822
+      },
+      {
+        "text": "年轻观众。",
+        "size_pt": 66,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 933
+      },
+      {
+        "text": "说明 · LINER NOTES",
+        "size_pt": 29,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 1140
+      },
+      {
+        "text": "[团队介绍]",
+        "size_pt": 46,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1270
+      },
+      {
+        "text": "[文化与受众说明]",
+        "size_pt": 46,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1415
+      },
+      {
+        "text": "[工作方式说明]",
+        "size_pt": 46,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1560
+      },
+      {
+        "text": "sinoPOP · 主办方介绍",
+        "size_pt": 27,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1864
+      },
+      {
+        "text": "03 / 06",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1864
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "width_mm": 380.99999999999994,
+    "height_mm": 677.3333333333333,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "曲目 02 · TRACK 02",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 110
+      },
+      {
+        "text": "我们做什么",
+        "size_pt": 91,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 302
+      },
+      {
+        "text": "WHAT WE DO",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 366
+      },
+      {
+        "text": "01",
+        "size_pt": 61,
+        "weight": "ExtraBold",
+        "x": 116,
+        "baseline_y": 580
+      },
+      {
+        "text": "活动主办与执行",
+        "size_pt": 59,
+        "weight": "ExtraBold",
+        "x": 267,
+        "baseline_y": 580
+      },
+      {
+        "text": "EVENT PRODUCTION",
+        "size_pt": 28,
+        "weight": "Bold",
+        "x": 271,
+        "baseline_y": 641
+      },
+      {
+        "text": "[服务说明与合作范围]",
+        "size_pt": 36,
+        "weight": "Regular",
+        "x": 269,
+        "baseline_y": 743
+      },
+      {
+        "text": "02",
+        "size_pt": 61,
+        "weight": "ExtraBold",
+        "x": 116,
+        "baseline_y": 969
+      },
+      {
+        "text": "宣传推广",
+        "size_pt": 59,
+        "weight": "ExtraBold",
+        "x": 267,
+        "baseline_y": 969
+      },
+      {
+        "text": "PROMOTION",
+        "size_pt": 28,
+        "weight": "Bold",
+        "x": 271,
+        "baseline_y": 1030
+      },
+      {
+        "text": "[服务说明与合作范围]",
+        "size_pt": 36,
+        "weight": "Regular",
+        "x": 269,
+        "baseline_y": 1132
+      },
+      {
+        "text": "03",
+        "size_pt": 61,
+        "weight": "ExtraBold",
+        "x": 116,
+        "baseline_y": 1358
+      },
+      {
+        "text": "售票",
+        "size_pt": 59,
+        "weight": "ExtraBold",
+        "x": 267,
+        "baseline_y": 1358
+      },
+      {
+        "text": "TICKETING",
+        "size_pt": 28,
+        "weight": "Bold",
+        "x": 271,
+        "baseline_y": 1419
+      },
+      {
+        "text": "[服务说明与合作范围]",
+        "size_pt": 36,
+        "weight": "Regular",
+        "x": 269,
+        "baseline_y": 1521
+      },
+      {
+        "text": "sinoPOP · 主办方介绍",
+        "size_pt": 27,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1864
+      },
+      {
+        "text": "04 / 06",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1864
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "width_mm": 380.99999999999994,
+    "height_mm": 677.3333333333333,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "曲目 03 · TRACK 03",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 110
+      },
+      {
+        "text": "做过的现场",
+        "size_pt": 91,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 302
+      },
+      {
+        "text": "PAST SHOWS",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 366
+      },
+      {
+        "text": "必须用真实活动照片并注明摄影。",
+        "size_pt": 32,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 490
+      },
+      {
+        "text": "不得以 AI 氛围图代替。",
+        "size_pt": 32,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 540
+      },
+      {
+        "text": "[真实活动照片]",
+        "size_pt": 49,
+        "weight": "Bold",
+        "x": 540,
+        "baseline_y": 773
+      },
+      {
+        "text": "[摄影：姓名]",
+        "size_pt": 29,
+        "weight": "Regular",
+        "x": 540,
+        "baseline_y": 830
+      },
+      {
+        "text": "[艺人名] · [日期] · [场地]",
+        "size_pt": 38,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 1005
+      },
+      {
+        "text": "[活动说明] · 摄影：[姓名]",
+        "size_pt": 28,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1057
+      },
+      {
+        "text": "[真实活动照片]",
+        "size_pt": 49,
+        "weight": "Bold",
+        "x": 540,
+        "baseline_y": 1336
+      },
+      {
+        "text": "[摄影：姓名]",
+        "size_pt": 29,
+        "weight": "Regular",
+        "x": 540,
+        "baseline_y": 1393
+      },
+      {
+        "text": "[艺人名] · [日期] · [场地]",
+        "size_pt": 38,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 1568
+      },
+      {
+        "text": "[活动说明] · 摄影：[姓名]",
+        "size_pt": 28,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1620
+      },
+      {
+        "text": "sinoPOP · 主办方介绍",
+        "size_pt": 27,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1864
+      },
+      {
+        "text": "05 / 06",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1864
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "width_mm": 380.99999999999994,
+    "height_mm": 677.3333333333333,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "曲目 04 · TRACK 04",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 110
+      },
+      {
+        "text": "合作方式",
+        "size_pt": 91,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 267
+      },
+      {
+        "text": "与联系",
+        "size_pt": 91,
+        "weight": "ExtraBold",
+        "x": 80,
+        "baseline_y": 380
+      },
+      {
+        "text": "HOW WE WORK · CONTACT",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 439
+      },
+      {
+        "text": "合作方式 · HOW WE WORK",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 567
+      },
+      {
+        "text": "[合作方向]",
+        "size_pt": 45,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 670
+      },
+      {
+        "text": "[合作范围与流程]",
+        "size_pt": 45,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 796
+      },
+      {
+        "text": "[项目需求与下一步]",
+        "size_pt": 45,
+        "weight": "Bold",
+        "x": 80,
+        "baseline_y": 922
+      },
+      {
+        "text": "联系我们 · CONTACT",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 125,
+        "baseline_y": 1150
+      },
+      {
+        "text": "[联系人姓名]",
+        "size_pt": 61,
+        "weight": "ExtraBold",
+        "x": 125,
+        "baseline_y": 1252
+      },
+      {
+        "text": "[职务] · [团队]",
+        "size_pt": 30,
+        "weight": "Regular",
+        "x": 125,
+        "baseline_y": 1314
+      },
+      {
+        "text": "电话 PHONE · [电话号码]",
+        "size_pt": 34,
+        "weight": "Regular",
+        "x": 125,
+        "baseline_y": 1430
+      },
+      {
+        "text": "微信 WECHAT · [微信号]",
+        "size_pt": 34,
+        "weight": "Regular",
+        "x": 125,
+        "baseline_y": 1515
+      },
+      {
+        "text": "邮箱 EMAIL · [邮箱地址]",
+        "size_pt": 34,
+        "weight": "Regular",
+        "x": 125,
+        "baseline_y": 1600
+      },
+      {
+        "text": "sinoPOP · 主办方介绍",
+        "size_pt": 27,
+        "weight": "Regular",
+        "x": 80,
+        "baseline_y": 1864
+      },
+      {
+        "text": "06 / 06",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 1000,
+        "baseline_y": 1864
+      }
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sinoPOP 公众号 · 框架 A 自办活动 v2.1</title>
+<!-- 框架 A · 自办活动（派对、主题夜，没有特定艺人）：全篇 sinoPOP 视觉。
+     艺人活动用 article-artist.html（框架 B）。
+     预览用外壳：只复制 <body> 里 id="sp-article" 的内容到编辑器。
+     WeChat rules: inline styles only; no <style>, no scripts, no web fonts (renders in PingFang/system font).
+     固定区 F2 购票卡、F3 客服区 两个框架完全一致，不改。 -->
+</head>
+<body style="margin:0;background:#EDEDED;">
+<div style="max-width:677px;margin:0 auto;background:#FFFFFF;padding:0 16px 40px;">
+<section id="sp-article" style="font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue','Microsoft YaHei',sans-serif;font-size:16px;line-height:1.8;color:#111318;letter-spacing:0.5px;">
+
+<!-- M01 头图 Header image（长图第一屏，Figma「WX/Mock · 框架A 自办」Hero 导出 1080 宽）。白标左上，活动名 + 日期写在图上。
+     另：分享封面用 cover-900x383.png（关键内容放中间 383×383 安全区），不放进正文 -->
+<section style="margin:0 -16px 0;"><img src="hero-a-1080x1200.png" alt="活动头图" style="display:block;width:100%;height:auto;"></section>
+<section style="margin:0 -16px 28px;height:4px;background:#73F64B;"></section>
+
+<!-- M02 导语 Lead -->
+<p style="margin:0 0 24px;font-size:17px;line-height:1.8;color:#111318;font-weight:500;">[导语：这场派对是什么、适合谁来、为什么值得来。两三句，控制在 80 字内。]</p>
+
+<!-- M04 章节标题 Section title（亮绿编号 + 墨色标题） -->
+<section style="margin:40px 0 16px;">
+  <span style="display:inline-block;padding:2px 10px;background:#73F64B;color:#111318;border-radius:8px;font-size:15px;font-weight:800;">01</span>
+  <span style="margin-left:10px;font-size:21px;font-weight:700;line-height:1.4;color:#111318;vertical-align:middle;">现场亮点</span>
+</section>
+
+<!-- M05 正文 Paragraph -->
+<p style="margin:0 0 16px;">[DJ / 主题 / 互动环节说明。一段一件事，段与段之间空一行。中文与英文、数字之间留一个空格，例如 10.24 FRI、USD 45。]</p>
+
+<!-- M07 图片 + 说明 Image + caption（现场照片可裁切；海报原比例不裁切） -->
+<section style="margin:24px 0;"><img src="../assets/sample-live-photo.jpg" alt="现场照片" style="display:block;width:100%;height:auto;border-radius:8px;">
+  <p style="margin:8px 0 0;font-size:13px;line-height:1.5;color:#5A616C;">往期现场 · 摄影：[署名]（来源与授权已登记）</p></section>
+
+<!-- M06 重点 Key point（纸白底 + 墨色左线，一篇最多两处） -->
+<section style="margin:24px 0;padding:14px 16px;background:#F7F8F4;border-left:4px solid #111318;border-radius:8px;">
+  <p style="margin:0;font-size:13px;font-weight:700;color:#5A616C;letter-spacing:2px;">重点</p>
+  <p style="margin:4px 0 0;font-size:16px;font-weight:500;color:#111318;">[入场年龄 / 着装 / 证件要求，写清楚。]</p>
+</section>
+
+<!-- M08 引用 Quote -->
+<section style="margin:32px 0;padding:0 0 0 16px;border-left:2px solid #111318;">
+  <p style="margin:0;font-size:18px;line-height:1.7;font-weight:500;color:#111318;">「观众或 DJ 的一句原话。」</p>
+  <p style="margin:6px 0 0;font-size:13px;color:#5A616C;">— 说话人，身份</p>
+</section>
+
+<!-- M09 提醒 Notice（单色：墨色描边 + 墨底标签；时间调整、证件要求等。一篇最多一处，写清楚下一步） -->
+<section style="margin:24px 0;padding:14px 16px;border:1.5px solid #111318;border-radius:8px;">
+  <p style="margin:0;"><span style="display:inline-block;padding:1px 8px;background:#111318;color:#FFFFFF;border-radius:8px;font-size:12px;font-weight:700;letter-spacing:1px;">注意 NOTICE</span></p>
+  <p style="margin:8px 0 0;font-size:15px;color:#111318;">[发生了什么] 。[观众需要做什么 / 已购票怎么办]。</p>
+  <p style="margin:4px 0 0;font-size:13px;color:#5A616C;">更新于 [MM.DD HH:MM]</p>
+</section>
+
+<!-- M10 分隔 Divider -->
+<section style="margin:40px 0;text-align:center;"><span style="display:inline-block;width:40px;height:4px;background:#73F64B;border-radius:2px;"></span></section>
+
+<!-- 购票章节 -->
+<section style="margin:40px 0 16px;">
+  <span style="display:inline-block;padding:2px 10px;background:#73F64B;color:#111318;border-radius:8px;font-size:15px;font-weight:800;">02</span>
+  <span style="margin-left:10px;font-size:21px;font-weight:700;line-height:1.4;color:#111318;vertical-align:middle;">购票</span>
+</section>
+
+<!-- F2 购票卡 Ticket card · 固定区 · 必须是文字。框架 A 顶线墨色 -->
+<section style="margin:0 0 32px;padding:18px 20px 20px;background:#F7F8F4;border-top:4px solid #111318;border-radius:8px;">
+  <p style="margin:0;font-size:12px;font-weight:700;color:#5A616C;letter-spacing:1px;">购票信息 TICKETS</p>
+  <p style="margin:6px 0 0;font-size:20px;font-weight:700;color:#111318;">10.24 FRI · 21:00</p>
+  <p style="margin:2px 0 12px;font-size:17px;font-weight:700;line-height:1.4;color:#111318;">[派对名称] · 洛杉矶</p>
+  <section style="border-top:1px solid #D8DBD3;padding:10px 0;font-size:15px;"><span style="display:inline-block;width:7.2em;font-size:14px;color:#5A616C;">场地 Venue</span><span style="font-weight:500;">[场地名称 · 地址]</span></section>
+  <section style="border-top:1px solid #D8DBD3;padding:10px 0;font-size:15px;"><span style="display:inline-block;width:7.2em;font-size:14px;color:#5A616C;">票价 Price</span><span style="font-weight:500;">[USD 00 起]</span></section>
+  <section style="border-top:1px solid #D8DBD3;border-bottom:1px solid #D8DBD3;padding:10px 0;font-size:15px;"><span style="display:inline-block;width:7.2em;font-size:14px;color:#5A616C;">开票 On sale</span><span style="font-weight:500;">[MM.DD DAY 12:00 PT]</span></section>
+  <p style="margin:16px 0 0;"><span style="display:inline-block;padding:8px 14px;background:#111318;color:#FFFFFF;border-radius:8px;font-size:14px;font-weight:700;">点击「阅读原文」购票</span><span style="float:right;margin-top:8px;font-size:12px;color:#5A616C;">主办 sinoPOP</span></p>
+</section>
+
+<!-- F3 客服区 Service footer · 固定区 · 文字 + 客服二维码 + 品牌条图片（brandbar-1080.png 来自 Figma WX/ServiceFooter） -->
+<section style="margin:0 0 20px;overflow:hidden;">
+  <img src="qr.png" alt="客服二维码" style="float:right;width:112px;height:112px;margin-left:16px;border:1px solid #D8DBD3;border-radius:8px;">
+  <p style="margin:0 0 6px;font-size:18px;font-weight:700;">购票与咨询</p>
+  <p style="margin:0;font-size:15px;">购票：点击左下角「阅读原文」</p>
+  <p style="margin:0 0 8px;font-size:12px;color:#5A616C;">Tickets: tap “Read more” below</p>
+  <p style="margin:0;font-size:15px;">咨询与售后：扫码添加 sinoPOP 客服</p>
+  <p style="margin:0;font-size:12px;color:#5A616C;">Questions &amp; refunds: scan to add our service account</p>
+</section>
+<section style="margin:0 -16px;"><img src="brandbar-1080.png" alt="sinoPOP 主办 · 现场见" style="display:block;width:100%;height:auto;"></section>
+
+</section>
+</div>
+</body></html>

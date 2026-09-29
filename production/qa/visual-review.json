@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "reviewer": "Independent revision QA agent",
+  "onsite_review": {
+    "images": 5,
+    "final_pixel_crop_pages": 13,
+    "text_lines": 98,
+    "zoom": "100 percent, original unscaled pixels",
+    "reviewed_cases": [
+      "middle dot",
+      "period",
+      "hyphen",
+      "apostrophe",
+      "lowercase i and other Latin letters",
+      "Chinese-English shared baselines",
+      "brackets"
+    ],
+    "findings": "All 98 text-line crops inspected with view_image original detail; five full compositions inspected. No punctuation top-alignment, clipping or row overlap found."
+  },
+  "card_review": {
+    "flat_faces": 12,
+    "mockups": 6,
+    "findings": "All face renders and mockups inspected. Small Chinese contact text visually matches regular Latin. Ticket front duplicated brand text removed. Backstage card uses PROMOTER and reverse contains only supplied logo plus website. No new layout overflow, missing characters or bright green text on light artwork."
+  },
+  "reviewed_files": [
+    {
+      "path": "task-01-cards/01-ticket/back-preview.png",
+      "sha256": "46acd70f01f1866ec138933d2b68170179425f176a2988e7f7c7a173c70e3505"
+    },
+    {
+      "path": "task-01-cards/01-ticket/front-preview.png",
+      "sha256": "0cc66afa0979b8c0cd0d65e92cd698959298fc56855337a78e6b7ef280551d2c"
+    },
+    {
+      "path": "task-01-cards/01-ticket/mockup.png",
+      "sha256": "df60aa1ca1dd29fb8d7de677dce988bbdbf0561024a2b895da74fd49aab85fa5"
+    },
+    {
+      "path": "task-01-cards/02-setlist/back-preview.png",
+      "sha256": "ad5659752e7aaa67d6214652a3a14886f6f3ba1f89ed8ce2bd08d7fc22da2d18"
+    },
+    {
+      "path": "task-01-cards/02-setlist/front-preview.png",
+      "sha256": "5647137a5dbc1130ce009c48536f5c808f675f8d5ceda2841be01f2bf0aeb590"
+    },
+    {
+      "path": "task-01-cards/02-setlist/mockup.png",
+      "sha256": "c71877c565f30f325a5f4f005b788e44b5392f05c3cdfaa9404d9eb800fad149"
+    },
+    {
+      "path": "task-01-cards/03-vinyl/back-preview.png",
+      "sha256": "c3a7677bbad4fcade1f61dfe8bbd13c03087462d77cbc0c31c0b9cbf4e20a0e8"
+    },
+    {
+      "path": "task-01-cards/03-vinyl/front-preview.png",
+      "sha256": "198474cfc44fa795718cfc8a4cdea39396b1ba66111594a9ce35e72698b99dac"
+    },
+    {
+      "path": "task-01-cards/03-vinyl/mockup.png",
+      "sha256": "60b18d81acf669f19b78c097173f1e18695023e6bf586c785dcfcda694498c33"
+    },
+    {
+      "path": "task-01-cards/04-backstage/back-preview.png",
+      "sha256": "16fd299c9507312fb6332067a25377bfc171ca0c147e7f00a42a154ff7fd9950"
+    },
+    {
+      "path": "task-01-cards/04-backstage/front-preview.png",
+      "sha256": "f770ed9eda5cd097b4f81d656ece68f4a1d12b15521a459b5190766fecb2171c"
+    },
+    {
+      "path": "task-01-cards/04-backstage/mockup.png",
+      "sha256": "ef0b283dda325d6bdcfeafbc77ded0de4681ad202570fed24e77ba2eda48c95e"
+    },
+    {
+      "path": "task-01-cards/05-jcard/back-preview.png",
+      "sha256": "d2b59b069ecbc869029c8a71e7f1cff56eb8d97cbe901fc6b10be8480462c1a2"
+    },
+    {
+      "path": "task-01-cards/05-jcard/front-preview.png",
+      "sha256": "f37a8bda0ee354c90ba84cdc332ab0b98bfc0b5fc4882c124fd5181f6fbd12a3"
+    },
+    {
+      "path": "task-01-cards/05-jcard/mockup.png",
+      "sha256": "4882a4174ce611d711f728ff2075e78ac11d01f6a7a9edd2d568ebf771f9421b"
+    },
+    {
+      "path": "task-01-cards/06-material/back-preview.png",
+      "sha256": "81f24f66b5fd07be8cffb1c33e71c0c53d920781dabeec9d34ab9479d1c2943b"
+    },
+    {
+      "path": "task-01-cards/06-material/front-preview.png",
+      "sha256": "27bd2902fb7d03c7ffc2119d7e186cdb234018f52e74ddd6d8080033666f555d"
+    },
+    {
+      "path": "task-01-cards/06-material/mockup.png",
+      "sha256": "81fb535c8270633ec3475e80fe9522c777d8442f7589827f76ddfee16bd8c7aa"
+    },
+    {
+      "path": "task-02-onsite/onsite-01-entrance.png",
+      "sha256": "997902b6c3cadff8aee60be49f869781df59f216e31e3f642cd9477e1d37749c"
+    },
+    {
+      "path": "task-02-onsite/onsite-02-lobby.png",
+      "sha256": "fc064117e216e1de30910fbdd05fe034e16569083dac64e3fc9f8811c0b14985"
+    },
+    {
+      "path": "task-02-onsite/onsite-03-now-playing.png",
+      "sha256": "874d934a1fd7984922513ff297e0aadeb7e7f3ffe9acec3e148aaa3134d9c80d"
+    },
+    {
+      "path": "task-02-onsite/onsite-04-kit.png",
+      "sha256": "fe528c3fb6c635279cdda9f211637becda2775505e9de6d5ca483b3f8ef542e4"
+    },
+    {
+      "path": "task-02-onsite/onsite-05-photo-spot.png",
+      "sha256": "3796c79841e8565b17913e9854a056d495dcd1e559d1965d3f064f5371e226fd"
+    }
+  ]
+}

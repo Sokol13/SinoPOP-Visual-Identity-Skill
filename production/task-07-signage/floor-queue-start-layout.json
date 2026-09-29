@@ -1,0 +1,31 @@
+[
+  {
+    "page": 1,
+    "width_mm": 600.0,
+    "height_mm": 600.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "02",
+        "size_pt": 155,
+        "weight": "ExtraBold",
+        "x": 850.3937007874017,
+        "baseline_y": 513.0708661417324
+      },
+      {
+        "text": "排队起点",
+        "size_pt": 194.97562804649422,
+        "weight": "ExtraBold",
+        "x": 850.3937007874017,
+        "baseline_y": 855.5230596175479
+      },
+      {
+        "text": "QUEUE STARTS HERE",
+        "size_pt": 43,
+        "weight": "Bold",
+        "x": 850.3937007874017,
+        "baseline_y": 1082.8346456692914
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "case": "empty",
+      "failed_as_expected": true,
+      "message": "CSV 至少需要一条人员记录",
+      "output_directory_exists": false,
+      "output_files": 0
+    },
+    {
+      "case": "late-invalid-role",
+      "failed_as_expected": true,
+      "message": "CSV 第 3 行：不支持的角色: INVALID",
+      "output_directory_exists": false,
+      "output_files": 0
+    },
+    {
+      "case": "late-invalid-zones",
+      "failed_as_expected": true,
+      "message": "CSV 第 3 行：zones 只接受 1–4，以逗号分隔；数字后 ? 表示按邀请开放",
+      "output_directory_exists": false,
+      "output_files": 0
+    },
+    {
+      "case": "late-overwide-name",
+      "failed_as_expected": true,
+      "message": "CSV 第 3 行：Text overflow: [姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名][姓名] (1475.2800000000002 > 209.76377952755908)",
+      "output_directory_exists": false,
+      "output_files": 0
+    },
+    {
+      "case": "valid-six",
+      "success": true,
+      "records": 6,
+      "files": 43
+    }
+  ]
+}

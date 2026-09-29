@@ -1,0 +1,7 @@
+﻿name,role,zones
+[姓名],STAFF,"1,2,3,4"
+[姓名],ARTIST,"1,2,3,4"
+[姓名],ARTIST TEAM,"1,2,3,4"
+[姓名],GUEST,"1,2?"
+[姓名],PRESS,1
+[姓名],PRODUCTION,"1,2,3"

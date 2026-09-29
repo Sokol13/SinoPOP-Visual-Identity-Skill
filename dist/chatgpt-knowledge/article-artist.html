@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sinoPOP 公众号 · 框架 B 艺人活动 v2.1</title>
+<!-- 框架 B · 艺人活动：海报主导，中间跟艺人风格走；头尾三个固定区（F1 主办条、F2 购票卡、F3 客服区）不变。
+     借色 ACCENT = #1863C3  ← 每场只改这一个值：全文查找 #1863C3，替换成从海报取的颜色。
+       取色规则：海报里最饱和、最能代表它的一个颜色；白字压在上面对比度 ≥ 4.5:1，达不到就调深。
+       只用在 4 处：章节编号底色、分隔线、重点框左线、购票卡顶线。正文永远 #111318。
+     预览用外壳：只复制 <body> 里 id="sp-article" 的内容到编辑器。
+     WeChat rules: inline styles only; no <style>, no scripts, no web fonts. -->
+</head>
+<body style="margin:0;background:#EDEDED;">
+<div style="max-width:677px;margin:0 auto;background:#FFFFFF;padding:0 16px 40px;">
+<section id="sp-article" style="font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue','Microsoft YaHei',sans-serif;font-size:16px;line-height:1.8;color:#111318;letter-spacing:0.5px;">
+
+<!-- F1 主办条 Host bar · 固定区 · 图片。海报偏暗用 hostbar-dark-1080.png，偏亮用 hostbar-light-1080.png -->
+<section style="margin:0 -16px;"><img src="hostbar-dark-1080.png" alt="sinoPOP 主办 Presented by sinoPOP" style="display:block;width:100%;height:auto;"></section>
+
+<!-- 艺人海报 Poster：艺人方原图，整张放，不裁切、不压字 -->
+<section style="margin:0 -16px 28px;"><img src="../assets/sample-poster-kangxi-la.png" alt="艺人海报" style="display:block;width:100%;height:auto;"></section>
+
+<!-- M02 导语 Lead -->
+<p style="margin:0 0 24px;font-size:17px;line-height:1.8;color:#111318;font-weight:500;">[导语：艺人是谁、这次巡演带来什么。语气跟随艺人方文案。]</p>
+
+<!-- M04 章节标题（借色编号 + 墨色标题） -->
+<section style="margin:40px 0 16px;">
+  <span style="display:inline-block;padding:2px 10px;background:#1863C3;color:#FFFFFF;border-radius:8px;font-size:15px;font-weight:800;">01</span>
+  <span style="margin-left:10px;font-size:21px;font-weight:700;line-height:1.4;color:#111318;vertical-align:middle;">演出信息</span>
+</section>
+
+<!-- M05 正文 -->
+<p style="margin:0 0 16px;">[巡演介绍 / 曲目亮点 / 艺人方提供的文案，原文照录并注明出处。]</p>
+
+<!-- M10 分隔（借色） -->
+<section style="margin:32px 0 24px;"><span style="display:inline-block;width:48px;height:3px;background:#1863C3;"></span></section>
+
+<!-- M06 重点（纸白底 + 借色左线） -->
+<section style="margin:24px 0;padding:14px 16px;background:#F7F8F4;border-left:4px solid #1863C3;border-radius:8px;">
+  <p style="margin:0;font-size:13px;font-weight:700;color:#5A616C;letter-spacing:2px;">重点</p>
+  <p style="margin:4px 0 0;font-size:16px;font-weight:500;color:#111318;">[入场须知 / 年龄限制 / 禁止携带物品。]</p>
+</section>
+
+<!-- M07 图片（可选：阵容图、往期现场。海报类原比例不裁切） -->
+
+<!-- M09 提醒 Notice（单色，不借色：状态信息永远是 sinoPOP 的） -->
+<section style="margin:24px 0;padding:14px 16px;border:1.5px solid #111318;border-radius:8px;">
+  <p style="margin:0;"><span style="display:inline-block;padding:1px 8px;background:#111318;color:#FFFFFF;border-radius:8px;font-size:12px;font-weight:700;letter-spacing:1px;">注意 NOTICE</span></p>
+  <p style="margin:8px 0 0;font-size:15px;color:#111318;">[发生了什么]。[观众需要做什么 / 已购票怎么办]。</p>
+  <p style="margin:4px 0 0;font-size:13px;color:#5A616C;">更新于 [MM.DD HH:MM]</p>
+</section>
+
+<!-- 购票章节 -->
+<section style="margin:40px 0 16px;">
+  <span style="display:inline-block;padding:2px 10px;background:#1863C3;color:#FFFFFF;border-radius:8px;font-size:15px;font-weight:800;">02</span>
+  <span style="margin-left:10px;font-size:21px;font-weight:700;line-height:1.4;color:#111318;vertical-align:middle;">购票</span>
+</section>
+
+<!-- F2 购票卡 · 固定区 · 必须是文字。只有顶线用借色 -->
+<section style="margin:0 0 32px;padding:18px 20px 20px;background:#F7F8F4;border-top:4px solid #1863C3;border-radius:8px;">
+  <p style="margin:0;font-size:12px;font-weight:700;color:#5A616C;letter-spacing:1px;">购票信息 TICKETS</p>
+  <p style="margin:6px 0 0;font-size:20px;font-weight:700;color:#111318;">10.24 SAT · 19:30</p>
+  <p style="margin:2px 0 12px;font-size:17px;font-weight:700;line-height:1.4;color:#111318;">[艺人名 巡演标题] · [城市站]</p>
+  <section style="border-top:1px solid #D8DBD3;padding:10px 0;font-size:15px;"><span style="display:inline-block;width:7.2em;font-size:14px;color:#5A616C;">场地 Venue</span><span style="font-weight:500;">[场地名称 · 地址]</span></section>
+  <section style="border-top:1px solid #D8DBD3;padding:10px 0;font-size:15px;"><span style="display:inline-block;width:7.2em;font-size:14px;color:#5A616C;">票价 Price</span><span style="font-weight:500;">[USD 00 起]</span></section>
+  <section style="border-top:1px solid #D8DBD3;border-bottom:1px solid #D8DBD3;padding:10px 0;font-size:15px;"><span style="display:inline-block;width:7.2em;font-size:14px;color:#5A616C;">开票 On sale</span><span style="font-weight:500;">[MM.DD DAY 12:00 PT]</span></section>
+  <p style="margin:16px 0 0;"><span style="display:inline-block;padding:8px 14px;background:#111318;color:#FFFFFF;border-radius:8px;font-size:14px;font-weight:700;">点击「阅读原文」购票</span><span style="float:right;margin-top:8px;font-size:12px;color:#5A616C;">主办 sinoPOP</span></p>
+</section>
+
+<!-- F3 客服区 · 固定区 -->
+<section style="margin:0 0 20px;overflow:hidden;">
+  <img src="qr.png" alt="客服二维码" style="float:right;width:112px;height:112px;margin-left:16px;border:1px solid #D8DBD3;border-radius:8px;">
+  <p style="margin:0 0 6px;font-size:18px;font-weight:700;">购票与咨询</p>
+  <p style="margin:0;font-size:15px;">购票：点击左下角「阅读原文」</p>
+  <p style="margin:0 0 8px;font-size:12px;color:#5A616C;">Tickets: tap “Read more” below</p>
+  <p style="margin:0;font-size:15px;">咨询与售后：扫码添加 sinoPOP 客服</p>
+  <p style="margin:0;font-size:12px;color:#5A616C;">Questions &amp; refunds: scan to add our service account</p>
+</section>
+<section style="margin:0 -16px;"><img src="brandbar-1080.png" alt="sinoPOP 主办 · 现场见" style="display:block;width:100%;height:auto;"></section>
+
+</section>
+</div>
+</body></html>

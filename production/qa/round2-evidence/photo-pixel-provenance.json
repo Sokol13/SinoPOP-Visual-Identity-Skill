@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "photo_source": "task-02-onsite/_raw/onsite-04-kit-blank.png",
+  "photo_sha256": "0cffe23ead03017fc15c83329f7b7578c2c1be16529c5c58f043b8e41d02252e",
+  "resampling": "RGBA -> 3072 x 2048 LANCZOS -> RGB, same as compose-credentials.py",
+  "pixels": [
+    {
+      "x": 422,
+      "y": 826,
+      "composite_rgb": [
+        20,
+        25,
+        38
+      ],
+      "original_photo_resampled_rgb": [
+        20,
+        25,
+        38
+      ],
+      "identical_to_photo": true
+    },
+    {
+      "x": 938,
+      "y": 847,
+      "composite_rgb": [
+        20,
+        25,
+        38
+      ],
+      "original_photo_resampled_rgb": [
+        20,
+        25,
+        38
+      ],
+      "identical_to_photo": true
+    },
+    {
+      "x": 981,
+      "y": 1678,
+      "composite_rgb": [
+        20,
+        25,
+        38
+      ],
+      "original_photo_resampled_rgb": [
+        20,
+        25,
+        38
+      ],
+      "identical_to_photo": true
+    },
+    {
+      "x": 1127,
+      "y": 1680,
+      "composite_rgb": [
+        20,
+        25,
+        38
+      ],
+      "original_photo_resampled_rgb": [
+        20,
+        25,
+        38
+      ],
+      "identical_to_photo": true
+    },
+    {
+      "x": 552,
+      "y": 1778,
+      "composite_rgb": [
+        20,
+        25,
+        38
+      ],
+      "original_photo_resampled_rgb": [
+        20,
+        25,
+        38
+      ],
+      "identical_to_photo": true
+    },
+    {
+      "x": 553,
+      "y": 1778,
+      "composite_rgb": [
+        20,
+        25,
+        38
+      ],
+      "original_photo_resampled_rgb": [
+        20,
+        25,
+        38
+      ],
+      "identical_to_photo": true
+    }
+  ]
+}

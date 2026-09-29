@@ -1,0 +1,38 @@
+[
+  {
+    "tier": "GA",
+    "count": 2,
+    "start": 1,
+    "end": 2,
+    "sheets": 1,
+    "sheet_mm": [
+      297,
+      420
+    ],
+    "items_per_sheet": 11
+  },
+  {
+    "tier": "VIP",
+    "count": 2,
+    "start": 100001,
+    "end": 100002,
+    "sheets": 1,
+    "sheet_mm": [
+      297,
+      420
+    ],
+    "items_per_sheet": 11
+  },
+  {
+    "tier": "SVIP",
+    "count": 2,
+    "start": 200001,
+    "end": 200002,
+    "sheets": 1,
+    "sheet_mm": [
+      297,
+      420
+    ],
+    "items_per_sheet": 11
+  }
+]

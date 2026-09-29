@@ -1,0 +1,428 @@
+{
+  "result": "PASS",
+  "pdf_pages_checked": 35,
+  "files": [
+    {
+      "file": "task-07-signage\\entrance-ticket-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 30.0,
+      "embedded_font_count": 4,
+      "trim_mm": [
+        600.0,
+        850.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\entrance-ticket-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 30.0,
+      "embedded_font_count": 4,
+      "trim_mm": [
+        600.0,
+        850.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\entrance-ticket-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": null,
+      "embedded_font_count": 0,
+      "trim_mm": [
+        600.0,
+        850.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\floor-photo-spot-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 43.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        600.0,
+        600.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\floor-photo-spot-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 43.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        600.0,
+        600.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\floor-photo-spot-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": null,
+      "embedded_font_count": 0,
+      "trim_mm": [
+        600.0,
+        600.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\floor-queue-start-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 43.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        600.0,
+        600.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\floor-queue-start-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 43.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        600.0,
+        600.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\floor-queue-start-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": null,
+      "embedded_font_count": 0,
+      "trim_mm": [
+        600.0,
+        600.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\hang-bar-merch-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 44.0,
+      "embedded_font_count": 4,
+      "trim_mm": [
+        1200.0,
+        300.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\hang-bar-merch-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 44.0,
+      "embedded_font_count": 4,
+      "trim_mm": [
+        1200.0,
+        300.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\hang-bar-merch-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": null,
+      "embedded_font_count": 0,
+      "trim_mm": [
+        1200.0,
+        300.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\hang-restrooms-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 34.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        1200.0,
+        300.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\hang-restrooms-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 34.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        1200.0,
+        300.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\hang-restrooms-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": null,
+      "embedded_font_count": 0,
+      "trim_mm": [
+        1200.0,
+        300.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\house-rules-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 23.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        600.0,
+        900.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\house-rules-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 23.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        600.0,
+        900.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\pillar-id-letter-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 6,
+      "trim_mm": [
+        215.9,
+        279.4
+      ],
+      "bleed_mm": 3.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\pillar-id-letter-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 6,
+      "trim_mm": [
+        215.9,
+        279.4
+      ],
+      "bleed_mm": 3.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\table-merch-a5-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 9.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        148.0,
+        515.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\table-merch-a5-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 9.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        148.0,
+        515.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\table-merch-a5-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": null,
+      "embedded_font_count": 0,
+      "trim_mm": [
+        148.0,
+        515.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\wall-coat-check-a3-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        297.0,
+        420.0
+      ],
+      "bleed_mm": 3.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\wall-coat-check-a3-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        297.0,
+        420.0
+      ],
+      "bleed_mm": 3.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\wall-way-out-a3-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 4,
+      "trim_mm": [
+        297.0,
+        420.0
+      ],
+      "bleed_mm": 3.0,
+      "pass": true
+    },
+    {
+      "file": "task-07-signage\\wall-way-out-a3-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 4,
+      "trim_mm": [
+        297.0,
+        420.0
+      ],
+      "bleed_mm": 3.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-a-ticket-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-a-ticket-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-a-ticket-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-b-setlist-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 21.0,
+      "embedded_font_count": 6,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-b-setlist-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 21.0,
+      "embedded_font_count": 6,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-b-setlist-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-c-now-playing-print.pdf",
+      "page": 1,
+      "minimum_font_pt": 20.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-c-now-playing-rgb.pdf",
+      "page": 1,
+      "minimum_font_pt": 20.0,
+      "embedded_font_count": 5,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    },
+    {
+      "file": "task-08-rollups\\rollup-c-now-playing-technical.pdf",
+      "page": 1,
+      "minimum_font_pt": 18.0,
+      "embedded_font_count": 3,
+      "trim_mm": [
+        850.0,
+        2000.0
+      ],
+      "bleed_mm": 5.0,
+      "pass": true
+    }
+  ],
+  "glyph_height_checks": 16,
+  "visual_check": "已目检总览、三款易拉宝与桌卡展开；中文混排、连字符、撇号及域名均共基线。"
+}

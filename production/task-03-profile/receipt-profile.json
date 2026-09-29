@@ -1,0 +1,175 @@
+{
+  "task": "03-profile",
+  "ai_concept_warning": "AI concept photography only, not actual SinoPOP event documentation",
+  "photographic_palette_note": "Continuous photographic tones, not an eight-color indexed palette",
+  "files": [
+    {
+      "file": "profile-cover-square.png",
+      "status": "generated-and-verified",
+      "tool": "built-in image_gen",
+      "source_path": "C:\\Users\\sokol\\.codex\\generated_images\\01a0e65b-46ff-7621-bb65-664a4e40f793\\exec-b4d9d13f-c535-4ada-b7a2-991e9dc54b03.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "crop_source_pixels": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "output_path": "C:\\Users\\sokol\\OneDrive\\文档\\ChatGPT\\sinpop wix web\\output\\sinopop-music-objects-20260927\\task-03-profile\\profile-cover-square.png",
+      "output_size": [
+        2400,
+        2400
+      ],
+      "format": "PNG",
+      "decode_verified": true,
+      "sha256": "B7283DA7C62AFFAF37C71BECCE6FA811472EFFE1EE696F2B9A087EF60CA7C6EF",
+      "transformation": "composition-preserving crop plus high-quality bicubic resize; not native 2400",
+      "ai_concept_only": true,
+      "readable_text_present": false,
+      "logo_present": false
+    },
+    {
+      "file": "profile-cover-phone.png",
+      "status": "generated-and-verified",
+      "tool": "built-in image_gen",
+      "source_path": "C:\\Users\\sokol\\.codex\\generated_images\\01a0e65b-46ff-7621-bb65-664a4e40f793\\exec-8a8a2d2a-7144-476c-b2f1-6aec47be5863.png",
+      "source_size": [
+        941,
+        1672
+      ],
+      "crop_source_pixels": [
+        0,
+        0,
+        940.5,
+        1672
+      ],
+      "output_path": "C:\\Users\\sokol\\OneDrive\\文档\\ChatGPT\\sinpop wix web\\output\\sinopop-music-objects-20260927\\task-03-profile\\profile-cover-phone.png",
+      "output_size": [
+        1350,
+        2400
+      ],
+      "format": "PNG",
+      "decode_verified": true,
+      "sha256": "BF1DAB550BDA6823CA7EB24FC289CA6B80B96918357A009A4924E93009283A24",
+      "transformation": "composition-preserving crop plus high-quality bicubic resize; not native 2400",
+      "ai_concept_only": true,
+      "readable_text_present": false,
+      "logo_present": false
+    },
+    {
+      "file": "profile-chapter-01-checkin.png",
+      "status": "generated-and-verified",
+      "tool": "built-in image_gen",
+      "source_path": "C:\\Users\\sokol\\.codex\\generated_images\\01a0e65b-46ff-7621-bb65-664a4e40f793\\exec-28e75d29-c50a-48f5-bcaa-52fd79df8a84.png",
+      "source_size": [
+        793,
+        1983
+      ],
+      "crop_source_pixels": [
+        0,
+        360,
+        793,
+        991.25
+      ],
+      "output_path": "C:\\Users\\sokol\\OneDrive\\文档\\ChatGPT\\sinpop wix web\\output\\sinopop-music-objects-20260927\\task-03-profile\\profile-chapter-01-checkin.png",
+      "output_size": [
+        1920,
+        2400
+      ],
+      "format": "PNG",
+      "decode_verified": true,
+      "sha256": "9C8D34A6EA060D3C960BA1AE9AD090625E7978ED6876C7B34A2D378F661F2C8B",
+      "transformation": "composition-preserving crop plus high-quality bicubic resize; not native 2400",
+      "ai_concept_only": true,
+      "readable_text_present": false,
+      "logo_present": false
+    },
+    {
+      "file": "profile-chapter-02-merch.png",
+      "status": "generated-and-verified",
+      "tool": "built-in image_gen",
+      "source_path": "C:\\Users\\sokol\\.codex\\generated_images\\01a0e65b-46ff-7621-bb65-664a4e40f793\\exec-4e545a26-b327-4b11-85b3-9605783046d3.png",
+      "source_size": [
+        1122,
+        1402
+      ],
+      "crop_source_pixels": [
+        0.2,
+        0,
+        1121.6,
+        1402
+      ],
+      "output_path": "C:\\Users\\sokol\\OneDrive\\文档\\ChatGPT\\sinpop wix web\\output\\sinopop-music-objects-20260927\\task-03-profile\\profile-chapter-02-merch.png",
+      "output_size": [
+        1920,
+        2400
+      ],
+      "format": "PNG",
+      "decode_verified": true,
+      "sha256": "B9AA89374099B44E5574A2F260FB9B5526456E88F4108A86F85B3A267B73F381",
+      "transformation": "composition-preserving crop plus high-quality bicubic resize; not native 2400",
+      "ai_concept_only": true,
+      "readable_text_present": false,
+      "logo_present": false
+    },
+    {
+      "file": "profile-chapter-03-sound.png",
+      "status": "generated-and-verified",
+      "tool": "built-in image_gen",
+      "source_path": "C:\\Users\\sokol\\.codex\\generated_images\\01a0e65b-46ff-7621-bb65-664a4e40f793\\exec-e3847be7-95b3-42e1-9d7e-53dd7cf7914b.png",
+      "source_size": [
+        793,
+        1983
+      ],
+      "crop_source_pixels": [
+        0,
+        520,
+        793,
+        991.25
+      ],
+      "output_path": "C:\\Users\\sokol\\OneDrive\\文档\\ChatGPT\\sinpop wix web\\output\\sinopop-music-objects-20260927\\task-03-profile\\profile-chapter-03-sound.png",
+      "output_size": [
+        1920,
+        2400
+      ],
+      "format": "PNG",
+      "decode_verified": true,
+      "sha256": "5FC66336A3FB07D15DA61E0F60B49D2640CA4CE8BE5FC560A6C6B461A877942D",
+      "transformation": "composition-preserving crop plus high-quality bicubic resize; not native 2400",
+      "ai_concept_only": true,
+      "readable_text_present": false,
+      "logo_present": false
+    },
+    {
+      "file": "profile-chapter-04-aftershow.png",
+      "status": "generated-and-verified",
+      "tool": "built-in image_gen",
+      "source_path": "C:\\Users\\sokol\\.codex\\generated_images\\01a0e65b-46ff-7621-bb65-664a4e40f793\\exec-b1d068ea-fd72-4f54-a2df-7eecd902825c.png",
+      "source_size": [
+        793,
+        1983
+      ],
+      "crop_source_pixels": [
+        0,
+        280,
+        793,
+        991.25
+      ],
+      "output_path": "C:\\Users\\sokol\\OneDrive\\文档\\ChatGPT\\sinpop wix web\\output\\sinopop-music-objects-20260927\\task-03-profile\\profile-chapter-04-aftershow.png",
+      "output_size": [
+        1920,
+        2400
+      ],
+      "format": "PNG",
+      "decode_verified": true,
+      "sha256": "714E3B2F5DCC39019497A089B0ACC74DF37606B8C5A20809ECDB294EEB91031B",
+      "transformation": "composition-preserving crop plus high-quality bicubic resize; not native 2400",
+      "ai_concept_only": true,
+      "readable_text_present": false,
+      "logo_present": false
+    }
+  ]
+}

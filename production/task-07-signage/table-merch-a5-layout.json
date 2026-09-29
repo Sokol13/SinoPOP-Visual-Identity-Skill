@@ -1,0 +1,94 @@
+[
+  {
+    "page": 1,
+    "width_mm": 148.0,
+    "height_mm": 515.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "04",
+        "size_pt": 39,
+        "weight": "ExtraBold",
+        "x": 36.85039370078741,
+        "baseline_y": 82.20472440944883
+      },
+      {
+        "text": "B-SIDE",
+        "size_pt": 14,
+        "weight": "Bold",
+        "x": 377.0078740157481,
+        "baseline_y": 82.20472440944883
+      },
+      {
+        "text": "周边",
+        "size_pt": 96.99118735985817,
+        "weight": "ExtraBold",
+        "x": 36.85039370078741,
+        "baseline_y": 349.67513166814416
+      },
+      {
+        "text": "MERCH",
+        "size_pt": 25,
+        "weight": "Bold",
+        "x": 39.68503937007874,
+        "baseline_y": 405.35433070866145
+      },
+      {
+        "text": "[商品] · USD [00]",
+        "size_pt": 11,
+        "weight": "Regular",
+        "x": 39.68503937007874,
+        "baseline_y": 507.4015748031497
+      },
+      {
+        "text": "[ITEM]",
+        "size_pt": 9,
+        "weight": "Regular",
+        "x": 39.68503937007874,
+        "baseline_y": 552.7559055118111
+      },
+      {
+        "text": "04",
+        "size_pt": 39,
+        "weight": "ExtraBold",
+        "x": 36.85039370078741,
+        "baseline_y": 677.48031496063
+      },
+      {
+        "text": "B-SIDE",
+        "size_pt": 14,
+        "weight": "Bold",
+        "x": 377.0078740157481,
+        "baseline_y": 677.48031496063
+      },
+      {
+        "text": "周边",
+        "size_pt": 96.99118735985817,
+        "weight": "ExtraBold",
+        "x": 36.85039370078741,
+        "baseline_y": 944.9507222193254
+      },
+      {
+        "text": "MERCH",
+        "size_pt": 25,
+        "weight": "Bold",
+        "x": 39.68503937007874,
+        "baseline_y": 1000.6299212598426
+      },
+      {
+        "text": "[商品] · USD [00]",
+        "size_pt": 11,
+        "weight": "Regular",
+        "x": 39.68503937007874,
+        "baseline_y": 1102.6771653543308
+      },
+      {
+        "text": "[ITEM]",
+        "size_pt": 9,
+        "weight": "Regular",
+        "x": 39.68503937007874,
+        "baseline_y": 1148.0314960629921
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "file": "pass-0001-staff",
+    "role": "STAFF",
+    "name": "[姓名]",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "file": "pass-0002-artist",
+    "role": "ARTIST",
+    "name": "[姓名]",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "file": "pass-0003-artist-team",
+    "role": "ARTIST TEAM",
+    "name": "[姓名]",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "file": "pass-0004-guest",
+    "role": "GUEST",
+    "name": "[姓名]",
+    "zones": {
+      "1": "allowed",
+      "2": "invited",
+      "3": "denied",
+      "4": "denied"
+    }
+  },
+  {
+    "file": "pass-0005-press",
+    "role": "PRESS",
+    "name": "[姓名]",
+    "zones": {
+      "1": "allowed",
+      "2": "denied",
+      "3": "denied",
+      "4": "denied"
+    }
+  },
+  {
+    "file": "pass-0006-production",
+    "role": "PRODUCTION",
+    "name": "[姓名]",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "denied"
+    }
+  }
+]

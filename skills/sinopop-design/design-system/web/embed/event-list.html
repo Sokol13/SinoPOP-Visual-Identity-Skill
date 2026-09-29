@@ -1,0 +1,283 @@
+<!-- sinoPOP widget v2.0 — self-contained. Wix: Add → Embed Code → Embed HTML → paste this whole file.
+     Edit only the markup inside <div class="sp-root">. Styles are copied from tokens.css + sinopop-widgets.css (regenerate if tokens change). -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#111318}
+/* Generated from tokens.json — do not edit by hand. */
+:root, .sp-root {
+  --sp-ink: #111318;
+  --sp-surface: #181A1F;
+  --sp-line: #626A76;
+  --sp-line-subtle: #3A3F48;
+  --sp-muted: #B7BDC5;
+  --sp-paper: #F7F8F4;
+  --sp-white: #FFFFFF;
+  --sp-sub: #5A616C;
+  --sp-line-light: #D8DBD3;
+  --sp-green: #73F64B;
+  --sp-pink: #FF89B8;
+  --sp-green-950: #102816;
+  --sp-green-800: #214C24;
+  --sp-green-700: #286C2A;
+  --sp-green-600: #3EAE32;
+  --sp-green-300: #B1FAA0;
+  --sp-green-100: #E7FCE1;
+  --sp-pink-950: #351D2A;
+  --sp-pink-800: #6B2849;
+  --sp-pink-700: #A63264;
+  --sp-pink-600: #D9578B;
+  --sp-pink-300: #FFC0D9;
+  --sp-pink-100: #FFF0F6;
+  --sp-green-hover: #8AFF62;
+  --sp-error: #FF8E8E;
+  --sp-error-dark: #B42318;
+  --sp-space-4: 4px;
+  --sp-space-8: 8px;
+  --sp-space-12: 12px;
+  --sp-space-16: 16px;
+  --sp-space-20: 20px;
+  --sp-space-24: 24px;
+  --sp-space-32: 32px;
+  --sp-space-48: 48px;
+  --sp-space-64: 64px;
+  --sp-space-80: 80px;
+  --sp-radius: 8px;
+  --sp-control-m: 48px;
+  --sp-control-s: 36px;
+}
+:root, .sp-root, [data-sp-theme="dark"] {
+  --sp-color-bg: var(--sp-ink);
+  --sp-color-surface: var(--sp-surface);
+  --sp-color-text: var(--sp-paper);
+  --sp-color-muted: var(--sp-muted);
+  --sp-color-border: var(--sp-line);
+  --sp-color-divider: var(--sp-line-subtle);
+  --sp-color-accent: var(--sp-green);
+  --sp-color-on-accent: var(--sp-ink);
+  --sp-color-accent-text: var(--sp-green);
+  --sp-color-emphasis: var(--sp-paper);
+  --sp-color-on-emphasis: var(--sp-ink);
+  --sp-color-emphasis-text: var(--sp-paper);
+  --sp-color-accent-hover: var(--sp-green-hover);
+  --sp-color-error: var(--sp-error);
+  --sp-color-final: var(--sp-line-subtle);
+  --sp-color-on-final: var(--sp-muted);
+}
+[data-sp-theme="light"] {
+  --sp-color-bg: var(--sp-white);
+  --sp-color-surface: var(--sp-paper);
+  --sp-color-text: var(--sp-ink);
+  --sp-color-muted: var(--sp-sub);
+  --sp-color-border: var(--sp-sub);
+  --sp-color-divider: var(--sp-line-light);
+  --sp-color-accent: var(--sp-green);
+  --sp-color-on-accent: var(--sp-ink);
+  --sp-color-accent-text: var(--sp-green-700);
+  --sp-color-emphasis: var(--sp-ink);
+  --sp-color-on-emphasis: var(--sp-white);
+  --sp-color-emphasis-text: var(--sp-ink);
+  --sp-color-accent-hover: var(--sp-green-hover);
+  --sp-color-error: var(--sp-error-dark);
+  --sp-color-final: var(--sp-line-light);
+  --sp-color-on-final: var(--sp-sub);
+}
+/* Typesetting: Chinese is the default; any element with lang="en" switches to the English set. */
+:root, [lang|="zh"] {
+  --sp-font: Archivo, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --sp-measure: 36em;
+  --sp-type-display: 88px;
+  --sp-type-display-lh: 1.15;
+  --sp-type-display-wt: 900;
+  --sp-type-display-ls: 0.02em;
+  --sp-type-h1: 56px;
+  --sp-type-h1-lh: 1.25;
+  --sp-type-h1-wt: 700;
+  --sp-type-h1-ls: 0.02em;
+  --sp-type-h2: 36px;
+  --sp-type-h2-lh: 1.3;
+  --sp-type-h2-wt: 700;
+  --sp-type-h2-ls: 0.02em;
+  --sp-type-h3: 24px;
+  --sp-type-h3-lh: 1.45;
+  --sp-type-h3-wt: 500;
+  --sp-type-h3-ls: 0.02em;
+  --sp-type-body: 17px;
+  --sp-type-body-lh: 1.8;
+  --sp-type-body-wt: 400;
+  --sp-type-body-ls: 0.03em;
+  --sp-type-caption: 14px;
+  --sp-type-caption-lh: 1.65;
+  --sp-type-caption-wt: 400;
+  --sp-type-caption-ls: 0.03em;
+  --sp-type-label: 13px;
+  --sp-type-label-lh: 1.4;
+  --sp-type-label-wt: 500;
+  --sp-type-label-ls: 0.12em;
+  --sp-type-label-case: none;
+}
+[lang|="en"] {
+  --sp-font: Archivo, "Noto Sans SC", sans-serif;
+  --sp-measure: 66ch;
+  --sp-type-display: 96px;
+  --sp-type-display-lh: 1.0;
+  --sp-type-display-wt: 800;
+  --sp-type-display-ls: -0.02em;
+  --sp-type-h1: 60px;
+  --sp-type-h1-lh: 1.05;
+  --sp-type-h1-wt: 700;
+  --sp-type-h1-ls: -0.015em;
+  --sp-type-h2: 40px;
+  --sp-type-h2-lh: 1.1;
+  --sp-type-h2-wt: 700;
+  --sp-type-h2-ls: -0.01em;
+  --sp-type-h3: 26px;
+  --sp-type-h3-lh: 1.25;
+  --sp-type-h3-wt: 600;
+  --sp-type-h3-ls: 0em;
+  --sp-type-body: 17px;
+  --sp-type-body-lh: 1.55;
+  --sp-type-body-wt: 400;
+  --sp-type-body-ls: 0em;
+  --sp-type-caption: 14px;
+  --sp-type-caption-lh: 1.45;
+  --sp-type-caption-wt: 400;
+  --sp-type-caption-ls: 0em;
+  --sp-type-label: 12px;
+  --sp-type-label-lh: 1.3;
+  --sp-type-label-wt: 600;
+  --sp-type-label-ls: 0.08em;
+  --sp-type-label-case: uppercase;
+}
+@media (max-width: 640px) {
+  :root, [lang|="zh"] {
+    --sp-type-display: 48px;
+    --sp-type-h1: 34px;
+    --sp-type-h2: 26px;
+    --sp-type-h3: 20px;
+    --sp-type-body: 16px;
+    --sp-type-caption: 13px;
+    --sp-type-label: 12px;
+  }
+  [lang|="en"] {
+    --sp-type-display: 56px;
+    --sp-type-h1: 38px;
+    --sp-type-h2: 28px;
+    --sp-type-h3: 21px;
+    --sp-type-body: 16px;
+    --sp-type-caption: 13px;
+    --sp-type-label: 12px;
+  }
+}
+
+/* sinoPOP web widgets v2.1 — requires tokens.css (or the inlined variables in embed/*.html).
+   Rules: one radius (--sp-radius, 8px) at every size; status = mono + green (green = act, paper/ink = attention, grey = over; no pink in UI);
+   Latin + numerals render in Archivo via the font stack. Dark by default; add data-sp-theme="light" to any wrapper.
+   Language: the website shows ONE language per page. Put lang="zh-CN" or lang="en" on <html> or on .sp-root —
+   type sizes, leading, tracking and label case switch automatically (see tokens.css). */
+
+.sp-root { font-family: var(--sp-font); color: var(--sp-color-text); background: var(--sp-color-bg);
+  font-size: var(--sp-type-body); line-height: var(--sp-type-body-lh); letter-spacing: var(--sp-type-body-ls); -webkit-font-smoothing: antialiased; }
+.sp-root [lang] { font-family: var(--sp-font); font-size: var(--sp-type-body); line-height: var(--sp-type-body-lh); letter-spacing: var(--sp-type-body-ls); }
+.sp-root p { max-width: var(--sp-measure); }
+.sp-root *, .sp-root *::before, .sp-root *::after { box-sizing: border-box; }
+.sp-root img { display: block; max-width: 100%; }
+
+/* ---------- Text roles */
+.sp-label { font-size: var(--sp-type-label); font-weight: var(--sp-type-label-wt); letter-spacing: var(--sp-type-label-ls); text-transform: var(--sp-type-label-case, uppercase); color: var(--sp-color-accent-text); }
+.sp-h1 { font-size: var(--sp-type-h1); line-height: var(--sp-type-h1-lh); font-weight: var(--sp-type-h1-wt); letter-spacing: var(--sp-type-h1-ls); margin: 0; }
+.sp-h2 { font-size: var(--sp-type-h2); line-height: var(--sp-type-h2-lh); font-weight: var(--sp-type-h2-wt); letter-spacing: var(--sp-type-h2-ls); margin: 0; }
+.sp-h3 { font-size: var(--sp-type-h3); line-height: var(--sp-type-h3-lh); font-weight: var(--sp-type-h3-wt); letter-spacing: var(--sp-type-h3-ls); margin: 0; }
+.sp-muted { color: var(--sp-color-muted); }
+.sp-caption { font-size: var(--sp-type-caption); line-height: var(--sp-type-caption-lh); color: var(--sp-color-muted); }
+
+/* ---------- Section head: label → CN title → EN title */
+.sp-section-head { display: grid; gap: var(--sp-space-8); margin-bottom: var(--sp-space-32); }
+.sp-section-head .sp-en { /* mixed-bilingual mode only */ font-size: var(--sp-type-h3); line-height: 1.3; color: var(--sp-color-muted); margin: 0; font-weight: 400; }
+
+/* ---------- Button */
+.sp-btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--sp-space-8);
+  min-height: var(--sp-control-m); padding: 0 var(--sp-space-24); border-radius: var(--sp-radius);
+  font: 600 16px/1 var(--sp-font); text-decoration: none; white-space: nowrap; flex-shrink: 0; cursor: pointer; border: 1px solid transparent;
+  background: var(--sp-color-accent); color: var(--sp-color-on-accent); transition: filter .15s; }
+.sp-btn:hover { filter: brightness(1.08); }
+.sp-btn:focus-visible { outline: 2px solid var(--sp-color-accent); outline-offset: 2px; }
+.sp-btn--secondary { background: transparent; color: var(--sp-color-text); border-color: var(--sp-color-border); }
+.sp-btn--ghost { background: transparent; color: var(--sp-color-accent-text); padding: 0 var(--sp-space-8); }
+.sp-btn--s { min-height: var(--sp-control-s); padding: 0 var(--sp-space-16); font-size: 14px; }
+.sp-btn[aria-disabled="true"] { background: var(--sp-color-divider); color: var(--sp-color-muted); pointer-events: none; }
+
+/* ---------- Status tag — Mono + Green. Always text; color only supports it.
+   green fill = act · green outline = soon · paper fill = attention · outline = selling fast · grey = final · outline + × = cancelled */
+.sp-tag { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 var(--sp-space-12); border-radius: var(--sp-radius);
+  font: 600 12px/1 var(--sp-font); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; border: 1px solid transparent; }
+.sp-tag::before { content: ""; width: 6px; height: 6px; border-radius: 3px; background: currentColor; }
+.sp-tag--on-sale, .sp-tag--tonight { background: var(--sp-color-accent); color: var(--sp-color-on-accent); }
+.sp-tag--soon, .sp-tag--waitlist { color: var(--sp-color-accent-text); border-color: currentColor; }
+.sp-tag--changed, .sp-tag--postponed { background: var(--sp-color-emphasis); color: var(--sp-color-on-emphasis); }
+.sp-tag--selling-fast { color: var(--sp-color-emphasis-text); border-color: currentColor; }
+.sp-tag--sold-out { background: var(--sp-color-final); color: var(--sp-color-on-final); }
+.sp-tag--ended { color: var(--sp-color-muted); border-color: var(--sp-color-border); }
+.sp-tag--cancelled { color: var(--sp-color-emphasis-text); border: 1.5px solid currentColor; }
+.sp-tag--cancelled::before { content: "\00D7"; width: auto; height: auto; background: none; font-size: 13px; }
+
+/* ---------- Event card: date (green) → title → EN title → venue → tag + action */
+.sp-event-card { display: flex; flex-direction: column; background: var(--sp-color-surface); border-radius: var(--sp-radius); overflow: hidden; }
+.sp-event-card__media { aspect-ratio: 4 / 5; background: var(--sp-ink); }
+.sp-event-card__media img { width: 100%; height: 100%; object-fit: cover; }
+.sp-event-card__media--poster img { object-fit: contain; }   /* artist posters: never crop */
+.sp-event-card__body { display: flex; flex-direction: column; gap: var(--sp-space-4); padding: var(--sp-space-20); flex: 1; }
+.sp-event-card__date { font-weight: 700; font-size: 18px; color: var(--sp-color-accent-text); }
+.sp-event-card__title { font-weight: 700; font-size: var(--sp-type-h3); line-height: 1.3; letter-spacing: var(--sp-type-h3-ls); margin: var(--sp-space-4) 0 0; }
+.sp-event-card__title-en { /* mixed-bilingual mode only; omit on single-language pages */ font-weight: 700; font-size: 15px; line-height: 1.3; color: var(--sp-color-muted); margin: 0; text-transform: uppercase; letter-spacing: .02em; }
+.sp-event-card__venue { font-size: 14px; color: var(--sp-color-muted); margin-top: var(--sp-space-8); }
+.sp-event-card__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--sp-space-12); margin-top: auto; padding-top: var(--sp-space-16); }
+.sp-event-card--row { flex-direction: row; }
+.sp-event-card--row .sp-event-card__media { position: relative; width: 38%; flex: none; aspect-ratio: auto; min-height: 240px; }
+.sp-event-card--row .sp-event-card__media img { position: absolute; inset: 0; }
+
+.sp-event-grid { display: grid; gap: var(--sp-space-24); grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+
+/* ---------- Facts list (widgets + handoff docs) */
+.sp-facts { margin: 0; border-top: 1px solid var(--sp-color-divider); }
+.sp-facts__row { display: grid; grid-template-columns: minmax(110px, 30%) 1fr; gap: var(--sp-space-16); padding: var(--sp-space-12) 0; border-bottom: 1px solid var(--sp-color-divider); }
+.sp-facts dt { font-size: var(--sp-type-caption); color: var(--sp-color-muted); }
+.sp-facts dd { margin: 0; font-weight: 500; }
+.sp-facts__todo { color: var(--sp-color-muted); }   /* missing fact: show it in grey words, never invent it */
+
+/* ---------- Status notice: status block → what happened → next step → updated → action */
+.sp-notice { display: grid; grid-template-columns: 184px 1fr auto; align-items: stretch; border-radius: var(--sp-radius); overflow: hidden; background: var(--sp-color-surface); }
+.sp-notice__status { display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 0 var(--sp-space-20); background: var(--sp-color-accent); color: var(--sp-color-on-accent); }
+.sp-notice__status-en { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.sp-notice__status-en::before { content: ""; width: 6px; height: 6px; border-radius: 3px; background: currentColor; }
+.sp-notice__status-cn { font-size: 20px; font-weight: 700; line-height: 1.25; }
+.sp-notice__body { display: grid; gap: 4px; padding: var(--sp-space-20) var(--sp-space-24); }
+.sp-notice__msg { font-weight: 700; }
+.sp-notice__next { font-size: var(--sp-type-caption); color: var(--sp-color-muted); }
+.sp-notice__time { font-size: 12px; color: var(--sp-color-muted); }
+.sp-notice__action { display: flex; align-items: center; padding-right: var(--sp-space-24); }
+.sp-notice--attention .sp-notice__status { background: var(--sp-color-emphasis); color: var(--sp-color-on-emphasis); }
+.sp-notice--critical { border: 1px solid var(--sp-color-emphasis-text); }
+.sp-notice--critical .sp-notice__status { background: transparent; color: var(--sp-color-emphasis-text); border-right: 1px solid var(--sp-color-emphasis-text); }
+@media (max-width: 640px) {
+  .sp-notice { grid-template-columns: 1fr; }
+  .sp-notice__status { padding: var(--sp-space-12) var(--sp-space-20); }
+  .sp-notice__action { padding: 0 var(--sp-space-24) var(--sp-space-20); }
+  .sp-event-card--row { flex-direction: column; }
+  .sp-event-card--row .sp-event-card__media { width: 100%; aspect-ratio: 4 / 5; min-height: 0; }
+}
+</style>
+<div class="sp-root" lang="zh-CN" style="padding:24px">
+  <div class="sp-section-head"><span class="sp-label">近期演出</span><h2 class="sp-h2">近期演出</h2></div>
+  <div class="sp-event-grid">
+    <!-- 英文页：把 lang 改成 "en"，文字换成英文，日期写 Sat, Oct 24 · 7:30 PM。复制一个 <article> 就是一场活动。Copy one <article> per show. 海报用 sp-event-card__media--poster（不裁切）。 -->
+    <article class="sp-event-card">
+      <div class="sp-event-card__media sp-event-card__media--poster"><img src="POSTER_URL" alt="活动海报"></div>
+      <div class="sp-event-card__body">
+        <span class="sp-event-card__date">10月24日 周六 19:30</span>
+        <h3 class="sp-event-card__title">艺人名 巡演标题</h3>
+        <span class="sp-event-card__venue">洛杉矶 · 场地名称</span>
+        <div class="sp-event-card__foot"><span class="sp-tag sp-tag--on-sale">售票中</span><a class="sp-btn sp-btn--s" href="TICKET_URL" target="_blank" rel="noopener">购票</a></div>
+      </div>
+    </article>
+  </div>
+</div>

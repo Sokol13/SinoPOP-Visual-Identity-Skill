@@ -1,0 +1,87 @@
+{
+  "generation": "Five existing built-in image_gen source files reused; no new image generation in this revision.",
+  "raw_dimensions": [
+    1536,
+    1024
+  ],
+  "final_dimensions": [
+    3072,
+    2048
+  ],
+  "resizing": "2x Lanczos enlargement after deterministic typography/logo composition; not native 3K generation",
+  "ai_notice": "All scene photography is AI-generated concept imagery, not records of actual sinoPOP events.",
+  "fonts": {
+    "cn": "NotoSansSC-Heavy.ttf",
+    "cn_regular": "NotoSansSC-Regular.ttf",
+    "cn_medium": "NotoSansSC-Medium.ttf",
+    "cn_bold": "NotoSansSC-Bold.ttf",
+    "en": "Archivo-Regular.ttf",
+    "bold": "Archivo-Bold.ttf",
+    "num": "Archivo-ExtraBold.ttf"
+  },
+  "graphic_palette": [
+    "#111318",
+    "#1B1E24",
+    "#F7F8F4",
+    "#73F64B",
+    "#B7BDC5",
+    "#3A3F48",
+    "#5A616C",
+    "#D8DBD3"
+  ],
+  "original_logo_exception": "The provided white SVG itself is #FFFFFF; retained unchanged rather than recolored. Photographic lighting, antialiasing and material tones produce continuous shades.",
+  "logo_transform": "Original SVG rendered proportionally with PyMuPDF, unrotated, unrecolored, no effects.",
+  "files": [
+    {
+      "file": "onsite-01-entrance.png",
+      "raw": "_raw/raw-01-entrance.png",
+      "raw_sha256": "88e9db56e61b702c177e3f5f91c743f77c708ba44ce868900ef183b10fd03c9d",
+      "width": 3072,
+      "height": 2048,
+      "format": "PNG",
+      "sha256": "997902b6c3cadff8aee60be49f869781df59f216e31e3f642cd9477e1d37749c",
+      "status": "existing AI raw reused, baseline-correct typography recomposited, decoded"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "raw": "_raw/raw-02-lobby.png",
+      "raw_sha256": "bcf9514ad56eb41ca36afdfad0e59cfc1364006e57a84f19cea4d271c547d9c5",
+      "width": 3072,
+      "height": 2048,
+      "format": "PNG",
+      "sha256": "fc064117e216e1de30910fbdd05fe034e16569083dac64e3fc9f8811c0b14985",
+      "status": "existing AI raw reused, baseline-correct typography recomposited, decoded"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "raw": "_raw/raw-03-now-playing.png",
+      "raw_sha256": "ad87cb23346824348add5a5df752abbfb3991fe0e7929eee0a9d6c163a983705",
+      "width": 3072,
+      "height": 2048,
+      "format": "PNG",
+      "sha256": "874d934a1fd7984922513ff297e0aadeb7e7f3ffe9acec3e148aaa3134d9c80d",
+      "status": "existing AI raw reused, baseline-correct typography recomposited, decoded"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "raw": "_raw/raw-04-kit.png",
+      "raw_sha256": "48610c7db921bfbc6aaa51d89523de12ebce3090c3a831a3e93f406bf40b1403",
+      "width": 3072,
+      "height": 2048,
+      "format": "PNG",
+      "sha256": "fe528c3fb6c635279cdda9f211637becda2775505e9de6d5ca483b3f8ef542e4",
+      "status": "existing AI raw reused, baseline-correct typography recomposited, decoded"
+    },
+    {
+      "file": "onsite-05-photo-spot.png",
+      "raw": "_raw/raw-05-photo-spot.png",
+      "raw_sha256": "f839f643fe72534c496d15e1ebac17de5bbddb676314e0a4e7749acda5178202",
+      "width": 3072,
+      "height": 2048,
+      "format": "PNG",
+      "sha256": "3796c79841e8565b17913e9854a056d495dcd1e559d1965d3f064f5371e226fd",
+      "status": "existing AI raw reused, baseline-correct typography recomposited, decoded"
+    }
+  ],
+  "typography_revision": "Contiguous language/font runs share anchor=ls baseline. Small Chinese follows Archivo Regular/Bold; large Chinese titles use Heavy."
+}

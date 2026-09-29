@@ -1,0 +1,130 @@
+[
+  {
+    "file": "hang-restrooms",
+    "text": "洗手间",
+    "required_mm": 104,
+    "minimum_ink_height_mm": 104.0,
+    "font_pt": 311.961,
+    "width_mm": 330.159
+  },
+  {
+    "file": "hang-bar-merch",
+    "text": "酒水 · 周边",
+    "required_mm": 103,
+    "minimum_ink_height_mm": 103.0,
+    "font_pt": 322.261,
+    "width_mm": 535.577
+  },
+  {
+    "file": "entrance-ticket",
+    "text": "入场",
+    "required_mm": 157,
+    "minimum_ink_height_mm": 157.0,
+    "font_pt": 476.998,
+    "width_mm": 336.549
+  },
+  {
+    "file": "wall-coat-check-a3",
+    "text": "寄存",
+    "required_mm": 64,
+    "minimum_ink_height_mm": 64.0,
+    "font_pt": 190.364,
+    "width_mm": 134.313
+  },
+  {
+    "file": "wall-way-out-a3",
+    "text": "出口",
+    "required_mm": 63,
+    "minimum_ink_height_mm": 63.0,
+    "font_pt": 212.852,
+    "width_mm": 150.179
+  },
+  {
+    "file": "wall-way-out-a3",
+    "text": "方向",
+    "required_mm": 63,
+    "minimum_ink_height_mm": 71.335,
+    "font_pt": 212.852,
+    "width_mm": 150.179
+  },
+  {
+    "file": "pillar-id-letter",
+    "text": "请出示证件",
+    "required_mm": 31,
+    "minimum_ink_height_mm": 31.0,
+    "font_pt": 98.513,
+    "width_mm": 173.767
+  },
+  {
+    "file": "house-rules",
+    "text": "入场须知",
+    "required_mm": 44,
+    "minimum_ink_height_mm": 44.0,
+    "font_pt": 133.681,
+    "width_mm": 188.639
+  },
+  {
+    "file": "house-rules",
+    "text": "[规则 01]",
+    "required_mm": 16,
+    "minimum_ink_height_mm": 16.0,
+    "font_pt": 48.455,
+    "width_mm": 71.299
+  },
+  {
+    "file": "house-rules",
+    "text": "[规则 02]",
+    "required_mm": 16,
+    "minimum_ink_height_mm": 16.0,
+    "font_pt": 48.455,
+    "width_mm": 71.299
+  },
+  {
+    "file": "house-rules",
+    "text": "[规则 03]",
+    "required_mm": 16,
+    "minimum_ink_height_mm": 16.0,
+    "font_pt": 48.455,
+    "width_mm": 71.299
+  },
+  {
+    "file": "house-rules",
+    "text": "[规则 04]",
+    "required_mm": 16,
+    "minimum_ink_height_mm": 16.0,
+    "font_pt": 48.455,
+    "width_mm": 71.316
+  },
+  {
+    "file": "house-rules",
+    "text": "[规则 05]",
+    "required_mm": 16,
+    "minimum_ink_height_mm": 16.0,
+    "font_pt": 48.455,
+    "width_mm": 71.299
+  },
+  {
+    "file": "floor-photo-spot",
+    "text": "站这里拍",
+    "required_mm": 65,
+    "minimum_ink_height_mm": 65.0,
+    "font_pt": 207.491,
+    "width_mm": 292.793
+  },
+  {
+    "file": "floor-queue-start",
+    "text": "排队起点",
+    "required_mm": 65,
+    "minimum_ink_height_mm": 65.0,
+    "font_pt": 194.976,
+    "width_mm": 275.132
+  },
+  {
+    "file": "table-merch-a5",
+    "text": "周边",
+    "required_mm": 31,
+    "minimum_ink_height_mm": 31.0,
+    "font_pt": 96.991,
+    "width_mm": 68.433
+  }
+]

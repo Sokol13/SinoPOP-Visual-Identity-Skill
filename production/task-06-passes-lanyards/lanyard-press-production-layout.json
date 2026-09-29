@@ -1,0 +1,130 @@
+[
+  {
+    "page": 1,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 51.0236220472441,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 362.8346456692914,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 674.6456692913387,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 986.456692913386,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 1298.2677165354332,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 1610.0787401574805,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 1921.8897637795278,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 2233.700787401575,
+        "baseline_y": 34.01574803149607
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 51.0236220472441,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 362.8346456692914,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 674.6456692913387,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 986.456692913386,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 1298.2677165354332,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 1610.0787401574805,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 1921.8897637795278,
+        "baseline_y": 34.01574803149607
+      },
+      {
+        "text": "sinoPOP · PRESS / PRODUCTION",
+        "size_pt": 13,
+        "weight": "Bold",
+        "x": 2233.700787401575,
+        "baseline_y": 34.01574803149607
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "page": 1,
+    "width_mm": 297.0,
+    "height_mm": 420.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "06",
+        "size_pt": 102,
+        "weight": "ExtraBold",
+        "x": 65.1968503937008,
+        "baseline_y": 204.0944881889764
+      },
+      {
+        "text": "返场",
+        "size_pt": 22,
+        "weight": "Bold",
+        "x": 65.1968503937008,
+        "baseline_y": 297.6377952755906
+      },
+      {
+        "text": "ENCORE",
+        "size_pt": 18,
+        "weight": "Bold",
+        "x": 243.77952755905514,
+        "baseline_y": 297.6377952755906
+      },
+      {
+        "text": "出口",
+        "size_pt": 212.85182022092295,
+        "weight": "ExtraBold",
+        "x": 70.86614173228347,
+        "baseline_y": 595.6337221852036
+      },
+      {
+        "text": "方向",
+        "size_pt": 212.85182022092295,
+        "weight": "ExtraBold",
+        "x": 70.86614173228347,
+        "baseline_y": 834.7406455003614
+      },
+      {
+        "text": "WAY OUT",
+        "size_pt": 27,
+        "weight": "Bold",
+        "x": 73.70078740157481,
+        "baseline_y": 972.2834645669292
+      }
+    ]
+  }
+]

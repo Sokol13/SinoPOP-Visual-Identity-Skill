@@ -1,0 +1,567 @@
+[
+  {
+    "file": "CHANGES.md",
+    "bytes": 6311,
+    "sha256": "7a90c6f2cb5a781e8a7866547ce64840b77adc81e26cb1124f83a0c193665060"
+  },
+  {
+    "file": "README.md",
+    "bytes": 12778,
+    "sha256": "c2b1f9483ea54b91db4f127876d91199fe58d04391b6e7e82317c30ff4ac281f"
+  },
+  {
+    "file": "assets/fonts/Archivo-Bold.ttf",
+    "bytes": 121400,
+    "sha256": "79e61e5ee66589f299805c90a477b556b9e273fcb88a2e700f2772eacd77ae53"
+  },
+  {
+    "file": "assets/fonts/Archivo-ExtraBold.ttf",
+    "bytes": 121336,
+    "sha256": "3162b89a36b8814cb36b84a734434c319db0636896a0ffab9a00527346d94310"
+  },
+  {
+    "file": "assets/fonts/Archivo-Regular.ttf",
+    "bytes": 121488,
+    "sha256": "6c1a5e70224dd828517742ef357a6dfe49422a4ab723747a3b3c08411f515d6d"
+  },
+  {
+    "file": "assets/fonts/NotoSansSC-Bold.ttf",
+    "bytes": 10585412,
+    "sha256": "dc55c40f503c9234090de548fc0f12b7a766b6aa4a38c29527756dea88c989d7"
+  },
+  {
+    "file": "assets/fonts/NotoSansSC-Heavy.ttf",
+    "bytes": 10576628,
+    "sha256": "9f213dad15862507cc05b8805f696222904659b7458a3ea3880d620a0d13d1a6"
+  },
+  {
+    "file": "assets/fonts/NotoSansSC-Medium.ttf",
+    "bytes": 10589048,
+    "sha256": "9fdb1db7af8c5db3943e1c7a516fb1b72e9b11a060e2b2a3191078cda650267b"
+  },
+  {
+    "file": "assets/fonts/NotoSansSC-Regular.ttf",
+    "bytes": 10595864,
+    "sha256": "46d37060694ed5e2e091fc185bdf0e0f82ffeeb87ccd2b7433e65547107f02ac"
+  },
+  {
+    "file": "assets/fonts/archivo-OFL.txt",
+    "bytes": 4481,
+    "sha256": "393a694c7dee6694a22c73049e95cea5d0808697a872c435862d33c0afc67091"
+  },
+  {
+    "file": "assets/fonts/notosanssc-OFL.txt",
+    "bytes": 4481,
+    "sha256": "e35ffdebb2225b49814c31889cbb3ce69cb3509e6a9f431edaba5e1a6de8cd15"
+  },
+  {
+    "file": "assets/sinopop-logo-black.svg",
+    "bytes": 89261,
+    "sha256": "bdf7de688e51e4fd64316d6ae2ab0208686d81ea85e729f568901f815ed21b2b"
+  },
+  {
+    "file": "assets/sinopop-logo-white.svg",
+    "bytes": 89261,
+    "sha256": "bd3505f5c21e985d6518ba398063f7c12d4389fc0b68347f5d48475f7c2936c7"
+  },
+  {
+    "file": "build_cards.py",
+    "bytes": 17356,
+    "sha256": "50df492aaa0da67f2215c1a86996d1ed812e304a431d0e5aa23a9056bcdc2d68"
+  },
+  {
+    "file": "build_spot.py",
+    "bytes": 11547,
+    "sha256": "06e1f5c48deb8487486953e7ed8b63ab14526f89fdc641c6c03d89b0bdd9685b"
+  },
+  {
+    "file": "build_technical.py",
+    "bytes": 5124,
+    "sha256": "3a14923b1e95cd79568bda4c1aa617760e56c5c07d63b063ad03ba5aacd50b93"
+  },
+  {
+    "file": "card-preview-index.json",
+    "bytes": 2347,
+    "sha256": "d33949286577165312f5c5568f8b7f357d034715b5f49903012798e0cdd48ef4"
+  },
+  {
+    "file": "composite_mockups.py",
+    "bytes": 7837,
+    "sha256": "a87415d09a6d72b76f05e23e3a2c0c9da18c2a20477e66c1c99477523c7ca608"
+  },
+  {
+    "file": "preview.png",
+    "bytes": 5068086,
+    "sha256": "74bd6e6f86c88327e18a2ea00098465174ce20dee011dab40a4e9e40787e2a68"
+  },
+  {
+    "file": "prompts-mockups.md",
+    "bytes": 12140,
+    "sha256": "d622efd4343bb7ff33611354fdb52cb2214077fb9a05fb461e63b8dd2edc56fe"
+  },
+  {
+    "file": "qa-cards.json",
+    "bytes": 2706,
+    "sha256": "602602b9d4c53d813169a9a507a9dee24f4345a63e13c43880ff3fd1e2090289"
+  },
+  {
+    "file": "qa-spot.json",
+    "bytes": 17223,
+    "sha256": "cc198730a6f6f7a9bb9a4bd2c91845a7a0ddb4bba21bd711afa648061840759f"
+  },
+  {
+    "file": "qa-summary.json",
+    "bytes": 20516,
+    "sha256": "1551639a3d7e2df977fffa7dac87a7e64eea1053c8b54023b34f215b91bcd0a9"
+  },
+  {
+    "file": "qa/revision-validation.json",
+    "bytes": 53014,
+    "sha256": "2ba5eb9995aa95a151553460d6b1b9e2dda8fdaaada54f3102c0a0c8173b28ba"
+  },
+  {
+    "file": "qa/visual-review.json",
+    "bytes": 4651,
+    "sha256": "0252fe579465fc2201ccb29bb457e5b0716b2c6efd06cd74290df321678f126c"
+  },
+  {
+    "file": "receipt-mockups.json",
+    "bytes": 18682,
+    "sha256": "003bb4c41cda217d536546c803592459a7bfc9ac288bdbb8de90120f1da75f46"
+  },
+  {
+    "file": "review.html",
+    "bytes": 15126,
+    "sha256": "bb16c588efebc85a0aa0dbab59bb6fcd556b75bb17b759755bf3c4b4d8be7905"
+  },
+  {
+    "file": "task-01-cards/01-ticket/back-preview.png",
+    "bytes": 55337,
+    "sha256": "46acd70f01f1866ec138933d2b68170179425f176a2988e7f7c7a173c70e3505"
+  },
+  {
+    "file": "task-01-cards/01-ticket/back.svg",
+    "bytes": 264971,
+    "sha256": "9f5a8a28b62a988502d6db4f0cd27f895239135b94b031db4b957c59318ed9b2"
+  },
+  {
+    "file": "task-01-cards/01-ticket/construction-guide.svg",
+    "bytes": 94704,
+    "sha256": "d1253bb9a5c582be7eefaba68e0da0e062607495b98745042d3fce58384cc814"
+  },
+  {
+    "file": "task-01-cards/01-ticket/front-preview.png",
+    "bytes": 63581,
+    "sha256": "0cc66afa0979b8c0cd0d65e92cd698959298fc56855337a78e6b7ef280551d2c"
+  },
+  {
+    "file": "task-01-cards/01-ticket/front.svg",
+    "bytes": 383085,
+    "sha256": "84d2263c06ab1b247cf4d79581aca410d8c4737e57ff763bda9f56a74f220b1b"
+  },
+  {
+    "file": "task-01-cards/01-ticket/mockup.png",
+    "bytes": 7180055,
+    "sha256": "df60aa1ca1dd29fb8d7de677dce988bbdbf0561024a2b895da74fd49aab85fa5"
+  },
+  {
+    "file": "task-01-cards/01-ticket/print-cmyk-spot.pdf",
+    "bytes": 307171,
+    "sha256": "c006b75eb1fb7f456000bc6ee6165b4bb41c83a3609c6dfcbd3fc51928c45b79"
+  },
+  {
+    "file": "task-01-cards/01-ticket/print.pdf",
+    "bytes": 126830,
+    "sha256": "c443edd57379389d41d2c56eca07b2d0f362c10c5da2db728da0f1b6b5b9b873"
+  },
+  {
+    "file": "task-01-cards/01-ticket/size-90x54-check.pdf",
+    "bytes": 127014,
+    "sha256": "2fe288464d65acae319a75ebae7b4d6cfc06556bf321ae6cbcf53f7322b41590"
+  },
+  {
+    "file": "task-01-cards/02-setlist/back-preview.png",
+    "bytes": 54365,
+    "sha256": "ad5659752e7aaa67d6214652a3a14886f6f3ba1f89ed8ce2bd08d7fc22da2d18"
+  },
+  {
+    "file": "task-01-cards/02-setlist/back.svg",
+    "bytes": 379935,
+    "sha256": "af960141cc7c6e4d4e69a8f361f55e50aa4aab16628cc4edb6db1c9d02a4fcfa"
+  },
+  {
+    "file": "task-01-cards/02-setlist/construction-guide.svg",
+    "bytes": 94512,
+    "sha256": "5abb75713db1a99f9160d60c43ed68a4fbe33adc768a28d4c10c9d9669fbeddc"
+  },
+  {
+    "file": "task-01-cards/02-setlist/front-preview.png",
+    "bytes": 51548,
+    "sha256": "5647137a5dbc1130ce009c48536f5c808f675f8d5ceda2841be01f2bf0aeb590"
+  },
+  {
+    "file": "task-01-cards/02-setlist/front.svg",
+    "bytes": 263198,
+    "sha256": "2b9535938d7bf25f40113f083a7dbf4b2370dcaef664f915ea092f7ce37634f4"
+  },
+  {
+    "file": "task-01-cards/02-setlist/mockup.png",
+    "bytes": 5861966,
+    "sha256": "c71877c565f30f325a5f4f005b788e44b5392f05c3cdfaa9404d9eb800fad149"
+  },
+  {
+    "file": "task-01-cards/02-setlist/print-cmyk-spot.pdf",
+    "bytes": 303780,
+    "sha256": "44e531b6642372135aca5e129a1ffffdf84fd3a363c5ac3a2478fe85d0904d70"
+  },
+  {
+    "file": "task-01-cards/02-setlist/print.pdf",
+    "bytes": 134569,
+    "sha256": "1463c055e6ae310b8e5cf177cdd2364d6ed8e86c8ec391e0d472d6fb7ce1197c"
+  },
+  {
+    "file": "task-01-cards/02-setlist/size-90x54-check.pdf",
+    "bytes": 134739,
+    "sha256": "4d6b9c0d26962caf9c56a6f0ad9bdd8711ce8966ae5d926ab29bcf6efcdc3237"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/back-preview.png",
+    "bytes": 39702,
+    "sha256": "c3a7677bbad4fcade1f61dfe8bbd13c03087462d77cbc0c31c0b9cbf4e20a0e8"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/back.svg",
+    "bytes": 261814,
+    "sha256": "3fc8cc4e2bdb99f7c2b84adc7da15053bd47faaee9da8e59ea2268751bcc02b5"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/construction-guide.svg",
+    "bytes": 95184,
+    "sha256": "ed318c74e9edb7425a6a41f76d2f1359e8377ae97f9cf4ebfeb45fa1d1203f66"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/front-preview.png",
+    "bytes": 119488,
+    "sha256": "198474cfc44fa795718cfc8a4cdea39396b1ba66111594a9ce35e72698b99dac"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/front.svg",
+    "bytes": 380700,
+    "sha256": "500f8ff0b159702efc06675238f0f73bd3e3b03c7bac5b18138626aa8f09e21d"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/insert-back.svg",
+    "bytes": 261754,
+    "sha256": "fa421ff63ffab8d1aea22670f2ed9222e23511cf3b05979dfd2584719514b964"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/insert-front.svg",
+    "bytes": 261485,
+    "sha256": "feed5fabfebb68f1174d6659d53393831fe19dced9a634f8d43705a194277c26"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/insert-print.pdf",
+    "bytes": 49949,
+    "sha256": "3bef896a7be2b44d31ad60c0eaf8b008a4f2c9a203ec6e2e0e4be78d73d73d15"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/mockup.png",
+    "bytes": 4712736,
+    "sha256": "60b18d81acf669f19b78c097173f1e18695023e6bf586c785dcfcda694498c33"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/print.pdf",
+    "bytes": 124460,
+    "sha256": "8b486a84ee7c03186acaa26ba94f86b29473c02bd6dbd901755193e9ce1dd628"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/size-90x54-check.pdf",
+    "bytes": 124629,
+    "sha256": "4e5651312c2d8143f1f44ffecbc548c1b0694730163f7a9cafbf3866e3e8705c"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/sleeve-front-ink.svg",
+    "bytes": 212672,
+    "sha256": "f220f3867ee2a44831a498097d84e047b821764328704c52c71af47b16a232c8"
+  },
+  {
+    "file": "task-01-cards/03-vinyl/sleeve-ink-print.pdf",
+    "bytes": 123742,
+    "sha256": "2704cbf6d9fccec59b02d2900614e4dd08b53b182dbc030b2650bf29a797332d"
+  },
+  {
+    "file": "task-01-cards/04-backstage/back-preview.png",
+    "bytes": 53178,
+    "sha256": "16fd299c9507312fb6332067a25377bfc171ca0c147e7f00a42a154ff7fd9950"
+  },
+  {
+    "file": "task-01-cards/04-backstage/back.svg",
+    "bytes": 379950,
+    "sha256": "207970711b9bf06ac17777ee30b066a47709ef0b211da67da7d933402bd501bb"
+  },
+  {
+    "file": "task-01-cards/04-backstage/construction-guide.svg",
+    "bytes": 94420,
+    "sha256": "e0402b76ce7b8d2c7c5c2e52846420e274b57e2dc982d82305cd0485f7dc39d9"
+  },
+  {
+    "file": "task-01-cards/04-backstage/front-preview.png",
+    "bytes": 67390,
+    "sha256": "f770ed9eda5cd097b4f81d656ece68f4a1d12b15521a459b5190766fecb2171c"
+  },
+  {
+    "file": "task-01-cards/04-backstage/front.svg",
+    "bytes": 381312,
+    "sha256": "3eb548cefc4b1a9a28fa54d6f0f8cc2ac5f1eedb6d206732c74cad8ef1addf68"
+  },
+  {
+    "file": "task-01-cards/04-backstage/mockup.png",
+    "bytes": 3756714,
+    "sha256": "ef0b283dda325d6bdcfeafbc77ded0de4681ad202570fed24e77ba2eda48c95e"
+  },
+  {
+    "file": "task-01-cards/04-backstage/print.pdf",
+    "bytes": 198981,
+    "sha256": "cf9915be1d6796276a56480a57e73d2ddd992bd698a8c30df17f855bad53b5ed"
+  },
+  {
+    "file": "task-01-cards/04-backstage/size-90x54-check.pdf",
+    "bytes": 199159,
+    "sha256": "f5b99bd0550359b3cf93fa3f4c813aed8823c765dfc4a27e5501c310ae0e87f9"
+  },
+  {
+    "file": "task-01-cards/05-jcard/back-preview.png",
+    "bytes": 42031,
+    "sha256": "d2b59b069ecbc869029c8a71e7f1cff56eb8d97cbe901fc6b10be8480462c1a2"
+  },
+  {
+    "file": "task-01-cards/05-jcard/back.svg",
+    "bytes": 262508,
+    "sha256": "49b4c12fc3bb038c414afe36c8128d4701a4000730bf93aae2305d2860adbbbf"
+  },
+  {
+    "file": "task-01-cards/05-jcard/construction-guide.svg",
+    "bytes": 95019,
+    "sha256": "303d8b2d209fd207540d09b2ecd66a20f290aff9b91be6e702ecea56d7eade09"
+  },
+  {
+    "file": "task-01-cards/05-jcard/construction.pdf",
+    "bytes": 198990,
+    "sha256": "23d9a0264ec39fe74d30f53e44b3881fa14db72e2146972b83c2b62f30243d2f"
+  },
+  {
+    "file": "task-01-cards/05-jcard/front-preview.png",
+    "bytes": 59608,
+    "sha256": "f37a8bda0ee354c90ba84cdc332ab0b98bfc0b5fc4882c124fd5181f6fbd12a3"
+  },
+  {
+    "file": "task-01-cards/05-jcard/front.svg",
+    "bytes": 380023,
+    "sha256": "ede9fabbd354e44365152822d306734b9c37cd99a887b91993ea5285a93a8f48"
+  },
+  {
+    "file": "task-01-cards/05-jcard/mockup.png",
+    "bytes": 6013940,
+    "sha256": "4882a4174ce611d711f728ff2075e78ac11d01f6a7a9edd2d568ebf771f9421b"
+  },
+  {
+    "file": "task-01-cards/05-jcard/print.pdf",
+    "bytes": 123913,
+    "sha256": "793956970cb4600160951c07981692118dd9bbdc50d8591b7a8588c567243a3c"
+  },
+  {
+    "file": "task-01-cards/05-jcard/size-90x54-check.pdf",
+    "bytes": 124072,
+    "sha256": "bae4fbd2438cae59e26e400d656bc5b14f12748267cac09a35942dd5a8c09645"
+  },
+  {
+    "file": "task-01-cards/05-jcard/spread-inside.svg",
+    "bytes": 262923,
+    "sha256": "14df57a4a61ecab4fe6190dcd404ea67b06ac696392bb093e4a69f7a58ca60b0"
+  },
+  {
+    "file": "task-01-cards/05-jcard/spread-outside.svg",
+    "bytes": 499872,
+    "sha256": "5950ee27c6c5da38f313811f69a3373ca3a02ad14c91387b791157b83b1ac797"
+  },
+  {
+    "file": "task-01-cards/06-material/back-preview.png",
+    "bytes": 54701,
+    "sha256": "81f24f66b5fd07be8cffb1c33e71c0c53d920781dabeec9d34ab9479d1c2943b"
+  },
+  {
+    "file": "task-01-cards/06-material/back.svg",
+    "bytes": 380888,
+    "sha256": "a2e23ab758404895b0e3f76a281e4203390655b33bd08576bd8ea26800b6a77d"
+  },
+  {
+    "file": "task-01-cards/06-material/construction-guide.svg",
+    "bytes": 94871,
+    "sha256": "4cee42d2715c1f28983eb814ce165aee1635ea0680f0bb8c7553e14662cd23e4"
+  },
+  {
+    "file": "task-01-cards/06-material/deboss-mask.pdf",
+    "bytes": 29332,
+    "sha256": "a53705858ca2f10a9bb9f237a06f5647c0eef35d51f8453253be6288072b001f"
+  },
+  {
+    "file": "task-01-cards/06-material/deboss-mask.svg",
+    "bytes": 93815,
+    "sha256": "f43b3d3bdc38a3f982ebda4e5eecb5c7689271095325d73037c313e3b035d83a"
+  },
+  {
+    "file": "task-01-cards/06-material/front-ink.svg",
+    "bytes": 212653,
+    "sha256": "93ae8955fde81626ab44b96f72e7c9e3832b17d54019f92453b628866e6d6804"
+  },
+  {
+    "file": "task-01-cards/06-material/front-preview.png",
+    "bytes": 30073,
+    "sha256": "27bd2902fb7d03c7ffc2119d7e186cdb234018f52e74ddd6d8080033666f555d"
+  },
+  {
+    "file": "task-01-cards/06-material/front.svg",
+    "bytes": 380225,
+    "sha256": "53b95a9c7e2060420b74f0defee730d291708a003cbfb27c6cdb1b9ecb12f239"
+  },
+  {
+    "file": "task-01-cards/06-material/ink-print.pdf",
+    "bytes": 197952,
+    "sha256": "b0bf4d1b06603a68cb74dd24779cb7184a7f665ecc5df360a25513dd49a70a84"
+  },
+  {
+    "file": "task-01-cards/06-material/mockup.png",
+    "bytes": 6012779,
+    "sha256": "81fb535c8270633ec3475e80fe9522c777d8442f7589827f76ddfee16bd8c7aa"
+  },
+  {
+    "file": "task-01-cards/06-material/print-cmyk-spot.pdf",
+    "bytes": 530566,
+    "sha256": "fffa1bc6490ff47a4ce9007b3d5c9e759588e0267dac644efd62c89b2c8447dd"
+  },
+  {
+    "file": "task-01-cards/06-material/print.pdf",
+    "bytes": 198117,
+    "sha256": "da9c09321a3c350022c64f2bd27b4ade8dc1a1164a4e979fd100d4b247b411f9"
+  },
+  {
+    "file": "task-01-cards/06-material/size-90x54-check.pdf",
+    "bytes": 198296,
+    "sha256": "43991a7d54a8f07f9e2459ea037528a4f0070a1e1697a92cefa1c384efb9ed7a"
+  },
+  {
+    "file": "task-01-cards/construction-guides.pdf",
+    "bytes": 45256,
+    "sha256": "b5bde103ac075ca01c4eb5c5aa3089e725a072029bd0b1887fe163678e458131"
+  },
+  {
+    "file": "task-02-onsite/README-onsite.md",
+    "bytes": 2325,
+    "sha256": "591982fe12550cb059100e86297a6c2a98cf03152976764d6af3c59dceb1b23e"
+  },
+  {
+    "file": "task-02-onsite/baseline-qa.json",
+    "bytes": 122250,
+    "sha256": "ce3899bc5fbb1bb45cf0bf0a59288ad55154ff95940704285704c4cb91e58677"
+  },
+  {
+    "file": "task-02-onsite/compose-onsite.py",
+    "bytes": 14285,
+    "sha256": "255cbab301b7fafd42d3d15492a5281ee6050a7d14fa4d2ec8922a3a4152b3ce"
+  },
+  {
+    "file": "task-02-onsite/onsite-01-entrance.png",
+    "bytes": 3482597,
+    "sha256": "997902b6c3cadff8aee60be49f869781df59f216e31e3f642cd9477e1d37749c"
+  },
+  {
+    "file": "task-02-onsite/onsite-02-lobby.png",
+    "bytes": 3816236,
+    "sha256": "fc064117e216e1de30910fbdd05fe034e16569083dac64e3fc9f8811c0b14985"
+  },
+  {
+    "file": "task-02-onsite/onsite-03-now-playing.png",
+    "bytes": 3663478,
+    "sha256": "874d934a1fd7984922513ff297e0aadeb7e7f3ffe9acec3e148aaa3134d9c80d"
+  },
+  {
+    "file": "task-02-onsite/onsite-04-kit.png",
+    "bytes": 6562662,
+    "sha256": "fe528c3fb6c635279cdda9f211637becda2775505e9de6d5ca483b3f8ef542e4"
+  },
+  {
+    "file": "task-02-onsite/onsite-05-photo-spot.png",
+    "bytes": 3109892,
+    "sha256": "3796c79841e8565b17913e9854a056d495dcd1e559d1965d3f064f5371e226fd"
+  },
+  {
+    "file": "task-02-onsite/prompts-onsite.md",
+    "bytes": 12694,
+    "sha256": "e039c402146a5c6ee79721c8b282151401bb22ae9be1f8a618828173ba2439fa"
+  },
+  {
+    "file": "task-02-onsite/receipt-onsite.json",
+    "bytes": 3544,
+    "sha256": "78b091d18d4e8c62953519472ce8b892045f12d17e028123365cc199fb23cecb"
+  },
+  {
+    "file": "task-03-profile/export-profile.ps1",
+    "bytes": 2747,
+    "sha256": "c0dffa9c90ab5b5ebf0b44968b06a8bb3f063f6f40cd2aca3720051964274b98"
+  },
+  {
+    "file": "task-03-profile/profile-build-input.json",
+    "bytes": 9306,
+    "sha256": "5665594f6e9222bf8ead3e0a844a899a25e0e42e46396e1ff5d5e73009ed50b2"
+  },
+  {
+    "file": "task-03-profile/profile-chapter-01-checkin.png",
+    "bytes": 4928433,
+    "sha256": "9c8d34a6ea060d3c960ba1ae9ad090625e7978ed6876c7b34a2d378f661f2c8b"
+  },
+  {
+    "file": "task-03-profile/profile-chapter-02-merch.png",
+    "bytes": 5414991,
+    "sha256": "b9aa89374099b44e5574a2f260fb9b5526456e88f4108a86f85b3a267b73f381"
+  },
+  {
+    "file": "task-03-profile/profile-chapter-03-sound.png",
+    "bytes": 5544130,
+    "sha256": "5fc66336a3fb07d15da61e0f60b49d2640ca4ce8be5fc560a6c6b461a877942d"
+  },
+  {
+    "file": "task-03-profile/profile-chapter-04-aftershow.png",
+    "bytes": 7801678,
+    "sha256": "714e3b2f5dcc39019497a089b0acc74df37606b8c5a20809ecdb294eeb91031b"
+  },
+  {
+    "file": "task-03-profile/profile-cover-phone.png",
+    "bytes": 4116258,
+    "sha256": "bf1dab550bda6823ca7eb24fc289ca6b80b96918357a009a4924e93009283a24"
+  },
+  {
+    "file": "task-03-profile/profile-cover-square.png",
+    "bytes": 6525315,
+    "sha256": "b7283da7c62affaf37c71becce6fa811472effe1ee696f2b9a087ef60ca7c6ef"
+  },
+  {
+    "file": "task-03-profile/prompts-profile.md",
+    "bytes": 8102,
+    "sha256": "315a460150405c151baf419a186c25a1505140e52f3f3c20d20fc875f11b20b5"
+  },
+  {
+    "file": "task-03-profile/qa-profile.md",
+    "bytes": 1612,
+    "sha256": "035bfe017acfc8dad263ca1ca5af3c19090c1131a964665a490fc29afcdbc016"
+  },
+  {
+    "file": "task-03-profile/receipt-profile.json",
+    "bytes": 6454,
+    "sha256": "4f3f766be21446d69b42b3da42ff2b2ab26d445e55098bf15066e4a15fecb9d8"
+  },
+  {
+    "file": "validate_revision.py",
+    "bytes": 9560,
+    "sha256": "c92f78b726da096776363b87ab5891a795dfcaae14933dbc628f59be9e25854e"
+  }
+]

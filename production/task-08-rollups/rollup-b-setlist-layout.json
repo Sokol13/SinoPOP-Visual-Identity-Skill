@@ -1,0 +1,192 @@
+[
+  {
+    "page": 1,
+    "width_mm": 850.0,
+    "height_mm": 2000.0,
+    "bleed_mm": 5,
+    "texts": [
+      {
+        "text": "今晚的",
+        "size_pt": 232,
+        "weight": "ExtraBold",
+        "x": 297.6377952755906,
+        "baseline_y": 839.0551181102363
+      },
+      {
+        "text": "歌单",
+        "size_pt": 232,
+        "weight": "ExtraBold",
+        "x": 297.6377952755906,
+        "baseline_y": 1173.5433070866143
+      },
+      {
+        "text": "TONIGHT'S SETLIST",
+        "size_pt": 60,
+        "weight": "Bold",
+        "x": 308.9763779527559,
+        "baseline_y": 1360.6299212598426
+      },
+      {
+        "text": "01",
+        "size_pt": 97,
+        "weight": "ExtraBold",
+        "x": 317.4803149606299,
+        "baseline_y": 1774.488188976378
+      },
+      {
+        "text": "入场",
+        "size_pt": 61,
+        "weight": "Bold",
+        "x": 694.4881889763781,
+        "baseline_y": 1768.8188976377955
+      },
+      {
+        "text": "DOORS",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 702.9921259842521,
+        "baseline_y": 1873.700787401575
+      },
+      {
+        "text": "02",
+        "size_pt": 97,
+        "weight": "ExtraBold",
+        "x": 317.4803149606299,
+        "baseline_y": 2168.5039370078744
+      },
+      {
+        "text": "验票",
+        "size_pt": 61,
+        "weight": "Bold",
+        "x": 694.4881889763781,
+        "baseline_y": 2162.8346456692916
+      },
+      {
+        "text": "CHECK-IN",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 702.9921259842521,
+        "baseline_y": 2267.716535433071
+      },
+      {
+        "text": "03",
+        "size_pt": 97,
+        "weight": "ExtraBold",
+        "x": 317.4803149606299,
+        "baseline_y": 2562.5196850393704
+      },
+      {
+        "text": "寄存",
+        "size_pt": 61,
+        "weight": "Bold",
+        "x": 694.4881889763781,
+        "baseline_y": 2556.8503937007877
+      },
+      {
+        "text": "COAT CHECK",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 702.9921259842521,
+        "baseline_y": 2661.732283464567
+      },
+      {
+        "text": "04",
+        "size_pt": 97,
+        "weight": "ExtraBold",
+        "x": 317.4803149606299,
+        "baseline_y": 2956.5354330708665
+      },
+      {
+        "text": "酒水 · 周边",
+        "size_pt": 61,
+        "weight": "Bold",
+        "x": 694.4881889763781,
+        "baseline_y": 2950.8661417322837
+      },
+      {
+        "text": "BAR · B-SIDE",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 702.9921259842521,
+        "baseline_y": 3055.7480314960635
+      },
+      {
+        "text": "05",
+        "size_pt": 97,
+        "weight": "ExtraBold",
+        "x": 317.4803149606299,
+        "baseline_y": 3350.5511811023625
+      },
+      {
+        "text": "演出",
+        "size_pt": 61,
+        "weight": "Bold",
+        "x": 694.4881889763781,
+        "baseline_y": 3344.88188976378
+      },
+      {
+        "text": "THE SHOW",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 702.9921259842521,
+        "baseline_y": 3449.7637795275596
+      },
+      {
+        "text": "—",
+        "size_pt": 97,
+        "weight": "ExtraBold",
+        "x": 317.4803149606299,
+        "baseline_y": 3744.5669291338586
+      },
+      {
+        "text": "中场 · 洗手间",
+        "size_pt": 61,
+        "weight": "Bold",
+        "x": 694.4881889763781,
+        "baseline_y": 3738.897637795276
+      },
+      {
+        "text": "INTERMISSION",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 702.9921259842521,
+        "baseline_y": 3843.7795275590556
+      },
+      {
+        "text": "06",
+        "size_pt": 97,
+        "weight": "ExtraBold",
+        "x": 317.4803149606299,
+        "baseline_y": 4138.582677165355
+      },
+      {
+        "text": "返场 · 出口",
+        "size_pt": 61,
+        "weight": "Bold",
+        "x": 694.4881889763781,
+        "baseline_y": 4132.913385826772
+      },
+      {
+        "text": "ENCORE · WAY OUT",
+        "size_pt": 30,
+        "weight": "Bold",
+        "x": 702.9921259842521,
+        "baseline_y": 4237.795275590552
+      },
+      {
+        "text": "[艺人名] · [MM.DD]",
+        "size_pt": 27,
+        "weight": "Regular",
+        "x": 342.992125984252,
+        "baseline_y": 4697.007874015749
+      },
+      {
+        "text": "[每场更换贴纸]",
+        "size_pt": 21,
+        "weight": "Regular",
+        "x": 342.992125984252,
+        "baseline_y": 4804.72440944882
+      }
+    ]
+  }
+]

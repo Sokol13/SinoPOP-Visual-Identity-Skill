@@ -1,0 +1,158 @@
+[
+  {
+    "page": 1,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "艺人",
+        "size_pt": 21,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 170.07874015748033
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 11.5,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 197.57480314960634
+      },
+      {
+        "text": "[姓名]",
+        "size_pt": 20,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 266.45669291338584
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 333.6377952755906
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 96.37795275590551,
+        "baseline_y": 333.6377952755906
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 150.23622047244098,
+        "baseline_y": 333.6377952755906
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 204.0944881889764,
+        "baseline_y": 333.6377952755906
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "通行区域",
+        "size_pt": 18,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 138.8976377952756
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 8.5,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "1",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 31.181102362204726,
+        "baseline_y": 199.55905511811025
+      },
+      {
+        "text": "场内 FLOOR",
+        "size_pt": 8.5,
+        "weight": "Regular",
+        "x": 51.0236220472441,
+        "baseline_y": 199.55905511811025
+      },
+      {
+        "text": "2",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 31.181102362204726,
+        "baseline_y": 227.90551181102364
+      },
+      {
+        "text": "后台 BACKSTAGE",
+        "size_pt": 8.5,
+        "weight": "Regular",
+        "x": 51.0236220472441,
+        "baseline_y": 227.90551181102364
+      },
+      {
+        "text": "3",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 31.181102362204726,
+        "baseline_y": 256.251968503937
+      },
+      {
+        "text": "舞台 STAGE",
+        "size_pt": 8.5,
+        "weight": "Regular",
+        "x": 51.0236220472441,
+        "baseline_y": 256.251968503937
+      },
+      {
+        "text": "4",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 31.181102362204726,
+        "baseline_y": 284.5984251968504
+      },
+      {
+        "text": "艺人休息室 GREEN ROOM",
+        "size_pt": 8.5,
+        "weight": "Regular",
+        "x": 51.0236220472441,
+        "baseline_y": 284.5984251968504
+      },
+      {
+        "text": "白格 = 可进入 · 空格 = 不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 320.3149606299213
+      },
+      {
+        "text": "虚线格 = 按邀请开放",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 337.32283464566933
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  }
+]

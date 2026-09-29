@@ -1,0 +1,5754 @@
+{
+  "method": "Contiguous language/font runs, Pillow anchor=ls, one shared baseline per line; all crops retain 1:1 final-image pixels.",
+  "line_count": 98,
+  "all_runs_share_baseline": true,
+  "visual_review": "passed: all 98 text lines viewed as unscaled final-image pixel crops; all five full compositions also reviewed.",
+  "records": [
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "入场 · TRACK 01",
+      "size_design_px": 17,
+      "size_render_px": 34,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 531,
+      "bbox": [
+        368,
+        502,
+        631.0,
+        535
+      ],
+      "runs": [
+        {
+          "text": "入场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 68.0,
+          "relative_bbox": [
+            0,
+            -29,
+            68,
+            4
+          ],
+          "anchor": "ls",
+          "x": 368,
+          "baseline": 531,
+          "bbox": [
+            368,
+            502,
+            436,
+            535
+          ]
+        },
+        {
+          "text": " · TRACK 01",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 195.0,
+          "relative_bbox": [
+            0,
+            -23,
+            195,
+            0
+          ],
+          "anchor": "ls",
+          "x": 436.0,
+          "baseline": 531,
+          "bbox": [
+            436.0,
+            508,
+            631.0,
+            531
+          ]
+        }
+      ],
+      "review_crop": [
+        360,
+        494,
+        639,
+        543
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "欢迎",
+      "size_design_px": 64,
+      "size_render_px": 128,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 716,
+      "bbox": [
+        360,
+        606,
+        616,
+        729
+      ],
+      "runs": [
+        {
+          "text": "欢迎",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 256.0,
+          "relative_bbox": [
+            0,
+            -110,
+            256,
+            13
+          ],
+          "anchor": "ls",
+          "x": 360,
+          "baseline": 716,
+          "bbox": [
+            360,
+            606,
+            616,
+            729
+          ]
+        }
+      ],
+      "review_crop": [
+        352,
+        598,
+        624,
+        737
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "来到",
+      "size_design_px": 64,
+      "size_render_px": 128,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 884,
+      "bbox": [
+        360,
+        774,
+        616,
+        896
+      ],
+      "runs": [
+        {
+          "text": "来到",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 256.0,
+          "relative_bbox": [
+            0,
+            -110,
+            256,
+            12
+          ],
+          "anchor": "ls",
+          "x": 360,
+          "baseline": 884,
+          "bbox": [
+            360,
+            774,
+            616,
+            896
+          ]
+        }
+      ],
+      "review_crop": [
+        352,
+        766,
+        624,
+        904
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "现场",
+      "size_design_px": 64,
+      "size_render_px": 128,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1050,
+      "bbox": [
+        360,
+        942,
+        616,
+        1063
+      ],
+      "runs": [
+        {
+          "text": "现场",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 256.0,
+          "relative_bbox": [
+            0,
+            -108,
+            256,
+            13
+          ],
+          "anchor": "ls",
+          "x": 360,
+          "baseline": 1050,
+          "bbox": [
+            360,
+            942,
+            616,
+            1063
+          ]
+        }
+      ],
+      "review_crop": [
+        352,
+        934,
+        624,
+        1071
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "WELCOME",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1148,
+      "bbox": [
+        368,
+        1118,
+        591,
+        1149
+      ],
+      "runs": [
+        {
+          "text": "WELCOME",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 223.0,
+          "relative_bbox": [
+            0,
+            -30,
+            223,
+            1
+          ],
+          "anchor": "ls",
+          "x": 368,
+          "baseline": 1148,
+          "bbox": [
+            368,
+            1118,
+            591,
+            1149
+          ]
+        }
+      ],
+      "review_crop": [
+        360,
+        1110,
+        599,
+        1157
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "TO THE SHOW",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1200,
+      "bbox": [
+        368,
+        1170,
+        665,
+        1201
+      ],
+      "runs": [
+        {
+          "text": "TO THE SHOW",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 296.0,
+          "relative_bbox": [
+            0,
+            -30,
+            297,
+            1
+          ],
+          "anchor": "ls",
+          "x": 368,
+          "baseline": 1200,
+          "bbox": [
+            368,
+            1170,
+            665,
+            1201
+          ]
+        }
+      ],
+      "review_crop": [
+        360,
+        1162,
+        673,
+        1209
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "留个纪念",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1471,
+      "bbox": [
+        354,
+        1434,
+        522,
+        1476
+      ],
+      "runs": [
+        {
+          "text": "留个纪念",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 168.0,
+          "relative_bbox": [
+            0,
+            -37,
+            168,
+            5
+          ],
+          "anchor": "ls",
+          "x": 354,
+          "baseline": 1471,
+          "bbox": [
+            354,
+            1434,
+            522,
+            1476
+          ]
+        }
+      ],
+      "review_crop": [
+        346,
+        1426,
+        530,
+        1484
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "KEEP THIS STUB",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1518,
+      "bbox": [
+        354,
+        1504,
+        526,
+        1518
+      ],
+      "runs": [
+        {
+          "text": "KEEP THIS STUB",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 172.0,
+          "relative_bbox": [
+            0,
+            -14,
+            172,
+            0
+          ],
+          "anchor": "ls",
+          "x": 354,
+          "baseline": 1518,
+          "bbox": [
+            354,
+            1504,
+            526,
+            1518
+          ]
+        }
+      ],
+      "review_crop": [
+        346,
+        1496,
+        534,
+        1526
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "sinopop.us",
+      "size_design_px": 22,
+      "size_render_px": 44,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1608,
+      "bbox": [
+        354,
+        1576,
+        594,
+        1616
+      ],
+      "runs": [
+        {
+          "text": "sinopop.us",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 240.0,
+          "relative_bbox": [
+            0,
+            -32,
+            240,
+            8
+          ],
+          "anchor": "ls",
+          "x": 354,
+          "baseline": 1608,
+          "bbox": [
+            354,
+            1576,
+            594,
+            1616
+          ]
+        }
+      ],
+      "review_crop": [
+        346,
+        1568,
+        602,
+        1624
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "今晚的歌单",
+      "size_design_px": 34,
+      "size_render_px": 68,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 409,
+      "bbox": [
+        1228,
+        350,
+        1568,
+        417
+      ],
+      "runs": [
+        {
+          "text": "今晚的歌单",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 340.0,
+          "relative_bbox": [
+            0,
+            -59,
+            340,
+            8
+          ],
+          "anchor": "ls",
+          "x": 1228,
+          "baseline": 409,
+          "bbox": [
+            1228,
+            350,
+            1568,
+            417
+          ]
+        }
+      ],
+      "review_crop": [
+        1220,
+        342,
+        1576,
+        425
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "TONIGHT'S SETLIST",
+      "size_design_px": 14,
+      "size_render_px": 28,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 461,
+      "bbox": [
+        1228,
+        442,
+        1509,
+        461
+      ],
+      "runs": [
+        {
+          "text": "TONIGHT'S SETLIST",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 281.0,
+          "relative_bbox": [
+            0,
+            -19,
+            281,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1228,
+          "baseline": 461,
+          "bbox": [
+            1228,
+            442,
+            1509,
+            461
+          ]
+        }
+      ],
+      "review_crop": [
+        1220,
+        434,
+        1517,
+        469
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "01",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 593,
+      "bbox": [
+        1226,
+        556,
+        1290,
+        594
+      ],
+      "runs": [
+        {
+          "text": "01",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 1226,
+          "baseline": 593,
+          "bbox": [
+            1226,
+            556,
+            1290,
+            594
+          ]
+        }
+      ],
+      "review_crop": [
+        1218,
+        548,
+        1298,
+        602
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "入场",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 595,
+      "bbox": [
+        1336,
+        556,
+        1428,
+        600
+      ],
+      "runs": [
+        {
+          "text": "入场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -39,
+            92,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 595,
+          "bbox": [
+            1336,
+            556,
+            1428,
+            600
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        548,
+        1436,
+        608
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "DOORS",
+      "size_design_px": 11,
+      "size_render_px": 22,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 631,
+      "bbox": [
+        1336,
+        616,
+        1417,
+        631
+      ],
+      "runs": [
+        {
+          "text": "DOORS",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 81.0,
+          "relative_bbox": [
+            0,
+            -15,
+            81,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 631,
+          "bbox": [
+            1336,
+            616,
+            1417,
+            631
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        608,
+        1425,
+        639
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "02",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 733,
+      "bbox": [
+        1226,
+        696,
+        1290,
+        734
+      ],
+      "runs": [
+        {
+          "text": "02",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 1226,
+          "baseline": 733,
+          "bbox": [
+            1226,
+            696,
+            1290,
+            734
+          ]
+        }
+      ],
+      "review_crop": [
+        1218,
+        688,
+        1298,
+        742
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "验票",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 736,
+      "bbox": [
+        1336,
+        696,
+        1428,
+        741
+      ],
+      "runs": [
+        {
+          "text": "验票",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -40,
+            92,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 736,
+          "bbox": [
+            1336,
+            696,
+            1428,
+            741
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        688,
+        1436,
+        749
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "CHECK-IN",
+      "size_design_px": 11,
+      "size_render_px": 22,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 771,
+      "bbox": [
+        1336,
+        756,
+        1448,
+        771
+      ],
+      "runs": [
+        {
+          "text": "CHECK-IN",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 112.0,
+          "relative_bbox": [
+            0,
+            -15,
+            112,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 771,
+          "bbox": [
+            1336,
+            756,
+            1448,
+            771
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        748,
+        1456,
+        779
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "03",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 873,
+      "bbox": [
+        1226,
+        836,
+        1290,
+        874
+      ],
+      "runs": [
+        {
+          "text": "03",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 1226,
+          "baseline": 873,
+          "bbox": [
+            1226,
+            836,
+            1290,
+            874
+          ]
+        }
+      ],
+      "review_crop": [
+        1218,
+        828,
+        1298,
+        882
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "寄存",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 876,
+      "bbox": [
+        1336,
+        836,
+        1428,
+        881
+      ],
+      "runs": [
+        {
+          "text": "寄存",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -40,
+            92,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 876,
+          "bbox": [
+            1336,
+            836,
+            1428,
+            881
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        828,
+        1436,
+        889
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "COAT CHECK",
+      "size_design_px": 11,
+      "size_render_px": 22,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 911,
+      "bbox": [
+        1336,
+        896,
+        1484,
+        911
+      ],
+      "runs": [
+        {
+          "text": "COAT CHECK",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 148.0,
+          "relative_bbox": [
+            0,
+            -15,
+            148,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 911,
+          "bbox": [
+            1336,
+            896,
+            1484,
+            911
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        888,
+        1492,
+        919
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "04",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1013,
+      "bbox": [
+        1226,
+        976,
+        1291,
+        1014
+      ],
+      "runs": [
+        {
+          "text": "04",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 65.0,
+          "relative_bbox": [
+            0,
+            -37,
+            65,
+            1
+          ],
+          "anchor": "ls",
+          "x": 1226,
+          "baseline": 1013,
+          "bbox": [
+            1226,
+            976,
+            1291,
+            1014
+          ]
+        }
+      ],
+      "review_crop": [
+        1218,
+        968,
+        1299,
+        1022
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "酒水 · 周边",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1015,
+      "bbox": [
+        1336,
+        976,
+        1553.0,
+        1020
+      ],
+      "runs": [
+        {
+          "text": "酒水",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -39,
+            92,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 1015,
+          "bbox": [
+            1336,
+            976,
+            1428,
+            1020
+          ]
+        },
+        {
+          "text": " · ",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 33.0,
+          "relative_bbox": [
+            0,
+            -20,
+            33,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1428.0,
+          "baseline": 1015,
+          "bbox": [
+            1428.0,
+            995,
+            1461.0,
+            1015
+          ]
+        },
+        {
+          "text": "周边",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -39,
+            92,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1461.0,
+          "baseline": 1015,
+          "bbox": [
+            1461.0,
+            976,
+            1553.0,
+            1020
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        968,
+        1561,
+        1028
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "BAR · B-SIDE",
+      "size_design_px": 11,
+      "size_render_px": 22,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1051,
+      "bbox": [
+        1336,
+        1036,
+        1476,
+        1051
+      ],
+      "runs": [
+        {
+          "text": "BAR · B-SIDE",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 140.0,
+          "relative_bbox": [
+            0,
+            -15,
+            140,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 1051,
+          "bbox": [
+            1336,
+            1036,
+            1476,
+            1051
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        1028,
+        1484,
+        1059
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "05",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1185,
+      "bbox": [
+        1226,
+        1148,
+        1290,
+        1186
+      ],
+      "runs": [
+        {
+          "text": "05",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 1226,
+          "baseline": 1185,
+          "bbox": [
+            1226,
+            1148,
+            1290,
+            1186
+          ]
+        }
+      ],
+      "review_crop": [
+        1218,
+        1140,
+        1298,
+        1194
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "演出",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1188,
+      "bbox": [
+        1336,
+        1148,
+        1428,
+        1192
+      ],
+      "runs": [
+        {
+          "text": "演出",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -40,
+            92,
+            4
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 1188,
+          "bbox": [
+            1336,
+            1148,
+            1428,
+            1192
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        1140,
+        1436,
+        1200
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "THE SHOW",
+      "size_design_px": 11,
+      "size_render_px": 22,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1223,
+      "bbox": [
+        1336,
+        1208,
+        1458,
+        1223
+      ],
+      "runs": [
+        {
+          "text": "THE SHOW",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 121.0,
+          "relative_bbox": [
+            0,
+            -15,
+            122,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 1223,
+          "bbox": [
+            1336,
+            1208,
+            1458,
+            1223
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        1200,
+        1466,
+        1231
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "06",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1387,
+      "bbox": [
+        1226,
+        1350,
+        1290,
+        1388
+      ],
+      "runs": [
+        {
+          "text": "06",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 1226,
+          "baseline": 1387,
+          "bbox": [
+            1226,
+            1350,
+            1290,
+            1388
+          ]
+        }
+      ],
+      "review_crop": [
+        1218,
+        1342,
+        1298,
+        1396
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "返场 · 出口",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1390,
+      "bbox": [
+        1336,
+        1350,
+        1553.0,
+        1395
+      ],
+      "runs": [
+        {
+          "text": "返场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -39,
+            92,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 1390,
+          "bbox": [
+            1336,
+            1351,
+            1428,
+            1395
+          ]
+        },
+        {
+          "text": " · ",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 33.0,
+          "relative_bbox": [
+            0,
+            -20,
+            33,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1428.0,
+          "baseline": 1390,
+          "bbox": [
+            1428.0,
+            1370,
+            1461.0,
+            1390
+          ]
+        },
+        {
+          "text": "出口",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 92.0,
+          "relative_bbox": [
+            0,
+            -40,
+            92,
+            4
+          ],
+          "anchor": "ls",
+          "x": 1461.0,
+          "baseline": 1390,
+          "bbox": [
+            1461.0,
+            1350,
+            1553.0,
+            1394
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        1342,
+        1561,
+        1403
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "ENCORE · WAY OUT",
+      "size_design_px": 11,
+      "size_render_px": 22,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1425,
+      "bbox": [
+        1336,
+        1410,
+        1552,
+        1425
+      ],
+      "runs": [
+        {
+          "text": "ENCORE · WAY OUT",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 216.0,
+          "relative_bbox": [
+            0,
+            -15,
+            216,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1336,
+          "baseline": 1425,
+          "bbox": [
+            1336,
+            1410,
+            1552,
+            1425
+          ]
+        }
+      ],
+      "review_crop": [
+        1328,
+        1402,
+        1560,
+        1433
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "中场 · 洗手间",
+      "size_design_px": 12,
+      "size_render_px": 24,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1317,
+      "bbox": [
+        1228,
+        1296,
+        1366.0,
+        1320
+      ],
+      "runs": [
+        {
+          "text": "中场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 48.0,
+          "relative_bbox": [
+            0,
+            -21,
+            48,
+            3
+          ],
+          "anchor": "ls",
+          "x": 1228,
+          "baseline": 1317,
+          "bbox": [
+            1228,
+            1296,
+            1276,
+            1320
+          ]
+        },
+        {
+          "text": " · ",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 18.0,
+          "relative_bbox": [
+            0,
+            -10,
+            18,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1276.0,
+          "baseline": 1317,
+          "bbox": [
+            1276.0,
+            1307,
+            1294.0,
+            1317
+          ]
+        },
+        {
+          "text": "洗手间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 72.0,
+          "relative_bbox": [
+            0,
+            -21,
+            72,
+            3
+          ],
+          "anchor": "ls",
+          "x": 1294.0,
+          "baseline": 1317,
+          "bbox": [
+            1294.0,
+            1296,
+            1366.0,
+            1320
+          ]
+        }
+      ],
+      "review_crop": [
+        1220,
+        1288,
+        1374,
+        1328
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "[艺人名 · 日期]",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1498,
+      "bbox": [
+        1228,
+        1480,
+        1358.0,
+        1502
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 7.0,
+          "relative_bbox": [
+            0,
+            -15,
+            7,
+            4
+          ],
+          "anchor": "ls",
+          "x": 1228,
+          "baseline": 1498,
+          "bbox": [
+            1228,
+            1483,
+            1235,
+            1502
+          ]
+        },
+        {
+          "text": "艺人名",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 60.0,
+          "relative_bbox": [
+            0,
+            -18,
+            60,
+            2
+          ],
+          "anchor": "ls",
+          "x": 1235.0,
+          "baseline": 1498,
+          "bbox": [
+            1235.0,
+            1480,
+            1295.0,
+            1500
+          ]
+        },
+        {
+          "text": " · ",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 15.0,
+          "relative_bbox": [
+            0,
+            -9,
+            15,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1295.0,
+          "baseline": 1498,
+          "bbox": [
+            1295.0,
+            1489,
+            1310.0,
+            1498
+          ]
+        },
+        {
+          "text": "日期",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 40.0,
+          "relative_bbox": [
+            0,
+            -17,
+            40,
+            3
+          ],
+          "anchor": "ls",
+          "x": 1310.0,
+          "baseline": 1498,
+          "bbox": [
+            1310.0,
+            1481,
+            1350.0,
+            1501
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 8.0,
+          "relative_bbox": [
+            0,
+            -15,
+            8,
+            4
+          ],
+          "anchor": "ls",
+          "x": 1350.0,
+          "baseline": 1498,
+          "bbox": [
+            1350.0,
+            1483,
+            1358.0,
+            1502
+          ]
+        }
+      ],
+      "review_crop": [
+        1220,
+        1472,
+        1366,
+        1510
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "01",
+      "size_design_px": 98,
+      "size_render_px": 196,
+      "fill": "#73F64B",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1212,
+      "bbox": [
+        2260,
+        1074,
+        2506,
+        1214
+      ],
+      "runs": [
+        {
+          "text": "01",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 246.0,
+          "relative_bbox": [
+            0,
+            -138,
+            246,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2260,
+          "baseline": 1212,
+          "bbox": [
+            2260,
+            1074,
+            2506,
+            1214
+          ]
+        }
+      ],
+      "review_crop": [
+        2252,
+        1066,
+        2514,
+        1222
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "入场",
+      "size_design_px": 51,
+      "size_render_px": 102,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1414,
+      "bbox": [
+        2280,
+        1326,
+        2484,
+        1425
+      ],
+      "runs": [
+        {
+          "text": "入场",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 204.0,
+          "relative_bbox": [
+            0,
+            -88,
+            204,
+            11
+          ],
+          "anchor": "ls",
+          "x": 2280,
+          "baseline": 1414,
+          "bbox": [
+            2280,
+            1326,
+            2484,
+            1425
+          ]
+        }
+      ],
+      "review_crop": [
+        2272,
+        1318,
+        2492,
+        1433
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "DOORS ·",
+      "size_design_px": 17,
+      "size_render_px": 34,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1483,
+      "bbox": [
+        2288,
+        1460,
+        2433,
+        1483
+      ],
+      "runs": [
+        {
+          "text": "DOORS ·",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 145.0,
+          "relative_bbox": [
+            0,
+            -23,
+            145,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2288,
+          "baseline": 1483,
+          "bbox": [
+            2288,
+            1460,
+            2433,
+            1483
+          ]
+        }
+      ],
+      "review_crop": [
+        2280,
+        1452,
+        2441,
+        1491
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "ENTRANCE",
+      "size_design_px": 17,
+      "size_render_px": 34,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1527,
+      "bbox": [
+        2288,
+        1504,
+        2485,
+        1527
+      ],
+      "runs": [
+        {
+          "text": "ENTRANCE",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 197.0,
+          "relative_bbox": [
+            0,
+            -23,
+            197,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2288,
+          "baseline": 1527,
+          "bbox": [
+            2288,
+            1504,
+            2485,
+            1527
+          ]
+        }
+      ],
+      "review_crop": [
+        2280,
+        1496,
+        2493,
+        1535
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-01-entrance.png",
+      "text": "请准备好电子票",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1695,
+      "bbox": [
+        2302,
+        1672,
+        2484,
+        1698
+      ],
+      "runs": [
+        {
+          "text": "请准备好电子票",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 182.0,
+          "relative_bbox": [
+            0,
+            -23,
+            182,
+            3
+          ],
+          "anchor": "ls",
+          "x": 2302,
+          "baseline": 1695,
+          "bbox": [
+            2302,
+            1672,
+            2484,
+            1698
+          ]
+        }
+      ],
+      "review_crop": [
+        2294,
+        1664,
+        2492,
+        1706
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "中场 · INTERMISSION",
+      "size_design_px": 17,
+      "size_render_px": 34,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 237,
+      "bbox": [
+        1136,
+        208,
+        1485.0,
+        241
+      ],
+      "runs": [
+        {
+          "text": "中场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 68.0,
+          "relative_bbox": [
+            0,
+            -29,
+            68,
+            4
+          ],
+          "anchor": "ls",
+          "x": 1136,
+          "baseline": 237,
+          "bbox": [
+            1136,
+            208,
+            1204,
+            241
+          ]
+        },
+        {
+          "text": " · INTERMISSION",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 281.0,
+          "relative_bbox": [
+            0,
+            -23,
+            281,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1204.0,
+          "baseline": 237,
+          "bbox": [
+            1204.0,
+            214,
+            1485.0,
+            237
+          ]
+        }
+      ],
+      "review_crop": [
+        1128,
+        200,
+        1493,
+        249
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "洗手间",
+      "size_design_px": 60,
+      "size_render_px": 120,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 390,
+      "bbox": [
+        1128,
+        286,
+        1488,
+        402
+      ],
+      "runs": [
+        {
+          "text": "洗手间",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 360.0,
+          "relative_bbox": [
+            0,
+            -104,
+            360,
+            12
+          ],
+          "anchor": "ls",
+          "x": 1128,
+          "baseline": 390,
+          "bbox": [
+            1128,
+            286,
+            1488,
+            402
+          ]
+        }
+      ],
+      "review_crop": [
+        1120,
+        278,
+        1496,
+        410
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "RESTROOMS",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 461,
+      "bbox": [
+        1138,
+        428,
+        1438,
+        462
+      ],
+      "runs": [
+        {
+          "text": "RESTROOMS",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 300.0,
+          "relative_bbox": [
+            0,
+            -33,
+            300,
+            1
+          ],
+          "anchor": "ls",
+          "x": 1138,
+          "baseline": 461,
+          "bbox": [
+            1138,
+            428,
+            1438,
+            462
+          ]
+        }
+      ],
+      "review_crop": [
+        1130,
+        420,
+        1446,
+        470
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "03",
+      "size_design_px": 69,
+      "size_render_px": 138,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 905,
+      "bbox": [
+        426,
+        808,
+        598,
+        907
+      ],
+      "runs": [
+        {
+          "text": "03",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 172.0,
+          "relative_bbox": [
+            0,
+            -97,
+            172,
+            2
+          ],
+          "anchor": "ls",
+          "x": 426,
+          "baseline": 905,
+          "bbox": [
+            426,
+            808,
+            598,
+            907
+          ]
+        }
+      ],
+      "review_crop": [
+        418,
+        800,
+        606,
+        915
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "寄存",
+      "size_design_px": 46,
+      "size_render_px": 92,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1078,
+      "bbox": [
+        540,
+        998,
+        724,
+        1088
+      ],
+      "runs": [
+        {
+          "text": "寄存",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 184.0,
+          "relative_bbox": [
+            0,
+            -80,
+            184,
+            10
+          ],
+          "anchor": "ls",
+          "x": 540,
+          "baseline": 1078,
+          "bbox": [
+            540,
+            998,
+            724,
+            1088
+          ]
+        }
+      ],
+      "review_crop": [
+        532,
+        990,
+        732,
+        1096
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "COAT CHECK",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1128,
+      "bbox": [
+        538,
+        1110,
+        713,
+        1128
+      ],
+      "runs": [
+        {
+          "text": "COAT CHECK",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 175.0,
+          "relative_bbox": [
+            0,
+            -18,
+            175,
+            0
+          ],
+          "anchor": "ls",
+          "x": 538,
+          "baseline": 1128,
+          "bbox": [
+            538,
+            1110,
+            713,
+            1128
+          ]
+        }
+      ],
+      "review_crop": [
+        530,
+        1102,
+        721,
+        1136
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "轻装上阵",
+      "size_design_px": 18,
+      "size_render_px": 36,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1323,
+      "bbox": [
+        422,
+        1292,
+        566,
+        1327
+      ],
+      "runs": [
+        {
+          "text": "轻装上阵",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 144.0,
+          "relative_bbox": [
+            0,
+            -31,
+            144,
+            4
+          ],
+          "anchor": "ls",
+          "x": 422,
+          "baseline": 1323,
+          "bbox": [
+            422,
+            1292,
+            566,
+            1327
+          ]
+        }
+      ],
+      "review_crop": [
+        414,
+        1284,
+        574,
+        1335
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "Travel light",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "en",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1371,
+      "bbox": [
+        422,
+        1352,
+        553,
+        1375
+      ],
+      "runs": [
+        {
+          "text": "Travel light",
+          "face": "en",
+          "font": "Archivo-Regular.ttf",
+          "advance": 131.0,
+          "relative_bbox": [
+            0,
+            -19,
+            131,
+            4
+          ],
+          "anchor": "ls",
+          "x": 422,
+          "baseline": 1371,
+          "bbox": [
+            422,
+            1352,
+            553,
+            1375
+          ]
+        }
+      ],
+      "review_crop": [
+        414,
+        1344,
+        561,
+        1383
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "06",
+      "size_design_px": 68,
+      "size_render_px": 136,
+      "fill": "#73F64B",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 891,
+      "bbox": [
+        2444,
+        796,
+        2614,
+        893
+      ],
+      "runs": [
+        {
+          "text": "06",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 170.0,
+          "relative_bbox": [
+            0,
+            -95,
+            170,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2444,
+          "baseline": 891,
+          "bbox": [
+            2444,
+            796,
+            2614,
+            893
+          ]
+        }
+      ],
+      "review_crop": [
+        2436,
+        788,
+        2622,
+        901
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "返场 · ENCORE",
+      "size_design_px": 15,
+      "size_render_px": 30,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 988,
+      "bbox": [
+        2450,
+        962,
+        2660.0,
+        992
+      ],
+      "runs": [
+        {
+          "text": "返场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 60.0,
+          "relative_bbox": [
+            0,
+            -26,
+            60,
+            4
+          ],
+          "anchor": "ls",
+          "x": 2450,
+          "baseline": 988,
+          "bbox": [
+            2450,
+            962,
+            2510,
+            992
+          ]
+        },
+        {
+          "text": " · ENCORE",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 150.0,
+          "relative_bbox": [
+            0,
+            -20,
+            150,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2510.0,
+          "baseline": 988,
+          "bbox": [
+            2510.0,
+            968,
+            2660.0,
+            988
+          ]
+        }
+      ],
+      "review_crop": [
+        2442,
+        954,
+        2668,
+        1000
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "出口方向",
+      "size_design_px": 43,
+      "size_render_px": 86,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1135,
+      "bbox": [
+        2446,
+        1060,
+        2790,
+        1144
+      ],
+      "runs": [
+        {
+          "text": "出口方向",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 344.0,
+          "relative_bbox": [
+            0,
+            -75,
+            344,
+            9
+          ],
+          "anchor": "ls",
+          "x": 2446,
+          "baseline": 1135,
+          "bbox": [
+            2446,
+            1060,
+            2790,
+            1144
+          ]
+        }
+      ],
+      "review_crop": [
+        2438,
+        1052,
+        2798,
+        1152
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-02-lobby.png",
+      "text": "WAY OUT",
+      "size_design_px": 19,
+      "size_render_px": 38,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1201,
+      "bbox": [
+        2454,
+        1174,
+        2635,
+        1201
+      ],
+      "runs": [
+        {
+          "text": "WAY OUT",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 181.0,
+          "relative_bbox": [
+            0,
+            -27,
+            181,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2454,
+          "baseline": 1201,
+          "bbox": [
+            2454,
+            1174,
+            2635,
+            1201
+          ]
+        }
+      ],
+      "review_crop": [
+        2446,
+        1166,
+        2643,
+        1209
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "正在上演",
+      "size_design_px": 24,
+      "size_render_px": 48,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 224,
+      "bbox": [
+        556,
+        182,
+        748,
+        229
+      ],
+      "runs": [
+        {
+          "text": "正在上演",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 192.0,
+          "relative_bbox": [
+            0,
+            -42,
+            192,
+            5
+          ],
+          "anchor": "ls",
+          "x": 556,
+          "baseline": 224,
+          "bbox": [
+            556,
+            182,
+            748,
+            229
+          ]
+        }
+      ],
+      "review_crop": [
+        548,
+        174,
+        756,
+        237
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "NOW PLAYING",
+      "size_design_px": 15,
+      "size_render_px": 30,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 276,
+      "bbox": [
+        602,
+        256,
+        817,
+        276
+      ],
+      "runs": [
+        {
+          "text": "NOW PLAYING",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 215.0,
+          "relative_bbox": [
+            0,
+            -20,
+            215,
+            0
+          ],
+          "anchor": "ls",
+          "x": 602,
+          "baseline": 276,
+          "bbox": [
+            602,
+            256,
+            817,
+            276
+          ]
+        }
+      ],
+      "review_crop": [
+        594,
+        248,
+        825,
+        284
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "[艺人名]",
+      "size_design_px": 42,
+      "size_render_px": 84,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1199,
+      "bbox": [
+        558,
+        1126,
+        870.0,
+        1212
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 30.0,
+          "relative_bbox": [
+            0,
+            -62,
+            30,
+            13
+          ],
+          "anchor": "ls",
+          "x": 558,
+          "baseline": 1199,
+          "bbox": [
+            558,
+            1137,
+            588,
+            1212
+          ]
+        },
+        {
+          "text": "艺人名",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 252.0,
+          "relative_bbox": [
+            0,
+            -73,
+            252,
+            8
+          ],
+          "anchor": "ls",
+          "x": 588.0,
+          "baseline": 1199,
+          "bbox": [
+            588.0,
+            1126,
+            840.0,
+            1207
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 30.0,
+          "relative_bbox": [
+            0,
+            -62,
+            30,
+            13
+          ],
+          "anchor": "ls",
+          "x": 840.0,
+          "baseline": 1199,
+          "bbox": [
+            840.0,
+            1137,
+            870.0,
+            1212
+          ]
+        }
+      ],
+      "review_crop": [
+        550,
+        1118,
+        878,
+        1220
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "[ARTIST]",
+      "size_design_px": 15,
+      "size_render_px": 30,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1258,
+      "bbox": [
+        562,
+        1236,
+        695,
+        1263
+      ],
+      "runs": [
+        {
+          "text": "[ARTIST]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 133.0,
+          "relative_bbox": [
+            0,
+            -22,
+            133,
+            5
+          ],
+          "anchor": "ls",
+          "x": 562,
+          "baseline": 1258,
+          "bbox": [
+            562,
+            1236,
+            695,
+            1263
+          ]
+        }
+      ],
+      "review_crop": [
+        554,
+        1228,
+        703,
+        1271
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "[时间]",
+      "size_design_px": 12,
+      "size_render_px": 24,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1407,
+      "bbox": [
+        560,
+        1386,
+        624.0,
+        1411
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 8.0,
+          "relative_bbox": [
+            0,
+            -17,
+            8,
+            4
+          ],
+          "anchor": "ls",
+          "x": 560,
+          "baseline": 1407,
+          "bbox": [
+            560,
+            1390,
+            568,
+            1411
+          ]
+        },
+        {
+          "text": "时间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 48.0,
+          "relative_bbox": [
+            0,
+            -21,
+            48,
+            2
+          ],
+          "anchor": "ls",
+          "x": 568.0,
+          "baseline": 1407,
+          "bbox": [
+            568.0,
+            1386,
+            616.0,
+            1409
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 8.0,
+          "relative_bbox": [
+            0,
+            -17,
+            8,
+            4
+          ],
+          "anchor": "ls",
+          "x": 616.0,
+          "baseline": 1407,
+          "bbox": [
+            616.0,
+            1390,
+            624.0,
+            1411
+          ]
+        }
+      ],
+      "review_crop": [
+        552,
+        1378,
+        632,
+        1419
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "[日期]",
+      "size_design_px": 12,
+      "size_render_px": 24,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 1407,
+      "bbox": [
+        1142.0,
+        1386,
+        1206.0,
+        1411
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 8.0,
+          "relative_bbox": [
+            0,
+            -17,
+            8,
+            4
+          ],
+          "anchor": "ls",
+          "x": 1142.0,
+          "baseline": 1407,
+          "bbox": [
+            1142.0,
+            1390,
+            1150.0,
+            1411
+          ]
+        },
+        {
+          "text": "日期",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 48.0,
+          "relative_bbox": [
+            0,
+            -21,
+            48,
+            3
+          ],
+          "anchor": "ls",
+          "x": 1150.0,
+          "baseline": 1407,
+          "bbox": [
+            1150.0,
+            1386,
+            1198.0,
+            1410
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 8.0,
+          "relative_bbox": [
+            0,
+            -17,
+            8,
+            4
+          ],
+          "anchor": "ls",
+          "x": 1198.0,
+          "baseline": 1407,
+          "bbox": [
+            1198.0,
+            1390,
+            1206.0,
+            1411
+          ]
+        }
+      ],
+      "review_crop": [
+        1134,
+        1378,
+        1214,
+        1419
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "主办 · PRESENTED BY",
+      "size_design_px": 11,
+      "size_render_px": 22,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1764,
+      "bbox": [
+        564,
+        1744,
+        798.0,
+        1767
+      ],
+      "runs": [
+        {
+          "text": "主办",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 44.0,
+          "relative_bbox": [
+            0,
+            -20,
+            44,
+            3
+          ],
+          "anchor": "ls",
+          "x": 564,
+          "baseline": 1764,
+          "bbox": [
+            564,
+            1744,
+            608,
+            1767
+          ]
+        },
+        {
+          "text": " · PRESENTED BY",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 190.0,
+          "relative_bbox": [
+            0,
+            -15,
+            190,
+            0
+          ],
+          "anchor": "ls",
+          "x": 608.0,
+          "baseline": 1764,
+          "bbox": [
+            608.0,
+            1749,
+            798.0,
+            1764
+          ]
+        }
+      ],
+      "review_crop": [
+        556,
+        1736,
+        806,
+        1775
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-03-now-playing.png",
+      "text": "sinopop.us",
+      "size_design_px": 14,
+      "size_render_px": 28,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 1760,
+      "bbox": [
+        1058.0,
+        1740,
+        1206.0,
+        1765
+      ],
+      "runs": [
+        {
+          "text": "sinopop.us",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 148.0,
+          "relative_bbox": [
+            0,
+            -20,
+            148,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1058.0,
+          "baseline": 1760,
+          "bbox": [
+            1058.0,
+            1740,
+            1206.0,
+            1765
+          ]
+        }
+      ],
+      "review_crop": [
+        1050,
+        1732,
+        1214,
+        1773
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "普通入场 · GA",
+      "size_design_px": 28,
+      "size_render_px": 56,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 245,
+      "bbox": [
+        486,
+        196,
+        836.0,
+        251
+      ],
+      "runs": [
+        {
+          "text": "普通入场",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 224.0,
+          "relative_bbox": [
+            0,
+            -49,
+            224,
+            6
+          ],
+          "anchor": "ls",
+          "x": 486,
+          "baseline": 245,
+          "bbox": [
+            486,
+            196,
+            710,
+            251
+          ]
+        },
+        {
+          "text": " · GA",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 126.0,
+          "relative_bbox": [
+            0,
+            -39,
+            126,
+            1
+          ],
+          "anchor": "ls",
+          "x": 710.0,
+          "baseline": 245,
+          "bbox": [
+            710.0,
+            206,
+            836.0,
+            246
+          ]
+        }
+      ],
+      "review_crop": [
+        478,
+        188,
+        844,
+        259
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "贵宾 · VIP",
+      "size_design_px": 28,
+      "size_render_px": 56,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 437,
+      "bbox": [
+        486,
+        388,
+        730.0,
+        443
+      ],
+      "runs": [
+        {
+          "text": "贵宾",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 112.0,
+          "relative_bbox": [
+            0,
+            -49,
+            112,
+            6
+          ],
+          "anchor": "ls",
+          "x": 486,
+          "baseline": 437,
+          "bbox": [
+            486,
+            388,
+            598,
+            443
+          ]
+        },
+        {
+          "text": " · VIP",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 132.0,
+          "relative_bbox": [
+            0,
+            -38,
+            132,
+            0
+          ],
+          "anchor": "ls",
+          "x": 598.0,
+          "baseline": 437,
+          "bbox": [
+            598.0,
+            399,
+            730.0,
+            437
+          ]
+        }
+      ],
+      "review_crop": [
+        478,
+        380,
+        738,
+        451
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "ALL ACCESS",
+      "size_design_px": 28,
+      "size_render_px": 56,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 617,
+      "bbox": [
+        486,
+        578,
+        841,
+        618
+      ],
+      "runs": [
+        {
+          "text": "ALL ACCESS",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 355.0,
+          "relative_bbox": [
+            0,
+            -39,
+            355,
+            1
+          ],
+          "anchor": "ls",
+          "x": 486,
+          "baseline": 617,
+          "bbox": [
+            486,
+            578,
+            841,
+            618
+          ]
+        }
+      ],
+      "review_crop": [
+        478,
+        570,
+        849,
+        626
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "工作人员",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1525,
+      "bbox": [
+        420.0,
+        1480,
+        628.0,
+        1531
+      ],
+      "runs": [
+        {
+          "text": "工作人员",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 208.0,
+          "relative_bbox": [
+            0,
+            -45,
+            208,
+            6
+          ],
+          "anchor": "ls",
+          "x": 420.0,
+          "baseline": 1525,
+          "bbox": [
+            420.0,
+            1480,
+            628.0,
+            1531
+          ]
+        }
+      ],
+      "review_crop": [
+        412,
+        1472,
+        636,
+        1539
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "STAFF",
+      "size_design_px": 14,
+      "size_render_px": 28,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1573,
+      "bbox": [
+        478.5,
+        1554,
+        569.5,
+        1573
+      ],
+      "runs": [
+        {
+          "text": "STAFF",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 91.0,
+          "relative_bbox": [
+            0,
+            -19,
+            91,
+            0
+          ],
+          "anchor": "ls",
+          "x": 478.5,
+          "baseline": 1573,
+          "bbox": [
+            478.5,
+            1554,
+            569.5,
+            1573
+          ]
+        }
+      ],
+      "review_crop": [
+        470,
+        1546,
+        578,
+        1581
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "艺人",
+      "size_design_px": 30,
+      "size_render_px": 60,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1526,
+      "bbox": [
+        1020.0,
+        1474,
+        1140.0,
+        1532
+      ],
+      "runs": [
+        {
+          "text": "艺人",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 120.0,
+          "relative_bbox": [
+            0,
+            -52,
+            120,
+            6
+          ],
+          "anchor": "ls",
+          "x": 1020.0,
+          "baseline": 1526,
+          "bbox": [
+            1020.0,
+            1474,
+            1140.0,
+            1532
+          ]
+        }
+      ],
+      "review_crop": [
+        1012,
+        1466,
+        1148,
+        1540
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "ARTIST",
+      "size_design_px": 14,
+      "size_render_px": 28,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1573,
+      "bbox": [
+        1028.0,
+        1554,
+        1132.0,
+        1573
+      ],
+      "runs": [
+        {
+          "text": "ARTIST",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 104.0,
+          "relative_bbox": [
+            0,
+            -19,
+            104,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1028.0,
+          "baseline": 1573,
+          "bbox": [
+            1028.0,
+            1554,
+            1132.0,
+            1573
+          ]
+        }
+      ],
+      "review_crop": [
+        1020,
+        1546,
+        1140,
+        1581
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "嘉宾",
+      "size_design_px": 31,
+      "size_render_px": 62,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1542,
+      "bbox": [
+        1584.0,
+        1488,
+        1708.0,
+        1549
+      ],
+      "runs": [
+        {
+          "text": "嘉宾",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 124.0,
+          "relative_bbox": [
+            0,
+            -54,
+            124,
+            7
+          ],
+          "anchor": "ls",
+          "x": 1584.0,
+          "baseline": 1542,
+          "bbox": [
+            1584.0,
+            1488,
+            1708.0,
+            1549
+          ]
+        }
+      ],
+      "review_crop": [
+        1576,
+        1480,
+        1716,
+        1557
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "GUEST",
+      "size_design_px": 16,
+      "size_render_px": 32,
+      "fill": "#73F64B",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1610,
+      "bbox": [
+        1590.0,
+        1588,
+        1702.0,
+        1610
+      ],
+      "runs": [
+        {
+          "text": "GUEST",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 112.0,
+          "relative_bbox": [
+            0,
+            -22,
+            112,
+            0
+          ],
+          "anchor": "ls",
+          "x": 1590.0,
+          "baseline": 1610,
+          "bbox": [
+            1590.0,
+            1588,
+            1702.0,
+            1610
+          ]
+        }
+      ],
+      "review_crop": [
+        1582,
+        1580,
+        1710,
+        1618
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[姓名]",
+      "size_design_px": 14,
+      "size_render_px": 28,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1760,
+      "bbox": [
+        486.0,
+        1736,
+        562.0,
+        1765
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 10.0,
+          "relative_bbox": [
+            0,
+            -20,
+            10,
+            5
+          ],
+          "anchor": "ls",
+          "x": 486.0,
+          "baseline": 1760,
+          "bbox": [
+            486.0,
+            1740,
+            496.0,
+            1765
+          ]
+        },
+        {
+          "text": "姓名",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 56.0,
+          "relative_bbox": [
+            0,
+            -24,
+            56,
+            3
+          ],
+          "anchor": "ls",
+          "x": 496.0,
+          "baseline": 1760,
+          "bbox": [
+            496.0,
+            1736,
+            552.0,
+            1763
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 10.0,
+          "relative_bbox": [
+            0,
+            -20,
+            10,
+            5
+          ],
+          "anchor": "ls",
+          "x": 552.0,
+          "baseline": 1760,
+          "bbox": [
+            552.0,
+            1740,
+            562.0,
+            1765
+          ]
+        }
+      ],
+      "review_crop": [
+        478,
+        1728,
+        570,
+        1773
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[姓名]",
+      "size_design_px": 14,
+      "size_render_px": 28,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1760,
+      "bbox": [
+        1042.0,
+        1736,
+        1118.0,
+        1765
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 10.0,
+          "relative_bbox": [
+            0,
+            -20,
+            10,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1042.0,
+          "baseline": 1760,
+          "bbox": [
+            1042.0,
+            1740,
+            1052.0,
+            1765
+          ]
+        },
+        {
+          "text": "姓名",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 56.0,
+          "relative_bbox": [
+            0,
+            -24,
+            56,
+            3
+          ],
+          "anchor": "ls",
+          "x": 1052.0,
+          "baseline": 1760,
+          "bbox": [
+            1052.0,
+            1736,
+            1108.0,
+            1763
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 10.0,
+          "relative_bbox": [
+            0,
+            -20,
+            10,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1108.0,
+          "baseline": 1760,
+          "bbox": [
+            1108.0,
+            1740,
+            1118.0,
+            1765
+          ]
+        }
+      ],
+      "review_crop": [
+        1034,
+        1728,
+        1126,
+        1773
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[姓名]",
+      "size_design_px": 14,
+      "size_render_px": 28,
+      "fill": "#B7BDC5",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 1760,
+      "bbox": [
+        1608.0,
+        1736,
+        1684.0,
+        1765
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 10.0,
+          "relative_bbox": [
+            0,
+            -20,
+            10,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1608.0,
+          "baseline": 1760,
+          "bbox": [
+            1608.0,
+            1740,
+            1618.0,
+            1765
+          ]
+        },
+        {
+          "text": "姓名",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 56.0,
+          "relative_bbox": [
+            0,
+            -24,
+            56,
+            3
+          ],
+          "anchor": "ls",
+          "x": 1618.0,
+          "baseline": 1760,
+          "bbox": [
+            1618.0,
+            1736,
+            1674.0,
+            1763
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 10.0,
+          "relative_bbox": [
+            0,
+            -20,
+            10,
+            5
+          ],
+          "anchor": "ls",
+          "x": 1674.0,
+          "baseline": 1760,
+          "bbox": [
+            1674.0,
+            1740,
+            1684.0,
+            1765
+          ]
+        }
+      ],
+      "review_crop": [
+        1600,
+        1728,
+        1692,
+        1773
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "现场流程",
+      "size_design_px": 30,
+      "size_render_px": 60,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 276,
+      "bbox": [
+        2060,
+        224,
+        2300,
+        283
+      ],
+      "runs": [
+        {
+          "text": "现场流程",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 240.0,
+          "relative_bbox": [
+            0,
+            -52,
+            240,
+            7
+          ],
+          "anchor": "ls",
+          "x": 2060,
+          "baseline": 276,
+          "bbox": [
+            2060,
+            224,
+            2300,
+            283
+          ]
+        }
+      ],
+      "review_crop": [
+        2052,
+        216,
+        2308,
+        291
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "RUN OF SHOW",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 268,
+      "bbox": [
+        2549.0,
+        250,
+        2736.0,
+        268
+      ],
+      "runs": [
+        {
+          "text": "RUN OF SHOW",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 187.0,
+          "relative_bbox": [
+            0,
+            -18,
+            187,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2549.0,
+          "baseline": 268,
+          "bbox": [
+            2549.0,
+            250,
+            2736.0,
+            268
+          ]
+        }
+      ],
+      "review_crop": [
+        2541,
+        242,
+        2744,
+        276
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "01",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 405,
+      "bbox": [
+        2056,
+        368,
+        2120,
+        406
+      ],
+      "runs": [
+        {
+          "text": "01",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 2056,
+          "baseline": 405,
+          "bbox": [
+            2056,
+            368,
+            2120,
+            406
+          ]
+        }
+      ],
+      "review_crop": [
+        2048,
+        360,
+        2128,
+        414
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "入场",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 404,
+      "bbox": [
+        2176,
+        368,
+        2260,
+        409
+      ],
+      "runs": [
+        {
+          "text": "入场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -36,
+            84,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 404,
+          "bbox": [
+            2176,
+            368,
+            2260,
+            409
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        360,
+        2268,
+        417
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "DOORS",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 438,
+      "bbox": [
+        2176,
+        424,
+        2252,
+        438
+      ],
+      "runs": [
+        {
+          "text": "DOORS",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 76.0,
+          "relative_bbox": [
+            0,
+            -14,
+            76,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 438,
+          "bbox": [
+            2176,
+            424,
+            2252,
+            438
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        416,
+        2260,
+        446
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[时间]",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 411,
+      "bbox": [
+        2664.0,
+        388,
+        2734.0,
+        416
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2664.0,
+          "baseline": 411,
+          "bbox": [
+            2664.0,
+            392,
+            2673.0,
+            416
+          ]
+        },
+        {
+          "text": "时间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 52.0,
+          "relative_bbox": [
+            0,
+            -23,
+            52,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2673.0,
+          "baseline": 411,
+          "bbox": [
+            2673.0,
+            388,
+            2725.0,
+            413
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2725.0,
+          "baseline": 411,
+          "bbox": [
+            2725.0,
+            392,
+            2734.0,
+            416
+          ]
+        }
+      ],
+      "review_crop": [
+        2656,
+        380,
+        2742,
+        424
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "02",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 539,
+      "bbox": [
+        2056,
+        502,
+        2120,
+        540
+      ],
+      "runs": [
+        {
+          "text": "02",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 2056,
+          "baseline": 539,
+          "bbox": [
+            2056,
+            502,
+            2120,
+            540
+          ]
+        }
+      ],
+      "review_crop": [
+        2048,
+        494,
+        2128,
+        548
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "验票",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 539,
+      "bbox": [
+        2176,
+        502,
+        2260,
+        544
+      ],
+      "runs": [
+        {
+          "text": "验票",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -37,
+            84,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 539,
+          "bbox": [
+            2176,
+            502,
+            2260,
+            544
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        494,
+        2268,
+        552
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "CHECK-IN",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 572,
+      "bbox": [
+        2176,
+        558,
+        2280,
+        572
+      ],
+      "runs": [
+        {
+          "text": "CHECK-IN",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 104.0,
+          "relative_bbox": [
+            0,
+            -14,
+            104,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 572,
+          "bbox": [
+            2176,
+            558,
+            2280,
+            572
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        550,
+        2288,
+        580
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[时间]",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 545,
+      "bbox": [
+        2664.0,
+        522,
+        2734.0,
+        550
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2664.0,
+          "baseline": 545,
+          "bbox": [
+            2664.0,
+            526,
+            2673.0,
+            550
+          ]
+        },
+        {
+          "text": "时间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 52.0,
+          "relative_bbox": [
+            0,
+            -23,
+            52,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2673.0,
+          "baseline": 545,
+          "bbox": [
+            2673.0,
+            522,
+            2725.0,
+            547
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2725.0,
+          "baseline": 545,
+          "bbox": [
+            2725.0,
+            526,
+            2734.0,
+            550
+          ]
+        }
+      ],
+      "review_crop": [
+        2656,
+        514,
+        2742,
+        558
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "03",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 673,
+      "bbox": [
+        2056,
+        636,
+        2120,
+        674
+      ],
+      "runs": [
+        {
+          "text": "03",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 2056,
+          "baseline": 673,
+          "bbox": [
+            2056,
+            636,
+            2120,
+            674
+          ]
+        }
+      ],
+      "review_crop": [
+        2048,
+        628,
+        2128,
+        682
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "寄存",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 673,
+      "bbox": [
+        2176,
+        636,
+        2260,
+        678
+      ],
+      "runs": [
+        {
+          "text": "寄存",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -37,
+            84,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 673,
+          "bbox": [
+            2176,
+            636,
+            2260,
+            678
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        628,
+        2268,
+        686
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "COAT CHECK",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 706,
+      "bbox": [
+        2176,
+        692,
+        2314,
+        706
+      ],
+      "runs": [
+        {
+          "text": "COAT CHECK",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 138.0,
+          "relative_bbox": [
+            0,
+            -14,
+            138,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 706,
+          "bbox": [
+            2176,
+            692,
+            2314,
+            706
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        684,
+        2322,
+        714
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[时间]",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 679,
+      "bbox": [
+        2664.0,
+        656,
+        2734.0,
+        684
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2664.0,
+          "baseline": 679,
+          "bbox": [
+            2664.0,
+            660,
+            2673.0,
+            684
+          ]
+        },
+        {
+          "text": "时间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 52.0,
+          "relative_bbox": [
+            0,
+            -23,
+            52,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2673.0,
+          "baseline": 679,
+          "bbox": [
+            2673.0,
+            656,
+            2725.0,
+            681
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2725.0,
+          "baseline": 679,
+          "bbox": [
+            2725.0,
+            660,
+            2734.0,
+            684
+          ]
+        }
+      ],
+      "review_crop": [
+        2656,
+        648,
+        2742,
+        692
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "04",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 807,
+      "bbox": [
+        2056,
+        770,
+        2121,
+        808
+      ],
+      "runs": [
+        {
+          "text": "04",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 65.0,
+          "relative_bbox": [
+            0,
+            -37,
+            65,
+            1
+          ],
+          "anchor": "ls",
+          "x": 2056,
+          "baseline": 807,
+          "bbox": [
+            2056,
+            770,
+            2121,
+            808
+          ]
+        }
+      ],
+      "review_crop": [
+        2048,
+        762,
+        2129,
+        816
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "酒水 · 周边",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 806,
+      "bbox": [
+        2176,
+        770,
+        2374.0,
+        811
+      ],
+      "runs": [
+        {
+          "text": "酒水",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -36,
+            84,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 806,
+          "bbox": [
+            2176,
+            770,
+            2260,
+            811
+          ]
+        },
+        {
+          "text": " · ",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 30.0,
+          "relative_bbox": [
+            0,
+            -18,
+            30,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2260.0,
+          "baseline": 806,
+          "bbox": [
+            2260.0,
+            788,
+            2290.0,
+            806
+          ]
+        },
+        {
+          "text": "周边",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -36,
+            84,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2290.0,
+          "baseline": 806,
+          "bbox": [
+            2290.0,
+            770,
+            2374.0,
+            811
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        762,
+        2382,
+        819
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "BAR · B-SIDE",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 840,
+      "bbox": [
+        2176,
+        826,
+        2306,
+        840
+      ],
+      "runs": [
+        {
+          "text": "BAR · B-SIDE",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 130.0,
+          "relative_bbox": [
+            0,
+            -14,
+            130,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 840,
+          "bbox": [
+            2176,
+            826,
+            2306,
+            840
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        818,
+        2314,
+        848
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[时间]",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 813,
+      "bbox": [
+        2664.0,
+        790,
+        2734.0,
+        818
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2664.0,
+          "baseline": 813,
+          "bbox": [
+            2664.0,
+            794,
+            2673.0,
+            818
+          ]
+        },
+        {
+          "text": "时间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 52.0,
+          "relative_bbox": [
+            0,
+            -23,
+            52,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2673.0,
+          "baseline": 813,
+          "bbox": [
+            2673.0,
+            790,
+            2725.0,
+            815
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2725.0,
+          "baseline": 813,
+          "bbox": [
+            2725.0,
+            794,
+            2734.0,
+            818
+          ]
+        }
+      ],
+      "review_crop": [
+        2656,
+        782,
+        2742,
+        826
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "05",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 941,
+      "bbox": [
+        2056,
+        904,
+        2120,
+        942
+      ],
+      "runs": [
+        {
+          "text": "05",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 2056,
+          "baseline": 941,
+          "bbox": [
+            2056,
+            904,
+            2120,
+            942
+          ]
+        }
+      ],
+      "review_crop": [
+        2048,
+        896,
+        2128,
+        950
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "演出",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 940,
+      "bbox": [
+        2176,
+        904,
+        2260,
+        944
+      ],
+      "runs": [
+        {
+          "text": "演出",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -36,
+            84,
+            4
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 940,
+          "bbox": [
+            2176,
+            904,
+            2260,
+            944
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        896,
+        2268,
+        952
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "THE SHOW",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 974,
+      "bbox": [
+        2176,
+        960,
+        2290,
+        974
+      ],
+      "runs": [
+        {
+          "text": "THE SHOW",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 113.0,
+          "relative_bbox": [
+            0,
+            -14,
+            114,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 974,
+          "bbox": [
+            2176,
+            960,
+            2290,
+            974
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        952,
+        2298,
+        982
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[时间]",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 947,
+      "bbox": [
+        2664.0,
+        924,
+        2734.0,
+        952
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2664.0,
+          "baseline": 947,
+          "bbox": [
+            2664.0,
+            928,
+            2673.0,
+            952
+          ]
+        },
+        {
+          "text": "时间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 52.0,
+          "relative_bbox": [
+            0,
+            -23,
+            52,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2673.0,
+          "baseline": 947,
+          "bbox": [
+            2673.0,
+            924,
+            2725.0,
+            949
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2725.0,
+          "baseline": 947,
+          "bbox": [
+            2725.0,
+            928,
+            2734.0,
+            952
+          ]
+        }
+      ],
+      "review_crop": [
+        2656,
+        916,
+        2742,
+        960
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "06",
+      "size_design_px": 26,
+      "size_render_px": 52,
+      "fill": "#111318",
+      "kind": "num",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1075,
+      "bbox": [
+        2056,
+        1038,
+        2120,
+        1076
+      ],
+      "runs": [
+        {
+          "text": "06",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 64.0,
+          "relative_bbox": [
+            0,
+            -37,
+            64,
+            1
+          ],
+          "anchor": "ls",
+          "x": 2056,
+          "baseline": 1075,
+          "bbox": [
+            2056,
+            1038,
+            2120,
+            1076
+          ]
+        }
+      ],
+      "review_crop": [
+        2048,
+        1030,
+        2128,
+        1084
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "返场 · 出口",
+      "size_design_px": 21,
+      "size_render_px": 42,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1074,
+      "bbox": [
+        2176,
+        1038,
+        2374.0,
+        1079
+      ],
+      "runs": [
+        {
+          "text": "返场",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -36,
+            84,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 1074,
+          "bbox": [
+            2176,
+            1038,
+            2260,
+            1079
+          ]
+        },
+        {
+          "text": " · ",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 30.0,
+          "relative_bbox": [
+            0,
+            -18,
+            30,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2260.0,
+          "baseline": 1074,
+          "bbox": [
+            2260.0,
+            1056,
+            2290.0,
+            1074
+          ]
+        },
+        {
+          "text": "出口",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 84.0,
+          "relative_bbox": [
+            0,
+            -36,
+            84,
+            4
+          ],
+          "anchor": "ls",
+          "x": 2290.0,
+          "baseline": 1074,
+          "bbox": [
+            2290.0,
+            1038,
+            2374.0,
+            1078
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        1030,
+        2382,
+        1087
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "ENCORE · WAY OUT",
+      "size_design_px": 10,
+      "size_render_px": 20,
+      "fill": "#111318",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1108,
+      "bbox": [
+        2176,
+        1094,
+        2375,
+        1108
+      ],
+      "runs": [
+        {
+          "text": "ENCORE · WAY OUT",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 199.0,
+          "relative_bbox": [
+            0,
+            -14,
+            199,
+            0
+          ],
+          "anchor": "ls",
+          "x": 2176,
+          "baseline": 1108,
+          "bbox": [
+            2176,
+            1094,
+            2375,
+            1108
+          ]
+        }
+      ],
+      "review_crop": [
+        2168,
+        1086,
+        2383,
+        1116
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[时间]",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "right",
+      "anchor": "ls",
+      "baseline": 1081,
+      "bbox": [
+        2664.0,
+        1058,
+        2734.0,
+        1086
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2664.0,
+          "baseline": 1081,
+          "bbox": [
+            2664.0,
+            1062,
+            2673.0,
+            1086
+          ]
+        },
+        {
+          "text": "时间",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 52.0,
+          "relative_bbox": [
+            0,
+            -23,
+            52,
+            2
+          ],
+          "anchor": "ls",
+          "x": 2673.0,
+          "baseline": 1081,
+          "bbox": [
+            2673.0,
+            1058,
+            2725.0,
+            1083
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2725.0,
+          "baseline": 1081,
+          "bbox": [
+            2725.0,
+            1062,
+            2734.0,
+            1086
+          ]
+        }
+      ],
+      "review_crop": [
+        2656,
+        1050,
+        2742,
+        1094
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-04-kit.png",
+      "text": "[艺人名] · [日期]",
+      "size_design_px": 13,
+      "size_render_px": 26,
+      "fill": "#5A616C",
+      "kind": "bold",
+      "alignment": "left",
+      "anchor": "ls",
+      "baseline": 1219,
+      "bbox": [
+        2060,
+        1196,
+        2244.0,
+        1224
+      ],
+      "runs": [
+        {
+          "text": "[",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2060,
+          "baseline": 1219,
+          "bbox": [
+            2060,
+            1200,
+            2069,
+            1224
+          ]
+        },
+        {
+          "text": "艺人名",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 78.0,
+          "relative_bbox": [
+            0,
+            -23,
+            78,
+            3
+          ],
+          "anchor": "ls",
+          "x": 2069.0,
+          "baseline": 1219,
+          "bbox": [
+            2069.0,
+            1196,
+            2147.0,
+            1222
+          ]
+        },
+        {
+          "text": "] · [",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 36.0,
+          "relative_bbox": [
+            0,
+            -19,
+            36,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2147.0,
+          "baseline": 1219,
+          "bbox": [
+            2147.0,
+            1200,
+            2183.0,
+            1224
+          ]
+        },
+        {
+          "text": "日期",
+          "face": "cn_bold",
+          "font": "NotoSansSC-Bold.ttf",
+          "advance": 52.0,
+          "relative_bbox": [
+            0,
+            -22,
+            52,
+            3
+          ],
+          "anchor": "ls",
+          "x": 2183.0,
+          "baseline": 1219,
+          "bbox": [
+            2183.0,
+            1197,
+            2235.0,
+            1222
+          ]
+        },
+        {
+          "text": "]",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 9.0,
+          "relative_bbox": [
+            0,
+            -19,
+            9,
+            5
+          ],
+          "anchor": "ls",
+          "x": 2235.0,
+          "baseline": 1219,
+          "bbox": [
+            2235.0,
+            1200,
+            2244.0,
+            1224
+          ]
+        }
+      ],
+      "review_crop": [
+        2052,
+        1188,
+        2252,
+        1232
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-05-photo-spot.png",
+      "text": "05",
+      "size_design_px": 88,
+      "size_render_px": 176,
+      "fill": "#73F64B",
+      "kind": "num",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 163,
+      "bbox": [
+        290.0,
+        40,
+        510.0,
+        165
+      ],
+      "runs": [
+        {
+          "text": "05",
+          "face": "num",
+          "font": "Archivo-ExtraBold.ttf",
+          "advance": 220.0,
+          "relative_bbox": [
+            0,
+            -123,
+            220,
+            2
+          ],
+          "anchor": "ls",
+          "x": 290.0,
+          "baseline": 163,
+          "bbox": [
+            290.0,
+            40,
+            510.0,
+            165
+          ]
+        }
+      ],
+      "final_image_bbox": [
+        996.05,
+        1564.1333333333334,
+        1159.95,
+        1602.05
+      ],
+      "final_image_baseline": 1601.4433333333334,
+      "surface": "floor_layer_before_perspective_compression",
+      "review_crop": [
+        988,
+        1556,
+        1168,
+        1611
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-05-photo-spot.png",
+      "text": "站这里拍",
+      "size_design_px": 46,
+      "size_render_px": 92,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 338,
+      "bbox": [
+        216.0,
+        258,
+        584.0,
+        348
+      ],
+      "runs": [
+        {
+          "text": "站这里拍",
+          "face": "cn",
+          "font": "NotoSansSC-Heavy.ttf",
+          "advance": 368.0,
+          "relative_bbox": [
+            0,
+            -80,
+            368,
+            10
+          ],
+          "anchor": "ls",
+          "x": 216.0,
+          "baseline": 338,
+          "bbox": [
+            216.0,
+            258,
+            584.0,
+            348
+          ]
+        }
+      ],
+      "final_image_bbox": [
+        940.92,
+        1630.26,
+        1215.08,
+        1657.56
+      ],
+      "final_image_baseline": 1654.5266666666666,
+      "surface": "floor_layer_before_perspective_compression",
+      "review_crop": [
+        932,
+        1622,
+        1224,
+        1666
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    },
+    {
+      "file": "onsite-05-photo-spot.png",
+      "text": "PHOTO SPOT",
+      "size_design_px": 23,
+      "size_render_px": 46,
+      "fill": "#F7F8F4",
+      "kind": "bold",
+      "alignment": "center",
+      "anchor": "ls",
+      "baseline": 435,
+      "bbox": [
+        249.0,
+        402,
+        551.0,
+        436
+      ],
+      "runs": [
+        {
+          "text": "PHOTO SPOT",
+          "face": "bold",
+          "font": "Archivo-Bold.ttf",
+          "advance": 302.0,
+          "relative_bbox": [
+            0,
+            -33,
+            302,
+            1
+          ],
+          "anchor": "ls",
+          "x": 249.0,
+          "baseline": 435,
+          "bbox": [
+            249.0,
+            402,
+            551.0,
+            436
+          ]
+        }
+      ],
+      "final_image_bbox": [
+        965.505,
+        1673.94,
+        1190.495,
+        1684.2533333333333
+      ],
+      "final_image_baseline": 1683.95,
+      "surface": "floor_layer_before_perspective_compression",
+      "review_crop": [
+        957,
+        1665,
+        1199,
+        1693
+      ],
+      "all_runs_share_baseline": true,
+      "visual_review": "passed at 100 percent crop scale"
+    }
+  ],
+  "review_checks": [
+    "Middle dots remain at text middle height.",
+    "Periods remain at the baseline.",
+    "Hyphens in CHECK-IN and B-SIDE remain at midline.",
+    "Apostrophe in TONIGHT'S remains at ascender height.",
+    "Lowercase i dots and descenders retain Archivo shaping.",
+    "Mixed Chinese/Latin runs share one baseline.",
+    "No clipped text or overlap introduced.",
+    "True onsite ALL ACCESS wording preserved."
+  ]
+}

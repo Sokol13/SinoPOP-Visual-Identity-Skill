@@ -1,0 +1,8 @@
+reportlab
+fonttools[woff]
+svglib
+pypdf
+PyMuPDF
+Pillow
+brotli
+numpy

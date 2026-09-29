@@ -1,0 +1,2198 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [],
+  "scope": {
+    "original_folder_unchanged": true,
+    "changed_existing": [
+      "README.md",
+      "__pycache__/build_cards.cpython-312.pyc",
+      "build_cards.py",
+      "card-preview-index.json",
+      "mockups-contact-sheet.jpg",
+      "preview.png",
+      "qa-cards.json",
+      "task-01-cards/01-ticket/back-preview.png",
+      "task-01-cards/01-ticket/back.svg",
+      "task-01-cards/01-ticket/front-preview.png",
+      "task-01-cards/01-ticket/front.svg",
+      "task-01-cards/01-ticket/mockup.png",
+      "task-01-cards/01-ticket/print.pdf",
+      "task-01-cards/01-ticket/size-90x54-check.pdf",
+      "task-01-cards/02-setlist/back.svg",
+      "task-01-cards/02-setlist/front-preview.png",
+      "task-01-cards/02-setlist/front.svg",
+      "task-01-cards/02-setlist/mockup.png",
+      "task-01-cards/02-setlist/print.pdf",
+      "task-01-cards/02-setlist/size-90x54-check.pdf",
+      "task-01-cards/03-vinyl/back-preview.png",
+      "task-01-cards/03-vinyl/back.svg",
+      "task-01-cards/03-vinyl/front.svg",
+      "task-01-cards/03-vinyl/insert-back.svg",
+      "task-01-cards/03-vinyl/insert-front.svg",
+      "task-01-cards/03-vinyl/insert-print.pdf",
+      "task-01-cards/03-vinyl/mockup.png",
+      "task-01-cards/03-vinyl/print.pdf",
+      "task-01-cards/03-vinyl/size-90x54-check.pdf",
+      "task-01-cards/03-vinyl/sleeve-ink-print.pdf",
+      "task-01-cards/04-backstage/back-preview.png",
+      "task-01-cards/04-backstage/back.svg",
+      "task-01-cards/04-backstage/front-preview.png",
+      "task-01-cards/04-backstage/front.svg",
+      "task-01-cards/04-backstage/mockup.png",
+      "task-01-cards/04-backstage/print.pdf",
+      "task-01-cards/04-backstage/size-90x54-check.pdf",
+      "task-01-cards/05-jcard/back-preview.png",
+      "task-01-cards/05-jcard/back.svg",
+      "task-01-cards/05-jcard/construction.pdf",
+      "task-01-cards/05-jcard/front.svg",
+      "task-01-cards/05-jcard/mockup.png",
+      "task-01-cards/05-jcard/print.pdf",
+      "task-01-cards/05-jcard/size-90x54-check.pdf",
+      "task-01-cards/05-jcard/spread-inside.svg",
+      "task-01-cards/05-jcard/spread-outside.svg",
+      "task-01-cards/06-material/back-preview.png",
+      "task-01-cards/06-material/back.svg",
+      "task-01-cards/06-material/front.svg",
+      "task-01-cards/06-material/ink-print.pdf",
+      "task-01-cards/06-material/print.pdf",
+      "task-01-cards/06-material/size-90x54-check.pdf",
+      "task-02-onsite/compose-onsite.py",
+      "task-02-onsite/onsite-01-entrance.png",
+      "task-02-onsite/onsite-02-lobby.png",
+      "task-02-onsite/onsite-03-now-playing.png",
+      "task-02-onsite/onsite-04-kit.png",
+      "task-02-onsite/onsite-05-photo-spot.png",
+      "task-02-onsite/receipt-onsite.json"
+    ],
+    "new_files": [
+      "_qa-spot/01-ticket-spot-page-1.png",
+      "_qa-spot/01-ticket-spot-page-2.png",
+      "_qa-spot/02-setlist-spot-page-1.png",
+      "_qa-spot/02-setlist-spot-page-2.png",
+      "_qa-spot/06-material-spot-page-1.png",
+      "_qa-spot/06-material-spot-page-2.png",
+      "assets/fonts/NotoSansSC-Bold.ttf",
+      "assets/fonts/NotoSansSC-Medium.ttf",
+      "assets/fonts/NotoSansSC-Regular.ttf",
+      "build_spot.py",
+      "qa-spot.json",
+      "qa/original-files.json",
+      "qa/revision-validation.json",
+      "task-01-cards/01-ticket/print-cmyk-spot.pdf",
+      "task-01-cards/02-setlist/print-cmyk-spot.pdf",
+      "task-01-cards/06-material/print-cmyk-spot.pdf",
+      "task-02-onsite/_qa-baselines/lines-001-008.png",
+      "task-02-onsite/_qa-baselines/lines-009-016.png",
+      "task-02-onsite/_qa-baselines/lines-017-024.png",
+      "task-02-onsite/_qa-baselines/lines-025-032.png",
+      "task-02-onsite/_qa-baselines/lines-033-040.png",
+      "task-02-onsite/_qa-baselines/lines-041-048.png",
+      "task-02-onsite/_qa-baselines/lines-049-056.png",
+      "task-02-onsite/_qa-baselines/lines-057-064.png",
+      "task-02-onsite/_qa-baselines/lines-065-072.png",
+      "task-02-onsite/_qa-baselines/lines-073-080.png",
+      "task-02-onsite/_qa-baselines/lines-081-088.png",
+      "task-02-onsite/_qa-baselines/lines-089-096.png",
+      "task-02-onsite/_qa-baselines/lines-097-098.png",
+      "task-02-onsite/baseline-qa.json",
+      "validate_revision.py"
+    ],
+    "missing_files": [],
+    "protected_changed": [],
+    "protected_original_files": 64
+  },
+  "fonts": [
+    {
+      "file": "assets/fonts/NotoSansSC-Regular.ttf",
+      "weight": 400,
+      "static": true,
+      "glyphs": 31036
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-Medium.ttf",
+      "weight": 500,
+      "static": true,
+      "glyphs": 31036
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-Bold.ttf",
+      "weight": 700,
+      "static": true,
+      "glyphs": 31036
+    },
+    {
+      "file": "assets/fonts/NotoSansSC-Heavy.ttf",
+      "weight": 900,
+      "static": true,
+      "glyphs": 31036
+    }
+  ],
+  "svg": [
+    {
+      "file": "task-01-cards/01-ticket/back.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#B7BDC5",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "入场",
+          "font": "NotoSansSC-Heavy",
+          "size": 16.0
+        },
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 22.0
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 7.5
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/01-ticket/construction-guide.svg",
+      "colors": [
+        "#111318",
+        "#5A616C",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/01-ticket/front.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#F7F8F4"
+      ],
+      "logos_original": 1,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "NotoSansSC-Heavy"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "入场",
+          "font": "NotoSansSC-Heavy",
+          "size": 16.0
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/02-setlist/back.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#F7F8F4"
+      ],
+      "logos_original": 1,
+      "min_pt": 9.0,
+      "used_fonts": [
+        "Archivo-Bold"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/02-setlist/construction-guide.svg",
+      "colors": [
+        "#111318",
+        "#5A616C",
+        "#73F64B",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/02-setlist/front.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#D8DBD3",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 21.0
+        },
+        {
+          "text": "电话",
+          "font": "NotoSansSC-Bold",
+          "size": 7.5
+        },
+        {
+          "text": "微信",
+          "font": "NotoSansSC-Bold",
+          "size": 7.5
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 7.5
+        },
+        {
+          "text": "邮箱",
+          "font": "NotoSansSC-Bold",
+          "size": 7.5
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/03-vinyl/back.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#B7BDC5",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 22.0
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 7.5
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/03-vinyl/construction-guide.svg",
+      "colors": [
+        "#111318",
+        "#5A616C",
+        "#D8DBD3",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/03-vinyl/front.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#F7F8F4"
+      ],
+      "logos_original": 1,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/03-vinyl/insert-back.svg",
+      "colors": [
+        "#111318",
+        "#5A616C",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 22.0
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 7.5
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/03-vinyl/insert-front.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/03-vinyl/sleeve-front-ink.svg",
+      "colors": [
+        "#111318",
+        "#73F64B"
+      ],
+      "logos_original": 1,
+      "min_pt": 32.0,
+      "used_fonts": [
+        "Archivo-ExtraBold"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/04-backstage/back.svg",
+      "colors": [
+        "#111318",
+        "#B7BDC5",
+        "#F7F8F4"
+      ],
+      "logos_original": 1,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/04-backstage/construction-guide.svg",
+      "colors": [
+        "#111318",
+        "#5A616C",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/04-backstage/front.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#B7BDC5",
+        "#F7F8F4"
+      ],
+      "logos_original": 1,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 24.0
+        },
+        {
+          "text": "主办方",
+          "font": "NotoSansSC-Heavy",
+          "size": 11.5
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 7.5
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/05-jcard/back.svg",
+      "colors": [
+        "#111318",
+        "#D8DBD3",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 17.0
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 8.0
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/05-jcard/construction-guide.svg",
+      "colors": [
+        "#111318",
+        "#5A616C",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/05-jcard/front.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#B7BDC5"
+      ],
+      "logos_original": 1,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/05-jcard/spread-inside.svg",
+      "colors": [
+        "#111318",
+        "#D8DBD3",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 17.0
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 8.0
+        },
+        {
+          "text": "音乐实物",
+          "font": "NotoSansSC-Heavy",
+          "size": 15.0
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/05-jcard/spread-outside.svg",
+      "colors": [
+        "#111318",
+        "#73F64B",
+        "#B7BDC5",
+        "#F7F8F4"
+      ],
+      "logos_original": 2,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "NotoSansSC-Heavy"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓",
+          "font": "NotoSansSC-Heavy",
+          "size": 13.0
+        },
+        {
+          "text": "名",
+          "font": "NotoSansSC-Heavy",
+          "size": 13.0
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/back.svg",
+      "colors": [
+        "#111318",
+        "#B7BDC5",
+        "#F7F8F4"
+      ],
+      "logos_original": 1,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 16.0
+        },
+        {
+          "text": "微信号",
+          "font": "NotoSansSC-Regular",
+          "size": 7.5
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/construction-guide.svg",
+      "colors": [
+        "#111318",
+        "#3A3F48",
+        "#5A616C",
+        "#73F64B",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 8.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 29.0
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/deboss-mask.svg",
+      "colors": [
+        "#111318",
+        "#F7F8F4"
+      ],
+      "logos_original": 0,
+      "min_pt": 10.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "NotoSansSC-Heavy"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 29.0
+        }
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/front-ink.svg",
+      "colors": [
+        "#111318",
+        "#73F64B"
+      ],
+      "logos_original": 1,
+      "min_pt": null,
+      "used_fonts": [],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": []
+    },
+    {
+      "file": "task-01-cards/06-material/front.svg",
+      "colors": [
+        "#111318",
+        "#3A3F48",
+        "#73F64B"
+      ],
+      "logos_original": 1,
+      "min_pt": 10.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "NotoSansSC-Heavy"
+      ],
+      "embedded_fonts": {
+        "Archivo-Regular": {
+          "weight": 400,
+          "glyphs": 201,
+          "static": true
+        },
+        "Archivo-Bold": {
+          "weight": 700,
+          "glyphs": 202,
+          "static": true
+        },
+        "Archivo-ExtraBold": {
+          "weight": 800,
+          "glyphs": 202,
+          "static": true
+        },
+        "NotoSansSC-Regular": {
+          "weight": 400,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Medium": {
+          "weight": 500,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Bold": {
+          "weight": 700,
+          "glyphs": 557,
+          "static": true
+        },
+        "NotoSansSC-Heavy": {
+          "weight": 900,
+          "glyphs": 557,
+          "static": true
+        }
+      },
+      "chinese": [
+        {
+          "text": "姓名",
+          "font": "NotoSansSC-Heavy",
+          "size": 29.0
+        }
+      ]
+    }
+  ],
+  "pdf": [
+    {
+      "file": "task-01-cards/01-ticket/print-cmyk-spot.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/01-ticket/print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/01-ticket/size-90x54-check.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.593,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/02-setlist/print-cmyk-spot.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Bold": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/02-setlist/print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Bold": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/02-setlist/size-90x54-check.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.087,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Bold",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Bold": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/03-vinyl/insert-print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          246.331,
+          138.331
+        ],
+        [
+          246.331,
+          138.331
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/03-vinyl/print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/03-vinyl/size-90x54-check.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.593,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/03-vinyl/sleeve-ink-print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/04-backstage/print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          144.0,
+          252.0
+        ],
+        [
+          144.0,
+          252.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/04-backstage/size-90x54-check.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.593,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          153.071,
+          255.118
+        ],
+        [
+          153.071,
+          255.118
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/05-jcard/construction.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          396.0,
+          144.0
+        ],
+        [
+          396.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/05-jcard/print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/05-jcard/size-90x54-check.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.087,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/deboss-mask.pdf",
+      "rendered_pages": 1,
+      "min_pt": 10.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "NotoSansSC-Heavy"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "NotoSansSC-Heavy": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/ink-print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/print-cmyk-spot.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/print.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.5,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          252.0,
+          144.0
+        ],
+        [
+          252.0,
+          144.0
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/06-material/size-90x54-check.pdf",
+      "rendered_pages": 2,
+      "min_pt": 7.593,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy",
+        "NotoSansSC-Regular"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true,
+        "NotoSansSC-Regular": true
+      },
+      "trim_pt": [
+        [
+          255.118,
+          153.071
+        ],
+        [
+          255.118,
+          153.071
+        ]
+      ]
+    },
+    {
+      "file": "task-01-cards/construction-guides.pdf",
+      "rendered_pages": 6,
+      "min_pt": 7.0,
+      "used_fonts": [
+        "Archivo-Bold",
+        "Archivo-ExtraBold",
+        "Archivo-Regular",
+        "NotoSansSC-Heavy"
+      ],
+      "embedded": {
+        "Archivo-Bold": true,
+        "Archivo-ExtraBold": true,
+        "Archivo-Regular": true,
+        "NotoSansSC-Heavy": true
+      },
+      "trim_pt": [
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ],
+        [
+          540.0,
+          432.0
+        ]
+      ]
+    }
+  ],
+  "png": [
+    {
+      "file": "task-02-onsite/onsite-01-entrance.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "format": "PNG",
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-02-lobby.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "format": "PNG",
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-03-now-playing.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "format": "PNG",
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-04-kit.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "format": "PNG",
+      "decode": "passed"
+    },
+    {
+      "file": "task-02-onsite/onsite-05-photo-spot.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "format": "PNG",
+      "decode": "passed"
+    }
+  ],
+  "spot_pdf": [
+    {
+      "file": "task-01-cards/01-ticket/print-cmyk-spot.pdf",
+      "SP-GREEN_Separation": true,
+      "spot_paint_operator": true,
+      "process_cmyk_operator": true,
+      "rgb_paint_count": 0,
+      "color_spaces": [
+        "['/Separation', '/SP-GREEN', '/DeviceCMYK', {'/FunctionType': 2, '/Domain': [0.0, 1], '/C0': [0.0, 0.0, 0.0, 0.0], '/C1': [0.53252033, 0.0, 0.69512195, 0.03529412], '/N': 1}]",
+        "['/Separation', '/SP-GREEN', '/DeviceCMYK', {'/FunctionType': 2, '/Domain': [0.0, 1], '/C0': [0.0, 0.0, 0.0, 0.0], '/C1': [0.53252033, 0.0, 0.69512195, 0.03529412], '/N': 1}]"
+      ],
+      "image_color_spaces": []
+    },
+    {
+      "file": "task-01-cards/02-setlist/print-cmyk-spot.pdf",
+      "SP-GREEN_Separation": true,
+      "spot_paint_operator": true,
+      "process_cmyk_operator": true,
+      "rgb_paint_count": 0,
+      "color_spaces": [
+        "['/Separation', '/SP-GREEN', '/DeviceCMYK', {'/FunctionType': 2, '/Domain': [0.0, 1], '/C0': [0.0, 0.0, 0.0, 0.0], '/C1': [0.53252033, 0.0, 0.69512195, 0.03529412], '/N': 1}]",
+        "['/Separation', '/SP-GREEN', '/DeviceCMYK', {'/FunctionType': 2, '/Domain': [0.0, 1], '/C0': [0.0, 0.0, 0.0, 0.0], '/C1': [0.53252033, 0.0, 0.69512195, 0.03529412], '/N': 1}]"
+      ],
+      "image_color_spaces": []
+    },
+    {
+      "file": "task-01-cards/06-material/print-cmyk-spot.pdf",
+      "SP-GREEN_Separation": true,
+      "spot_paint_operator": true,
+      "process_cmyk_operator": true,
+      "rgb_paint_count": 0,
+      "color_spaces": [
+        "['/Separation', '/SP-GREEN', '/DeviceCMYK', {'/FunctionType': 2, '/Domain': [0.0, 1], '/C0': [0.0, 0.0, 0.0, 0.0], '/C1': [0.53252033, 0.0, 0.69512195, 0.03529412], '/N': 1}]",
+        "['/Separation', '/SP-GREEN', '/DeviceCMYK', {'/FunctionType': 2, '/Domain': [0.0, 1], '/C0': [0.0, 0.0, 0.0, 0.0], '/C1': [0.53252033, 0.0, 0.69512195, 0.03529412], '/N': 1}]"
+      ],
+      "image_color_spaces": []
+    }
+  ],
+  "original_logo_sha256": {
+    "white": "bd3505f5c21e985d6518ba398063f7c12d4389fc0b68347f5d48475f7c2936c7",
+    "black": "bdf7de688e51e4fd64316d6ae2ab0208686d81ea85e729f568901f815ed21b2b"
+  }
+}
