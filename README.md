@@ -1,6 +1,6 @@
-# sinoPOP Visual Identity Skill · 视觉识别与设计规范 2.1
+# SinoPOP Visual Identity Skill · 视觉识别与设计规范 2.1
 
-sinoPOP 的完整品牌规范，做成了 AI 能直接用的技能。装好以后，Claude、Codex、ChatGPT 做 sinoPOP 的任何东西——网页小组件、公众号文章、交接文件、名片、手环、工牌挂绳、现场标识、易拉宝、主办方介绍——都会按同一套 VI 和设计规范来。
+SinoPOP 的完整品牌规范，做成了 AI 能直接用的技能。装好以后，Claude、Codex、ChatGPT 做 sinoPOP 的任何东西——网页小组件、公众号文章、交接文件、名片、手环、工牌挂绳、现场标识、易拉宝、主办方介绍——都会按同一套 VI 和设计规范来。
 
 **安装：看 [INSTALL.md](INSTALL.md)，按你用的工具复制一段提示词就行。**
 
