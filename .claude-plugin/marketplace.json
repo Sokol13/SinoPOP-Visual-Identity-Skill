@@ -1,14 +1,14 @@
 {
   "name": "sinopop",
-  "description": "sinoPOP 视觉识别规范（VI）与设计规范 2.1 — 给 AI 用的品牌技能",
+  "description": "SinoPOP 视觉识别规范（VI）与设计规范 2.1 — 给 AI 用的品牌技能",
   "owner": {
-    "name": "Sokol (sinoPOP)"
+    "name": "Sokol (SinoPOP)"
   },
   "plugins": [
     {
       "name": "sinopop-design",
       "source": "./",
-      "description": "Makes every sinoPOP output follow VI & design standards 2.1: web widgets, WeChat articles, handoff docs, cards, wristbands, passes, signage, roll-ups, promoter profile.",
+      "description": "Makes every SinoPOP output follow VI & design standards 2.1: web widgets, WeChat articles, handoff docs, cards, wristbands, passes, signage, roll-ups, promoter profile.",
       "version": "2.1.0",
       "strict": false,
       "skills": ["./skills/sinopop-design"]

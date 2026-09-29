@@ -1,4 +1,4 @@
-/* sinoPOP web widgets v2.1 — requires tokens.css (or the inlined variables in embed/*.html).
+/* SinoPOP web widgets v2.1 — requires tokens.css (or the inlined variables in embed/*.html).
    Rules: one radius (--sp-radius, 8px) at every size; status = mono + green (green = act, paper/ink = attention, grey = over; no pink in UI);
    Latin + numerals render in Archivo via the font stack. Dark by default; add data-sp-theme="light" to any wrapper.
    Language: the website shows ONE language per page. Put lang="zh-CN" or lang="en" on <html> or on .sp-root —

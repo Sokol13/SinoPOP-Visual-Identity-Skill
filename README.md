@@ -1,6 +1,6 @@
 # SinoPOP Visual Identity Skill · 视觉识别与设计规范 2.1
 
-SinoPOP 的完整品牌规范，做成了 AI 能直接用的技能。装好以后，Claude、Codex、ChatGPT 做 sinoPOP 的任何东西——网页小组件、公众号文章、交接文件、名片、手环、工牌挂绳、现场标识、易拉宝、主办方介绍——都会按同一套 VI 和设计规范来。
+SinoPOP 的完整品牌规范，做成了 AI 能直接用的技能。装好以后，Claude、Codex、ChatGPT 做 SinoPOP 的任何东西——网页小组件、公众号文章、交接文件、名片、手环、工牌挂绳、现场标识、易拉宝、主办方介绍——都会按同一套 VI 和设计规范来。
 
 **安装：看 [INSTALL.md](INSTALL.md)，按你用的工具复制一段提示词就行。**
 
@@ -23,8 +23,8 @@ skills/sinopop-design/            技能本体（Claude / Codex 通用）
     assets/                       白 / 黑两版矢量标志、示例图
 
 docs/
-  sinoPOP-VI-2.1.pdf              VI 规范 30 页（给人看）
-  sinoPOP-Design-Standards-2.1.pdf 设计规范 10 页
+  SinoPOP_VI_2.1.pdf              VI 规范 30 页（给人看）
+  SinoPOP_Design_Standards_2.1.pdf 设计规范 10 页
   CHANGELOG.md                    所有决定和改动记录
   surface-tint-X4.png             层级面底色选择对比
 
@@ -57,7 +57,7 @@ tools/build-dist.sh               改了技能以后重新生成 dist/
 
 ## 注意
 
-- 这是私有仓库，内容仅供 sinoPOP 内部和合作方使用。
+- 这是私有仓库，内容仅供 SinoPOP 内部和合作方使用。
 - `design-system/assets/sample-poster-*.png`、`sample-live-photo.jpg` 是排版示例，版权归原作者，不能用于对外发布。
-- 所有 AI 效果图和氛围图都不是 sinoPOP 真实活动的照片。
+- 所有 AI 效果图和氛围图都不是 SinoPOP 真实活动的照片。
 - 亮绿需要荧光专色实物打样；深色底材上的白字白标需要白墨版；二维码都是占位，要换成真码并测试。

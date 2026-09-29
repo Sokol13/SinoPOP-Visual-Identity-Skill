@@ -1,6 +1,6 @@
-# sinoPOP 印刷与现场生产文件 · 从这里开始
+# SinoPOP 印刷与现场生产文件 · 从这里开始
 
-这个文件夹是 sinoPOP「音乐实物」系列的全部生产文件，由 GPT/Codex 分三次交付，已经合并好。视觉规则以 `../docs/sinoPOP-VI-2.1.pdf` 的 V24–V29 页为准；文字规则以 `../skills/sinopop-design/SKILL.md` 为准。
+这个文件夹是 SinoPOP「音乐实物」系列的全部生产文件，由 GPT/Codex 分三次交付，已经合并好。视觉规则以 `../docs/SinoPOP_VI_2.1.pdf` 的 V24–V29 页为准；文字规则以 `../skills/sinopop-design/SKILL.md` 为准。
 
 ## 哪些是定稿，哪些是存档
 

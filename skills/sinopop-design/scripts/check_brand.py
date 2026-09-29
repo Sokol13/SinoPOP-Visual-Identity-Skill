@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""sinoPOP brand check — run on anything you made before handing it over.
+"""SinoPOP brand check — run on anything you made before handing it over.
 
 Usage:  python3 check_brand.py <file-or-folder> [...]
 
 Checks HTML / CSS / SVG / JS / JSX / TSX / Vue / Markdown files for:
   - colours that are not in design-system/tokens/tokens.json (hex and rgb())
   - retired colours (#141926 ink blue, #1B1E24 old grey)
-  - forbidden wording ("ALL ACCESS")
+  - forbidden wording ("ALL ACCESS") and wrong brand spelling (must be SinoPOP)
 Exit code 1 if anything is wrong, so agents can loop until it passes.
 The WeChat framework B placeholder accent #1863C3 is reported as a reminder, not an error.
 """
@@ -47,7 +47,9 @@ def check(path):
             elif h in SHELL:
                 continue
             elif h not in palette:
-                problems.append(f"{path}:{n}  {h}  not a sinoPOP token colour")
+                problems.append(f"{path}:{n}  {h}  not a SinoPOP token colour")
+        for m in re.findall(r"\b(sinoPOP|Sinopop|SinoPop|sinoPop|Sinopop)\b", line):
+            problems.append(f"{path}:{n}  '{m}' — the brand name is written SinoPOP")
         if re.search(r"all\s*access", line, re.I):
             problems.append(f"{path}:{n}  'ALL ACCESS' wording is not allowed")
     return problems, notes

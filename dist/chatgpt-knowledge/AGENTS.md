@@ -1,6 +1,6 @@
-# sinoPOP Design System — rules for AI agents (v2.1)
+# SinoPOP Design System — rules for AI agents (v2.1)
 
-sinoPOP is a music & live-culture **promoter** rooted in Chinese youth music, bringing live shows to young audiences abroad. You are building one of four things: **web widgets**, **WeChat Official Account articles (公众号)**, **handoff documents (交接文件)**, or **on-site / print production files** (cards, wristbands, passes, signage, roll-ups, promoter profile). Read this file first, then use the files it points to. Do not invent a new style.
+SinoPOP is a music & live-culture **promoter** rooted in Chinese youth music, bringing live shows to young audiences abroad. You are building one of four things: **web widgets**, **WeChat Official Account articles (公众号)**, **handoff documents (交接文件)**, or **on-site / print production files** (cards, wristbands, passes, signage, roll-ups, promoter profile). Read this file first, then use the files it points to. Do not invent a new style.
 
 ## Files
 | Need | Use |
@@ -9,9 +9,9 @@ sinoPOP is a music & live-culture **promoter** rooted in Chinese youth music, br
 | Web widgets (Wix embed or V2 site) | `web/sinopop-widgets.css` + `tokens/tokens.css`; examples in `web/widgets-demo.html`; paste-ready Wix embeds in `web/embed/` |
 | WeChat article | Framework A (self-run, no specific artist): `wechat/article-template.html` · Framework B (artist-led, poster first): `wechat/article-artist.html` — inline styles only |
 | Handoff doc | Figma page `30 · 组件 2.0` → `Template/A4 …` and `Template/1080 …`; Google Docs: `handoff/google-docs-guide.md` |
-| Print / on-site items | Visual rules: Figma page `82 · VI规范 2.0`, frames V24–V29 (PDF: `sinoPOP-VI规范-2.1-定稿.pdf`). Production files, scripts and sample CSVs: the `sinopop-music-objects/` package (`task-04-card-final` … `task-09-profile`) — rebuild with its scripts, never redraw by hand |
+| Print / on-site items | Visual rules: Figma page `82 · VI规范 2.0`, frames V24–V29 (PDF: `SinoPOP-VI规范-2.1-定稿.pdf`). Production files, scripts and sample CSVs: the `sinopop-music-objects/` package (`task-04-card-final` … `task-09-profile`) — rebuild with its scripts, never redraw by hand |
 | Logo | `assets/sinopop-logo-white.svg`, `assets/sinopop-logo-black.svg` (vector trace of the approved brush PNG) |
-| Figma | File `oQLs4rdfXbgzhLE0XDpTri`. Variables: `sinoPOP / Primitives`, `sinoPOP / Color` (modes Dark, Light), `sinoPOP / Dimensions`. Each variable's WEB code syntax = the CSS variable. Each component description lists USE / DON'T / PROPS / CODE / TOKENS. |
+| Figma | File `oQLs4rdfXbgzhLE0XDpTri`. Variables: `SinoPOP / Primitives`, `SinoPOP / Color` (modes Dark, Light), `SinoPOP / Dimensions`. Each variable's WEB code syntax = the CSS variable. Each component description lists USE / DON'T / PROPS / CODE / TOKENS. |
 
 ## Hard rules (never break)
 1. Colors come only from tokens. Never add a hex value that isn't in `tokens.json`. Only exception: the one borrowed poster accent in WeChat framework B (see WeChat).
@@ -28,6 +28,7 @@ sinoPOP is a music & live-culture **promoter** rooted in Chinese youth music, br
 10. Logo: black or white version only, transparent background. Never redraw, retype, recolor, outline, add effects, box, stretch or rotate. White on dark, black on light.
 11. Status must be written in words (bilingual). Color only supports it. Every status notice says what happens next.
 12. In mixed-bilingual pieces: Chinese first, English second, same order throughout.
+13. **Brand name is written `SinoPOP`** — capital S, capital POP — in every language and every file. All-caps settings may use `SINOPOP`. Lowercase `sinopop` only in URLs, domains (`sinopop.us`), file names and code identifiers. Never `sinoPOP`, `Sinopop` or `SinoPop`.
 
 ## Type sets (tokens.json → type.zh / type.en)
 | role | zh — Noto Sans SC（思源黑体） desktop/mobile · leading · tracking | en (Archivo) |
@@ -39,12 +40,12 @@ sinoPOP is a music & live-culture **promoter** rooted in Chinese youth music, br
 | body | 17/16 · 1.8 · +0.03em · measure 36em | 17/16 · 1.55 · 0 · measure 66ch |
 | caption | 14/13 · 1.65 · +0.03em | 14/13 · 1.45 · 0 |
 | label | 13/12 · 1.4 · +0.12em · no caps | 12/12 · 1.3 · +0.08em · UPPERCASE |
-Figma text styles: `sinoPOP 2.1 / zh / …` and `sinoPOP 2.1 / en / …`. Demo: `web/lang-switch-demo.html`.
+Figma text styles: `SinoPOP 2.1 / zh / …` and `SinoPOP 2.1 / en / …`. Demo: `web/lang-switch-demo.html`.
 
 ## Themes
 - Web widgets: Dark (default). Add `data-sp-theme="light"` on a wrapper for light sections.
 - WeChat article body and handoff docs: Light. Brand dark lives in the header image (framework A), the host bar (framework B) and the brand bar in the service footer.
-- In Figma, set the outer frame's `sinoPOP / Color` mode to Light; bound components switch automatically.
+- In Figma, set the outer frame's `SinoPOP / Color` mode to Light; bound components switch automatically.
 
 ## Web widgets
 - Wrap everything in `<div class="sp-root">`. Classes: `.sp-btn[--secondary|--ghost][--s]`, `.sp-tag--soon|--waitlist|--on-sale|--tonight|--selling-fast|--changed|--postponed|--sold-out|--ended|--cancelled`, `.sp-event-card[--row]`, `.sp-event-grid`, `.sp-facts` / `.sp-facts__row` / `.sp-facts__todo`, `.sp-notice[--attention|--critical]` (status block + message + next step + updated time), `.sp-section-head`.
@@ -54,10 +55,10 @@ Figma text styles: `sinoPOP 2.1 / zh / …` and `sinoPOP 2.1 / en / …`. Demo: 
 
 ## WeChat (公众号)
 - Inline styles only. No `<style>`, no scripts, no web fonts, no external CSS. Deliver HTML; the person opens it in a browser, copies all, pastes into the WeChat editor. Check at 375 px and in dark mode.
-- **Pick a framework first.** No specific artist (party, theme night) → **A** `article-template.html`: full sinoPOP look (dark header image with white logo, green section numbers, ink key-point bar). Artist show with a poster → **B** `article-artist.html`: poster-led middle, sinoPOP at top and bottom.
+- **Pick a framework first.** No specific artist (party, theme night) → **A** `article-template.html`: full SinoPOP look (dark header image with white logo, green section numbers, ink key-point bar). Artist show with a poster → **B** `article-artist.html`: poster-led middle, SinoPOP at top and bottom.
 - **Three fixed zones — identical in A and B, never restyled:**
   - F1 Host bar (B only, first thing in the article): `hostbar-dark-1080.png` / `hostbar-light-1080.png` (match the poster's lightness). Figma `WX/HostBar`.
-  - F2 Ticket card (in the 购票 section): must be text — date, title, venue, price, on-sale time, ink CTA 「点击「阅读原文」购票」, 主办 sinoPOP. Figma `WX/TicketCard`.
+  - F2 Ticket card (in the 购票 section): must be text — date, title, venue, price, on-sale time, ink CTA 「点击「阅读原文」购票」, 主办 SinoPOP. Figma `WX/TicketCard`.
   - F3 Service footer (last): ticket instructions + customer-service QR (text) + `brandbar-1080.png`. Figma `WX/ServiceFooter`.
 - **Borrowed accent (B only):** take ONE saturated colour from the poster; white text on it must reach ≥ 4.5:1, else darken it. It appears in exactly four places: section-number chip, divider, key-point left bar, ticket-card top line. Body text stays `#111318`; backgrounds stay white or paper `#F7F8F4`; notices (M09) stay mono. In the HTML it is the single hex `#1863C3` — find and replace it.
 - **Poster:** full width, whole image, never cropped, never typed over, placed directly under the host bar.
@@ -69,16 +70,16 @@ Figma text styles: `sinoPOP 2.1 / zh / …` and `sinoPOP 2.1 / en / …`. Demo: 
 - A4 794×1123 (PDF), Light mode, side margins 56 (content 682 wide).
 - Page 1: `Doc/Header` dark band — white logo 64×48 top-left (56 from left, 40 from top); right-aligned: type (Archivo SemiBold 12, caps, green) → title (Noto Bold 24) → `版本 v01 · 更新 YYYY.MM.DD · 编号`.
 - Page 2+: `Doc/HeaderCont` — black logo 32×24 top-left, doc title + `续 Continued · v01` right, 1px divider.
-- Every page: `Doc/Footer` — left `sinoPOP · 内部资料 Internal`, center file name, right page `1 / 2` (Archivo).
+- Every page: `Doc/Footer` — left `SinoPOP · 内部资料 Internal`, center file name, right page `1 / 2` (Archivo).
 - Body: `Doc/SectionTitle` → `Web/FactRow` (label 14 #5A616C, value 16 Medium #111318, TBC in muted grey `--sp-color-muted`) / `Doc/ScheduleRow` / `Doc/QuoteRow` (numbers right-aligned, USD) / `Doc/CheckItem` / `Doc/SignBlock`.
 - WeChat long image: lay out at 450 wide, export ×2.4 = 1080 wide PNG.
-- File name: `sinoPOP_{类型}_{艺人}_{城市}_v01_YYYYMMDD.pdf`. Bump the version on every change and update the header.
+- File name: `SinoPOP_{类型}_{艺人}_{城市}_v01_YYYYMMDD.pdf`. Bump the version on every change and update the header.
 
 ## On-site credentials (wristbands, passes, lanyards)
 - Wristbands are for the audience only and follow the ticket tier: white/paper = GA (early bird is the same tier), green = VIP, ink black = SVIP / table (卡座, top tier). Tier is always written in words; every band carries a serial number; logo on the band (black on white/green, white on black).
 - Staff, artists and guests never wear wristbands; they use passes. No "ALL ACCESS" wording anywhere.
 - Passes (90 × 130 mm) show role + numbered access zones (1 floor · 2 backstage · 3 stage · 4 green room). Roles: STAFF (green band), ARTIST (ink band, thick green outline), ARTIST TEAM (ink band, thin green outline), GUEST (paper band), PRESS (grey band), PRODUCTION (ink band, grey outline).
-- Lanyards show which side you belong to: green = sinoPOP team, black with green print = artist side (artist + artist team), white = guests, grey = press and production.
+- Lanyards show which side you belong to: green = SinoPOP team, black with green print = artist side (artist + artist team), white = guests, grey = press and production.
 - For other promoters: tiers are always light → brand accent → dark; one accent per band; text contrast ≥ 4.5:1 (Figma page 82, frame X3).
 
 ## Print & on-site production
@@ -91,7 +92,7 @@ Figma text styles: `sinoPOP 2.1 / zh / …` and `sinoPOP 2.1 / en / …`. Demo: 
 - Wristband serials: each tier has its own number range (GA 000001…, VIP 100001…, SVIP 200001…); never overlap, never skip.
 - Signage = setlist skin: every point has a track number, the function word is the biggest thing, English is light-grey caps, green is only for arrows, one message per sign, the arrow sits on the side it points to, no event name or date on wayfinding.
 - Roll-up C and any artist use: the artist poster goes in whole — no cropping, no type over it. Never generate an artist poster.
-- Promoter profile: only the confirmed line 「从华语青年音乐与文化出发，把现场带给海外的年轻观众。」 is real copy; everything else stays `[占位]` until the person supplies it. Past-show pages need real event photos with photographer credit — AI images are mood only and never presented as sinoPOP events.
+- Promoter profile: only the confirmed line 「从华语青年音乐与文化出发，把现场带给海外的年轻观众。」 is real copy; everything else stays `[占位]` until the person supplies it. Past-show pages need real event photos with photographer credit — AI images are mood only and never presented as SinoPOP events.
 - QR boxes are placeholders; replace with a real code and test-scan before print.
 
 ## Voice
