@@ -1,4 +1,4 @@
-# 安装 · 一次装好，以后自动按 sinoPOP 规范产出
+# 安装 · 一次装好，以后自动按 SinoPOP 规范产出
 
 仓库：`https://github.com/Sokol13/sinoPOP-Visual-Identity-Skill`（私有）。
 先让 Sokol 在仓库 Settings → Collaborators 里邀请你的 GitHub 账号，并在邮件里接受邀请。私有仓库要求你的电脑已经登录 GitHub（装过 GitHub Desktop、`gh auth login` 或者 git 能正常 clone 私有仓库都可以）。
