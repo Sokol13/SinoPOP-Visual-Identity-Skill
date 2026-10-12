@@ -1,0 +1,242 @@
+[
+  {
+    "page": 1,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 134.85039370078758,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 195.77165354330725,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 410.41732283464586,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 471.3385826771655,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 685.984251968504,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 746.9055118110238,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 961.5511811023624,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 1022.4724409448821,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 134.85039370078758,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 195.77165354330725,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 410.41732283464586,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 471.3385826771655,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 685.984251968504,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 746.9055118110238,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 961.5511811023624,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 1022.4724409448821,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 123.28346456692914,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  }
+]

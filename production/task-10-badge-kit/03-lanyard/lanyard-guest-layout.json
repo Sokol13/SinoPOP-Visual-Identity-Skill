@@ -1,0 +1,242 @@
+[
+  {
+    "page": 1,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 170.7803937007874,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 235.7366535433071,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 428.3823228346458,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 493.33858267716545,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 685.984251968504,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 750.9405118110237,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 943.5861811023625,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 1008.5424409448822,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 170.7803937007874,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 235.7366535433071,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 428.3823228346458,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 493.33858267716545,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 685.984251968504,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 750.9405118110237,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 943.5861811023625,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 1008.5424409448822,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "GUEST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "嘉宾",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 127.31846456692914,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  }
+]
