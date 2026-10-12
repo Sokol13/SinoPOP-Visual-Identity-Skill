@@ -6,115 +6,87 @@
     "bleed_mm": 3,
     "texts": [
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 134.85039370078758,
+        "x": 228.24885826771666,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 195.77165354330725,
+        "x": 329.76011811023636,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 123.28346456692914,
+        "x": 163.87346456692913,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 410.41732283464586,
+        "x": 533.4057874015749,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 471.3385826771655,
+        "x": 634.9170472440946,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
-        "size_pt": 15,
-        "weight": "ExtraBold",
-        "x": 62.36220472440946,
-        "baseline_y": 36.0
-      },
-      {
-        "text": "主办团队",
-        "size_pt": 11,
-        "weight": "Bold",
-        "x": 123.28346456692914,
-        "baseline_y": 35.1496062992126
-      },
-      {
-        "text": "STAFF",
-        "size_pt": 15,
-        "weight": "ExtraBold",
-        "x": 685.984251968504,
-        "baseline_y": 36.0
-      },
-      {
-        "text": "主办团队",
-        "size_pt": 11,
-        "weight": "Bold",
-        "x": 746.9055118110238,
-        "baseline_y": 35.1496062992126
-      },
-      {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 123.28346456692914,
+        "x": 163.87346456692913,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 961.5511811023624,
+        "x": 838.5627165354332,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 1022.4724409448821,
+        "x": 940.0739763779528,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 123.28346456692914,
+        "x": 163.87346456692913,
         "baseline_y": 35.1496062992126
       }
     ]
@@ -126,115 +98,87 @@
     "bleed_mm": 3,
     "texts": [
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 134.85039370078758,
+        "x": 228.24885826771666,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 195.77165354330725,
+        "x": 329.76011811023636,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 123.28346456692914,
+        "x": 163.87346456692913,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 410.41732283464586,
+        "x": 533.4057874015749,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 471.3385826771655,
+        "x": 634.9170472440946,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
-        "size_pt": 15,
-        "weight": "ExtraBold",
-        "x": 62.36220472440946,
-        "baseline_y": 36.0
-      },
-      {
-        "text": "主办团队",
-        "size_pt": 11,
-        "weight": "Bold",
-        "x": 123.28346456692914,
-        "baseline_y": 35.1496062992126
-      },
-      {
-        "text": "STAFF",
-        "size_pt": 15,
-        "weight": "ExtraBold",
-        "x": 685.984251968504,
-        "baseline_y": 36.0
-      },
-      {
-        "text": "主办团队",
-        "size_pt": 11,
-        "weight": "Bold",
-        "x": 746.9055118110238,
-        "baseline_y": 35.1496062992126
-      },
-      {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 123.28346456692914,
+        "x": 163.87346456692913,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 961.5511811023624,
+        "x": 838.5627165354332,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 1022.4724409448821,
+        "x": 940.0739763779528,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "STAFF",
+        "text": "PROMOTER",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
         "baseline_y": 36.0
       },
       {
-        "text": "主办团队",
+        "text": "主办方",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 123.28346456692914,
+        "x": 163.87346456692913,
         "baseline_y": 35.1496062992126
       }
     ]

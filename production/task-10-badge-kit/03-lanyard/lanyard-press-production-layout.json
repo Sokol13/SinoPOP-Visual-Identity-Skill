@@ -6,21 +6,21 @@
     "bleed_mm": 3,
     "texts": [
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 282.8923228346459,
+        "x": 284.3623228346458,
         "baseline_y": 36.0
       },
       {
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 463.3635826771655,
+        "x": 463.3635826771654,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
@@ -30,11 +30,11 @@
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 242.8334645669291,
+        "x": 241.3634645669291,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 685.984251968504,
@@ -44,11 +44,11 @@
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 866.4555118110237,
+        "x": 864.9855118110237,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
@@ -58,7 +58,7 @@
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 242.8334645669291,
+        "x": 241.3634645669291,
         "baseline_y": 35.1496062992126
       }
     ]
@@ -70,21 +70,21 @@
     "bleed_mm": 3,
     "texts": [
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
-        "x": 282.8923228346459,
+        "x": 284.3623228346458,
         "baseline_y": 36.0
       },
       {
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 463.3635826771655,
+        "x": 463.3635826771654,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
@@ -94,11 +94,11 @@
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 242.8334645669291,
+        "x": 241.3634645669291,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 685.984251968504,
@@ -108,11 +108,11 @@
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 866.4555118110237,
+        "x": 864.9855118110237,
         "baseline_y": 35.1496062992126
       },
       {
-        "text": "PRESS / PRODUCTION",
+        "text": "MEDIA / PRODUCTION",
         "size_pt": 15,
         "weight": "ExtraBold",
         "x": 62.36220472440946,
@@ -122,7 +122,7 @@
         "text": "媒体 · 制作",
         "size_pt": 11,
         "weight": "Bold",
-        "x": 242.8334645669291,
+        "x": 241.3634645669291,
         "baseline_y": 35.1496062992126
       }
     ]
