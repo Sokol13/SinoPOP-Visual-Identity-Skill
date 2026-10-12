@@ -1,11 +1,11 @@
-"""工牌套装 2.2：PVC 工牌（正反面）、场次贴、挂绳、技术图与批量输出。坐标单位 pt，文字为共同基线。
+"""工牌套装 2.2：PVC 工牌（正反面，整卡按身份方上色）、挂绳、技术图与批量输出；全部通用，不含场次日期。坐标单位 pt，文字为共同基线。
 
 python build_badges.py                                   # 重新生成 task-10-badge-kit 全部样稿
 python build_badges.py --batch people.csv --output DIR   # 按名单批量出工牌（一份多页 PDF）
 """
 from pathlib import Path
 import csv, json, argparse
-from production import Art, mm, width, export_art, export_technical, ROOT, INK, SURFACE, PAPER, GREEN, MUTED, SUB, LINE, PALE
+from production import Art, mm, width, export_art, export_technical, ROOT, INK, SURFACE, PAPER, GREEN, MUTED, SUB, LINE
 from build_credentials import ROLES, zone_states
 
 OUT = ROOT/'task-10-badge-kit'
@@ -18,7 +18,6 @@ LANYARDS = {
     'guest': dict(bg=PAPER, fg=INK, logo='black', en='GUEST', cn='嘉宾'),
     'press-production': dict(bg=MUTED, fg=INK, logo='black', en='PRESS / PRODUCTION', cn='媒体 · 制作'),
 }
-STICKERS = {'odd': (GREEN, INK), 'even': (PAPER, INK)}  # 单数场绿、双数场白，相邻两场一眼可分
 
 
 def fit(s, size, weight, maxw, floor=9):
@@ -26,87 +25,99 @@ def fit(s, size, weight, maxw, floor=9):
     return size
 
 
-def zone_boxes(a, states, y, fg_on=INK):
-    """四个通行格 + 下方中文标签。白格=可进入，虚线=按邀请，空格=不可进入。"""
+# 整张卡按「哪一方」上色，和挂绳同色：我方绿、艺人方黑、嘉宾白、媒体/制作灰。
+# bg 底色 · fg 正文 · accent 身份字 · sub 次要字 · dim 线和不可进入格 · box/boxtxt 可进入格 · frame 内框（艺人粗、艺人团队/制作细）
+CARDS = {
+    'STAFF':       dict(bg=GREEN,   fg=INK,   accent=INK,   sub=INK,   dim=SUB,  box=INK,   boxtxt=GREEN, logo='black'),
+    'ARTIST':      dict(bg=SURFACE, fg=PAPER, accent=GREEN, sub=MUTED, dim=LINE, box=PAPER, boxtxt=INK,   logo='white', frame=(GREEN, 3)),
+    'ARTIST TEAM': dict(bg=SURFACE, fg=PAPER, accent=PAPER, sub=MUTED, dim=LINE, box=PAPER, boxtxt=INK,   logo='white', frame=(GREEN, 1)),
+    'GUEST':       dict(bg=PAPER,   fg=INK,   accent=INK,   sub=SUB,   dim=MUTED, box=INK,  boxtxt=PAPER, logo='black'),
+    'PRESS':       dict(bg=MUTED,   fg=INK,   accent=INK,   sub=INK,   dim=SUB,  box=INK,   boxtxt=MUTED, logo='black'),
+    'PRODUCTION':  dict(bg=MUTED,   fg=INK,   accent=INK,   sub=INK,   dim=SUB,  box=INK,   boxtxt=MUTED, logo='black', frame=(INK, 1)),
+}
+
+
+def card(role):
+    c = CARDS[role]; a = Art(W, H, c['bg'])
+    if 'frame' in c:
+        col, sw = c['frame']; a.rect(mm(3)+sw/2, mm(3)+sw/2, W-mm(6)-sw, H-mm(6)-sw, None, stroke=col, sw=sw)
+    return a, c
+
+
+def zone_boxes(a, c, states, y):
+    """四个通行格 + 下方中文标签。实心格=可进入，虚线=按邀请，空格=不可进入。"""
     for i in range(1, 5):
         x = mm(8 + (i-1)*20); w = mm(14); st = states[i]
-        if st == 'allowed': a.rect(x, y, w, w, PAPER, r=mm(1.3)); c = fg_on; lc = PAPER
+        if st == 'allowed': a.rect(x, y, w, w, c['box'], r=mm(1.3)); n = c['boxtxt']; lc = c['fg']
         elif st == 'invited':
             for xa, ya, xb, yb in [(x, y, x+w, y), (x+w, y, x+w, y+w), (x+w, y+w, x, y+w), (x, y+w, x, y)]:
-                a.line(xa, ya, xb, yb, MUTED, .7, (mm(.8), mm(.6)))
-            c = MUTED; lc = MUTED
-        else: a.rect(x, y, w, w, None, r=mm(1.3), stroke=LINE, sw=.6); c = LINE; lc = SUB
-        a.text(x+w/2, y+mm(9.7), str(i), 17, c, 'ExtraBold', 'middle')
+                a.line(xa, ya, xb, yb, c['sub'], .7, (mm(.8), mm(.6)))
+            n = lc = c['sub']
+        else: a.rect(x, y, w, w, None, r=mm(1.3), stroke=c['dim'], sw=.6); n = lc = c['dim']
+        a.text(x+w/2, y+mm(9.7), str(i), 17, n, 'ExtraBold', 'middle')
         a.text(x+w/2, y+w+mm(4), ZONES[i-1][0], 7, lc, 'Medium', 'middle')
 
 
 def front(role='STAFF', name='[姓名]', zones=None, serial=1, title=''):
-    spec = ROLES[role]; a = Art(W, H, SURFACE)
-    # 头部：标志 + 场次贴位（像黑胶标签，按场贴，防止旧证复用）
-    a.logo(mm(8), mm(14), mm(26), 'white')
-    a.circle(mm(73), mm(23), mm(9), None, stroke=LINE, sw=.6)
-    a.text(mm(73), mm(22.4), '场次贴', 7, SUB, 'Medium', 'middle')
-    a.text(mm(73), mm(26.6), 'SHOW', 7, SUB, 'Bold', 'middle')
-    # 身份色块：中文身份最大，英文次之
-    a.rect(0, mm(40), W, mm(42), spec['band'])
-    if 'border' in spec:
-        sw = spec['sw']; a.rect(sw/2, mm(40)+sw/2, W-sw, mm(42)-sw, None, stroke=spec['border'], sw=sw)
-    a.text(mm(8), mm(47.5), '通行证 PASS', 7, spec['fg'], 'Bold')
-    a.text(mm(8), mm(67), spec['cn'], 40, spec['fg'], 'Heavy', maxw=mm(74))
-    a.text(mm(8), mm(76.5), role, 14, spec['fg'], 'ExtraBold', maxw=mm(74))
+    spec = ROLES[role]; a, c = card(role)
+    a.logo(mm(8), mm(13), mm(26), c['logo'])
+    a.text(mm(82), mm(20), '通行证', 8, c['fg'], 'Bold', 'end')
+    a.text(mm(82), mm(24.5), 'PASS', 7, c['sub'], 'Bold', 'end')
+    a.line(mm(8), mm(40), mm(82), mm(40), c['dim'], .6)
+    # 身份：中文最大，英文次之
+    a.text(mm(8), mm(62), spec['cn'], 40, c['accent'], 'Heavy', maxw=mm(74))
+    a.text(mm(8), mm(71.5), role, 14, c['accent'], 'ExtraBold', maxw=mm(74))
+    a.line(mm(8), mm(80), mm(82), mm(80), c['dim'], .6)
     # 专属证：姓名 + 职位；BLANK = 通用证：不写名字，职位放大，每场发放、散场收回
+    ny = mm(93)
     if name == 'BLANK':
-        ny = mm(93)
-        if title: a.text(mm(8), ny, title, fit(title, 16, 'ExtraBold', mm(54)), PAPER, 'ExtraBold', maxw=mm(54))
-        if title: a.text(mm(8), mm(99.5), '通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW', 7, MUTED, 'Bold', maxw=mm(74))
-        else: a.text(mm(8), ny, '通用证 · 散场交回', 9, MUTED, 'Bold', maxw=mm(54))
+        if title: a.text(mm(8), ny, title, fit(title, 16, 'ExtraBold', mm(54)), c['fg'], 'ExtraBold', maxw=mm(54))
+        if title: a.text(mm(8), mm(99.5), '通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW', 7, c['sub'], 'Bold', maxw=mm(74))
+        else: a.text(mm(8), ny, '通用证 · 散场交回', 9, c['sub'], 'Bold', maxw=mm(54))
     else:
-        ny = mm(93) if title else mm(95)
-        a.text(mm(8), ny, name, fit(name, 20, 'ExtraBold', mm(54)), PAPER, 'ExtraBold', maxw=mm(54))
-        if title: a.text(mm(8), mm(99.5), title, 8, MUTED, 'Bold', maxw=mm(74))
-    a.text(mm(82), ny, f'No. {serial:04d}', 7.5, MUTED, 'Bold', 'end')
+        a.text(mm(8), ny, name, fit(name, 20, 'ExtraBold', mm(54)), c['fg'], 'ExtraBold', maxw=mm(54))
+        if title: a.text(mm(8), mm(99.5), title, 8, c['sub'], 'Bold', maxw=mm(74))
+    a.text(mm(82), ny, f'No. {serial:04d}', 7.5, c['sub'], 'Bold', 'end')
     # 撕票线（印刷效果，不模切）
-    a.line(mm(4), mm(103), mm(86), mm(103), LINE, .8, (mm(.4), mm(1.2)))
-    zone_boxes(a, zone_states(role, zones), mm(107))
+    a.line(mm(6), mm(103), mm(84), mm(103), c['dim'], .8, (mm(.4), mm(1.2)))
+    zone_boxes(a, c, zone_states(role, zones), mm(107))
     return a
 
 
 def back(role='STAFF', serial=1, generic=False):
-    spec = ROLES[role]; a = Art(W, H, SURFACE)
-    # 顶部身份条：工牌翻面时也能一眼看出身份
-    a.rect(0, 0, W, mm(30), spec['band'])
-    if 'border' in spec:
-        sw = spec['sw']; a.rect(sw/2, sw/2, W-sw, mm(30)-sw, None, stroke=spec['border'], sw=sw)
-    a.text(mm(8), mm(21.5), spec['cn'], 16, spec['fg'], 'Heavy')
-    a.text(mm(8), mm(27), role, 8, spec['fg'], 'ExtraBold')
-    a.text(mm(8), mm(37.5), '通行区域', 9, PAPER, 'Bold'); a.text(mm(82), mm(37.5), 'ACCESS ZONES', 7, MUTED, 'Bold', 'end')
+    spec = ROLES[role]; a, c = card(role)
+    # 反面同色 + 身份字，翻面也能一眼认出
+    a.text(mm(8), mm(21.5), spec['cn'], 16, c['accent'], 'Heavy')
+    a.text(mm(8), mm(27), role, 8, c['accent'], 'ExtraBold')
+    a.logo(mm(66), mm(13), mm(16), c['logo'])
+    a.text(mm(8), mm(37.5), '通行区域', 9, c['fg'], 'Bold'); a.text(mm(82), mm(37.5), 'ACCESS ZONES', 7, c['sub'], 'Bold', 'end')
     # 歌单式区域表：每个区域一首「曲目」
-    a.line(mm(8), mm(40), mm(82), mm(40), LINE, .6)
+    a.line(mm(8), mm(40), mm(82), mm(40), c['dim'], .6)
     for i, (cn, en) in enumerate(ZONES, 1):
         y = mm(40 + i*10)
-        a.text(mm(8), y-mm(3), f'{i:02d}', 16, PAPER, 'ExtraBold')
-        a.text(mm(22), y-mm(3.4), cn, 11, PAPER, 'Bold')
-        a.text(mm(82), y-mm(3.4), en, 8, MUTED, 'Bold', 'end')
-        a.line(mm(8), y, mm(82), y, LINE, .6)
+        a.text(mm(8), y-mm(3), f'{i:02d}', 16, c['fg'], 'ExtraBold')
+        a.text(mm(22), y-mm(3.4), cn, 11, c['fg'], 'Bold')
+        a.text(mm(82), y-mm(3.4), en, 8, c['sub'], 'Bold', 'end')
+        a.line(mm(8), y, mm(82), y, c['dim'], .6)
     # 图例
     y = mm(85)
-    a.rect(mm(8), y, mm(3.5), mm(3.5), PAPER, r=mm(.5)); a.text(mm(13), y+mm(2.9), '可进入', 7, MUTED)
+    a.rect(mm(8), y, mm(3.5), mm(3.5), c['box'], r=mm(.5)); a.text(mm(13), y+mm(2.9), '可进入', 7, c['sub'])
     for xa, ya, xb, yb in [(0, 0, 3.5, 0), (3.5, 0, 3.5, 3.5), (3.5, 3.5, 0, 3.5), (0, 3.5, 0, 0)]:
-        a.line(mm(32+xa), y+mm(ya), mm(32+xb), y+mm(yb), MUTED, .5, (mm(.6), mm(.4)))
-    a.text(mm(37), y+mm(2.9), '按邀请', 7, MUTED)
-    a.rect(mm(56), y, mm(3.5), mm(3.5), None, r=mm(.5), stroke=LINE, sw=.5); a.text(mm(61), y+mm(2.9), '不可进入', 7, MUTED)
+        a.line(mm(32+xa), y+mm(ya), mm(32+xb), y+mm(yb), c['sub'], .5, (mm(.6), mm(.4)))
+    a.text(mm(37), y+mm(2.9), '按邀请', 7, c['sub'])
+    a.rect(mm(56), y, mm(3.5), mm(3.5), None, r=mm(.5), stroke=c['dim'], sw=.5); a.text(mm(61), y+mm(2.9), '不可进入', 7, c['sub'])
     # 佩戴须知（中文在前，英文在后）
-    a.text(mm(8), mm(96), '佩戴须知', 8, PAPER, 'Bold')
+    a.text(mm(8), mm(96), '佩戴须知', 8, c['fg'], 'Bold')
     rules = [('本证当场有效，散场交回', 'Valid for this show only. Return after the show.') if generic else
              ('本证仅限本人使用，不可转借', 'Non-transferable.'),
              ('全程佩戴，保持可见', 'Wear it visibly at all times.'),
              ('遗失请立即告知现场负责人', 'Report a lost pass to the on-site lead.')]
     for i, (cn, en) in enumerate(rules):
         y = mm(102 + i*7.5)
-        a.text(mm(8), y, cn, 7.5, PAPER, 'Regular', maxw=mm(74))
-        a.text(mm(8), y+mm(3.2), en, 7, MUTED, 'Regular', maxw=mm(74))
-    a.text(mm(8), mm(125), 'sinopop.us', 7, PAPER, 'Bold')
-    a.text(mm(82), mm(125), f'No. {serial:04d}', 7, MUTED, 'Bold', 'end')
+        a.text(mm(8), y, cn, 7.5, c['fg'], 'Regular', maxw=mm(74))
+        a.text(mm(8), y+mm(3.2), en, 7, c['sub'], 'Regular', maxw=mm(74))
+    a.text(mm(8), mm(124), 'sinopop.us', 7, c['fg'], 'Bold')
+    a.text(mm(82), mm(124), f'No. {serial:04d}', 7, c['sub'], 'Bold', 'end')
     return a
 
 
@@ -117,25 +128,9 @@ def pass_technical():
     for i, s in enumerate(['实线 = 外轮廓模切 + 挂孔（只此一张，不印在成品上）',
                            '圆角 R 2.1 mm · 挂孔 14 × 3 mm 长圆孔，居中，孔上沿距顶 6 mm',
                            '撕票线只是印刷效果，不打点线、不模切',
-                           '右上圆圈 Ø 18 mm 为场次贴位，贴纸 Ø 16 mm',
                            '出血 3 mm；正反面同向（挂孔都在上）',
-                           '姓名、编号为可变数据，按批量 PDF 逐张印']):
+                           '姓名、职位、编号为可变数据，按批量 PDF 逐张印']):
         a.text(mm(9), mm(30+i*8), s, 7, INK, 'Regular', maxw=mm(74))
-    return a
-
-
-def sticker(kind='odd', date='[MM.DD]'):
-    bg, fg = STICKERS[kind]; a = Art(mm(16), mm(16), bg)
-    a.circle(mm(8), mm(8), mm(6.9), None, stroke=fg, sw=.3)
-    a.text(mm(8), mm(5.6), 'SHOW', 7, fg, 'Bold', 'middle')
-    a.text(mm(8), mm(10.6), date, fit(date, 9, 'ExtraBold', mm(11.5), 7), fg, 'ExtraBold', 'middle')
-    a.circle(mm(8), mm(13), mm(.45), fg)
-    return a
-
-
-def sticker_technical():
-    a = Art(mm(16), mm(16), PAPER); a.circle(mm(8), mm(8), mm(8), None, stroke=INK, sw=.4)
-    a.text(mm(8), mm(8.8), 'Ø 16', 7, INK, 'Bold', 'middle')
     return a
 
 
@@ -214,8 +209,6 @@ def main():
     for role in ROLES:
         export_art([front(role), back(role)], OUT/'01-pass', 'pass-'+role.lower().replace(' ', '-'), 3)
     export_technical([pass_technical()], OUT/'01-pass', 'pass', 3)
-    for kind in STICKERS: export_art([sticker(kind)], OUT/'02-show-sticker', 'sticker-'+kind, 1.5, preview_long=600)
-    export_technical([sticker_technical()], OUT/'02-show-sticker', 'sticker', 1.5)
     for kind in LANYARDS:
         export_art([lanyard(kind), lanyard(kind)], OUT/'03-lanyard', 'lanyard-'+kind, 3, preview_long=5400)
     export_technical([lanyard_technical()], OUT/'03-lanyard', 'lanyard', 3)

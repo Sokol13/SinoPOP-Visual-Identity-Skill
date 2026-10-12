@@ -6,53 +6,46 @@
     "bleed_mm": 3,
     "texts": [
       {
-        "text": "场次贴",
-        "size_pt": 7,
-        "weight": "Medium",
-        "x": 206.92913385826773,
-        "baseline_y": 63.496062992125985
+        "text": "通行证",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 56.69291338582678
       },
       {
-        "text": "SHOW",
+        "text": "PASS",
         "size_pt": 7,
         "weight": "Bold",
-        "x": 206.92913385826773,
-        "baseline_y": 75.40157480314961
-      },
-      {
-        "text": "通行证 PASS",
-        "size_pt": 7,
-        "weight": "Bold",
-        "x": 22.67716535433071,
-        "baseline_y": 134.6456692913386
+        "x": 232.44094488188978,
+        "baseline_y": 69.4488188976378
       },
       {
         "text": "艺人团队",
         "size_pt": 40,
         "weight": "Heavy",
         "x": 22.67716535433071,
-        "baseline_y": 189.9212598425197
+        "baseline_y": 175.74803149606302
       },
       {
         "text": "ARTIST TEAM",
         "size_pt": 14,
         "weight": "ExtraBold",
         "x": 22.67716535433071,
-        "baseline_y": 216.85039370078744
+        "baseline_y": 202.67716535433073
       },
       {
         "text": "[姓名]",
         "size_pt": 20,
         "weight": "ExtraBold",
         "x": 22.67716535433071,
-        "baseline_y": 269.2913385826772
+        "baseline_y": 263.6220472440945
       },
       {
         "text": "No. 0001",
         "size_pt": 7.5,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 269.2913385826772
+        "baseline_y": 263.6220472440945
       },
       {
         "text": "1",
@@ -305,14 +298,14 @@
         "size_pt": 7,
         "weight": "Bold",
         "x": 22.67716535433071,
-        "baseline_y": 354.33070866141736
+        "baseline_y": 351.49606299212604
       },
       {
         "text": "No. 0001",
         "size_pt": 7,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 354.33070866141736
+        "baseline_y": 351.49606299212604
       }
     ]
   }

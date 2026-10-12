@@ -12,7 +12,7 @@
 | `task-07-signage` | **定稿** | 10 款「歌单」现场标识 + SignFamily 总览，字高记录 |
 | `task-08-rollups` | **定稿** | 3 款易拉宝 850 × 2000 mm：票根 / 歌单 / 正在播放 |
 | `task-09-profile` | **定稿** | 主办方介绍竖版：A4、Letter 各 6 页 + 手机 1080 × 1920 × 6 |
-| `task-10-badge-kit` | **待打样** | 工牌套装 2.2：PVC 工牌 6 款 + 场次贴 + 4 色挂绳 + 五金与淘宝商户生产说明（取代 task-06 的工牌和挂绳，身份与颜色不变） |
+| `task-10-badge-kit` | **待打样** | 工牌套装 2.2：PVC 工牌 6 款（整卡与挂绳同色，不印日期）+ 4 色挂绳 + 五金与淘宝商户生产说明（取代 task-06 的工牌和挂绳，身份与颜色不变） |
 | `task-01-cards` | 存档 | 第一轮 6 个名片方向，只选了 `03-vinyl`，定稿在 task-04 |
 | `task-02-onsite` | 效果图 | 现场 AI 效果图（示意，不是真实活动照片）；`onsite-04-kit.png` 为第二轮新版 |
 | `task-03-profile` | 氛围图 | 主办方介绍用的 AI 氛围图（仅氛围，不可当作真实活动照片） |
@@ -37,7 +37,7 @@ python build_credentials.py     # 手环、工牌、挂绳
 python build_signage.py         # 标识
 python build_rollups.py         # 易拉宝
 python task-09-profile/build-profile.py   # 主办方介绍
-python build_badges.py          # 工牌套装 2.2（工牌、场次贴、挂绳）
+python build_badges.py          # 工牌套装 2.2（工牌、挂绳）
 python qa_round2.py             # 复查
 ```
 
