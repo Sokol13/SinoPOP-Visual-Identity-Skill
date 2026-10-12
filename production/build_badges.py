@@ -54,13 +54,16 @@ def front(role='STAFF', name='[姓名]', zones=None, serial=1, title=''):
     a.text(mm(8), mm(47.5), '通行证 PASS', 7, spec['fg'], 'Bold')
     a.text(mm(8), mm(67), spec['cn'], 40, spec['fg'], 'Heavy', maxw=mm(74))
     a.text(mm(8), mm(76.5), role, 14, spec['fg'], 'ExtraBold', maxw=mm(74))
-    # 姓名 + 职位 + 编号；BLANK = 通用证，姓名处留线，现场用白色油漆笔手写
-    ny = mm(93) if title else mm(95)
-    if name != 'BLANK':
-        size = fit(name, 20, 'ExtraBold', mm(54))
-        a.text(mm(8), ny, name, size, PAPER, 'ExtraBold', maxw=mm(54))
-    else: a.line(mm(8), ny+mm(1), mm(58), ny+mm(1), SUB, .6)
-    if title: a.text(mm(8), mm(99.5), title, 8, MUTED, 'Bold', maxw=mm(74))
+    # 专属证：姓名 + 职位；BLANK = 通用证：不写名字，职位放大，每场发放、散场收回
+    if name == 'BLANK':
+        ny = mm(93)
+        if title: a.text(mm(8), ny, title, fit(title, 16, 'ExtraBold', mm(54)), PAPER, 'ExtraBold', maxw=mm(54))
+        if title: a.text(mm(8), mm(99.5), '通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW', 7, MUTED, 'Bold', maxw=mm(74))
+        else: a.text(mm(8), ny, '通用证 · 散场交回', 9, MUTED, 'Bold', maxw=mm(54))
+    else:
+        ny = mm(93) if title else mm(95)
+        a.text(mm(8), ny, name, fit(name, 20, 'ExtraBold', mm(54)), PAPER, 'ExtraBold', maxw=mm(54))
+        if title: a.text(mm(8), mm(99.5), title, 8, MUTED, 'Bold', maxw=mm(74))
     a.text(mm(82), ny, f'No. {serial:04d}', 7.5, MUTED, 'Bold', 'end')
     # 撕票线（印刷效果，不模切）
     a.line(mm(4), mm(103), mm(86), mm(103), LINE, .8, (mm(.4), mm(1.2)))
@@ -68,7 +71,7 @@ def front(role='STAFF', name='[姓名]', zones=None, serial=1, title=''):
     return a
 
 
-def back(role='STAFF', serial=1):
+def back(role='STAFF', serial=1, generic=False):
     spec = ROLES[role]; a = Art(W, H, SURFACE)
     # 顶部身份条：工牌翻面时也能一眼看出身份
     a.rect(0, 0, W, mm(30), spec['band'])
@@ -94,7 +97,8 @@ def back(role='STAFF', serial=1):
     a.rect(mm(56), y, mm(3.5), mm(3.5), None, r=mm(.5), stroke=LINE, sw=.5); a.text(mm(61), y+mm(2.9), '不可进入', 7, MUTED)
     # 佩戴须知（中文在前，英文在后）
     a.text(mm(8), mm(96), '佩戴须知', 8, PAPER, 'Bold')
-    rules = [('本证仅限本人使用，不可转借', 'Non-transferable.'),
+    rules = [('本证当场有效，散场交回', 'Valid for this show only. Return after the show.') if generic else
+             ('本证仅限本人使用，不可转借', 'Non-transferable.'),
              ('全程佩戴，保持可见', 'Wear it visibly at all times.'),
              ('遗失请立即告知现场负责人', 'Report a lost pass to the on-site lead.')]
     for i, (cn, en) in enumerate(rules):
@@ -178,7 +182,7 @@ def lanyard_technical():
 
 def batch(csv_path, output):
     """CSV 列 name,role,zones，可选 no（编号，不填按行号）、title（职位，例「主理人 FOUNDER」）。
-    name 写 BLANK 出通用证（姓名处留线手写）。输出一份多页 PDF：正、反、正、反……"""
+    name 写 BLANK 出通用证（不写名字，title 放大，每场回收复用）。输出一份多页 PDF：正、反、正、反……"""
     with open(csv_path, encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f)
         cols = reader.fieldnames or []
@@ -196,7 +200,7 @@ def batch(csv_path, output):
             no = int(row.get('no') or i); title = (row.get('title') or '').strip()
             if no in used: raise ValueError(f'编号重复: {no}')
             used.add(no)
-            arts += [front(role, name, row['zones'], no, title), back(role, no)]
+            arts += [front(role, name, row['zones'], no, title), back(role, no, name == 'BLANK')]
             index.append(dict(no=f'{no:04d}', role=role, name=name, title=title, zones=zone_states(role, row['zones'])))
         except ValueError as exc:
             raise ValueError(f'CSV 第 {i+1} 行：{exc}') from exc

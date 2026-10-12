@@ -1337,8 +1337,15 @@
         "baseline_y": 216.85039370078744
       },
       {
-        "text": "检票员 TICKETING",
-        "size_pt": 8,
+        "text": "检票员 DOOR",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW",
+        "size_pt": 7,
         "weight": "Bold",
         "x": 22.67716535433071,
         "baseline_y": 282.04724409448824
@@ -1555,14 +1562,14 @@
         "baseline_y": 272.12598425196853
       },
       {
-        "text": "本证仅限本人使用，不可转借",
+        "text": "本证当场有效，散场交回",
         "size_pt": 7.5,
         "weight": "Regular",
         "x": 22.67716535433071,
         "baseline_y": 289.13385826771656
       },
       {
-        "text": "Non-transferable.",
+        "text": "Valid for this show only. Return after the show.",
         "size_pt": 7,
         "weight": "Regular",
         "x": 22.67716535433071,
@@ -1655,7 +1662,14 @@
       },
       {
         "text": "工作人员 CREW",
-        "size_pt": 8,
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW",
+        "size_pt": 7,
         "weight": "Bold",
         "x": 22.67716535433071,
         "baseline_y": 282.04724409448824
@@ -1872,14 +1886,14 @@
         "baseline_y": 272.12598425196853
       },
       {
-        "text": "本证仅限本人使用，不可转借",
+        "text": "本证当场有效，散场交回",
         "size_pt": 7.5,
         "weight": "Regular",
         "x": 22.67716535433071,
         "baseline_y": 289.13385826771656
       },
       {
-        "text": "Non-transferable.",
+        "text": "Valid for this show only. Return after the show.",
         "size_pt": 7,
         "weight": "Regular",
         "x": 22.67716535433071,
@@ -1971,11 +1985,25 @@
         "baseline_y": 216.85039370078744
       },
       {
+        "text": "演出艺人 PERFORMER",
+        "size_pt": 14.0,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
         "text": "No. 3001",
         "size_pt": 7.5,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 269.2913385826772
+        "baseline_y": 263.6220472440945
       },
       {
         "text": "1",
@@ -2182,14 +2210,14 @@
         "baseline_y": 272.12598425196853
       },
       {
-        "text": "本证仅限本人使用，不可转借",
+        "text": "本证当场有效，散场交回",
         "size_pt": 7.5,
         "weight": "Regular",
         "x": 22.67716535433071,
         "baseline_y": 289.13385826771656
       },
       {
-        "text": "Non-transferable.",
+        "text": "Valid for this show only. Return after the show.",
         "size_pt": 7,
         "weight": "Regular",
         "x": 22.67716535433071,
@@ -2282,7 +2310,14 @@
       },
       {
         "text": "经纪人 MANAGER",
-        "size_pt": 8,
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW",
+        "size_pt": 7,
         "weight": "Bold",
         "x": 22.67716535433071,
         "baseline_y": 282.04724409448824
@@ -2499,14 +2534,14 @@
         "baseline_y": 272.12598425196853
       },
       {
-        "text": "本证仅限本人使用，不可转借",
+        "text": "本证当场有效，散场交回",
         "size_pt": 7.5,
         "weight": "Regular",
         "x": 22.67716535433071,
         "baseline_y": 289.13385826771656
       },
       {
-        "text": "Non-transferable.",
+        "text": "Valid for this show only. Return after the show.",
         "size_pt": 7,
         "weight": "Regular",
         "x": 22.67716535433071,
@@ -2598,11 +2633,25 @@
         "baseline_y": 216.85039370078744
       },
       {
+        "text": "随行人员 TOUR CREW",
+        "size_pt": 14.0,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
         "text": "No. 4501",
         "size_pt": 7.5,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 269.2913385826772
+        "baseline_y": 263.6220472440945
       },
       {
         "text": "1",
@@ -2809,14 +2858,14 @@
         "baseline_y": 272.12598425196853
       },
       {
-        "text": "本证仅限本人使用，不可转借",
+        "text": "本证当场有效，散场交回",
         "size_pt": 7.5,
         "weight": "Regular",
         "x": 22.67716535433071,
         "baseline_y": 289.13385826771656
       },
       {
-        "text": "Non-transferable.",
+        "text": "Valid for this show only. Return after the show.",
         "size_pt": 7,
         "weight": "Regular",
         "x": 22.67716535433071,

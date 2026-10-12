@@ -51,7 +51,7 @@
     "no": "1001",
     "role": "STAFF",
     "name": "BLANK",
-    "title": "检票员 TICKETING",
+    "title": "检票员 DOOR",
     "zones": {
       "1": "allowed",
       "2": "denied",
@@ -75,7 +75,7 @@
     "no": "3001",
     "role": "ARTIST",
     "name": "BLANK",
-    "title": "",
+    "title": "演出艺人 PERFORMER",
     "zones": {
       "1": "allowed",
       "2": "allowed",
@@ -99,7 +99,7 @@
     "no": "4501",
     "role": "ARTIST TEAM",
     "name": "BLANK",
-    "title": "",
+    "title": "随行人员 TOUR CREW",
     "zones": {
       "1": "allowed",
       "2": "allowed",

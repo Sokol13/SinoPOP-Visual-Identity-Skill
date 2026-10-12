@@ -1943,11 +1943,18 @@
         "baseline_y": 216.85039370078744
       },
       {
+        "text": "通用证 · 散场交回",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
         "text": "No. 0007",
         "size_pt": 7.5,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 269.2913385826772
+        "baseline_y": 263.6220472440945
       },
       {
         "text": "1",
@@ -2154,14 +2161,14 @@
         "baseline_y": 272.12598425196853
       },
       {
-        "text": "本证仅限本人使用，不可转借",
+        "text": "本证当场有效，散场交回",
         "size_pt": 7.5,
         "weight": "Regular",
         "x": 22.67716535433071,
         "baseline_y": 289.13385826771656
       },
       {
-        "text": "Non-transferable.",
+        "text": "Valid for this show only. Return after the show.",
         "size_pt": 7,
         "weight": "Regular",
         "x": 22.67716535433071,
