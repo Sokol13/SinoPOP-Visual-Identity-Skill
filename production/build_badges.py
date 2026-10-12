@@ -38,7 +38,8 @@ CARDS = {
 
 
 def card(role):
-    c = CARDS[role]; a = Art(W, H, c['bg'])
+    """整卡底色 + 深色页头（和名片封套一样，放白色标志）+ 内框。"""
+    c = CARDS[role]; a = Art(W, H, c['bg']); a.rect(0, 0, W, mm(34), SURFACE)
     if 'frame' in c:
         col, sw = c['frame']; a.rect(mm(3)+sw/2, mm(3)+sw/2, W-mm(6)-sw, H-mm(6)-sw, None, stroke=col, sw=sw)
     return a, c
@@ -58,62 +59,74 @@ def zone_boxes(a, c, states, y):
         a.text(x+w/2, y+w+mm(4), ZONES[i-1][0], 7, lc, 'Medium', 'middle')
 
 
+def waveform(a, color, seed, x0, x1, cy, half):
+    """专属声波：按编号生成，每张证的波形都不一样，像这个人的「曲目」。"""
+    import math, random
+    rnd = random.Random(seed*7919); ph = [rnd.uniform(0, 6.28) for _ in range(3)]
+    pitch, bw = mm(1.5), mm(.75); n = int((x1-x0+pitch-bw)//pitch)
+    for i in range(n):
+        t = i/(n-1)
+        env = .55*abs(math.sin(t*3.1+ph[0])) + .3*abs(math.sin(t*7.7+ph[1])) + .15*abs(math.sin(t*17+ph[2]))
+        h = max(mm(1.2), (env*.85 + rnd.uniform(0, .15))*2*half)
+        a.rect(x0+i*pitch, cy-h/2, bw, h, color, r=bw/2)
+
+
 def front(role='STAFF', name='[姓名]', zones=None, serial=1, title=''):
     spec = ROLES[role]; a, c = card(role)
-    a.logo(mm(8), mm(13), mm(26), c['logo'])
-    a.text(mm(82), mm(20), '通行证', 8, c['fg'], 'Bold', 'end')
-    a.text(mm(82), mm(24.5), 'PASS', 7, c['sub'], 'Bold', 'end')
-    a.line(mm(8), mm(40), mm(82), mm(40), c['dim'], .6)
+    a.logo(mm(8), mm(11), mm(24), 'white')
+    a.text(mm(82), mm(19), '通行证', 8, PAPER, 'Bold', 'end')
+    a.text(mm(82), mm(23.5), 'PASS', 7, MUTED, 'Bold', 'end')
+    a.text(mm(82), mm(29), f'No. {serial:04d}', 7.5, GREEN, 'Bold', 'end')
     # 身份：中文最大，英文次之
-    a.text(mm(8), mm(62), spec['cn'], 40, c['accent'], 'Heavy', maxw=mm(74))
-    a.text(mm(8), mm(71.5), role, 14, c['accent'], 'ExtraBold', maxw=mm(74))
-    a.line(mm(8), mm(80), mm(82), mm(80), c['dim'], .6)
+    a.text(mm(8), mm(51), spec['cn'], 34, c['accent'], 'Heavy', maxw=mm(74))
+    a.text(mm(8), mm(58.5), role, 12, c['accent'], 'ExtraBold', maxw=mm(74))
+    waveform(a, c['accent'], serial, mm(8), mm(82), mm(72), mm(8.5))
     # 专属证：姓名 + 职位；BLANK = 通用证：不写名字，职位放大，每场发放、散场收回
-    ny = mm(93)
+    ny = mm(94)
     if name == 'BLANK':
-        if title: a.text(mm(8), ny, title, fit(title, 16, 'ExtraBold', mm(54)), c['fg'], 'ExtraBold', maxw=mm(54))
-        if title: a.text(mm(8), mm(99.5), '通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW', 7, c['sub'], 'Bold', maxw=mm(74))
-        else: a.text(mm(8), ny, '通用证 · 散场交回', 9, c['sub'], 'Bold', maxw=mm(54))
+        if title:
+            a.text(mm(8), ny, title, fit(title, 17, 'ExtraBold', mm(74)), c['fg'], 'ExtraBold', maxw=mm(74))
+            a.text(mm(8), mm(100), '通用证 · 散场交回 REUSABLE · RETURN AFTER SHOW', 7, c['sub'], 'Bold', maxw=mm(74))
+        else: a.text(mm(8), ny, '通用证 · 散场交回', 9, c['sub'], 'Bold', maxw=mm(74))
     else:
-        a.text(mm(8), ny, name, fit(name, 20, 'ExtraBold', mm(54)), c['fg'], 'ExtraBold', maxw=mm(54))
-        if title: a.text(mm(8), mm(99.5), title, 8, c['sub'], 'Bold', maxw=mm(74))
-    a.text(mm(82), ny, f'No. {serial:04d}', 7.5, c['sub'], 'Bold', 'end')
+        a.text(mm(8), ny, name, fit(name, 22, 'ExtraBold', mm(74)), c['fg'], 'ExtraBold', maxw=mm(74))
+        if title: a.text(mm(8), mm(100), title, 8, c['sub'], 'Bold', maxw=mm(74))
     # 撕票线（印刷效果，不模切）
-    a.line(mm(6), mm(103), mm(84), mm(103), c['dim'], .8, (mm(.4), mm(1.2)))
-    zone_boxes(a, c, zone_states(role, zones), mm(107))
+    a.line(mm(6), mm(104), mm(84), mm(104), c['dim'], .8, (mm(.4), mm(1.2)))
+    zone_boxes(a, c, zone_states(role, zones), mm(107.5))
     return a
 
 
 def back(role='STAFF', serial=1, generic=False):
     spec = ROLES[role]; a, c = card(role)
-    # 反面同色 + 身份字，翻面也能一眼认出
-    a.text(mm(8), mm(21.5), spec['cn'], 16, c['accent'], 'Heavy')
-    a.text(mm(8), mm(27), role, 8, c['accent'], 'ExtraBold')
-    a.logo(mm(66), mm(13), mm(16), c['logo'])
-    a.text(mm(8), mm(37.5), '通行区域', 9, c['fg'], 'Bold'); a.text(mm(82), mm(37.5), 'ACCESS ZONES', 7, c['sub'], 'Bold', 'end')
+    # 反面同样的页头 + 身份字，翻面也能一眼认出
+    a.text(mm(8), mm(22), spec['cn'], 16, c['accent'] if c['bg'] == SURFACE else GREEN if role == 'STAFF' else PAPER, 'Heavy')
+    a.text(mm(8), mm(28), role, 8, MUTED, 'ExtraBold')
+    a.logo(mm(66), mm(11), mm(16), 'white')
+    a.text(mm(8), mm(41), '通行区域', 9, c['fg'], 'Bold'); a.text(mm(82), mm(41), 'ACCESS ZONES', 7, c['sub'], 'Bold', 'end')
     # 歌单式区域表：每个区域一首「曲目」
-    a.line(mm(8), mm(40), mm(82), mm(40), c['dim'], .6)
+    a.line(mm(8), mm(43.5), mm(82), mm(43.5), c['dim'], .6)
     for i, (cn, en) in enumerate(ZONES, 1):
-        y = mm(40 + i*10)
+        y = mm(43.5 + i*9.5)
         a.text(mm(8), y-mm(3), f'{i:02d}', 16, c['fg'], 'ExtraBold')
         a.text(mm(22), y-mm(3.4), cn, 11, c['fg'], 'Bold')
         a.text(mm(82), y-mm(3.4), en, 8, c['sub'], 'Bold', 'end')
         a.line(mm(8), y, mm(82), y, c['dim'], .6)
     # 图例
-    y = mm(85)
+    y = mm(86.5)
     a.rect(mm(8), y, mm(3.5), mm(3.5), c['box'], r=mm(.5)); a.text(mm(13), y+mm(2.9), '可进入', 7, c['sub'])
     for xa, ya, xb, yb in [(0, 0, 3.5, 0), (3.5, 0, 3.5, 3.5), (3.5, 3.5, 0, 3.5), (0, 3.5, 0, 0)]:
         a.line(mm(32+xa), y+mm(ya), mm(32+xb), y+mm(yb), c['sub'], .5, (mm(.6), mm(.4)))
     a.text(mm(37), y+mm(2.9), '按邀请', 7, c['sub'])
     a.rect(mm(56), y, mm(3.5), mm(3.5), None, r=mm(.5), stroke=c['dim'], sw=.5); a.text(mm(61), y+mm(2.9), '不可进入', 7, c['sub'])
     # 佩戴须知（中文在前，英文在后）
-    a.text(mm(8), mm(96), '佩戴须知', 8, c['fg'], 'Bold')
+    a.text(mm(8), mm(97), '佩戴须知', 8, c['fg'], 'Bold')
     rules = [('本证当场有效，散场交回', 'Valid for this show only. Return after the show.') if generic else
              ('本证仅限本人使用，不可转借', 'Non-transferable.'),
              ('全程佩戴，保持可见', 'Wear it visibly at all times.'),
              ('遗失请立即告知现场负责人', 'Report a lost pass to the on-site lead.')]
     for i, (cn, en) in enumerate(rules):
-        y = mm(102 + i*7.5)
+        y = mm(102.5 + i*7.2)
         a.text(mm(8), y, cn, 7.5, c['fg'], 'Regular', maxw=mm(74))
         a.text(mm(8), y+mm(3.2), en, 7, c['sub'], 'Regular', maxw=mm(74))
     a.text(mm(8), mm(124), 'sinopop.us', 7, c['fg'], 'Bold')
@@ -191,7 +204,7 @@ def batch(csv_path, output):
             role = (row['role'] or '').strip().upper(); name = (row['name'] or '').strip()
             if role not in ROLES: raise ValueError('不支持的角色: '+role)
             if not name: raise ValueError('name 不能为空')
-            if fit(name, 20, 'ExtraBold', mm(54)) <= 9 and width(name, 9, 'ExtraBold') > mm(54): raise ValueError('姓名过长')
+            if width(name, 9, 'ExtraBold') > mm(74): raise ValueError('姓名过长')
             no = int(row.get('no') or i); title = (row.get('title') or '').strip()
             if no in used: raise ValueError(f'编号重复: {no}')
             used.add(no)
