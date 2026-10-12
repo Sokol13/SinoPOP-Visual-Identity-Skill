@@ -119,123 +119,137 @@
     "bleed_mm": 3,
     "texts": [
       {
-        "text": "通行区域",
+        "text": "艺人团队",
         "size_pt": 16,
         "weight": "Heavy",
         "x": 22.67716535433071,
-        "baseline_y": 68.03149606299213
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "ARTIST TEAM",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
       },
       {
         "text": "ACCESS ZONES",
-        "size_pt": 8,
+        "size_pt": 7,
         "weight": "Bold",
-        "x": 22.67716535433071,
-        "baseline_y": 86.45669291338584
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
       },
       {
         "text": "01",
         "size_pt": 16,
         "weight": "ExtraBold",
         "x": 22.67716535433071,
-        "baseline_y": 124.7244094488189
+        "baseline_y": 133.22834645669292
       },
       {
         "text": "场内",
         "size_pt": 11,
         "weight": "Bold",
         "x": 62.36220472440945,
-        "baseline_y": 123.59055118110237
+        "baseline_y": 132.09448818897638
       },
       {
         "text": "FLOOR",
         "size_pt": 8,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 123.59055118110237
+        "baseline_y": 132.09448818897638
       },
       {
         "text": "02",
         "size_pt": 16,
         "weight": "ExtraBold",
         "x": 22.67716535433071,
-        "baseline_y": 153.0708661417323
+        "baseline_y": 161.5748031496063
       },
       {
         "text": "后台",
         "size_pt": 11,
         "weight": "Bold",
         "x": 62.36220472440945,
-        "baseline_y": 151.93700787401576
+        "baseline_y": 160.44094488188978
       },
       {
         "text": "BACKSTAGE",
         "size_pt": 8,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 151.93700787401576
+        "baseline_y": 160.44094488188978
       },
       {
         "text": "03",
         "size_pt": 16,
         "weight": "ExtraBold",
         "x": 22.67716535433071,
-        "baseline_y": 181.4173228346457
+        "baseline_y": 189.9212598425197
       },
       {
         "text": "舞台",
         "size_pt": 11,
         "weight": "Bold",
         "x": 62.36220472440945,
-        "baseline_y": 180.28346456692915
+        "baseline_y": 188.78740157480317
       },
       {
         "text": "STAGE",
         "size_pt": 8,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 180.28346456692915
+        "baseline_y": 188.78740157480317
       },
       {
         "text": "04",
         "size_pt": 16,
         "weight": "ExtraBold",
         "x": 22.67716535433071,
-        "baseline_y": 209.76377952755908
+        "baseline_y": 218.2677165354331
       },
       {
         "text": "休息室",
         "size_pt": 11,
         "weight": "Bold",
         "x": 62.36220472440945,
-        "baseline_y": 208.62992125984255
+        "baseline_y": 217.13385826771656
       },
       {
         "text": "GREEN ROOM",
         "size_pt": 8,
         "weight": "Bold",
         "x": 232.44094488188978,
-        "baseline_y": 208.62992125984255
+        "baseline_y": 217.13385826771656
       },
       {
         "text": "可进入",
         "size_pt": 7,
         "weight": "Regular",
         "x": 36.85039370078741,
-        "baseline_y": 243.496062992126
+        "baseline_y": 249.16535433070868
       },
       {
         "text": "按邀请",
         "size_pt": 7,
         "weight": "Regular",
         "x": 104.88188976377954,
-        "baseline_y": 243.496062992126
+        "baseline_y": 249.16535433070868
       },
       {
         "text": "不可进入",
         "size_pt": 7,
         "weight": "Regular",
         "x": 172.91338582677167,
-        "baseline_y": 243.496062992126
+        "baseline_y": 249.16535433070868
       },
       {
         "text": "佩戴须知",

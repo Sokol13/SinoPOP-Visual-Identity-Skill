@@ -3,6 +3,7 @@
     "no": "0001",
     "role": "STAFF",
     "name": "[姓名]",
+    "title": "",
     "zones": {
       "1": "allowed",
       "2": "allowed",
@@ -14,6 +15,7 @@
     "no": "0002",
     "role": "ARTIST",
     "name": "[姓名]",
+    "title": "",
     "zones": {
       "1": "allowed",
       "2": "allowed",
@@ -25,6 +27,7 @@
     "no": "0003",
     "role": "ARTIST TEAM",
     "name": "[姓名]",
+    "title": "",
     "zones": {
       "1": "allowed",
       "2": "allowed",
@@ -36,6 +39,7 @@
     "no": "0004",
     "role": "GUEST",
     "name": "[姓名]",
+    "title": "",
     "zones": {
       "1": "allowed",
       "2": "invited",
@@ -47,6 +51,7 @@
     "no": "0005",
     "role": "PRESS",
     "name": "[姓名]",
+    "title": "",
     "zones": {
       "1": "allowed",
       "2": "denied",
@@ -58,6 +63,7 @@
     "no": "0006",
     "role": "PRODUCTION",
     "name": "[姓名]",
+    "title": "",
     "zones": {
       "1": "allowed",
       "2": "allowed",
@@ -69,6 +75,7 @@
     "no": "0007",
     "role": "STAFF",
     "name": "BLANK",
+    "title": "",
     "zones": {
       "1": "allowed",
       "2": "allowed",

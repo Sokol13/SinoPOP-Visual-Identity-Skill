@@ -40,7 +40,7 @@ def zone_boxes(a, states, y, fg_on=INK):
         a.text(x+w/2, y+w+mm(4), ZONES[i-1][0], 7, lc, 'Medium', 'middle')
 
 
-def front(role='STAFF', name='[姓名]', zones=None, serial=1):
+def front(role='STAFF', name='[姓名]', zones=None, serial=1, title=''):
     spec = ROLES[role]; a = Art(W, H, SURFACE)
     # 头部：标志 + 场次贴位（像黑胶标签，按场贴，防止旧证复用）
     a.logo(mm(8), mm(14), mm(26), 'white')
@@ -54,33 +54,39 @@ def front(role='STAFF', name='[姓名]', zones=None, serial=1):
     a.text(mm(8), mm(47.5), '通行证 PASS', 7, spec['fg'], 'Bold')
     a.text(mm(8), mm(67), spec['cn'], 40, spec['fg'], 'Heavy', maxw=mm(74))
     a.text(mm(8), mm(76.5), role, 14, spec['fg'], 'ExtraBold', maxw=mm(74))
-    # 姓名 + 编号；BLANK = 空白备用证，现场用白色油漆笔手写
+    # 姓名 + 职位 + 编号；BLANK = 通用证，姓名处留线，现场用白色油漆笔手写
+    ny = mm(93) if title else mm(95)
     if name != 'BLANK':
         size = fit(name, 20, 'ExtraBold', mm(54))
-        a.text(mm(8), mm(95), name, size, PAPER, 'ExtraBold', maxw=mm(54))
-    else: a.line(mm(8), mm(96), mm(58), mm(96), SUB, .6)
-    a.text(mm(82), mm(95), f'No. {serial:04d}', 7.5, MUTED, 'Bold', 'end')
+        a.text(mm(8), ny, name, size, PAPER, 'ExtraBold', maxw=mm(54))
+    else: a.line(mm(8), ny+mm(1), mm(58), ny+mm(1), SUB, .6)
+    if title: a.text(mm(8), mm(99.5), title, 8, MUTED, 'Bold', maxw=mm(74))
+    a.text(mm(82), ny, f'No. {serial:04d}', 7.5, MUTED, 'Bold', 'end')
     # 撕票线（印刷效果，不模切）
     a.line(mm(4), mm(103), mm(86), mm(103), LINE, .8, (mm(.4), mm(1.2)))
     zone_boxes(a, zone_states(role, zones), mm(107))
     return a
 
 
-def back(serial=1):
-    a = Art(W, H, SURFACE)
-    a.text(mm(8), mm(24), '通行区域', 16, PAPER, 'Heavy')
-    a.text(mm(8), mm(30.5), 'ACCESS ZONES', 8, MUTED, 'Bold')
-    a.logo(mm(66), mm(14), mm(16), 'white')
+def back(role='STAFF', serial=1):
+    spec = ROLES[role]; a = Art(W, H, SURFACE)
+    # 顶部身份条：工牌翻面时也能一眼看出身份
+    a.rect(0, 0, W, mm(30), spec['band'])
+    if 'border' in spec:
+        sw = spec['sw']; a.rect(sw/2, sw/2, W-sw, mm(30)-sw, None, stroke=spec['border'], sw=sw)
+    a.text(mm(8), mm(21.5), spec['cn'], 16, spec['fg'], 'Heavy')
+    a.text(mm(8), mm(27), role, 8, spec['fg'], 'ExtraBold')
+    a.text(mm(8), mm(37.5), '通行区域', 9, PAPER, 'Bold'); a.text(mm(82), mm(37.5), 'ACCESS ZONES', 7, MUTED, 'Bold', 'end')
     # 歌单式区域表：每个区域一首「曲目」
-    a.line(mm(8), mm(37), mm(82), mm(37), LINE, .6)
+    a.line(mm(8), mm(40), mm(82), mm(40), LINE, .6)
     for i, (cn, en) in enumerate(ZONES, 1):
-        y = mm(37 + i*10)
+        y = mm(40 + i*10)
         a.text(mm(8), y-mm(3), f'{i:02d}', 16, PAPER, 'ExtraBold')
         a.text(mm(22), y-mm(3.4), cn, 11, PAPER, 'Bold')
         a.text(mm(82), y-mm(3.4), en, 8, MUTED, 'Bold', 'end')
         a.line(mm(8), y, mm(82), y, LINE, .6)
     # 图例
-    y = mm(83)
+    y = mm(85)
     a.rect(mm(8), y, mm(3.5), mm(3.5), PAPER, r=mm(.5)); a.text(mm(13), y+mm(2.9), '可进入', 7, MUTED)
     for xa, ya, xb, yb in [(0, 0, 3.5, 0), (3.5, 0, 3.5, 3.5), (3.5, 3.5, 0, 3.5), (0, 3.5, 0, 0)]:
         a.line(mm(32+xa), y+mm(ya), mm(32+xb), y+mm(yb), MUTED, .5, (mm(.6), mm(.4)))
@@ -171,21 +177,27 @@ def lanyard_technical():
 
 
 def batch(csv_path, output):
-    """CSV 列 name,role,zones（同 task-06）；name 写 BLANK 出空白备用证。编号按行号 0001 起。输出一份多页 PDF：正、反、正、反……"""
+    """CSV 列 name,role,zones，可选 no（编号，不填按行号）、title（职位，例「主理人 FOUNDER」）。
+    name 写 BLANK 出通用证（姓名处留线手写）。输出一份多页 PDF：正、反、正、反……"""
     with open(csv_path, encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f)
-        if reader.fieldnames != ['name', 'role', 'zones']: raise ValueError('CSV 列必须为 name,role,zones')
+        cols = reader.fieldnames or []
+        if not {'name', 'role', 'zones'} <= set(cols) or not set(cols) <= {'no', 'name', 'title', 'role', 'zones'}:
+            raise ValueError('CSV 列为 name,role,zones，可选 no,title')
         rows = list(reader)
     if not rows: raise ValueError('CSV 至少需要一条人员记录')
-    arts, index = [], []
+    arts, index, used = [], [], set()
     for i, row in enumerate(rows, 1):
         try:
             role = (row['role'] or '').strip().upper(); name = (row['name'] or '').strip()
             if role not in ROLES: raise ValueError('不支持的角色: '+role)
             if not name: raise ValueError('name 不能为空')
             if fit(name, 20, 'ExtraBold', mm(54)) <= 9 and width(name, 9, 'ExtraBold') > mm(54): raise ValueError('姓名过长')
-            arts += [front(role, name, row['zones'], i), back(i)]
-            index.append(dict(no=f'{i:04d}', role=role, name=name, zones=zone_states(role, row['zones'])))
+            no = int(row.get('no') or i); title = (row.get('title') or '').strip()
+            if no in used: raise ValueError(f'编号重复: {no}')
+            used.add(no)
+            arts += [front(role, name, row['zones'], no, title), back(role, no)]
+            index.append(dict(no=f'{no:04d}', role=role, name=name, title=title, zones=zone_states(role, row['zones'])))
         except ValueError as exc:
             raise ValueError(f'CSV 第 {i+1} 行：{exc}') from exc
     output = Path(output); output.mkdir(parents=True, exist_ok=True)
@@ -196,7 +208,7 @@ def batch(csv_path, output):
 def main():
     OUT.mkdir(exist_ok=True)
     for role in ROLES:
-        export_art([front(role), back()], OUT/'01-pass', 'pass-'+role.lower().replace(' ', '-'), 3)
+        export_art([front(role), back(role)], OUT/'01-pass', 'pass-'+role.lower().replace(' ', '-'), 3)
     export_technical([pass_technical()], OUT/'01-pass', 'pass', 3)
     for kind in STICKERS: export_art([sticker(kind)], OUT/'02-show-sticker', 'sticker-'+kind, 1.5, preview_long=600)
     export_technical([sticker_technical()], OUT/'02-show-sticker', 'sticker', 1.5)
@@ -208,6 +220,7 @@ def main():
         for role, spec in ROLES.items(): w.writerow(['[姓名]', role, spec['zones']])
         w.writerow(['BLANK', 'STAFF', ''])
     batch(OUT/'people.csv', OUT/'04-batch-example')
+    batch(OUT/'team-roster.csv', OUT/'06-team')
 
 
 if __name__ == '__main__':

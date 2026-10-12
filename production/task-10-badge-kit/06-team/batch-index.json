@@ -1,0 +1,110 @@
+[
+  {
+    "no": "0001",
+    "role": "STAFF",
+    "name": "Andy",
+    "title": "主理人 FOUNDER",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "no": "0002",
+    "role": "STAFF",
+    "name": "Sokol",
+    "title": "联合创始人 CO-FOUNDER",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "no": "0003",
+    "role": "STAFF",
+    "name": "Jordan",
+    "title": "现场运营总监 HEAD OF OPERATIONS",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "no": "0004",
+    "role": "STAFF",
+    "name": "BEA",
+    "title": "舞台总监 STAGE DIRECTOR · DJ",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "no": "1001",
+    "role": "STAFF",
+    "name": "BLANK",
+    "title": "检票员 TICKETING",
+    "zones": {
+      "1": "allowed",
+      "2": "denied",
+      "3": "denied",
+      "4": "denied"
+    }
+  },
+  {
+    "no": "2001",
+    "role": "STAFF",
+    "name": "BLANK",
+    "title": "工作人员 CREW",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "denied",
+      "4": "denied"
+    }
+  },
+  {
+    "no": "3001",
+    "role": "ARTIST",
+    "name": "BLANK",
+    "title": "",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "no": "4001",
+    "role": "ARTIST TEAM",
+    "name": "BLANK",
+    "title": "经纪人 MANAGER",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  },
+  {
+    "no": "4501",
+    "role": "ARTIST TEAM",
+    "name": "BLANK",
+    "title": "",
+    "zones": {
+      "1": "allowed",
+      "2": "allowed",
+      "3": "allowed",
+      "4": "allowed"
+    }
+  }
+]

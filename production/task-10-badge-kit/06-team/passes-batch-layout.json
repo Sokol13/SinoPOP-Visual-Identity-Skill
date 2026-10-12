@@ -1,0 +1,2869 @@
+[
+  {
+    "page": 1,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "Andy",
+        "size_pt": 20,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "主理人 FOUNDER",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
+        "text": "No. 0001",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "主办团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 0001",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "Sokol",
+        "size_pt": 20,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "联合创始人 CO-FOUNDER",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
+        "text": "No. 0002",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "主办团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 0002",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "Jordan",
+        "size_pt": 20,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "现场运营总监 HEAD OF OPERATIONS",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
+        "text": "No. 0003",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "主办团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 0003",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "BEA",
+        "size_pt": 20,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "舞台总监 STAGE DIRECTOR · DJ",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
+        "text": "No. 0004",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "主办团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 0004",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "检票员 TICKETING",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
+        "text": "No. 1001",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "主办团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 1001",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "主办团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "工作人员 CREW",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
+        "text": "No. 2001",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "主办团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "STAFF",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 2001",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "艺人",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "No. 3001",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 269.2913385826772
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "艺人",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 3001",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "艺人团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "ARTIST TEAM",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "经纪人 MANAGER",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 282.04724409448824
+      },
+      {
+        "text": "No. 4001",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 263.6220472440945
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "艺人团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "ARTIST TEAM",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 4001",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "场次贴",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 206.92913385826773,
+        "baseline_y": 63.496062992125985
+      },
+      {
+        "text": "SHOW",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 206.92913385826773,
+        "baseline_y": 75.40157480314961
+      },
+      {
+        "text": "通行证 PASS",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 134.6456692913386
+      },
+      {
+        "text": "艺人团队",
+        "size_pt": 40,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "ARTIST TEAM",
+        "size_pt": 14,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 216.85039370078744
+      },
+      {
+        "text": "No. 4501",
+        "size_pt": 7.5,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 269.2913385826772
+      },
+      {
+        "text": "1",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 42.51968503937008,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "场内",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 42.51968503937008,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "2",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 99.21259842519686,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "后台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 99.21259842519686,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "3",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 155.90551181102364,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "舞台",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 155.90551181102364,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "4",
+        "size_pt": 17,
+        "weight": "ExtraBold",
+        "x": 212.59842519685043,
+        "baseline_y": 330.80314960629926
+      },
+      {
+        "text": "休息室",
+        "size_pt": 7,
+        "weight": "Medium",
+        "x": 212.59842519685043,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "width_mm": 90.0,
+    "height_mm": 130.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "艺人团队",
+        "size_pt": 16,
+        "weight": "Heavy",
+        "x": 22.67716535433071,
+        "baseline_y": 60.944881889763785
+      },
+      {
+        "text": "ARTIST TEAM",
+        "size_pt": 8,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 76.53543307086615
+      },
+      {
+        "text": "通行区域",
+        "size_pt": 9,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "ACCESS ZONES",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 106.29921259842521
+      },
+      {
+        "text": "01",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 133.22834645669292
+      },
+      {
+        "text": "场内",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "FLOOR",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 132.09448818897638
+      },
+      {
+        "text": "02",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 161.5748031496063
+      },
+      {
+        "text": "后台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "BACKSTAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 160.44094488188978
+      },
+      {
+        "text": "03",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 189.9212598425197
+      },
+      {
+        "text": "舞台",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "STAGE",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 188.78740157480317
+      },
+      {
+        "text": "04",
+        "size_pt": 16,
+        "weight": "ExtraBold",
+        "x": 22.67716535433071,
+        "baseline_y": 218.2677165354331
+      },
+      {
+        "text": "休息室",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 62.36220472440945,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "GREEN ROOM",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 217.13385826771656
+      },
+      {
+        "text": "可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 36.85039370078741,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "按邀请",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 104.88188976377954,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "不可进入",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 172.91338582677167,
+        "baseline_y": 249.16535433070868
+      },
+      {
+        "text": "佩戴须知",
+        "size_pt": 8,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 272.12598425196853
+      },
+      {
+        "text": "本证仅限本人使用，不可转借",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 289.13385826771656
+      },
+      {
+        "text": "Non-transferable.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 298.20472440944883
+      },
+      {
+        "text": "全程佩戴，保持可见",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 310.3937007874016
+      },
+      {
+        "text": "Wear it visibly at all times.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 319.46456692913387
+      },
+      {
+        "text": "遗失请立即告知现场负责人",
+        "size_pt": 7.5,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 331.65354330708664
+      },
+      {
+        "text": "Report a lost pass to the on-site lead.",
+        "size_pt": 7,
+        "weight": "Regular",
+        "x": 22.67716535433071,
+        "baseline_y": 340.7244094488189
+      },
+      {
+        "text": "sinopop.us",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 22.67716535433071,
+        "baseline_y": 354.33070866141736
+      },
+      {
+        "text": "No. 4501",
+        "size_pt": 7,
+        "weight": "Bold",
+        "x": 232.44094488188978,
+        "baseline_y": 354.33070866141736
+      }
+    ]
+  }
+]

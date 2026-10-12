@@ -46,5 +46,26 @@ def mockup(role, kind):
     OUT.mkdir(parents=True, exist_ok=True); img.save(OUT/f'mockup-{role}.png')
 
 
+def with_sticker(card, kind='odd'):
+    """把场次贴贴进工牌右上圆圈（圆心 73,23 mm，Ø 16 mm），示意贴好后的样子。"""
+    k = card.width/90; st = Image.open(KIT/f'02-show-sticker/sticker-{kind}-preview.png').convert('RGB')
+    d = int(16*k); st = st.resize((d, d), Image.LANCZOS)
+    m = Image.new('L', (d, d), 0); ImageDraw.Draw(m).ellipse((0, 0, d-1, d-1), fill=255)
+    card.paste(st, (int(73*k-d/2), int(23*k-d/2)), m); return card
+
+
+def team_sheet(folder='06-team'):
+    """每人一行：正面（已贴场次贴）+ 反面。"""
+    pages = sorted((KIT/folder).glob('passes-batch-p*-preview.png'))
+    cards = [Image.open(p).convert('RGB') for p in pages]
+    w, h = cards[0].size; g = 40; cols = 6; rows = (len(cards)+cols-1)//cols
+    sheet = Image.new('RGB', (cols*w+(cols+1)*g, rows*h+(rows+1)*g), PAPER)
+    for i, c in enumerate(cards):
+        if i % 2 == 0: c = with_sticker(c, 'odd')
+        sheet.paste(c, (g+(i % cols)*(w+g), g+(i//cols)*(h+g)))
+    OUT.mkdir(parents=True, exist_ok=True); sheet.save(OUT/f'sheet-{folder}.png')
+
+
 if __name__ == '__main__':
     for role, kind in PAIRS: mockup(role, kind)
+    team_sheet()
