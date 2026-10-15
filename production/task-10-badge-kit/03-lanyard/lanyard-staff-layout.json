@@ -1,0 +1,186 @@
+[
+  {
+    "page": 1,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 228.24885826771666,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 329.76011811023636,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 163.87346456692913,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 533.4057874015749,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 634.9170472440946,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 163.87346456692913,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 838.5627165354332,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 940.0739763779528,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 163.87346456692913,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 228.24885826771666,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 329.76011811023636,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 163.87346456692913,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 533.4057874015749,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 634.9170472440946,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 163.87346456692913,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 838.5627165354332,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 940.0739763779528,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "PROMOTER",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "主办方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 163.87346456692913,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  }
+]

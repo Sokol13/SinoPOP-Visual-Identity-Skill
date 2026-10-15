@@ -1,0 +1,242 @@
+[
+  {
+    "page": 1,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 142.6903937007875,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 210.69165354330718,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 414.3373228346458,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 482.3385826771655,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 685.984251968504,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 753.9855118110237,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 957.6311811023623,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 1025.632440944882,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "width_mm": 900.0,
+    "height_mm": 20.0,
+    "bleed_mm": 3,
+    "texts": [
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 142.6903937007875,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 210.69165354330718,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 414.3373228346458,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 482.3385826771655,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 685.984251968504,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 753.9855118110237,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 957.6311811023623,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 1025.632440944882,
+        "baseline_y": 35.1496062992126
+      },
+      {
+        "text": "ARTIST",
+        "size_pt": 15,
+        "weight": "ExtraBold",
+        "x": 62.36220472440946,
+        "baseline_y": 36.0
+      },
+      {
+        "text": "艺人方",
+        "size_pt": 11,
+        "weight": "Bold",
+        "x": 130.36346456692914,
+        "baseline_y": 35.1496062992126
+      }
+    ]
+  }
+]
